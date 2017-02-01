@@ -1,0 +1,19 @@
+{
+  "name": "emotes",
+  "version": "1.0.0",
+  "description": "inline emotes for the web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Husseinfarah93/emotes.git"
+  },
+  "author": "Hussein Farah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Husseinfarah93/emotes/issues"
+  },
+  "homepage": "https://github.com/Husseinfarah93/emotes#readme"
+}
