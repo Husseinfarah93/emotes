@@ -1,0 +1,14 @@
+{
+  "name": "emotes",
+  "description": "emotes for the web",
+  "version": "1.0",
+  "incognito": "split",
+  "browser_action": {
+   "default_icon": "pogchamp.jpg",
+   "default_popup": "popup.html"
+  },
+  "permissions": [
+   "activeTab"
+   ],
+  "manifest_version": 2
+}
