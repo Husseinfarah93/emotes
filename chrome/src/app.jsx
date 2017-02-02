@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDom from 'react-dom'
 import { Provider } from 'react-redux'
-let emotesJSON = require('../fake.json')
+import store from './store.js'
 
 
 // let list = document.getElementById('list')
@@ -19,24 +19,24 @@ let emotesJSON = require('../fake.json')
 
 
 
-// import store from ''
 
 
-// ReactDom.render(
-//   <Provider /*store={store}*/>
-//     <h1> H1B boi </h1>
-//   </Provider>,
-//   document.getElementById('app')
-// )
+
+ReactDom.render(
+  <Provider store={store}>
+    <h1> H1B boi </h1>
+  </Provider>,
+  document.getElementById('app')
+)
 
 
 /* 
 Plan 
   - Create Object that looks right
   - Create Modal with tabs
-
-
-
 */
+
+
+
 
 

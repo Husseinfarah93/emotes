@@ -28,9 +28,7 @@
 
 
 
-import axios from 'axios';
-import { browserHistory } from 'react-router';
-import emojis from '../../Components/ModalViewport/CurrentEmojis/Emojis/EmojisFunction.js'
+import emojis from '../../Components/ModalViewport/CurrentEmojis/Emojis/EmojiFunctions.js'
 
 
 
@@ -56,7 +54,7 @@ const pickEmojiActionCreator = (emoji) => ({ type: PICK_EMOJI, emoji })
 
 
 /* ------------       REDUCER     ------------------ */
-// export default function reducer (currentAdmin = null, action) {
+// export default function reducer (state, action) {
 //   switch (action.type) {
 //     case SET: 
 //       return action.admin;
@@ -67,14 +65,15 @@ const pickEmojiActionCreator = (emoji) => ({ type: PICK_EMOJI, emoji })
 //   }
 // }
 
-export default reducer = (emojis = initialState, action) => {
+export default function reducer (state = initialState, action) {
   switch(action.type) {
     case ADD_NEW_EMOJI: 
-
+      return
     case PICK_EMOJI:  
-    
+      return
     default: 
-      return emojis
+      console.log(state)
+      return state
   }
 }
 
