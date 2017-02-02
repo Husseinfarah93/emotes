@@ -1,5 +1,5 @@
 import { connect } from 'react-redux'
-import EmojisComponent from './EmojisComponent'
+import EmojisCategoryComponent from './EmojisCategoryComponent'
 
 
 
@@ -12,4 +12,4 @@ const mapDispatchToProps = (state) => {
 }
 
 
-export default connect(mapStateToProps, mapDispatchToProps)(EmojisComponent)
+export default connect(mapStateToProps, mapDispatchToProps)(EmojisCategoryComponent)
