@@ -4,7 +4,7 @@ module.exports = {
     entry: "./src/app.jsx",
     output: {
         path: __dirname,
-        filename: "bundle.js"
+        filename: "./bundle.js"
     },
     module: {
         loaders: [
@@ -15,7 +15,16 @@ module.exports = {
             query: {
                 presets: ['react', 'es2015'],
             },
-        },
+        },{
+            test: /.html$/,
+            loader: 'html-loader',
+            query: {
+                minimize: true
+            }
+        }
         ]
+    },
+    node: {
+        fs: "empty"
     }
 };
