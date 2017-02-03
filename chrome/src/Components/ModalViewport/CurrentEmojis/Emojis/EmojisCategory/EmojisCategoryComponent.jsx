@@ -12,18 +12,27 @@ export default class EmojisCategoryComponent extends Component {
   }
 
   render() {
+    let style = {float:'left'}
     return (
         <div>
+          <Grid>
+            <Row className="show-grid">
               {
                   (
                   this.props.emojiCategory && this.props.emojiCategory.map((emoji,i) => {
                   return Array.isArray(emoji) === true ? 
-                    <Emoji emoji={emoji[0]} key={i}/> 
+                      <Col xs={6} md={4} style={style}>
+                        <Emoji emoji={emoji[0]} key={i} /> 
+                      </Col>	
                   : 
-                    <Emoji emoji={emoji} key={i}/>
+                      <Col xs={6} md={4} style={style}>
+                        <Emoji emoji={emoji} key={i} />
+                      </Col>	
                   })
                   )
               }
+            </Row>
+        </Grid>
       </div>
     )
   }

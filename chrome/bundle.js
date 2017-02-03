@@ -17629,12 +17629,29 @@ var EmojisCategoryComponent = function (_Component) {
   _createClass(EmojisCategoryComponent, [{
     key: 'render',
     value: function render() {
+      var style = { float: 'left' };
       return _react2.default.createElement(
         'div',
         null,
-        this.props.emojiCategory && this.props.emojiCategory.map(function (emoji, i) {
-          return Array.isArray(emoji) === true ? _react2.default.createElement(_Emoji2.default, { emoji: emoji[0], key: i }) : _react2.default.createElement(_Emoji2.default, { emoji: emoji, key: i });
-        })
+        _react2.default.createElement(
+          _reactBootstrap.Grid,
+          null,
+          _react2.default.createElement(
+            _reactBootstrap.Row,
+            { className: 'show-grid' },
+            this.props.emojiCategory && this.props.emojiCategory.map(function (emoji, i) {
+              return Array.isArray(emoji) === true ? _react2.default.createElement(
+                _reactBootstrap.Col,
+                { xs: 6, md: 4, style: style },
+                _react2.default.createElement(_Emoji2.default, { emoji: emoji[0], key: i })
+              ) : _react2.default.createElement(
+                _reactBootstrap.Col,
+                { xs: 6, md: 4, style: style },
+                _react2.default.createElement(_Emoji2.default, { emoji: emoji, key: i })
+              );
+            })
+          )
+        )
       );
     }
   }]);
