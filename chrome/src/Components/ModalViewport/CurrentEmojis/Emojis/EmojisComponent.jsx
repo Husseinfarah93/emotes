@@ -9,11 +9,21 @@ export default class ViewPortComponent extends Component {
   }
 
 render() {
+  let style ={float:'left', width:'100%'}, style2 = {float:'left', padding:'20px'}
     return (
       <div>
       {
           Object.keys(this.props.emojis).map((e,i) => {
-            return <EmojisCategory key={i} emojiCategory={this.props.emojis[e]} />
+            let src = `./static/assets/other/category_icons/${e}.svg`
+            return (
+              <div>
+                <div style={style}>
+                  <img src={src} style={style2}/>
+                  <h2>{e}</h2>
+                </div>
+                <EmojisCategory key={i} emojiCategory={this.props.emojis[e]} />
+              </div>
+            )
           })
       }
       </div>

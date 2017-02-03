@@ -7,9 +7,13 @@ export default class Emoji extends Component {
 		super(props);
 	}
 
+	clicked() {
+		console.log(this.props.emoji)
+	}
+
 	render() {
 		return (
-      <div> 
+			<div onClick={this.clicked}> 
 				<img src={this.props.emoji.imageSrc} />
       </div>
 		)

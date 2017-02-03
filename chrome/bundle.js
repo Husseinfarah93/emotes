@@ -17568,11 +17568,16 @@ var Emoji = function (_Component) {
 	}
 
 	_createClass(Emoji, [{
+		key: 'clicked',
+		value: function clicked() {
+			console.log(this.props.emoji);
+		}
+	}, {
 		key: 'render',
 		value: function render() {
 			return _react2.default.createElement(
 				'div',
-				null,
+				{ onClick: this.clicked },
 				_react2.default.createElement('img', { src: this.props.emoji.imageSrc })
 			);
 		}
@@ -17722,11 +17727,28 @@ var ViewPortComponent = function (_Component) {
     value: function render() {
       var _this2 = this;
 
+      var style = { float: 'left', width: '100%' },
+          style2 = { float: 'left', padding: '20px' };
       return _react2.default.createElement(
         'div',
         null,
         Object.keys(this.props.emojis).map(function (e, i) {
-          return _react2.default.createElement(_EmojisCategoryComponent2.default, { key: i, emojiCategory: _this2.props.emojis[e] });
+          var src = './static/assets/other/category_icons/' + e + '.svg';
+          return _react2.default.createElement(
+            'div',
+            null,
+            _react2.default.createElement(
+              'div',
+              { style: style },
+              _react2.default.createElement('img', { src: src, style: style2 }),
+              _react2.default.createElement(
+                'h2',
+                null,
+                e
+              )
+            ),
+            _react2.default.createElement(_EmojisCategoryComponent2.default, { key: i, emojiCategory: _this2.props.emojis[e] })
+          );
         })
       );
     }
