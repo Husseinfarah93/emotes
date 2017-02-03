@@ -10,8 +10,7 @@ export default class Emoji extends Component {
 	render() {
 		return (
       <div> 
-				{console.log('AOISFNOIASNFOINFSA')}
-        <img src={this.props.emoji.imageSrc} />
+				<img src={this.props.emoji.imageSrc} />
       </div>
 		)
 	}

@@ -14,21 +14,31 @@ export default class EmojisCategoryComponent extends Component {
   render() {
     return (
         <div>
-        {console.log('props',this.props.emojiCategory)}
-          <Grid>
               {
                   (
                   this.props.emojiCategory && this.props.emojiCategory.map((emoji,i) => {
-                  return (
-                  <Col xs={6} md={4}>
-                      <Emoji emoji={emoji} key={i}/>
-                  </Col>	
-                  )
+                  return Array.isArray(emoji) === true ? 
+                    <Emoji emoji={emoji[0]} key={i}/> 
+                  : 
+                    <Emoji emoji={emoji} key={i}/>
                   })
                   )
               }
-          </Grid>
       </div>
     )
   }
 }
+
+  //  <Grid>
+  //             {
+  //                 (
+  //                 this.props.emojiCategory && this.props.emojiCategory.map((emoji,i) => {
+  //                 return (
+  //                 <Col xs={6} md={4}>
+  //                     <Emoji emoji={emoji} key={i}/>
+  //                 </Col>	
+  //                 )
+  //                 })
+  //                 )
+  //             }
+  //         </Grid>

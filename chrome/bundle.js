@@ -17573,7 +17573,6 @@ var Emoji = function (_Component) {
 			return _react2.default.createElement(
 				'div',
 				null,
-				console.log('AOISFNOIASNFOINFSA'),
 				_react2.default.createElement('img', { src: this.props.emoji.imageSrc })
 			);
 		}
@@ -17592,7 +17591,7 @@ exports.default = Emoji;
 
 
 Object.defineProperty(exports, "__esModule", {
-    value: true
+  value: true
 });
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
@@ -17616,41 +17615,47 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 var EmojisCategoryComponent = function (_Component) {
-    _inherits(EmojisCategoryComponent, _Component);
+  _inherits(EmojisCategoryComponent, _Component);
 
-    function EmojisCategoryComponent(props) {
-        _classCallCheck(this, EmojisCategoryComponent);
+  function EmojisCategoryComponent(props) {
+    _classCallCheck(this, EmojisCategoryComponent);
 
-        var _this = _possibleConstructorReturn(this, (EmojisCategoryComponent.__proto__ || Object.getPrototypeOf(EmojisCategoryComponent)).call(this, props));
+    var _this = _possibleConstructorReturn(this, (EmojisCategoryComponent.__proto__ || Object.getPrototypeOf(EmojisCategoryComponent)).call(this, props));
 
-        _this.state = {};
-        return _this;
+    _this.state = {};
+    return _this;
+  }
+
+  _createClass(EmojisCategoryComponent, [{
+    key: 'render',
+    value: function render() {
+      return _react2.default.createElement(
+        'div',
+        null,
+        this.props.emojiCategory && this.props.emojiCategory.map(function (emoji, i) {
+          return Array.isArray(emoji) === true ? _react2.default.createElement(_Emoji2.default, { emoji: emoji[0], key: i }) : _react2.default.createElement(_Emoji2.default, { emoji: emoji, key: i });
+        })
+      );
     }
+  }]);
 
-    _createClass(EmojisCategoryComponent, [{
-        key: 'render',
-        value: function render() {
-            return _react2.default.createElement(
-                'div',
-                null,
-                console.log('props', this.props.emojiCategory),
-                _react2.default.createElement(
-                    _reactBootstrap.Grid,
-                    null,
-                    this.props.emojiCategory && this.props.emojiCategory.map(function (emoji, i) {
-                        return _react2.default.createElement(
-                            _reactBootstrap.Col,
-                            { xs: 6, md: 4 },
-                            _react2.default.createElement(_Emoji2.default, { emoji: emoji, key: i })
-                        );
-                    })
-                )
-            );
-        }
-    }]);
-
-    return EmojisCategoryComponent;
+  return EmojisCategoryComponent;
 }(_react.Component);
+
+//  <Grid>
+//             {
+//                 (
+//                 this.props.emojiCategory && this.props.emojiCategory.map((emoji,i) => {
+//                 return (
+//                 <Col xs={6} md={4}>
+//                     <Emoji emoji={emoji} key={i}/>
+//                 </Col>	
+//                 )
+//                 })
+//                 )
+//             }
+//         </Grid>
+
 
 exports.default = EmojisCategoryComponent;
 
