@@ -1,13 +1,9 @@
 import { connect } from 'react-redux'
 import Main from './Main.jsx'
 
-const mapStateToProps = (state) => {
-  return null
-}
+const mapStateToProps = null
 
-const mapDispatchToProps = (state) => {
-  return null
-}
+const mapDispatchToProps = null
 
-
+console.log('MAIN',Main)
 export default connect(mapStateToProps, mapDispatchToProps)(Main)

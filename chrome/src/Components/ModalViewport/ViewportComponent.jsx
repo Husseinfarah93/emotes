@@ -1,13 +1,13 @@
-import React, { Component } from 'React'
+import React, { Component } from 'react'
 import CurrentEmojis from './CurrentEmojis/CurrentEmojisContainer.js'
-import NewEmoji from './NewEmoji/NewEmojiContainer.js'
+// import NewEmoji from './NewEmoji/NewEmojiContainer.js'
 
-class ViewPortComponent extends Component {
+export default class ViewPortComponent extends Component {
   constructor(props) {
     super(props)
     
     this.state = {
-      currentClicked: props.currentClicked ? props.currentClicked : ''
+      currentClicked: this.props.currentClicked ? props.currentClicked : ''
     }
   }
 

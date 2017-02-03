@@ -20,6 +20,7 @@ Functions
 			"keywords":["happy","smiley","emotion"]
 	}
 }
+
 */
 
 const emotesJSON = require('./EmojiBank.json')
@@ -29,6 +30,7 @@ const convertJSONToGroups = (obj) => {
 	for(let i = 0; i < keys.length; i++) {
 		let o = obj[keys[i]]
     o.numUsed = 0
+		o.imageSrc = `./static/assets/png/${o.unicode}.png`
 		if(returnObj[o.category]) returnObj[o.category].push([o])
 		else returnObj[o.category] = [o]
 	}

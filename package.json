@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Husseinfarah93/emotes/issues"
   },
-  "homepage": "https://github.com/Husseinfarah93/emotes#readme"
+  "homepage": "https://github.com/Husseinfarah93/emotes#readme",
+  "dependencies": {
+    "react-bootstrap": "^0.30.7"
+  }
 }

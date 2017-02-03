@@ -1,25 +1,23 @@
-import React, { Component } from 'React'
-import EmojisCategory from './'
+import React, { Component } from 'react'
+import EmojisCategory from './EmojisCategory/EmojisCategoryComponent.jsx'
 
-class ViewPortComponent extends Component {
+export default class ViewPortComponent extends Component {
   constructor(props) {
     super(props)
     
-    this.state = {
+    this.state = {}
+  }
 
-    }
-  }
-/* FIX FOR OBJECT INSTEAD OF ARRAY */
-  render() {
+render() {
     return (
-      <div > 
-        this.props.emojis && this.props.emojis.map(category => {
-          <div>
-            <h5>{}</h5>
-            <EmojisCategory />
-          </div>
-        })
-      </div> 
+      <div>
+      {
+          Object.keys(this.props.emojis).map((e,i) => {
+            return <EmojisCategory key={i} emojiCategory={this.props.emojis[e]} />
+          })
+      }
+      </div>
     )
-  }
+ }
 }
+  

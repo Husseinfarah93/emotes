@@ -3,13 +3,9 @@ import ViewportComponent from './ViewportComponent.jsx'
 
 
 
-const mapStateToProps = (state) => {
-  return state
-}
+const mapStateToProps = null
 
-const mapDispatchToProps = (state) => {
-  return null
-}
+const mapDispatchToProps = null
 
-
+console.log("ViewportComponent", ViewportComponent)
 export default connect(mapStateToProps, mapDispatchToProps)(ViewportComponent)

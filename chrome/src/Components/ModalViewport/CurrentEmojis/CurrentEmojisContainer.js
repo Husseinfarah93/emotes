@@ -1,15 +1,11 @@
 import { connect } from 'react-redux'
-import CurrentEmojisComponent from './CurrentEmojisComponent'
+import CurrentEmojisComponent from './CurrentEmojisComponent.jsx'
 
 
 
-const mapStateToProps = (state) => {
-  return state
-}
+const mapStateToProps = null
 
-const mapDispatchToProps = (state) => {
-  return null
-}
+const mapDispatchToProps = null
 
-
+console.log('CurrentEmojisComponent',CurrentEmojisComponent)
 export default connect(mapStateToProps, mapDispatchToProps)(CurrentEmojisComponent)

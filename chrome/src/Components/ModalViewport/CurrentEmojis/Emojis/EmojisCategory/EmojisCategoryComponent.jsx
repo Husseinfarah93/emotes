@@ -1,7 +1,8 @@
-import React, { Component } from 'React'
-import EmojiComponent from './Emoji/EmojiComponent'
+import React, { Component } from 'react'
+import Emoji from './Emoji/Emoji.jsx'
+import {Grid, Row, Col, DropdownButton, MenuItem, FormGroup, FormControl, Button, Navbar} from 'react-bootstrap';
 
-class EmojisCategoryComponent extends Component {
+export default class EmojisCategoryComponent extends Component {
   constructor(props) {
     super(props)
     
@@ -9,12 +10,25 @@ class EmojisCategoryComponent extends Component {
 
     }
   }
-/* FIX FOR OBJECT INSTEAD OF ARRAY */
+
   render() {
     return (
-      <div > 
-        
-      </div> 
+        <div>
+        {console.log('props',this.props.emojiCategory)}
+          <Grid>
+              {
+                  (
+                  this.props.emojiCategory && this.props.emojiCategory.map((emoji,i) => {
+                  return (
+                  <Col xs={6} md={4}>
+                      <Emoji emoji={emoji} key={i}/>
+                  </Col>	
+                  )
+                  })
+                  )
+              }
+          </Grid>
+      </div>
     )
   }
 }
