@@ -17306,7 +17306,6 @@ var mapStateToProps = null;
 
 var mapDispatchToProps = null;
 
-console.log('MAIN', _Main2.default);
 exports.default = (0, _reactRedux.connect)(mapStateToProps, mapDispatchToProps)(_Main2.default);
 
 /***/ }),
@@ -17477,7 +17476,6 @@ var mapStateToProps = null;
 
 var mapDispatchToProps = null;
 
-console.log('CurrentEmojisComponent', _CurrentEmojisComponent2.default);
 exports.default = (0, _reactRedux.connect)(mapStateToProps, mapDispatchToProps)(_CurrentEmojisComponent2.default);
 
 /***/ }),
@@ -17564,13 +17562,16 @@ var Emoji = function (_Component) {
 	function Emoji(props) {
 		_classCallCheck(this, Emoji);
 
-		return _possibleConstructorReturn(this, (Emoji.__proto__ || Object.getPrototypeOf(Emoji)).call(this, props));
+		var _this = _possibleConstructorReturn(this, (Emoji.__proto__ || Object.getPrototypeOf(Emoji)).call(this, props));
+
+		_this.clicked = _this.clicked.bind(_this);
+		return _this;
 	}
 
 	_createClass(Emoji, [{
 		key: 'clicked',
 		value: function clicked() {
-			console.log(this.props.emoji);
+			console.log('clicked', this.props.emoji);
 		}
 	}, {
 		key: 'render',
@@ -17736,7 +17737,7 @@ var ViewPortComponent = function (_Component) {
           var src = './static/assets/other/category_icons/' + e + '.svg';
           return _react2.default.createElement(
             'div',
-            null,
+            { key: i },
             _react2.default.createElement(
               'div',
               { style: style },
@@ -17747,7 +17748,7 @@ var ViewPortComponent = function (_Component) {
                 e
               )
             ),
-            _react2.default.createElement(_EmojisCategoryComponent2.default, { key: i, emojiCategory: _this2.props.emojis[e] })
+            _react2.default.createElement(_EmojisCategoryComponent2.default, { emojiCategory: _this2.props.emojis[e] })
           );
         })
       );
@@ -17789,7 +17790,6 @@ var mapStateToProps = function mapStateToProps(state, ownProps) {
 
 var mapDispatchToProps = null;
 
-console.log('EmojisComponent', _EmojisComponent2.default);
 exports.default = (0, _reactRedux.connect)(mapStateToProps, mapDispatchToProps)(_EmojisComponent2.default);
 
 /***/ }),
@@ -17872,7 +17872,6 @@ var mapStateToProps = null;
 
 var mapDispatchToProps = null;
 
-console.log("ViewportComponent", _ViewportComponent2.default);
 exports.default = (0, _reactRedux.connect)(mapStateToProps, mapDispatchToProps)(_ViewportComponent2.default);
 
 /***/ }),
@@ -17899,6 +17898,13 @@ var initialState = {
 };
 
 console.log("INITIAL STATE: ", _EmojiFunctions2.default);
+chrome.tabs.getCurrent(function (tab) {
+  console.log("TAB", tab);
+});
+console.log('window', window);
+window.addEventListener('keydown', function (e) {
+  console.log('PRESSED', e.keyCode);
+});
 
 /* -----------------    ACTIONS     ------------------ */
 /*

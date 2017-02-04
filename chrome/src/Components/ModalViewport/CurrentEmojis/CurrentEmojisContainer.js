@@ -7,5 +7,5 @@ const mapStateToProps = null
 
 const mapDispatchToProps = null
 
-console.log('CurrentEmojisComponent',CurrentEmojisComponent)
+
 export default connect(mapStateToProps, mapDispatchToProps)(CurrentEmojisComponent)

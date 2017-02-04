@@ -16,5 +16,5 @@ const mapStateToProps = (state, ownProps) => {
 const mapDispatchToProps = null
 
 
-console.log('EmojisComponent',EmojisComponent)
+
 export default connect(mapStateToProps, mapDispatchToProps)(EmojisComponent)

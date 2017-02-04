@@ -7,6 +7,13 @@ let initialState = {
 }
 
 console.log("INITIAL STATE: ", emojis)
+chrome.tabs.getCurrent(function(tab) {
+  console.log("TAB",tab)
+})
+console.log('window',window)
+window.addEventListener('keydown',(e) => {
+  console.log('PRESSED',e.keyCode)
+})
 
 /* -----------------    ACTIONS     ------------------ */
 /*

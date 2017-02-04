@@ -16,12 +16,12 @@ render() {
           Object.keys(this.props.emojis).map((e,i) => {
             let src = `./static/assets/other/category_icons/${e}.svg`
             return (
-              <div>
+              <div  key={i}>
                 <div style={style}>
                   <img src={src} style={style2}/>
                   <h2>{e}</h2>
                 </div>
-                <EmojisCategory key={i} emojiCategory={this.props.emojis[e]} />
+                <EmojisCategory emojiCategory={this.props.emojis[e]} />
               </div>
             )
           })

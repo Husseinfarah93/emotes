@@ -5,10 +5,11 @@ export default class Emoji extends Component {
 
 	constructor(props) {
 		super(props);
+		this.clicked  = this.clicked.bind(this)
 	}
 
 	clicked() {
-		console.log(this.props.emoji)
+		console.log('clicked',this.props.emoji)
 	}
 
 	render() {
