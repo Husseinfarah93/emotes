@@ -6,7 +6,7 @@
   "content_scripts": [
     {
       "matches": ["http://*/*","https://*/*"],
-      "js": ["runme.js"],
+      "js": ["browser/bundle.js"],
       "run_at": "document_end"
     }
   ],
