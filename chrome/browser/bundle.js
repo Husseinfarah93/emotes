@@ -52,90 +52,81 @@
 	console.log("Bank", emojiBank);
 
 	var traverseDom = function traverseDom(node, funcToRun) {
-		if (node.nodeType === 3 && node.nodeValue.trim() !== '') funcToRun(node);else node.childNodes.forEach(function (e) {
-			return traverseDom(e, funcToRun);
-		});
+			if (node.nodeType === 3 && node.nodeValue.trim() !== '') funcToRun(node);else node.childNodes.forEach(function (e) {
+					return traverseDom(e, funcToRun);
+			});
 	};
 
 	var rektFunction = function rektFunction(elem) {
-		var parent = elem.parentNode,
-		    newChild = document.createElement('text');
-		newChild.textContent = 'rekt ';
-		parent.replaceChild(newChild, elem);
+			var parent = elem.parentNode,
+			    newChild = document.createElement('text');
+			newChild.textContent = 'rekt ';
+			parent.replaceChild(newChild, elem);
 	};
 
 	var switchFunction = function switchFunction(elem) {
-		var parent = elem.parentNode;
-		var result = isolate(elem.textContent, emojiBank);
-		// console.log('result: ', result)
-		if (result !== elem.textContent) {
-			console.log('different. Original: ', elem.textContent, ' changed: ', result);
-			var newChild = document.createElement('div');
-			newChild.innerHTML = result;
-			parent.replaceChild(newChild, elem);
-		}
+			var parent = elem.parentNode;
+			var result = isolate(elem.textContent, emojiBank);
+			// console.log('result: ', result)
+			if (result !== elem.textContent) {
+					var newChild = document.createElement('div');
+					newChild.innerHTML = result;
+					parent.replaceChild(newChild, elem);
+			}
 	};
 
 	var isolate = function isolate(str, bank) {
-		var returnArr = [],
-		    colonIndeces = [],
-		    lastIndex = 0;
-		var startSub = void 0;
-		var endSub = void 0;
-		var sub = void 0;
-		// Gather all indeces of colons 
-		for (var i = 0; i < str.length; i++) {
-			if (str[i] === ':') colonIndeces.push(i);
-		}
-		// Check if larger than 1 
-		if (colonIndeces.length < 2) return str;
-		// Check if any are actually present in the bank
-		// console.log(colonIndeces)
-		for (var _i = 0; _i < colonIndeces.length - 1; _i++) {
-			// console.log(i,lastIndex)
-			// Check if both are numbers 
-			if (Number.isInteger(colonIndeces[_i]) && Number.isInteger(colonIndeces[_i + 1])) {
-				startSub = colonIndeces[_i], endSub = colonIndeces[_i + 1], sub = str.substring(startSub, endSub + 1);
-				// If the substring is in the bank
-				if (bank[sub]) {
-					var obj = bank[sub];
-					var sr = 'chrome-extension://' + chromeId + '/static/assets/png/' + obj.unicode + '.png';
-					var newElem = '<img src="' + sr + '" />';
-					if (returnArr.length) {
-						var thng = str.substring(lastIndex, colonIndeces[_i]);
-						returnArr.push(str.substring(lastIndex, colonIndeces[_i]) + newElem);
-						// console.log(lastIndex)
-					} else {
-						returnArr = [str.substring(0, startSub), newElem];
+			var returnArr = [],
+			    colonIndeces = [],
+			    lastIndex = 0;
+			var startSub = void 0;
+			var endSub = void 0;
+			var sub = void 0;
+			// Gather all indeces of colons 
+			for (var i = 0; i < str.length; i++) {
+					if (str[i] === ':') colonIndeces.push(i);
+			}
+			// Check if larger than 1 
+			if (colonIndeces.length < 2) return str;
+			// Check if any are actually present in the bank
+			for (var _i = 0; _i < colonIndeces.length - 1; _i++) {
+					// Check if both are numbers 
+					if (Number.isInteger(colonIndeces[_i]) && Number.isInteger(colonIndeces[_i + 1])) {
+							startSub = colonIndeces[_i], endSub = colonIndeces[_i + 1], sub = str.substring(startSub, endSub + 1);
+							// If the substring is in the bank
+							if (bank[sub]) {
+									var obj = bank[sub];
+									var sr = 'chrome-extension://' + chromeId + '/static/assets/png/' + obj.unicode + '.png';
+									var newElem = '<img src="' + sr + '" />';
+									if (returnArr.length) {
+											var thng = str.substring(lastIndex, colonIndeces[_i]);
+											returnArr.push(str.substring(lastIndex, colonIndeces[_i]) + newElem);
+									} else {
+											returnArr = [str.substring(0, startSub), newElem];
+									}
+									lastIndex = colonIndeces[_i + 1] + 1;
+									colonIndeces[_i] = colonIndeces[_i + 1] = '';
+							}
+							// If it is not
+							else {
+											var thingToPush = str.substring(lastIndex, colonIndeces[_i + 1] + 1);
+											returnArr.push(thingToPush);
+											lastIndex = colonIndeces[_i + 1] + 1;
+									}
 					}
-					lastIndex = colonIndeces[_i + 1] + 1;
-					colonIndeces[_i] = colonIndeces[_i + 1] = '';
-				}
-				// If it is not
-				else {
-						var thingToPush = str.substring(lastIndex, colonIndeces[_i + 1] + 1);
-						returnArr.push(thingToPush);
-						lastIndex = colonIndeces[_i + 1] + 1;
-					}
-			} else {}
-			// console.log('a',lastIndex,colonIndeces)
-		}
-		// Add remaining part 
-		console.log('lastIndex', lastIndex);
-		if (endSub !== str.length - 1) {
-			// let returnThing = str[str.length - 1] === ':' ? str.substring()
-			returnArr.push(str.substring(endSub + 1, str.length));
-		}
-		return returnArr.join('');
+			}
+			// Add remaining part 
+			if (endSub !== str.length - 1) returnArr.push(str.substring(endSub + 1, str.length));
+			return returnArr.join('');
 	};
 
 	var doThing = function doThing() {
-		console.log("doing thing");
-		traverseDom(rootNode, switchFunction);
+			console.log("doing thing");
+			traverseDom(rootNode, switchFunction);
 	};
 
 	window.addEventListener('keydown', function (e) {
-		if (e.keyCode === 112) doThing();
+			if (e.keyCode === 112) doThing();
 	});
 
 	/* 
