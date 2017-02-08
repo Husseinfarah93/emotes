@@ -42,30 +42,46 @@ const isolate = (str, bank) => {
 	// Check if larger than 1 
 	if(colonIndeces.length < 2) return str
 	// Check if any are actually present in the bank
+	// console.log(colonIndeces)
 	for(let i = 0;i < colonIndeces.length - 1; i++) {
+		// console.log(i,lastIndex)
 		// Check if both are numbers 
 		if(Number.isInteger(colonIndeces[i]) && Number.isInteger(colonIndeces[i+1])) {
 			startSub = colonIndeces[i], endSub = colonIndeces[i+1], sub = str.substring(startSub,endSub + 1)
+			// If the substring is in the bank
 			if(bank[sub]) {
-        console.log("found thing: ",sub)
         let obj = bank[sub]
         let sr = `chrome-extension://${chromeId}/static/assets/png/${obj.unicode}.png`
 				let newElem = `<img src="${sr}" />`
-				colonIndeces[i] = colonIndeces[i+1] = ''
-				if(returnArr.length) returnArr.push(newElem)
+				if(returnArr.length){
+					let thng = str.substring(lastIndex,colonIndeces[i])
+					returnArr.push(str.substring(lastIndex,colonIndeces[i]) + newElem)
+					// console.log(lastIndex)
+				}
 				else {
 					returnArr = [str.substring(0,startSub),newElem]
 				}
+				lastIndex = colonIndeces[i + 1] + 1
+				colonIndeces[i] = colonIndeces[i+1] = ''
 			}
+			// If it is not
 			else {
 				let thingToPush = str.substring(lastIndex, colonIndeces[i + 1] + 1)
-				lastIndex = colonIndeces[i + 1] + 1
 				returnArr.push(thingToPush)
+				lastIndex = colonIndeces[i + 1] + 1
 			}
 		}
+		else {
+			
+		}
+		// console.log('a',lastIndex,colonIndeces)
 	}
 	// Add remaining part 
-	if(endSub !== str.length - 1) returnArr.push(str.substring(endSub + 1,str.length))
+	console.log('lastIndex',lastIndex)
+	if(endSub !== str.length - 1) {
+		// let returnThing = str[str.length - 1] === ':' ? str.substring()
+		returnArr.push(str.substring(endSub + 1,str.length))
+	}
 	return returnArr.join('')
 }
 
