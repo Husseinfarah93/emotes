@@ -70826,7 +70826,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 _reactDom2.default.render(_react2.default.createElement(
   _reactRedux.Provider,
   { store: _store2.default },
-  _react2.default.createElement(_MainContainer2.default, null)
+  _react2.default.createElement('div', null)
 ), document.getElementById('app'));
 
 /* 
