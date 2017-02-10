@@ -1,10 +1,14 @@
 import { connect } from 'react-redux'
-import ViewportComponent from './ViewportComponent.jsx'
+import ViewportComponentComponent from './ViewportComponentComponent.jsx'
+import Navbar from '../Navbar/NavbarComponent.jsx'
 
 
-
-const mapStateToProps = null
+const mapStateToProps = ({ emojis }) => {
+  return {
+    emotes: Object.keys(emojis)
+  }
+}
 
 const mapDispatchToProps = null
 
-export default connect(mapStateToProps, mapDispatchToProps)(ViewportComponent)
+export default connect(mapStateToProps, mapDispatchToProps)(ViewportComponentComponent)

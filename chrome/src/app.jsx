@@ -14,15 +14,6 @@ import Main from './Components/MainContainer.js'
 // }
 
 
-
-
-
-
-
-
-
-
-
 ReactDom.render(
   <Provider store={store}>
     <Main />

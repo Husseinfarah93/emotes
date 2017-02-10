@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import CurrentEmojis from './CurrentEmojis/CurrentEmojisContainer.js'
+let Scrollspy = require('react-scrollspy').Scrollspy
 // import NewEmoji from './NewEmoji/NewEmojiContainer.js'
 
 export default class ViewPortComponent extends Component {
@@ -12,6 +13,7 @@ export default class ViewPortComponent extends Component {
   }
 
   render() {
-    return this.state.currentClicked !== 'newEmojiTab' ? <CurrentEmojis /> : <NewEmoji />
+    console.log("here")
+    return this.state.currentClicked !== 'newEmojiTab' ?  <CurrentEmojis />  :  <NewEmoji />
   }
 }

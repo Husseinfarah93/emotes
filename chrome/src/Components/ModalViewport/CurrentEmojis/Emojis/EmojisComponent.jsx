@@ -13,7 +13,7 @@ render() {
     return (
       <div>
       {
-          Object.keys(this.props.emojis).map((e,i) => {
+          Object.keys(this.props.emojis).map((e, i) => {
             let src = `./static/assets/other/category_icons/${e}.svg`
             return (
               <div  key={i}>

@@ -20,7 +20,7 @@ const switchFunction = elem => {
   let result = isolate(elem.textContent, emojiBank)
   // console.log('result: ', result)
   if(result !== elem.textContent) {
-    let newChild = document.createElement('div')
+    let newChild = document.createElement('span')
     newChild.innerHTML = result
     parent.replaceChild(newChild,elem)
   }
