@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Navbar, NavItem, MenuItem, Nav, NavDropdown, ButtonGroup, Button, DropdownButton } from 'react-bootstrap';
-import CurrentEmojis from '../ModalViewport/CurrentEmojis/CurrentEmojisContainer.js'
+import CurrentEmojis from '../ModalViewport/CurrentEmojis/CurrentEmojisComponent.jsx'
 import NewEmojis from '../ModalViewport/NewEmoji/NewEmojiContainer.js'
 
 
@@ -25,25 +25,27 @@ export default class NavbarComponent extends Component {
   changeCategory(category) {
     this.setState({tab: category})
   }
-
-
   render() {
     return (
       <div>
         <Navbar inverse collapseOnSelect>
           <Navbar.Collapse>
-          {/*  Render Navbar with listener  */}
+          {/*  Render Navbar with listeners  */}
           <Nav>
+          {/* All category*/}
+          <NavItem eventKey={1} onClick={() => this.changeCategory('all')}>all</NavItem>
           {
             Object.keys(this.state.emotes) && Object.keys(this.state.emotes).map((category, idx) => {
-              return  <NavItem eventKey={1} key={category + idx.toString()} onClick={() => this.changeCategory(category)}>{category}</NavItem>
+              return  <NavItem eventKey={idx + 2} key={category + idx.toString()} onClick={() => this.changeCategory(category)}>{category}</NavItem>
             })
           }
           </Nav>
           </Navbar.Collapse>
         </Navbar>
         <div>
-          return this.state.tab !== 'newEmojis' ? <CurrentEmojis emotes={this.filter()}/> : <CurrentEmojis emotes={this.filter()}/>
+          {
+            this.state.tab !== 'newEmojis' ? <CurrentEmojis emotes={this.filter()}/> : <CurrentEmojis emotes={this.filter()}/>
+          }
         </div>
       </div>
     )

@@ -46,7 +46,12 @@ const isolate = (str, bank) => {
 			if(bank[sub]) {
         let obj = bank[sub]
         let sr = `chrome-extension://${chromeId}/static/assets/png/${obj.unicode}.png`
-				let newElem = `<img src="${sr}" />`
+				let imageStyle = {
+					height: '30px',
+					top: '8px',
+					position: 'relative'
+				}
+				let newElem = `<img src="${sr}" style="height:30px;top:8px;position:relative"/>`
 				if(returnArr.length){
 					let thng = str.substring(lastIndex,colonIndeces[i])
 					returnArr.push(str.substring(lastIndex,colonIndeces[i]) + newElem)
