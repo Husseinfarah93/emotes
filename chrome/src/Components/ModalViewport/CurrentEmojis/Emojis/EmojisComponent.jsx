@@ -20,7 +20,7 @@ export default class EmojisComponent extends Component {
 
   filter() {
     let val = document.getElementById('searchbar').value
-    let keys = Object.keys(this.props.emotes)
+    let keys = Object.keys(this.state.emotes)
     let tempEmotes = {}
     for(let i = 0; i < keys.length; i++) {
       let list = this.state.emotes[keys[i]]

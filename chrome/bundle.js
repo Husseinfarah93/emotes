@@ -18139,7 +18139,7 @@ var EmojisComponent = function (_Component) {
     key: 'filter',
     value: function filter() {
       var val = document.getElementById('searchbar').value;
-      var keys = Object.keys(this.props.emotes);
+      var keys = Object.keys(this.state.emotes);
       var tempEmotes = {};
       for (var i = 0; i < keys.length; i++) {
         var list = this.state.emotes[keys[i]];
