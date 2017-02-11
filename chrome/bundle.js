@@ -18115,11 +18115,38 @@ var ViewPortComponent = function (_Component) {
 
     var _this = _possibleConstructorReturn(this, (ViewPortComponent.__proto__ || Object.getPrototypeOf(ViewPortComponent)).call(this, props));
 
-    _this.state = {};
+    _this.state = {
+      emotes: _this.props.emojis,
+      filteredEmotes: _this.props.emojis
+    };
+    _this.filter = _this.filter.bind(_this);
     return _this;
   }
 
   _createClass(ViewPortComponent, [{
+    key: 'filter',
+    value: function filter() {
+      var val = document.getElementById('searchbar').value;
+      var keys = Object.keys(this.state.emotes);
+      var tempEmotes = {};
+      for (var i = 0; i < keys.length; i++) {
+        var list = this.state.emotes[keys[i]];
+        list = list.filter(function (emote) {
+          if (Array.isArray(emote)) emote = emote[0];
+          // Check if name matches
+          if (emote.name.includes(val)) {
+            return true;
+          }
+          for (var _i = 0; _i < emote.keywords.length; _i++) {
+            if (emote.keywords[_i].includes(val)) return true;
+          }
+          return false;
+        });
+        if (list.length) tempEmotes[keys[i]] = list;
+      }
+      this.setState({ filteredEmotes: tempEmotes });
+    }
+  }, {
     key: 'render',
     value: function render() {
       var _this2 = this;
@@ -18129,30 +18156,38 @@ var ViewPortComponent = function (_Component) {
       return _react2.default.createElement(
         'div',
         null,
-        Object.keys(this.props.emojis).map(function (e, i) {
-          var src = './static/assets/other/category_icons/' + e + '.svg';
-          return _react2.default.createElement(
-            'div',
-            { key: i },
-            _react2.default.createElement(
+        _react2.default.createElement('input', { type: 'search', placeholder: 'SEARCH', id: 'searchbar', onChange: this.filter }),
+        _react2.default.createElement(
+          'div',
+          null,
+          Object.keys(this.state.filteredEmotes).map(function (e, i) {
+            var src = './static/assets/other/category_icons/' + e + '.svg';
+            return _react2.default.createElement(
               'div',
-              { style: style },
-              _react2.default.createElement('img', { src: src, style: style2 }),
+              { key: i },
               _react2.default.createElement(
-                'h2',
-                null,
-                e
-              )
-            ),
-            _react2.default.createElement(_EmojisCategoryComponent2.default, { emojiCategory: _this2.props.emojis[e] })
-          );
-        })
+                'div',
+                { style: style },
+                _react2.default.createElement('img', { src: src, style: style2 }),
+                _react2.default.createElement(
+                  'h2',
+                  null,
+                  e
+                )
+              ),
+              _react2.default.createElement(_EmojisCategoryComponent2.default, { emojiCategory: _this2.state.filteredEmotes[e] })
+            );
+          })
+        )
       );
     }
   }]);
 
   return ViewPortComponent;
 }(_react.Component);
+
+// Object.keys(this.filter)
+
 
 exports.default = ViewPortComponent;
 
@@ -18442,10 +18477,6 @@ var initialState = {
 };
 
 console.log("INITIAL STATE: ", _EmojiFunctions2.default);
-console.log('window', window);
-window.addEventListener('keydown', function (e) {
-  console.log('PRESSED', e.keyCode);
-});
 
 /* -----------------    ACTIONS     ------------------ */
 /*

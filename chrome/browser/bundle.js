@@ -97,11 +97,6 @@
 				if (bank[sub]) {
 					var obj = bank[sub];
 					var sr = 'chrome-extension://' + chromeId + '/static/assets/png/' + obj.unicode + '.png';
-					var imageStyle = {
-						height: '30px',
-						top: '8px',
-						position: 'relative'
-					};
 					var newElem = '<img src="' + sr + '" style="height:30px;top:8px;position:relative"/>';
 					if (returnArr.length) {
 						var thng = str.substring(lastIndex, colonIndeces[_i]);

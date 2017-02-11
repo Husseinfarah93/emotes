@@ -7,10 +7,6 @@ let initialState = {
 }
 
 console.log("INITIAL STATE: ", emojis)
-console.log('window',window)
-window.addEventListener('keydown',(e) => {
-  console.log('PRESSED',e.keyCode)
-})
 
 /* -----------------    ACTIONS     ------------------ */
 /*
