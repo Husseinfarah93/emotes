@@ -10588,12 +10588,16 @@ var CurrentEmojisComponent = function (_Component) {
     var _this = _possibleConstructorReturn(this, (CurrentEmojisComponent.__proto__ || Object.getPrototypeOf(CurrentEmojisComponent)).call(this, props));
 
     _this.state = {};
+    console.log("parent props: ", props);
     return _this;
   }
 
   _createClass(CurrentEmojisComponent, [{
     key: 'render',
     value: function render() {
+      {
+        console.log('parent emotes: ', this.props.emotes);
+      }
       return _react2.default.createElement(
         'div',
         null,
@@ -10696,6 +10700,7 @@ var NavbarComponent = function (_Component) {
   }, {
     key: 'changeCategory',
     value: function changeCategory(category) {
+      console.log('category', category);
       this.setState({ tab: category });
     }
   }, {
@@ -18107,27 +18112,34 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var ViewPortComponent = function (_Component) {
-  _inherits(ViewPortComponent, _Component);
+var EmojisComponent = function (_Component) {
+  _inherits(EmojisComponent, _Component);
 
-  function ViewPortComponent(props) {
-    _classCallCheck(this, ViewPortComponent);
+  function EmojisComponent(props) {
+    _classCallCheck(this, EmojisComponent);
 
-    var _this = _possibleConstructorReturn(this, (ViewPortComponent.__proto__ || Object.getPrototypeOf(ViewPortComponent)).call(this, props));
+    // console.log('child props: ', props)
+    var _this = _possibleConstructorReturn(this, (EmojisComponent.__proto__ || Object.getPrototypeOf(EmojisComponent)).call(this, props));
 
     _this.state = {
       emotes: _this.props.emojis,
       filteredEmotes: _this.props.emojis
     };
     _this.filter = _this.filter.bind(_this);
+    // console.log(this.state, this.props)
     return _this;
   }
 
-  _createClass(ViewPortComponent, [{
+  _createClass(EmojisComponent, [{
+    key: 'componentWillReceiveProps',
+    value: function componentWillReceiveProps(newProps) {
+      if (this.state.filteredEmotes !== newProps.emojis) this.setState({ filteredEmotes: newProps.emojis });
+    }
+  }, {
     key: 'filter',
     value: function filter() {
       var val = document.getElementById('searchbar').value;
-      var keys = Object.keys(this.state.emotes);
+      var keys = Object.keys(this.props.emotes);
       var tempEmotes = {};
       for (var i = 0; i < keys.length; i++) {
         var list = this.state.emotes[keys[i]];
@@ -18153,6 +18165,7 @@ var ViewPortComponent = function (_Component) {
 
       var style = { float: 'left', width: '100%' },
           style2 = { float: 'left', padding: '20px' };
+      console.log('child emotes: ', this.state.filteredEmotes, this.props.emojis);
       return _react2.default.createElement(
         'div',
         null,
@@ -18183,13 +18196,13 @@ var ViewPortComponent = function (_Component) {
     }
   }]);
 
-  return ViewPortComponent;
+  return EmojisComponent;
 }(_react.Component);
 
 // Object.keys(this.filter)
 
 
-exports.default = ViewPortComponent;
+exports.default = EmojisComponent;
 
 /***/ }),
 /* 222 */
@@ -18476,7 +18489,7 @@ var initialState = {
   emojis: _EmojiFunctions2.default
 };
 
-console.log("INITIAL STATE: ", _EmojiFunctions2.default);
+// console.log("INITIAL STATE: ", emojis)
 
 /* -----------------    ACTIONS     ------------------ */
 /*

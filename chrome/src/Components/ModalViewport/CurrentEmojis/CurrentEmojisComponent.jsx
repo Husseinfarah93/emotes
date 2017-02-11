@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Emojis from './Emojis/EmojisComponent.jsx'
+import EmojisComponent from './Emojis/EmojisComponent.jsx'
 // import Searchbar from './Searchbar/SearchbarContainer.js'
 
 export default class CurrentEmojisComponent extends Component {
@@ -9,12 +9,14 @@ export default class CurrentEmojisComponent extends Component {
     this.state = {
 
     }
+    console.log("parent props: ", props)
   }
 
   render() {
+    {console.log('parent emotes: ', this.props.emotes)}
     return (
       <div >
-        <Emojis emojis={this.props.emotes}/>
+        <EmojisComponent emojis={this.props.emotes}/>
       </div>
     )
   }

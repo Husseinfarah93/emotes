@@ -23,8 +23,10 @@ export default class NavbarComponent extends Component {
   }
 
   changeCategory(category) {
+    console.log('category', category)
     this.setState({tab: category})
   }
+
   render() {
     return (
       <div>
