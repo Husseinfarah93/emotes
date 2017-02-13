@@ -17965,6 +17965,9 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
+// import addEmojiToPage  from '../../../../../../../browser/entry.js'
+// ../../../../../../../browser/entry.js
+
 var Emoji = function (_Component) {
 	_inherits(Emoji, _Component);
 
@@ -17974,21 +17977,37 @@ var Emoji = function (_Component) {
 		var _this = _possibleConstructorReturn(this, (Emoji.__proto__ || Object.getPrototypeOf(Emoji)).call(this, props));
 
 		_this.clicked = _this.clicked.bind(_this);
+		_this.hover = _this.hover.bind(_this);
+		_this.leave = _this.leave.bind(_this);
 		return _this;
 	}
 
 	_createClass(Emoji, [{
 		key: 'clicked',
 		value: function clicked() {
-			console.log('clicked', this.props.emoji);
+			console.log('clicked ', this.props.emoji);
+		}
+	}, {
+		key: 'hover',
+		value: function hover() {
+			var elem = document.getElementById(this.props.emoji.shortname);
+			elem.style['border-radius'] = '15px';
+			elem.style.backgroundColor = '#B4DCED';
+		}
+	}, {
+		key: 'leave',
+		value: function leave() {
+			var elem = document.getElementById(this.props.emoji.shortname);
+			elem.style['border-radius'] = '0px';
+			elem.style.backgroundColor = 'transparent';
 		}
 	}, {
 		key: 'render',
 		value: function render() {
-			var style = { height: '40px', padding: '3px' };
+			var style = { height: '40px', padding: '3px', cursor: 'pointer' };
 			return _react2.default.createElement(
 				'div',
-				{ onClick: this.clicked },
+				{ onClick: this.clicked, onMouseOver: this.hover, onMouseLeave: this.leave, id: this.props.emoji.shortname },
 				_react2.default.createElement('img', { src: this.props.emoji.imageSrc, style: style })
 			);
 		}
@@ -71992,115 +72011,115 @@ module.exports = {
 	},
 	":35_year_old_white_male:": {
 		"unicode": "35_year_old_white_male",
-		"shortName": ":35_year_old_white_male:",
 		"name": "35 year_old_white_male",
 		"category": "custom",
-		"keywords": []
+		"keywords": [],
+		"shortname": ":35_year_old_white_male:"
 	},
 	":are-you-a-wizard:": {
 		"unicode": "are-you-a-wizard",
-		"shortName": ":are-you-a-wizard:",
 		"name": "are-you-a-wizard",
 		"category": "custom",
-		"keywords": []
+		"keywords": [],
+		"shortname": ":are-you-a-wizard:"
 	},
 	":atlanta_black_white:": {
 		"unicode": "atlanta_black_white",
-		"shortName": ":atlanta_black_white:",
 		"name": "atlanta black_white",
 		"category": "custom",
-		"keywords": []
+		"keywords": [],
+		"shortname": ":atlanta_black_white:"
 	},
 	":bad_kremit:": {
 		"unicode": "bad_kremit",
-		"shortName": ":bad_kremit:",
 		"name": "bad kremit",
 		"category": "custom",
-		"keywords": []
+		"keywords": [],
+		"shortname": ":bad_kremit:"
 	},
 	":cash_me_outside:": {
 		"unicode": "cash_me_outside",
-		"shortName": ":cash_me_outside:",
 		"name": "cash me_outside",
 		"category": "custom",
-		"keywords": []
+		"keywords": [],
+		"shortname": ":cash_me_outside:"
 	},
 	":conceited_face:": {
 		"unicode": "conceited_face",
-		"shortName": ":conceited_face:",
 		"name": "conceited face",
 		"category": "custom",
-		"keywords": []
+		"keywords": [],
+		"shortname": ":conceited_face:"
 	},
 	":confused_face:": {
 		"unicode": "confused_face",
-		"shortName": ":confused_face:",
 		"name": "confused face",
 		"category": "custom",
-		"keywords": []
+		"keywords": [],
+		"shortname": ":confused_face:"
 	},
 	":cry_jordan:": {
 		"unicode": "cry_jordan",
-		"shortName": ":cry_jordan:",
 		"name": "cry jordan",
 		"category": "custom",
-		"keywords": []
+		"keywords": [],
+		"shortname": ":cry_jordan:"
 	},
 	":deez_nuts:": {
 		"unicode": "deez_nuts",
-		"shortName": ":deez_nuts:",
 		"name": "deez nuts",
 		"category": "custom",
-		"keywords": []
+		"keywords": [],
+		"shortname": ":deez_nuts:"
 	},
 	":kenan_confused:": {
 		"unicode": "kenan_confused",
-		"shortName": ":kenan_confused:",
 		"name": "kenan confused",
 		"category": "custom",
-		"keywords": []
+		"keywords": [],
+		"shortname": ":kenan_confused:"
 	},
 	":nigga_you_gay:": {
 		"unicode": "nigga_you_gay",
-		"shortName": ":nigga_you_gay:",
 		"name": "nigga you_gay",
 		"category": "custom",
-		"keywords": []
+		"keywords": [],
+		"shortname": ":nigga_you_gay:"
 	},
 	":robbie_rotten:": {
 		"unicode": "robbie_rotten",
-		"shortName": ":robbie_rotten:",
 		"name": "robbie rotten",
 		"category": "custom",
-		"keywords": []
+		"keywords": [],
+		"shortname": ":robbie_rotten:"
 	},
 	":roll_safe:": {
 		"unicode": "roll_safe",
-		"shortName": ":roll_safe:",
 		"name": "roll safe",
 		"category": "custom",
-		"keywords": []
+		"keywords": [],
+		"shortname": ":roll_safe:"
 	},
 	":sad_pepe:": {
 		"unicode": "sad_pepe",
-		"shortName": ":sad_pepe:",
 		"name": "sad pepe",
 		"category": "custom",
-		"keywords": []
+		"keywords": [],
+		"shortname": ":sad_pepe:"
 	},
 	":shaq_suggestive:": {
 		"unicode": "shaq_suggestive",
-		"shortName": ":shaq_suggestive:",
 		"name": "shaq suggestive",
 		"category": "custom",
-		"keywords": []
+		"keywords": [],
+		"shortname": ":shaq_suggestive:"
 	},
 	":wild_spongebob:": {
 		"unicode": "wild_spongebob",
-		"shortName": ":wild_spongebob:",
 		"name": "wild spongebob",
 		"category": "custom",
-		"keywords": []
+		"keywords": [],
+		"shortname": ":wild_spongebob:"
 	}
 };
 

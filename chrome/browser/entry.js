@@ -81,3 +81,10 @@ const doThing = () => {
 window.addEventListener('keydown', (e) => {
   if(e.keyCode === 112 ) doThing()
 })
+
+
+export default addEmojiToPage = name => {
+	let active = document.activeElement
+	active.innerHTML += name
+}
+
