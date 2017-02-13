@@ -4,6 +4,10 @@ let chromeId = 'pnlepnelkjmigidmeebcnnnonlkgdfal'
 console.log("Bank", emojiBank)
 
 
+
+
+
+
 const traverseDom = (node, funcToRun) => {
   if(node.nodeType === 3 && node.nodeValue.trim() !== '') funcToRun(node)
   else node.childNodes.forEach(e => traverseDom(e,funcToRun))

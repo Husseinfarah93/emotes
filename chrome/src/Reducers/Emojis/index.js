@@ -6,7 +6,7 @@ let initialState = {
   emojis: emojis
 }
 
-// console.log("INITIAL STATE: ", emojis)
+console.log("INITIAL STATE: ", emojis)
 
 /* -----------------    ACTIONS     ------------------ */
 /*

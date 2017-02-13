@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Navbar, NavItem, MenuItem, Nav, NavDropdown, ButtonGroup, Button, DropdownButton } from 'react-bootstrap';
 import CurrentEmojis from '../ModalViewport/CurrentEmojis/CurrentEmojisComponent.jsx'
-import NewEmojis from '../ModalViewport/NewEmoji/NewEmojiContainer.js'
+import NewEmojis from '../ModalViewport/NewEmoji/NewEmojiComponent.jsx'
 
 
 export default class NavbarComponent extends Component {
@@ -32,21 +32,23 @@ export default class NavbarComponent extends Component {
       <div>
         <Navbar inverse collapseOnSelect>
           <Navbar.Collapse>
-          {/*  Render Navbar with listeners  */}
-          <Nav>
-          {/* All category*/}
-          <NavItem eventKey={1} onClick={() => this.changeCategory('all')}>all</NavItem>
-          {
-            Object.keys(this.state.emotes) && Object.keys(this.state.emotes).map((category, idx) => {
-              return  <NavItem eventKey={idx + 2} key={category + idx.toString()} onClick={() => this.changeCategory(category)}>{category}</NavItem>
-            })
-          }
-          </Nav>
+            {/*  Render Navbar with listeners  */}
+            <Nav>
+            {/* All category */}
+            <NavItem eventKey={1} onClick={() => this.changeCategory('all')}>all</NavItem>
+            {
+              Object.keys(this.state.emotes) && Object.keys(this.state.emotes).map((category, idx) => {
+                return  <NavItem eventKey={idx + 2} key={category + idx.toString()} onClick={() => this.changeCategory(category)}>{category}</NavItem>
+              })
+            }
+            {/* New Emoji Category */}
+            <NavItem eventKey={this.state.emotes.length + 1} onClick={() => this.changeCategory('newEmojis')}>new emoji</NavItem>
+            </Nav>
           </Navbar.Collapse>
         </Navbar>
         <div>
           {
-            this.state.tab !== 'newEmojis' ? <CurrentEmojis emotes={this.filter()}/> : <CurrentEmojis emotes={this.filter()}/>
+            this.state.tab !== 'newEmojis' ? <CurrentEmojis emotes={this.filter()}/> : <NewEmojis />
           }
         </div>
       </div>

@@ -13,9 +13,10 @@ export default class Emoji extends Component {
 	}
 
 	render() {
+		let style = {height: '40px', padding: '3px'}
 		return (
 			<div onClick={this.clicked}> 
-				<img src={this.props.emoji.imageSrc} />
+				<img src={this.props.emoji.imageSrc} style={style}/>
       </div>
 		)
 	}

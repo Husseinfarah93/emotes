@@ -7,7 +7,8 @@ export default class EmojisComponent extends Component {
     // console.log('child props: ', props)
     this.state = {
       emotes: this.props.emojis,
-      filteredEmotes: this.props.emojis
+      filteredEmotes: this.props.emojis,
+      filteredList: [this.props.emojis]
     }
     this.filter = this.filter.bind(this)
     // console.log(this.state, this.props)
@@ -20,7 +21,8 @@ export default class EmojisComponent extends Component {
 
   filter() {
     let val = document.getElementById('searchbar').value
-    let keys = Object.keys(this.state.emotes)
+    let objectKeys = this.state.emotes
+    let keys = Object.keys(objectKeys)
     let tempEmotes = {}
     for(let i = 0; i < keys.length; i++) {
       let list = this.state.emotes[keys[i]]
