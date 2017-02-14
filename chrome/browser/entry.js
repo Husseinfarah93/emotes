@@ -1,3 +1,4 @@
+import { addEmojiToPage } from './helpers.js'
 let rootNode = document.getElementsByTagName('body')[0]
 let emojiBank = require('../src/Components/ModalViewport/CurrentEmojis/Emojis/EmojiBank.js')
 let chromeId = 'pnlepnelkjmigidmeebcnnnonlkgdfal'
@@ -78,13 +79,23 @@ const doThing = () => {
   traverseDom(rootNode, switchFunction)
 }
 
+window.onload = function() {
+    chrome.runtime.onMessage.addListener(function(msg, _, sendResponse) {
+        console.log('onMessage', msg);
+        if (typeof msg === 'object') {
+						addEmojiToPage(msg)
+            sendResponse({response: 'u r a bigot m7+1'});
+        } else{
+           sendResponse({});
+        }
+    });
+};
+
+
 window.addEventListener('keydown', (e) => {
   if(e.keyCode === 112 ) doThing()
 })
 
 
-export default addEmojiToPage = name => {
-	let active = document.activeElement
-	active.innerHTML += name
-}
+
 

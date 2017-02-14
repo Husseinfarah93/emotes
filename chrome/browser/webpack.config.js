@@ -1,7 +1,7 @@
 const webpack = require('webpack')
 
 module.exports = {
-    entry: "./entry.js",
+    entry: ["./entry.js"],
     output: {
         path: __dirname,
         filename: "./bundle.js"

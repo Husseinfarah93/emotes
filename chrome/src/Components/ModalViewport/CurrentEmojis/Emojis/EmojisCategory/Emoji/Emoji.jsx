@@ -1,9 +1,5 @@
 import React, { Component } from 'react';
-
-
-// import addEmojiToPage  from '../../../../../../../browser/entry.js'
-// ../../../../../../../browser/entry.js
-
+import { addEmojiToPage } from '../../../../../../../browser/helpers.js'
 export default class Emoji extends Component {
 
 	constructor(props) {
@@ -14,7 +10,18 @@ export default class Emoji extends Component {
 	}
 
 	clicked() {
-		console.log('clicked ',this.props.emoji)
+		console.log('clicked :', this.props.emoji)
+		let emote = this.props.emoji
+		chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
+			var tab = tabs[0];
+			console.log('tab info: ',tab.url, tab.title);
+			chrome.tabs.getSelected(null, function(tab) {
+					chrome.tabs.sendMessage(tab.id, emote, function(msg) {
+							msg = msg || {};
+							console.log('onResponse', msg.response);
+					});
+			});
+		});
 	}
 
 

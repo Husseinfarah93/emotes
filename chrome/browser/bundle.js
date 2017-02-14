@@ -44,100 +44,140 @@
 /* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
+	module.exports = __webpack_require__(1);
+
+
+/***/ },
+/* 1 */
+/***/ function(module, exports, __webpack_require__) {
+
 	'use strict';
 
-	Object.defineProperty(exports, "__esModule", {
-		value: true
-	});
+	var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
+
+	var _helpers = __webpack_require__(2);
+
 	var rootNode = document.getElementsByTagName('body')[0];
-	var emojiBank = __webpack_require__(1);
+	var emojiBank = __webpack_require__(3);
 	var chromeId = 'pnlepnelkjmigidmeebcnnnonlkgdfal';
 	console.log("Bank", emojiBank);
 
 	var traverseDom = function traverseDom(node, funcToRun) {
-		if (node.nodeType === 3 && node.nodeValue.trim() !== '') funcToRun(node);else node.childNodes.forEach(function (e) {
-			return traverseDom(e, funcToRun);
-		});
+			if (node.nodeType === 3 && node.nodeValue.trim() !== '') funcToRun(node);else node.childNodes.forEach(function (e) {
+					return traverseDom(e, funcToRun);
+			});
 	};
 
 	var rektFunction = function rektFunction(elem) {
-		var parent = elem.parentNode,
-		    newChild = document.createElement('text');
-		newChild.textContent = 'rekt ';
-		parent.replaceChild(newChild, elem);
+			var parent = elem.parentNode,
+			    newChild = document.createElement('text');
+			newChild.textContent = 'rekt ';
+			parent.replaceChild(newChild, elem);
 	};
 
 	var switchFunction = function switchFunction(elem) {
-		var parent = elem.parentNode;
-		var result = isolate(elem.textContent, emojiBank);
-		// console.log('result: ', result)
-		if (result !== elem.textContent) {
-			var newChild = document.createElement('span');
-			newChild.innerHTML = result;
-			parent.replaceChild(newChild, elem);
-		}
+			var parent = elem.parentNode;
+			var result = isolate(elem.textContent, emojiBank);
+			// console.log('result: ', result)
+			if (result !== elem.textContent) {
+					var newChild = document.createElement('span');
+					newChild.innerHTML = result;
+					parent.replaceChild(newChild, elem);
+			}
 	};
 
 	var isolate = function isolate(str, bank) {
-		var returnArr = [],
-		    colonIndeces = [],
-		    lastIndex = 0;
-		var startSub = void 0;
-		var endSub = void 0;
-		var sub = void 0;
-		// Gather all indeces of colons 
-		for (var i = 0; i < str.length; i++) {
-			if (str[i] === ':') colonIndeces.push(i);
-		}
-		// Check if larger than 1 
-		if (colonIndeces.length < 2) return str;
-		// Check if any are actually present in the bank
-		for (var _i = 0; _i < colonIndeces.length - 1; _i++) {
-			// Check if both are numbers 
-			if (Number.isInteger(colonIndeces[_i]) && Number.isInteger(colonIndeces[_i + 1])) {
-				startSub = colonIndeces[_i], endSub = colonIndeces[_i + 1], sub = str.substring(startSub, endSub + 1);
-				// If the substring is in the bank
-				if (bank[sub]) {
-					var obj = bank[sub];
-					var sr = 'chrome-extension://' + chromeId + '/static/assets/png/' + obj.unicode + '.png';
-					var newElem = '<img src="' + sr + '" style="height:30px;top:8px;position:relative"/>';
-					if (returnArr.length) {
-						var thng = str.substring(lastIndex, colonIndeces[_i]);
-						returnArr.push(str.substring(lastIndex, colonIndeces[_i]) + newElem);
-					} else {
-						returnArr = [str.substring(0, startSub), newElem];
-					}
-					lastIndex = colonIndeces[_i + 1] + 1;
-					colonIndeces[_i] = colonIndeces[_i + 1] = '';
-				}
-				// If it is not
-				else {
-						var thingToPush = str.substring(lastIndex, colonIndeces[_i + 1] + 1);
-						returnArr.push(thingToPush);
-						lastIndex = colonIndeces[_i + 1] + 1;
+			var returnArr = [],
+			    colonIndeces = [],
+			    lastIndex = 0;
+			var startSub = void 0;
+			var endSub = void 0;
+			var sub = void 0;
+			// Gather all indeces of colons 
+			for (var i = 0; i < str.length; i++) {
+					if (str[i] === ':') colonIndeces.push(i);
+			}
+			// Check if larger than 1 
+			if (colonIndeces.length < 2) return str;
+			// Check if any are actually present in the bank
+			for (var _i = 0; _i < colonIndeces.length - 1; _i++) {
+					// Check if both are numbers 
+					if (Number.isInteger(colonIndeces[_i]) && Number.isInteger(colonIndeces[_i + 1])) {
+							startSub = colonIndeces[_i], endSub = colonIndeces[_i + 1], sub = str.substring(startSub, endSub + 1);
+							// If the substring is in the bank
+							if (bank[sub]) {
+									var obj = bank[sub];
+									var sr = 'chrome-extension://' + chromeId + '/static/assets/png/' + obj.unicode + '.png';
+									var newElem = '<img src="' + sr + '" style="height:30px;top:8px;position:relative"/>';
+									if (returnArr.length) {
+											var thng = str.substring(lastIndex, colonIndeces[_i]);
+											returnArr.push(str.substring(lastIndex, colonIndeces[_i]) + newElem);
+									} else {
+											returnArr = [str.substring(0, startSub), newElem];
+									}
+									lastIndex = colonIndeces[_i + 1] + 1;
+									colonIndeces[_i] = colonIndeces[_i + 1] = '';
+							}
+							// If it is not
+							else {
+											var thingToPush = str.substring(lastIndex, colonIndeces[_i + 1] + 1);
+											returnArr.push(thingToPush);
+											lastIndex = colonIndeces[_i + 1] + 1;
+									}
 					}
 			}
-		}
-		// Add remaining part 
-		if (endSub !== str.length - 1) returnArr.push(str.substring(endSub + 1, str.length));
-		return returnArr.join('');
+			// Add remaining part 
+			if (endSub !== str.length - 1) returnArr.push(str.substring(endSub + 1, str.length));
+			return returnArr.join('');
 	};
 
 	var doThing = function doThing() {
-		traverseDom(rootNode, switchFunction);
+			traverseDom(rootNode, switchFunction);
+	};
+
+	window.onload = function () {
+			chrome.runtime.onMessage.addListener(function (msg, _, sendResponse) {
+					console.log('onMessage', msg);
+					if ((typeof msg === 'undefined' ? 'undefined' : _typeof(msg)) === 'object') {
+							(0, _helpers.addEmojiToPage)(msg);
+							sendResponse({ response: 'u r a bigot m7+1' });
+					} else {
+							sendResponse({});
+					}
+			});
 	};
 
 	window.addEventListener('keydown', function (e) {
-		if (e.keyCode === 112) doThing();
+			if (e.keyCode === 112) doThing();
 	});
 
-	exports.default = addEmojiToPage = function addEmojiToPage(name) {
-		var active = document.activeElement;
-		active.innerHTML += name;
+/***/ },
+/* 2 */
+/***/ function(module, exports) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	var addEmojiToPage = function addEmojiToPage(emoji) {
+	  var active = document.activeElement;
+	  // TextArea 
+	  if (active.nodeName === 'TEXTAREA') {
+	    active.value += emoji.shortname;
+	  }
+	  // Input 
+	  else if (active.nodeName === 'INPUT') {
+	      active.value += emoji.shortname;
+	    }
+	    // ContentEditable
+	    else if (active.attributes.contentEditable) {}
 	};
 
+	exports.addEmojiToPage = addEmojiToPage;
+
 /***/ },
-/* 1 */
+/* 3 */
 /***/ function(module, exports) {
 
 	"use strict";
