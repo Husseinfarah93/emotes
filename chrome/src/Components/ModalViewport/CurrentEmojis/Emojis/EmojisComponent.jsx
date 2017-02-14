@@ -45,7 +45,6 @@ export default class EmojisComponent extends Component {
 
   render() {
     let style = {float:'left', width:'100%'}, style2 = {float:'left', padding:'20px'}
-    console.log('child emotes: ', this.state.filteredEmotes, this.props.emojis)
       return (
         <div>
           {/* Search Bar */}

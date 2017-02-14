@@ -24,36 +24,84 @@ export default class NavbarComponent extends Component {
 
   changeCategory(category) {
     console.log('category', category)
-    this.setState({tab: category})
+    this.setState({ tab: category })
   }
-
+  
   render() {
-    return (
-      <div>
-        <Navbar inverse collapseOnSelect>
-          <Navbar.Collapse>
-            {/*  Render Navbar with listeners  */}
-            <Nav>
-            {/* All category */}
-            <NavItem eventKey={1} onClick={() => this.changeCategory('all')}>all</NavItem>
-            {
-              Object.keys(this.state.emotes) && Object.keys(this.state.emotes).map((category, idx) => {
-                return  <NavItem eventKey={idx + 2} key={category + idx.toString()} onClick={() => this.changeCategory(category)}>{category}</NavItem>
-              })
-            }
-            {/* New Emoji Category */}
-            <NavItem eventKey={this.state.emotes.length + 1} onClick={() => this.changeCategory('newEmojis')}>new emoji</NavItem>
-            </Nav>
-          </Navbar.Collapse>
-        </Navbar>
-        <div>
+  let styleUL = {'listStyleType':'none'}, styleLI = {'display':'inline-block', 'paddingRight':'2px'}
+  return (
+    <div>
+      <ul style={styleUL}>
+        <li onClick={() => this.changeCategory('all')} style={styleLI}>all</li>
           {
-            this.state.tab !== 'newEmojis' ? <CurrentEmojis emotes={this.filter()}/> : <NewEmojis />
+            Object.keys(this.state.emotes) && Object.keys(this.state.emotes).map((category, idx) => {
+              let src = './static/assets/other/category_icons/' + category + '.svg', style = {height:'30px', width:'30px'}
+              console.log('src: ', src)
+              return  <li key={category + idx.toString()} onClick={() => this.changeCategory(category)} style={styleLI}>{
+                <img src={src} style={style}/>
+              }
+              </li>
+            })
           }
-        </div>
+          <li eventKey={this.state.emotes.length + 1} onClick={() => this.changeCategory('newEmojis')} style={styleLI}> + </li>
+      </ul>
+      <div>
+        {
+          this.state.tab !== 'newEmojis' ? <CurrentEmojis emotes={this.filter()} /> : <NewEmojis />
+        }
       </div>
-    )
-  }
+    </div>
+  )
+}
 }
 
+
+/*
+
+render() {
+  return (
+    <div> 
+      <Navbar fixedTop collapseOnSelect>
+        <Nav>
+          <NavItem eventKey={1}> Item 1 </NavItem>
+        </Nav>
+      </Navbar>
+    </div>
+  )
+}
+
+
+
+*/
+
 //       return this.state.tab !== 'newEmojis' ? <CurrentEmojis emotes={this.filter()}/> : <NewEmojis />
+// render() {
+//     return (
+//       <div>
+//         <Navbar fixedTop collapseOnSelect>
+//             {/*  Render Navbar with listeners  */}
+//             <Nav>
+//             {/* All category */}
+//             <NavItem eventKey={1} onClick={() => this.changeCategory('all')}>all</NavItem>
+//             {
+//               Object.keys(this.state.emotes) && Object.keys(this.state.emotes).map((category, idx) => {
+//                 return  <NavItem eventKey={idx + 2} key={category + idx.toString()} onClick={() => this.changeCategory(category)}>{category}</NavItem>
+//               })
+//             }
+//             {/* New Emoji Category */}
+//             <NavItem eventKey={this.state.emotes.length + 1} onClick={() => this.changeCategory('newEmojis')}>new emoji</NavItem>
+//             </Nav>
+//         </Navbar>
+//         <div>
+//           {
+//             this.state.tab !== 'newEmojis' ? <CurrentEmojis emotes={this.filter()}/> : <NewEmojis />
+//           }
+//         </div>
+//       </div>
+//     )
+//   }
+
+
+
+
+

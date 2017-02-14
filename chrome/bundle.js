@@ -10588,16 +10588,12 @@ var CurrentEmojisComponent = function (_Component) {
     var _this = _possibleConstructorReturn(this, (CurrentEmojisComponent.__proto__ || Object.getPrototypeOf(CurrentEmojisComponent)).call(this, props));
 
     _this.state = {};
-    console.log("parent props: ", props);
     return _this;
   }
 
   _createClass(CurrentEmojisComponent, [{
     key: 'render',
     value: function render() {
-      {
-        console.log('parent emotes: ', this.props.emotes);
-      }
       return _react2.default.createElement(
         'div',
         null,
@@ -10708,42 +10704,39 @@ var NavbarComponent = function (_Component) {
     value: function render() {
       var _this2 = this;
 
+      var styleUL = { 'listStyleType': 'none' },
+          styleLI = { 'display': 'inline-block', 'paddingRight': '2px' };
       return _react2.default.createElement(
         'div',
         null,
         _react2.default.createElement(
-          _reactBootstrap.Navbar,
-          { inverse: true, collapseOnSelect: true },
+          'ul',
+          { style: styleUL },
           _react2.default.createElement(
-            _reactBootstrap.Navbar.Collapse,
-            null,
-            _react2.default.createElement(
-              _reactBootstrap.Nav,
-              null,
-              _react2.default.createElement(
-                _reactBootstrap.NavItem,
-                { eventKey: 1, onClick: function onClick() {
-                    return _this2.changeCategory('all');
-                  } },
-                'all'
-              ),
-              Object.keys(this.state.emotes) && Object.keys(this.state.emotes).map(function (category, idx) {
-                return _react2.default.createElement(
-                  _reactBootstrap.NavItem,
-                  { eventKey: idx + 2, key: category + idx.toString(), onClick: function onClick() {
-                      return _this2.changeCategory(category);
-                    } },
-                  category
-                );
-              }),
-              _react2.default.createElement(
-                _reactBootstrap.NavItem,
-                { eventKey: this.state.emotes.length + 1, onClick: function onClick() {
-                    return _this2.changeCategory('newEmojis');
-                  } },
-                'new emoji'
-              )
-            )
+            'li',
+            { onClick: function onClick() {
+                return _this2.changeCategory('all');
+              }, style: styleLI },
+            'all'
+          ),
+          Object.keys(this.state.emotes) && Object.keys(this.state.emotes).map(function (category, idx) {
+            var src = './static/assets/other/category_icons/' + category + '.svg',
+                style = { height: '30px', width: '30px' };
+            console.log('src: ', src);
+            return _react2.default.createElement(
+              'li',
+              { key: category + idx.toString(), onClick: function onClick() {
+                  return _this2.changeCategory(category);
+                }, style: styleLI },
+              _react2.default.createElement('img', { src: src, style: style })
+            );
+          }),
+          _react2.default.createElement(
+            'li',
+            { eventKey: this.state.emotes.length + 1, onClick: function onClick() {
+                return _this2.changeCategory('newEmojis');
+              }, style: styleLI },
+            ' + '
           )
         ),
         _react2.default.createElement(
@@ -10758,7 +10751,50 @@ var NavbarComponent = function (_Component) {
   return NavbarComponent;
 }(_react.Component);
 
+/*
+
+render() {
+  return (
+    <div> 
+      <Navbar fixedTop collapseOnSelect>
+        <Nav>
+          <NavItem eventKey={1}> Item 1 </NavItem>
+        </Nav>
+      </Navbar>
+    </div>
+  )
+}
+
+
+
+*/
+
 //       return this.state.tab !== 'newEmojis' ? <CurrentEmojis emotes={this.filter()}/> : <NewEmojis />
+// render() {
+//     return (
+//       <div>
+//         <Navbar fixedTop collapseOnSelect>
+//             {/*  Render Navbar with listeners  */}
+//             <Nav>
+//             {/* All category */}
+//             <NavItem eventKey={1} onClick={() => this.changeCategory('all')}>all</NavItem>
+//             {
+//               Object.keys(this.state.emotes) && Object.keys(this.state.emotes).map((category, idx) => {
+//                 return  <NavItem eventKey={idx + 2} key={category + idx.toString()} onClick={() => this.changeCategory(category)}>{category}</NavItem>
+//               })
+//             }
+//             {/* New Emoji Category */}
+//             <NavItem eventKey={this.state.emotes.length + 1} onClick={() => this.changeCategory('newEmojis')}>new emoji</NavItem>
+//             </Nav>
+//         </Navbar>
+//         <div>
+//           {
+//             this.state.tab !== 'newEmojis' ? <CurrentEmojis emotes={this.filter()}/> : <NewEmojis />
+//           }
+//         </div>
+//       </div>
+//     )
+//   }
 
 
 exports.default = NavbarComponent;
@@ -17990,8 +18026,10 @@ var Emoji = function (_Component) {
 	}, {
 		key: 'hover',
 		value: function hover() {
+			// console.log("HERE")
 			var elem = document.getElementById(this.props.emoji.shortname);
-			elem.style['border-radius'] = '15px';
+			// console.log('elem: ', elem)
+			elem.style['border-radius'] = '5px';
 			elem.style.backgroundColor = '#B4DCED';
 		}
 	}, {
@@ -18004,11 +18042,12 @@ var Emoji = function (_Component) {
 	}, {
 		key: 'render',
 		value: function render() {
-			var style = { height: '40px', padding: '3px', cursor: 'pointer' };
+			var style = { height: '40px', width: '40px', padding: '3px', cursor: 'pointer', float: 'left' },
+			    style2 = { height: '100%', width: '100%' };
 			return _react2.default.createElement(
 				'div',
-				{ onClick: this.clicked, onMouseOver: this.hover, onMouseLeave: this.leave, id: this.props.emoji.shortname },
-				_react2.default.createElement('img', { src: this.props.emoji.imageSrc, style: style })
+				{ onClick: this.clicked, onMouseOver: this.hover, onMouseLeave: this.leave, id: this.props.emoji.shortname, style: style },
+				_react2.default.createElement('img', { src: this.props.emoji.imageSrc, style: style2 })
 			);
 		}
 	}]);
@@ -18068,25 +18107,9 @@ var EmojisCategoryComponent = function (_Component) {
       return _react2.default.createElement(
         'div',
         null,
-        _react2.default.createElement(
-          _reactBootstrap.Grid,
-          null,
-          _react2.default.createElement(
-            _reactBootstrap.Row,
-            { className: 'show-grid' },
-            this.props.emojiCategory && this.props.emojiCategory.map(function (emoji, i) {
-              return Array.isArray(emoji) === true ? _react2.default.createElement(
-                _reactBootstrap.Col,
-                { xs: 6, md: 4, style: style },
-                _react2.default.createElement(_Emoji2.default, { emoji: emoji[0], key: i })
-              ) : _react2.default.createElement(
-                _reactBootstrap.Col,
-                { xs: 6, md: 4, style: style },
-                _react2.default.createElement(_Emoji2.default, { emoji: emoji, key: i })
-              );
-            })
-          )
-        )
+        this.props.emojiCategory && this.props.emojiCategory.map(function (emoji, i) {
+          return Array.isArray(emoji) === true ? _react2.default.createElement(_Emoji2.default, { emoji: emoji[0], key: i, style: style }) : _react2.default.createElement(_Emoji2.default, { emoji: emoji, key: i, style: style });
+        })
       );
     }
   }]);
@@ -18195,7 +18218,6 @@ var EmojisComponent = function (_Component) {
 
       var style = { float: 'left', width: '100%' },
           style2 = { float: 'left', padding: '20px' };
-      console.log('child emotes: ', this.state.filteredEmotes, this.props.emojis);
       return _react2.default.createElement(
         'div',
         null,

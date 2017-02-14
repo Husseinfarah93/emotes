@@ -9,11 +9,9 @@ export default class CurrentEmojisComponent extends Component {
     this.state = {
 
     }
-    console.log("parent props: ", props)
   }
 
   render() {
-    {console.log('parent emotes: ', this.props.emotes)}
     return (
       <div >
         <EmojisComponent emojis={this.props.emotes}/>
