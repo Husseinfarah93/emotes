@@ -93,7 +93,7 @@ window.onload = function() {
 
 
 window.addEventListener('keydown', (e) => {
-  if(e.keyCode === 112 ) doThing()
+  if(e.keyCode === 80 ) doThing()
 })
 
 

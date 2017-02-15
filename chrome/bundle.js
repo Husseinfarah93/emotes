@@ -10730,8 +10730,8 @@ var NavbarComponent = function (_Component) {
     value: function render() {
       var _this2 = this;
 
-      var styleUL = { 'listStyleType': 'none' },
-          styleLI = { 'display': 'inline-block', 'paddingRight': '2px' };
+      var styleUL = { 'listStyleType': 'none', 'backgroundColor': '#B4DCED' },
+          styleLI = { 'display': 'inline-block', 'paddingRight': '5px', 'paddingLeft': '5px', cursor: 'pointer' };
       return _react2.default.createElement(
         'div',
         null,
@@ -44268,7 +44268,7 @@ module.exports = function(module) {
 /***/ (function(module, exports) {
 
 module.exports = {
-	"100": {
+	":100:": {
 		"unicode": "1f4af",
 		"unicode_alt": "",
 		"code_decimal": "&#128175;",
@@ -44286,7 +44286,7 @@ module.exports = {
 			"parties"
 		]
 	},
-	"1234": {
+	":1234:": {
 		"unicode": "1f522",
 		"unicode_alt": "",
 		"code_decimal": "&#128290;",
@@ -44300,7 +44300,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"grinning": {
+	":grinning:": {
 		"unicode": "1f600",
 		"unicode_alt": "",
 		"code_decimal": "&#128512;",
@@ -44316,7 +44316,7 @@ module.exports = {
 			"emotion"
 		]
 	},
-	"grin": {
+	":grin:": {
 		"unicode": "1f601",
 		"unicode_alt": "",
 		"code_decimal": "&#128513;",
@@ -44335,7 +44335,7 @@ module.exports = {
 			"selfie"
 		]
 	},
-	"joy": {
+	":joy:": {
 		"unicode": "1f602",
 		"unicode_alt": "",
 		"code_decimal": "&#128514;",
@@ -44344,10 +44344,7 @@ module.exports = {
 		"category": "people",
 		"emoji_order": "3",
 		"aliases": [],
-		"aliases_ascii": [
-			":')",
-			":'-)"
-		],
+		"aliases_ascii": [],
 		"keywords": [
 			"happy",
 			"silly",
@@ -44358,7 +44355,7 @@ module.exports = {
 			"sarcastic"
 		]
 	},
-	"rofl": {
+	":rofl:": {
 		"unicode": "1f923",
 		"unicode_alt": "",
 		"code_decimal": "&#129315;",
@@ -44372,7 +44369,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"smiley": {
+	":smiley:": {
 		"unicode": "1f603",
 		"unicode_alt": "",
 		"code_decimal": "&#128515;",
@@ -44381,11 +44378,7 @@ module.exports = {
 		"category": "people",
 		"emoji_order": "5",
 		"aliases": [],
-		"aliases_ascii": [
-			":D",
-			":-D",
-			"=D"
-		],
+		"aliases_ascii": [],
 		"keywords": [
 			"happy",
 			"smiley",
@@ -44393,7 +44386,7 @@ module.exports = {
 			"good"
 		]
 	},
-	"smile": {
+	":smile:": {
 		"unicode": "1f604",
 		"unicode_alt": "",
 		"code_decimal": "&#128516;",
@@ -44409,7 +44402,7 @@ module.exports = {
 			"emotion"
 		]
 	},
-	"sweat_smile": {
+	":sweat_smile:": {
 		"unicode": "1f605",
 		"unicode_alt": "",
 		"code_decimal": "&#128517;",
@@ -44418,14 +44411,7 @@ module.exports = {
 		"category": "people",
 		"emoji_order": "7",
 		"aliases": [],
-		"aliases_ascii": [
-			"':)",
-			"':-)",
-			"'=)",
-			"':D",
-			"':-D",
-			"'=D"
-		],
+		"aliases_ascii": [],
 		"keywords": [
 			"smiley",
 			"workout",
@@ -44433,7 +44419,7 @@ module.exports = {
 			"emotion"
 		]
 	},
-	"laughing": {
+	":laughing:": {
 		"unicode": "1f606",
 		"unicode_alt": "",
 		"code_decimal": "&#128518;",
@@ -44444,12 +44430,7 @@ module.exports = {
 		"aliases": [
 			":satisfied:"
 		],
-		"aliases_ascii": [
-			">:)",
-			">;)",
-			">:-)",
-			">=)"
-		],
+		"aliases_ascii": [],
 		"keywords": [
 			"happy",
 			"smiley",
@@ -44457,7 +44438,7 @@ module.exports = {
 			"emotion"
 		]
 	},
-	"wink": {
+	":wink:": {
 		"unicode": "1f609",
 		"unicode_alt": "",
 		"code_decimal": "&#128521;",
@@ -44466,23 +44447,14 @@ module.exports = {
 		"category": "people",
 		"emoji_order": "9",
 		"aliases": [],
-		"aliases_ascii": [
-			";)",
-			";-)",
-			"*-)",
-			"*)",
-			";-]",
-			";]",
-			";D",
-			";^)"
-		],
+		"aliases_ascii": [],
 		"keywords": [
 			"silly",
 			"smiley",
 			"emotion"
 		]
 	},
-	"blush": {
+	":blush:": {
 		"unicode": "1f60a",
 		"unicode_alt": "",
 		"code_decimal": "&#128522;",
@@ -44500,7 +44472,7 @@ module.exports = {
 			"beautiful"
 		]
 	},
-	"yum": {
+	":yum:": {
 		"unicode": "1f60b",
 		"unicode_alt": "",
 		"code_decimal": "&#128523;",
@@ -44519,7 +44491,7 @@ module.exports = {
 			"good"
 		]
 	},
-	"sunglasses": {
+	":sunglasses:": {
 		"unicode": "1f60e",
 		"unicode_alt": "",
 		"code_decimal": "&#128526;",
@@ -44528,14 +44500,7 @@ module.exports = {
 		"category": "people",
 		"emoji_order": "12",
 		"aliases": [],
-		"aliases_ascii": [
-			"B-)",
-			"B)",
-			"8)",
-			"8-)",
-			"B-D",
-			"8-D"
-		],
+		"aliases_ascii": [],
 		"keywords": [
 			"silly",
 			"smiley",
@@ -44544,7 +44509,7 @@ module.exports = {
 			"boys night"
 		]
 	},
-	"heart_eyes": {
+	":heart_eyes:": {
 		"unicode": "1f60d",
 		"unicode_alt": "",
 		"code_decimal": "&#128525;",
@@ -44564,7 +44529,7 @@ module.exports = {
 			"beautiful"
 		]
 	},
-	"kissing_heart": {
+	":kissing_heart:": {
 		"unicode": "1f618",
 		"unicode_alt": "",
 		"code_decimal": "&#128536;",
@@ -44573,19 +44538,14 @@ module.exports = {
 		"category": "people",
 		"emoji_order": "14",
 		"aliases": [],
-		"aliases_ascii": [
-			":*",
-			":-*",
-			"=*",
-			":^*"
-		],
+		"aliases_ascii": [],
 		"keywords": [
 			"smiley",
 			"love",
 			"sexy"
 		]
 	},
-	"kissing": {
+	":kissing:": {
 		"unicode": "1f617",
 		"unicode_alt": "",
 		"code_decimal": "&#128535;",
@@ -44600,7 +44560,7 @@ module.exports = {
 			"sexy"
 		]
 	},
-	"kissing_smiling_eyes": {
+	":kissing_smiling_eyes:": {
 		"unicode": "1f619",
 		"unicode_alt": "",
 		"code_decimal": "&#128537;",
@@ -44615,7 +44575,7 @@ module.exports = {
 			"sexy"
 		]
 	},
-	"kissing_closed_eyes": {
+	":kissing_closed_eyes:": {
 		"unicode": "1f61a",
 		"unicode_alt": "",
 		"code_decimal": "&#128538;",
@@ -44630,7 +44590,7 @@ module.exports = {
 			"sexy"
 		]
 	},
-	"relaxed": {
+	":relaxed:": {
 		"unicode": "263a",
 		"unicode_alt": "263a-fe0f",
 		"code_decimal": "&#9786;",
@@ -44645,7 +44605,7 @@ module.exports = {
 			"smiley"
 		]
 	},
-	"slight_smile": {
+	":slight_smile:": {
 		"unicode": "1f642",
 		"unicode_alt": "",
 		"code_decimal": "&#128578;",
@@ -44656,19 +44616,13 @@ module.exports = {
 		"aliases": [
 			":slightly_smiling_face:"
 		],
-		"aliases_ascii": [
-			":)",
-			":-)",
-			"=]",
-			"=)",
-			":]"
-		],
+		"aliases_ascii": [],
 		"keywords": [
 			"happy",
 			"smiley"
 		]
 	},
-	"hugging": {
+	":hugging:": {
 		"unicode": "1f917",
 		"unicode_alt": "",
 		"code_decimal": "&#129303;",
@@ -44686,7 +44640,7 @@ module.exports = {
 			"thank you"
 		]
 	},
-	"thinking": {
+	":thinking:": {
 		"unicode": "1f914",
 		"unicode_alt": "",
 		"code_decimal": "&#129300;",
@@ -44704,7 +44658,7 @@ module.exports = {
 			"boys night"
 		]
 	},
-	"neutral_face": {
+	":neutral_face:": {
 		"unicode": "1f610",
 		"unicode_alt": "",
 		"code_decimal": "&#128528;",
@@ -44722,7 +44676,7 @@ module.exports = {
 			"emotion"
 		]
 	},
-	"expressionless": {
+	":expressionless:": {
 		"unicode": "1f611",
 		"unicode_alt": "",
 		"code_decimal": "&#128529;",
@@ -44731,11 +44685,7 @@ module.exports = {
 		"category": "people",
 		"emoji_order": "23",
 		"aliases": [],
-		"aliases_ascii": [
-			"-_-",
-			"-__-",
-			"-___-"
-		],
+		"aliases_ascii": [],
 		"keywords": [
 			"mad",
 			"smiley",
@@ -44743,7 +44693,7 @@ module.exports = {
 			"emotion"
 		]
 	},
-	"no_mouth": {
+	":no_mouth:": {
 		"unicode": "1f636",
 		"unicode_alt": "",
 		"code_decimal": "&#128566;",
@@ -44752,17 +44702,7 @@ module.exports = {
 		"category": "people",
 		"emoji_order": "24",
 		"aliases": [],
-		"aliases_ascii": [
-			":-X",
-			":X",
-			":-#",
-			":#",
-			"=X",
-			"=x",
-			":x",
-			":-x",
-			"=#"
-		],
+		"aliases_ascii": [],
 		"keywords": [
 			"mad",
 			"smiley",
@@ -44770,7 +44710,7 @@ module.exports = {
 			"emotion"
 		]
 	},
-	"rolling_eyes": {
+	":rolling_eyes:": {
 		"unicode": "1f644",
 		"unicode_alt": "",
 		"code_decimal": "&#128580;",
@@ -44790,7 +44730,7 @@ module.exports = {
 			"sarcastic"
 		]
 	},
-	"smirk": {
+	":smirk:": {
 		"unicode": "1f60f",
 		"unicode_alt": "",
 		"code_decimal": "&#128527;",
@@ -44807,7 +44747,7 @@ module.exports = {
 			"sarcastic"
 		]
 	},
-	"persevere": {
+	":persevere:": {
 		"unicode": "1f623",
 		"unicode_alt": "",
 		"code_decimal": "&#128547;",
@@ -44816,9 +44756,7 @@ module.exports = {
 		"category": "people",
 		"emoji_order": "27",
 		"aliases": [],
-		"aliases_ascii": [
-			">.<"
-		],
+		"aliases_ascii": [],
 		"keywords": [
 			"sad",
 			"smiley",
@@ -44826,7 +44764,7 @@ module.exports = {
 			"emotion"
 		]
 	},
-	"disappointed_relieved": {
+	":disappointed_relieved:": {
 		"unicode": "1f625",
 		"unicode_alt": "",
 		"code_decimal": "&#128549;",
@@ -44845,7 +44783,7 @@ module.exports = {
 			"emotion"
 		]
 	},
-	"open_mouth": {
+	":open_mouth:": {
 		"unicode": "1f62e",
 		"unicode_alt": "",
 		"code_decimal": "&#128558;",
@@ -44854,14 +44792,7 @@ module.exports = {
 		"category": "people",
 		"emoji_order": "29",
 		"aliases": [],
-		"aliases_ascii": [
-			":-O",
-			":O",
-			":-o",
-			":o",
-			"O_O",
-			">:O"
-		],
+		"aliases_ascii": [],
 		"keywords": [
 			"smiley",
 			"surprised",
@@ -44869,7 +44800,7 @@ module.exports = {
 			"emotion"
 		]
 	},
-	"zipper_mouth": {
+	":zipper_mouth:": {
 		"unicode": "1f910",
 		"unicode_alt": "",
 		"code_decimal": "&#129296;",
@@ -44886,7 +44817,7 @@ module.exports = {
 			"smiley"
 		]
 	},
-	"hushed": {
+	":hushed:": {
 		"unicode": "1f62f",
 		"unicode_alt": "",
 		"code_decimal": "&#128559;",
@@ -44902,7 +44833,7 @@ module.exports = {
 			"wow"
 		]
 	},
-	"sleepy": {
+	":sleepy:": {
 		"unicode": "1f62a",
 		"unicode_alt": "",
 		"code_decimal": "&#128554;",
@@ -44918,7 +44849,7 @@ module.exports = {
 			"emotion"
 		]
 	},
-	"tired_face": {
+	":tired_face:": {
 		"unicode": "1f62b",
 		"unicode_alt": "",
 		"code_decimal": "&#128555;",
@@ -44935,7 +44866,7 @@ module.exports = {
 			"emotion"
 		]
 	},
-	"sleeping": {
+	":sleeping:": {
 		"unicode": "1f634",
 		"unicode_alt": "",
 		"code_decimal": "&#128564;",
@@ -44952,7 +44883,7 @@ module.exports = {
 			"goodnight"
 		]
 	},
-	"relieved": {
+	":relieved:": {
 		"unicode": "1f60c",
 		"unicode_alt": "",
 		"code_decimal": "&#128524;",
@@ -44967,7 +44898,7 @@ module.exports = {
 			"emotion"
 		]
 	},
-	"nerd": {
+	":nerd:": {
 		"unicode": "1f913",
 		"unicode_alt": "",
 		"code_decimal": "&#129299;",
@@ -44984,7 +44915,7 @@ module.exports = {
 			"glasses"
 		]
 	},
-	"stuck_out_tongue": {
+	":stuck_out_tongue:": {
 		"unicode": "1f61b",
 		"unicode_alt": "",
 		"code_decimal": "&#128539;",
@@ -44993,28 +44924,14 @@ module.exports = {
 		"category": "people",
 		"emoji_order": "37",
 		"aliases": [],
-		"aliases_ascii": [
-			":P",
-			":-P",
-			"=P",
-			":-p",
-			":p",
-			"=p",
-			":-Þ",
-			":Þ",
-			":þ",
-			":-þ",
-			":-b",
-			":b",
-			"d:"
-		],
+		"aliases_ascii": [],
 		"keywords": [
 			"smiley",
 			"sex",
 			"emotion"
 		]
 	},
-	"stuck_out_tongue_winking_eye": {
+	":stuck_out_tongue_winking_eye:": {
 		"unicode": "1f61c",
 		"unicode_alt": "",
 		"code_decimal": "&#128540;",
@@ -45023,11 +44940,7 @@ module.exports = {
 		"category": "people",
 		"emoji_order": "38",
 		"aliases": [],
-		"aliases_ascii": [
-			">:P",
-			"X-P",
-			"x-p"
-		],
+		"aliases_ascii": [],
 		"keywords": [
 			"happy",
 			"smiley",
@@ -45035,7 +44948,7 @@ module.exports = {
 			"parties"
 		]
 	},
-	"stuck_out_tongue_closed_eyes": {
+	":stuck_out_tongue_closed_eyes:": {
 		"unicode": "1f61d",
 		"unicode_alt": "",
 		"code_decimal": "&#128541;",
@@ -45051,7 +44964,7 @@ module.exports = {
 			"emotion"
 		]
 	},
-	"drooling_face": {
+	":drooling_face:": {
 		"unicode": "1f924",
 		"unicode_alt": "",
 		"code_decimal": "&#129316;",
@@ -45065,7 +44978,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"unamused": {
+	":unamused:": {
 		"unicode": "1f612",
 		"unicode_alt": "",
 		"code_decimal": "&#128530;",
@@ -45083,7 +44996,7 @@ module.exports = {
 			"emotion"
 		]
 	},
-	"sweat": {
+	":sweat:": {
 		"unicode": "1f613",
 		"unicode_alt": "",
 		"code_decimal": "&#128531;",
@@ -45092,11 +45005,7 @@ module.exports = {
 		"category": "people",
 		"emoji_order": "42",
 		"aliases": [],
-		"aliases_ascii": [
-			"':(",
-			"':-(",
-			"'=("
-		],
+		"aliases_ascii": [],
 		"keywords": [
 			"sad",
 			"smiley",
@@ -45105,7 +45014,7 @@ module.exports = {
 			"emotion"
 		]
 	},
-	"pensive": {
+	":pensive:": {
 		"unicode": "1f614",
 		"unicode_alt": "",
 		"code_decimal": "&#128532;",
@@ -45122,7 +45031,7 @@ module.exports = {
 			"rip"
 		]
 	},
-	"confused": {
+	":confused:": {
 		"unicode": "1f615",
 		"unicode_alt": "",
 		"code_decimal": "&#128533;",
@@ -45131,25 +45040,14 @@ module.exports = {
 		"category": "people",
 		"emoji_order": "44",
 		"aliases": [],
-		"aliases_ascii": [
-			">:\\",
-			">:/",
-			":-/",
-			":-.",
-			":/",
-			":\\",
-			"=/",
-			"=\\",
-			":L",
-			"=L"
-		],
+		"aliases_ascii": [],
 		"keywords": [
 			"smiley",
 			"surprised",
 			"emotion"
 		]
 	},
-	"upside_down": {
+	":upside_down:": {
 		"unicode": "1f643",
 		"unicode_alt": "",
 		"code_decimal": "&#128579;",
@@ -45167,7 +45065,7 @@ module.exports = {
 			"sarcastic"
 		]
 	},
-	"money_mouth": {
+	":money_mouth:": {
 		"unicode": "1f911",
 		"unicode_alt": "",
 		"code_decimal": "&#129297;",
@@ -45187,7 +45085,7 @@ module.exports = {
 			"boys night"
 		]
 	},
-	"astonished": {
+	":astonished:": {
 		"unicode": "1f632",
 		"unicode_alt": "",
 		"code_decimal": "&#128562;",
@@ -45205,7 +45103,7 @@ module.exports = {
 			"omg"
 		]
 	},
-	"frowning2": {
+	":frowning2:": {
 		"unicode": "2639",
 		"unicode_alt": "2639-fe0f",
 		"code_decimal": "&#9785;",
@@ -45223,7 +45121,7 @@ module.exports = {
 			"emotion"
 		]
 	},
-	"slight_frown": {
+	":slight_frown:": {
 		"unicode": "1f641",
 		"unicode_alt": "",
 		"code_decimal": "&#128577;",
@@ -45241,7 +45139,7 @@ module.exports = {
 			"emotion"
 		]
 	},
-	"confounded": {
+	":confounded:": {
 		"unicode": "1f616",
 		"unicode_alt": "",
 		"code_decimal": "&#128534;",
@@ -45258,7 +45156,7 @@ module.exports = {
 			"emotion"
 		]
 	},
-	"disappointed": {
+	":disappointed:": {
 		"unicode": "1f61e",
 		"unicode_alt": "",
 		"code_decimal": "&#128542;",
@@ -45267,14 +45165,7 @@ module.exports = {
 		"category": "people",
 		"emoji_order": "51",
 		"aliases": [],
-		"aliases_ascii": [
-			">:[",
-			":-(",
-			":(",
-			":-[",
-			":[",
-			"=("
-		],
+		"aliases_ascii": [],
 		"keywords": [
 			"sad",
 			"smiley",
@@ -45282,7 +45173,7 @@ module.exports = {
 			"emotion"
 		]
 	},
-	"worried": {
+	":worried:": {
 		"unicode": "1f61f",
 		"unicode_alt": "",
 		"code_decimal": "&#128543;",
@@ -45298,7 +45189,7 @@ module.exports = {
 			"emotion"
 		]
 	},
-	"triumph": {
+	":triumph:": {
 		"unicode": "1f624",
 		"unicode_alt": "",
 		"code_decimal": "&#128548;",
@@ -45316,7 +45207,7 @@ module.exports = {
 			"steam"
 		]
 	},
-	"cry": {
+	":cry:": {
 		"unicode": "1f622",
 		"unicode_alt": "",
 		"code_decimal": "&#128546;",
@@ -45325,12 +45216,7 @@ module.exports = {
 		"category": "people",
 		"emoji_order": "54",
 		"aliases": [],
-		"aliases_ascii": [
-			":'(",
-			":'-(",
-			";(",
-			";-("
-		],
+		"aliases_ascii": [],
 		"keywords": [
 			"sad",
 			"smiley",
@@ -45340,7 +45226,7 @@ module.exports = {
 			"heartbreak"
 		]
 	},
-	"sob": {
+	":sob:": {
 		"unicode": "1f62d",
 		"unicode_alt": "",
 		"code_decimal": "&#128557;",
@@ -45358,7 +45244,7 @@ module.exports = {
 			"heartbreak"
 		]
 	},
-	"frowning": {
+	":frowning:": {
 		"unicode": "1f626",
 		"unicode_alt": "",
 		"code_decimal": "&#128550;",
@@ -45375,7 +45261,7 @@ module.exports = {
 			"emotion"
 		]
 	},
-	"anguished": {
+	":anguished:": {
 		"unicode": "1f627",
 		"unicode_alt": "",
 		"code_decimal": "&#128551;",
@@ -45392,7 +45278,7 @@ module.exports = {
 			"emotion"
 		]
 	},
-	"fearful": {
+	":fearful:": {
 		"unicode": "1f628",
 		"unicode_alt": "",
 		"code_decimal": "&#128552;",
@@ -45401,16 +45287,14 @@ module.exports = {
 		"category": "people",
 		"emoji_order": "58",
 		"aliases": [],
-		"aliases_ascii": [
-			"D:"
-		],
+		"aliases_ascii": [],
 		"keywords": [
 			"smiley",
 			"surprised",
 			"emotion"
 		]
 	},
-	"weary": {
+	":weary:": {
 		"unicode": "1f629",
 		"unicode_alt": "",
 		"code_decimal": "&#128553;",
@@ -45428,7 +45312,7 @@ module.exports = {
 			"emotion"
 		]
 	},
-	"grimacing": {
+	":grimacing:": {
 		"unicode": "1f62c",
 		"unicode_alt": "",
 		"code_decimal": "&#128556;",
@@ -45445,7 +45329,7 @@ module.exports = {
 			"selfie"
 		]
 	},
-	"cold_sweat": {
+	":cold_sweat:": {
 		"unicode": "1f630",
 		"unicode_alt": "",
 		"code_decimal": "&#128560;",
@@ -45461,7 +45345,7 @@ module.exports = {
 			"emotion"
 		]
 	},
-	"scream": {
+	":scream:": {
 		"unicode": "1f631",
 		"unicode_alt": "",
 		"code_decimal": "&#128561;",
@@ -45479,7 +45363,7 @@ module.exports = {
 			"omg"
 		]
 	},
-	"flushed": {
+	":flushed:": {
 		"unicode": "1f633",
 		"unicode_alt": "",
 		"code_decimal": "&#128563;",
@@ -45488,17 +45372,14 @@ module.exports = {
 		"category": "people",
 		"emoji_order": "63",
 		"aliases": [],
-		"aliases_ascii": [
-			":$",
-			"=$"
-		],
+		"aliases_ascii": [],
 		"keywords": [
 			"smiley",
 			"emotion",
 			"omg"
 		]
 	},
-	"dizzy_face": {
+	":dizzy_face:": {
 		"unicode": "1f635",
 		"unicode_alt": "",
 		"code_decimal": "&#128565;",
@@ -45507,14 +45388,7 @@ module.exports = {
 		"category": "people",
 		"emoji_order": "64",
 		"aliases": [],
-		"aliases_ascii": [
-			"#-)",
-			"#)",
-			"%-)",
-			"%)",
-			"X)",
-			"X-)"
-		],
+		"aliases_ascii": [],
 		"keywords": [
 			"smiley",
 			"surprised",
@@ -45524,7 +45398,7 @@ module.exports = {
 			"omg"
 		]
 	},
-	"rage": {
+	":rage:": {
 		"unicode": "1f621",
 		"unicode_alt": "",
 		"code_decimal": "&#128545;",
@@ -45541,7 +45415,7 @@ module.exports = {
 			"emotion"
 		]
 	},
-	"angry": {
+	":angry:": {
 		"unicode": "1f620",
 		"unicode_alt": "",
 		"code_decimal": "&#128544;",
@@ -45550,18 +45424,14 @@ module.exports = {
 		"category": "people",
 		"emoji_order": "66",
 		"aliases": [],
-		"aliases_ascii": [
-			">:(",
-			">:-(",
-			":@"
-		],
+		"aliases_ascii": [],
 		"keywords": [
 			"mad",
 			"smiley",
 			"emotion"
 		]
 	},
-	"innocent": {
+	":innocent:": {
 		"unicode": "1f607",
 		"unicode_alt": "",
 		"code_decimal": "&#128519;",
@@ -45570,26 +45440,13 @@ module.exports = {
 		"category": "people",
 		"emoji_order": "67",
 		"aliases": [],
-		"aliases_ascii": [
-			"O:-)",
-			"0:-3",
-			"0:3",
-			"0:-)",
-			"0:)",
-			"0;^)",
-			"O:)",
-			"O;-)",
-			"O=)",
-			"0;-)",
-			"O:-3",
-			"O:3"
-		],
+		"aliases_ascii": [],
 		"keywords": [
 			"smiley",
 			"emotion"
 		]
 	},
-	"cowboy": {
+	":cowboy:": {
 		"unicode": "1f920",
 		"unicode_alt": "",
 		"code_decimal": "&#129312;",
@@ -45603,7 +45460,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"clown": {
+	":clown:": {
 		"unicode": "1f921",
 		"unicode_alt": "",
 		"code_decimal": "&#129313;",
@@ -45617,7 +45474,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"lying_face": {
+	":lying_face:": {
 		"unicode": "1f925",
 		"unicode_alt": "",
 		"code_decimal": "&#129317;",
@@ -45631,7 +45488,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"mask": {
+	":mask:": {
 		"unicode": "1f637",
 		"unicode_alt": "",
 		"code_decimal": "&#128567;",
@@ -45648,7 +45505,7 @@ module.exports = {
 			"sick"
 		]
 	},
-	"thermometer_face": {
+	":thermometer_face:": {
 		"unicode": "1f912",
 		"unicode_alt": "",
 		"code_decimal": "&#129298;",
@@ -45667,7 +45524,7 @@ module.exports = {
 			"emotion"
 		]
 	},
-	"head_bandage": {
+	":head_bandage:": {
 		"unicode": "1f915",
 		"unicode_alt": "",
 		"code_decimal": "&#129301;",
@@ -45686,7 +45543,7 @@ module.exports = {
 			"emotion"
 		]
 	},
-	"nauseated_face": {
+	":nauseated_face:": {
 		"unicode": "1f922",
 		"unicode_alt": "",
 		"code_decimal": "&#129314;",
@@ -45700,7 +45557,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"sneezing_face": {
+	":sneezing_face:": {
 		"unicode": "1f927",
 		"unicode_alt": "",
 		"code_decimal": "&#129319;",
@@ -45714,7 +45571,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"smiling_imp": {
+	":smiling_imp:": {
 		"unicode": "1f608",
 		"unicode_alt": "",
 		"code_decimal": "&#128520;",
@@ -45733,7 +45590,7 @@ module.exports = {
 			"boys night"
 		]
 	},
-	"imp": {
+	":imp:": {
 		"unicode": "1f47f",
 		"unicode_alt": "",
 		"code_decimal": "&#128127;",
@@ -45750,7 +45607,7 @@ module.exports = {
 			"wth"
 		]
 	},
-	"japanese_ogre": {
+	":japanese_ogre:": {
 		"unicode": "1f479",
 		"unicode_alt": "",
 		"code_decimal": "&#128121;",
@@ -45764,7 +45621,7 @@ module.exports = {
 			"monster"
 		]
 	},
-	"japanese_goblin": {
+	":japanese_goblin:": {
 		"unicode": "1f47a",
 		"unicode_alt": "",
 		"code_decimal": "&#128122;",
@@ -45779,7 +45636,7 @@ module.exports = {
 			"monster"
 		]
 	},
-	"skull": {
+	":skull:": {
 		"unicode": "1f480",
 		"unicode_alt": "",
 		"code_decimal": "&#128128;",
@@ -45797,7 +45654,7 @@ module.exports = {
 			"skull"
 		]
 	},
-	"skull_crossbones": {
+	":skull_crossbones:": {
 		"unicode": "2620",
 		"unicode_alt": "2620-fe0f",
 		"code_decimal": "&#9760;",
@@ -45815,7 +45672,7 @@ module.exports = {
 			"skull"
 		]
 	},
-	"ghost": {
+	":ghost:": {
 		"unicode": "1f47b",
 		"unicode_alt": "",
 		"code_decimal": "&#128123;",
@@ -45831,7 +45688,7 @@ module.exports = {
 			"monster"
 		]
 	},
-	"alien": {
+	":alien:": {
 		"unicode": "1f47d",
 		"unicode_alt": "",
 		"code_decimal": "&#128125;",
@@ -45848,7 +45705,7 @@ module.exports = {
 			"scientology"
 		]
 	},
-	"space_invader": {
+	":space_invader:": {
 		"unicode": "1f47e",
 		"unicode_alt": "",
 		"code_decimal": "&#128126;",
@@ -45863,7 +45720,7 @@ module.exports = {
 			"alien"
 		]
 	},
-	"robot": {
+	":robot:": {
 		"unicode": "1f916",
 		"unicode_alt": "",
 		"code_decimal": "&#129302;",
@@ -45880,7 +45737,7 @@ module.exports = {
 			"robot"
 		]
 	},
-	"poop": {
+	":poop:": {
 		"unicode": "1f4a9",
 		"unicode_alt": "",
 		"code_decimal": "&#128169;",
@@ -45901,7 +45758,7 @@ module.exports = {
 			"diarrhea"
 		]
 	},
-	"smiley_cat": {
+	":smiley_cat:": {
 		"unicode": "1f63a",
 		"unicode_alt": "",
 		"code_decimal": "&#128570;",
@@ -45917,7 +45774,7 @@ module.exports = {
 			"animal"
 		]
 	},
-	"smile_cat": {
+	":smile_cat:": {
 		"unicode": "1f638",
 		"unicode_alt": "",
 		"code_decimal": "&#128568;",
@@ -45933,7 +45790,7 @@ module.exports = {
 			"animal"
 		]
 	},
-	"joy_cat": {
+	":joy_cat:": {
 		"unicode": "1f639",
 		"unicode_alt": "",
 		"code_decimal": "&#128569;",
@@ -45953,7 +45810,7 @@ module.exports = {
 			"sarcastic"
 		]
 	},
-	"heart_eyes_cat": {
+	":heart_eyes_cat:": {
 		"unicode": "1f63b",
 		"unicode_alt": "",
 		"code_decimal": "&#128571;",
@@ -45970,7 +45827,7 @@ module.exports = {
 			"beautiful"
 		]
 	},
-	"smirk_cat": {
+	":smirk_cat:": {
 		"unicode": "1f63c",
 		"unicode_alt": "",
 		"code_decimal": "&#128572;",
@@ -45985,7 +45842,7 @@ module.exports = {
 			"animal"
 		]
 	},
-	"kissing_cat": {
+	":kissing_cat:": {
 		"unicode": "1f63d",
 		"unicode_alt": "",
 		"code_decimal": "&#128573;",
@@ -46000,7 +45857,7 @@ module.exports = {
 			"animal"
 		]
 	},
-	"scream_cat": {
+	":scream_cat:": {
 		"unicode": "1f640",
 		"unicode_alt": "",
 		"code_decimal": "&#128576;",
@@ -46015,7 +45872,7 @@ module.exports = {
 			"animal"
 		]
 	},
-	"crying_cat_face": {
+	":crying_cat_face:": {
 		"unicode": "1f63f",
 		"unicode_alt": "",
 		"code_decimal": "&#128575;",
@@ -46031,7 +45888,7 @@ module.exports = {
 			"animal"
 		]
 	},
-	"pouting_cat": {
+	":pouting_cat:": {
 		"unicode": "1f63e",
 		"unicode_alt": "",
 		"code_decimal": "&#128574;",
@@ -46046,7 +45903,7 @@ module.exports = {
 			"animal"
 		]
 	},
-	"see_no_evil": {
+	":see_no_evil:": {
 		"unicode": "1f648",
 		"unicode_alt": "",
 		"code_decimal": "&#128584;",
@@ -46060,7 +45917,7 @@ module.exports = {
 			"animal"
 		]
 	},
-	"hear_no_evil": {
+	":hear_no_evil:": {
 		"unicode": "1f649",
 		"unicode_alt": "",
 		"code_decimal": "&#128585;",
@@ -46074,7 +45931,7 @@ module.exports = {
 			"animal"
 		]
 	},
-	"speak_no_evil": {
+	":speak_no_evil:": {
 		"unicode": "1f64a",
 		"unicode_alt": "",
 		"code_decimal": "&#128586;",
@@ -46088,7 +45945,7 @@ module.exports = {
 			"animal"
 		]
 	},
-	"boy": {
+	":boy:": {
 		"unicode": "1f466",
 		"unicode_alt": "",
 		"code_decimal": "&#128102;",
@@ -46104,7 +45961,7 @@ module.exports = {
 			"diversity"
 		]
 	},
-	"boy_tone1": {
+	":boy_tone1:": {
 		"unicode": "1f466-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#128102;&#127995;",
@@ -46116,7 +45973,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"boy_tone2": {
+	":boy_tone2:": {
 		"unicode": "1f466-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#128102;&#127996;",
@@ -46128,7 +45985,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"boy_tone3": {
+	":boy_tone3:": {
 		"unicode": "1f466-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#128102;&#127997;",
@@ -46140,7 +45997,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"boy_tone4": {
+	":boy_tone4:": {
 		"unicode": "1f466-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#128102;&#127998;",
@@ -46152,7 +46009,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"boy_tone5": {
+	":boy_tone5:": {
 		"unicode": "1f466-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#128102;&#127999;",
@@ -46164,7 +46021,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"girl": {
+	":girl:": {
 		"unicode": "1f467",
 		"unicode_alt": "",
 		"code_decimal": "&#128103;",
@@ -46181,7 +46038,7 @@ module.exports = {
 			"diversity"
 		]
 	},
-	"girl_tone1": {
+	":girl_tone1:": {
 		"unicode": "1f467-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#128103;&#127995;",
@@ -46193,7 +46050,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"girl_tone2": {
+	":girl_tone2:": {
 		"unicode": "1f467-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#128103;&#127996;",
@@ -46205,7 +46062,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"girl_tone3": {
+	":girl_tone3:": {
 		"unicode": "1f467-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#128103;&#127997;",
@@ -46217,7 +46074,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"girl_tone4": {
+	":girl_tone4:": {
 		"unicode": "1f467-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#128103;&#127998;",
@@ -46229,7 +46086,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"girl_tone5": {
+	":girl_tone5:": {
 		"unicode": "1f467-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#128103;&#127999;",
@@ -46241,7 +46098,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"man": {
+	":man:": {
 		"unicode": "1f468",
 		"unicode_alt": "",
 		"code_decimal": "&#128104;",
@@ -46260,7 +46117,7 @@ module.exports = {
 			"boys night"
 		]
 	},
-	"man_tone1": {
+	":man_tone1:": {
 		"unicode": "1f468-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#128104;&#127995;",
@@ -46272,7 +46129,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"man_tone2": {
+	":man_tone2:": {
 		"unicode": "1f468-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#128104;&#127996;",
@@ -46284,7 +46141,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"man_tone3": {
+	":man_tone3:": {
 		"unicode": "1f468-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#128104;&#127997;",
@@ -46296,7 +46153,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"man_tone4": {
+	":man_tone4:": {
 		"unicode": "1f468-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#128104;&#127998;",
@@ -46308,7 +46165,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"man_tone5": {
+	":man_tone5:": {
 		"unicode": "1f468-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#128104;&#127999;",
@@ -46320,7 +46177,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"woman": {
+	":woman:": {
 		"unicode": "1f469",
 		"unicode_alt": "",
 		"code_decimal": "&#128105;",
@@ -46340,7 +46197,7 @@ module.exports = {
 			"girls night"
 		]
 	},
-	"woman_tone1": {
+	":woman_tone1:": {
 		"unicode": "1f469-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#128105;&#127995;",
@@ -46352,7 +46209,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"woman_tone2": {
+	":woman_tone2:": {
 		"unicode": "1f469-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#128105;&#127996;",
@@ -46364,7 +46221,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"woman_tone3": {
+	":woman_tone3:": {
 		"unicode": "1f469-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#128105;&#127997;",
@@ -46376,7 +46233,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"woman_tone4": {
+	":woman_tone4:": {
 		"unicode": "1f469-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#128105;&#127998;",
@@ -46388,7 +46245,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"woman_tone5": {
+	":woman_tone5:": {
 		"unicode": "1f469-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#128105;&#127999;",
@@ -46400,7 +46257,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"older_man": {
+	":older_man:": {
 		"unicode": "1f474",
 		"unicode_alt": "",
 		"code_decimal": "&#128116;",
@@ -46417,7 +46274,7 @@ module.exports = {
 			"diversity"
 		]
 	},
-	"older_man_tone1": {
+	":older_man_tone1:": {
 		"unicode": "1f474-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#128116;&#127995;",
@@ -46429,7 +46286,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"older_man_tone2": {
+	":older_man_tone2:": {
 		"unicode": "1f474-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#128116;&#127996;",
@@ -46441,7 +46298,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"older_man_tone3": {
+	":older_man_tone3:": {
 		"unicode": "1f474-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#128116;&#127997;",
@@ -46453,7 +46310,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"older_man_tone4": {
+	":older_man_tone4:": {
 		"unicode": "1f474-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#128116;&#127998;",
@@ -46465,7 +46322,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"older_man_tone5": {
+	":older_man_tone5:": {
 		"unicode": "1f474-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#128116;&#127999;",
@@ -46477,7 +46334,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"older_woman": {
+	":older_woman:": {
 		"unicode": "1f475",
 		"unicode_alt": "",
 		"code_decimal": "&#128117;",
@@ -46495,7 +46352,7 @@ module.exports = {
 			"diversity"
 		]
 	},
-	"older_woman_tone1": {
+	":older_woman_tone1:": {
 		"unicode": "1f475-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#128117;&#127995;",
@@ -46509,7 +46366,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"older_woman_tone2": {
+	":older_woman_tone2:": {
 		"unicode": "1f475-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#128117;&#127996;",
@@ -46523,7 +46380,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"older_woman_tone3": {
+	":older_woman_tone3:": {
 		"unicode": "1f475-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#128117;&#127997;",
@@ -46537,7 +46394,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"older_woman_tone4": {
+	":older_woman_tone4:": {
 		"unicode": "1f475-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#128117;&#127998;",
@@ -46551,7 +46408,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"older_woman_tone5": {
+	":older_woman_tone5:": {
 		"unicode": "1f475-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#128117;&#127999;",
@@ -46565,7 +46422,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"baby": {
+	":baby:": {
 		"unicode": "1f476",
 		"unicode_alt": "",
 		"code_decimal": "&#128118;",
@@ -46581,7 +46438,7 @@ module.exports = {
 			"diversity"
 		]
 	},
-	"baby_tone1": {
+	":baby_tone1:": {
 		"unicode": "1f476-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#128118;&#127995;",
@@ -46593,7 +46450,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"baby_tone2": {
+	":baby_tone2:": {
 		"unicode": "1f476-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#128118;&#127996;",
@@ -46605,7 +46462,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"baby_tone3": {
+	":baby_tone3:": {
 		"unicode": "1f476-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#128118;&#127997;",
@@ -46617,7 +46474,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"baby_tone4": {
+	":baby_tone4:": {
 		"unicode": "1f476-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#128118;&#127998;",
@@ -46629,7 +46486,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"baby_tone5": {
+	":baby_tone5:": {
 		"unicode": "1f476-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#128118;&#127999;",
@@ -46641,7 +46498,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"angel": {
+	":angel:": {
 		"unicode": "1f47c",
 		"unicode_alt": "",
 		"code_decimal": "&#128124;",
@@ -46657,7 +46514,7 @@ module.exports = {
 			"omg"
 		]
 	},
-	"angel_tone1": {
+	":angel_tone1:": {
 		"unicode": "1f47c-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#128124;&#127995;",
@@ -46669,7 +46526,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"angel_tone2": {
+	":angel_tone2:": {
 		"unicode": "1f47c-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#128124;&#127996;",
@@ -46681,7 +46538,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"angel_tone3": {
+	":angel_tone3:": {
 		"unicode": "1f47c-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#128124;&#127997;",
@@ -46693,7 +46550,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"angel_tone4": {
+	":angel_tone4:": {
 		"unicode": "1f47c-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#128124;&#127998;",
@@ -46705,7 +46562,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"angel_tone5": {
+	":angel_tone5:": {
 		"unicode": "1f47c-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#128124;&#127999;",
@@ -46717,7 +46574,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"cop": {
+	":cop:": {
 		"unicode": "1f46e",
 		"unicode_alt": "",
 		"code_decimal": "&#128110;",
@@ -46737,7 +46594,7 @@ module.exports = {
 			"911"
 		]
 	},
-	"cop_tone1": {
+	":cop_tone1:": {
 		"unicode": "1f46e-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#128110;&#127995;",
@@ -46749,7 +46606,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"cop_tone2": {
+	":cop_tone2:": {
 		"unicode": "1f46e-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#128110;&#127996;",
@@ -46761,7 +46618,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"cop_tone3": {
+	":cop_tone3:": {
 		"unicode": "1f46e-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#128110;&#127997;",
@@ -46773,7 +46630,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"cop_tone4": {
+	":cop_tone4:": {
 		"unicode": "1f46e-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#128110;&#127998;",
@@ -46785,7 +46642,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"cop_tone5": {
+	":cop_tone5:": {
 		"unicode": "1f46e-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#128110;&#127999;",
@@ -46797,7 +46654,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"spy": {
+	":spy:": {
 		"unicode": "1f575",
 		"unicode_alt": "1f575-fe0f",
 		"code_decimal": "&#128373;",
@@ -46818,7 +46675,7 @@ module.exports = {
 			"job"
 		]
 	},
-	"spy_tone1": {
+	":spy_tone1:": {
 		"unicode": "1f575-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#128373;&#127995;",
@@ -46832,7 +46689,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"spy_tone2": {
+	":spy_tone2:": {
 		"unicode": "1f575-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#128373;&#127996;",
@@ -46846,7 +46703,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"spy_tone3": {
+	":spy_tone3:": {
 		"unicode": "1f575-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#128373;&#127997;",
@@ -46860,7 +46717,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"spy_tone4": {
+	":spy_tone4:": {
 		"unicode": "1f575-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#128373;&#127998;",
@@ -46874,7 +46731,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"spy_tone5": {
+	":spy_tone5:": {
 		"unicode": "1f575-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#128373;&#127999;",
@@ -46888,7 +46745,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"guardsman": {
+	":guardsman:": {
 		"unicode": "1f482",
 		"unicode_alt": "",
 		"code_decimal": "&#128130;",
@@ -46906,7 +46763,7 @@ module.exports = {
 			"job"
 		]
 	},
-	"guardsman_tone1": {
+	":guardsman_tone1:": {
 		"unicode": "1f482-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#128130;&#127995;",
@@ -46918,7 +46775,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"guardsman_tone2": {
+	":guardsman_tone2:": {
 		"unicode": "1f482-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#128130;&#127996;",
@@ -46930,7 +46787,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"guardsman_tone3": {
+	":guardsman_tone3:": {
 		"unicode": "1f482-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#128130;&#127997;",
@@ -46942,7 +46799,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"guardsman_tone4": {
+	":guardsman_tone4:": {
 		"unicode": "1f482-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#128130;&#127998;",
@@ -46954,7 +46811,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"guardsman_tone5": {
+	":guardsman_tone5:": {
 		"unicode": "1f482-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#128130;&#127999;",
@@ -46966,7 +46823,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"construction_worker": {
+	":construction_worker:": {
 		"unicode": "1f477",
 		"unicode_alt": "",
 		"code_decimal": "&#128119;",
@@ -46984,7 +46841,7 @@ module.exports = {
 			"job"
 		]
 	},
-	"construction_worker_tone1": {
+	":construction_worker_tone1:": {
 		"unicode": "1f477-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#128119;&#127995;",
@@ -46996,7 +46853,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"construction_worker_tone2": {
+	":construction_worker_tone2:": {
 		"unicode": "1f477-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#128119;&#127996;",
@@ -47008,7 +46865,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"construction_worker_tone3": {
+	":construction_worker_tone3:": {
 		"unicode": "1f477-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#128119;&#127997;",
@@ -47020,7 +46877,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"construction_worker_tone4": {
+	":construction_worker_tone4:": {
 		"unicode": "1f477-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#128119;&#127998;",
@@ -47032,7 +46889,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"construction_worker_tone5": {
+	":construction_worker_tone5:": {
 		"unicode": "1f477-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#128119;&#127999;",
@@ -47044,7 +46901,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"man_with_turban": {
+	":man_with_turban:": {
 		"unicode": "1f473",
 		"unicode_alt": "",
 		"code_decimal": "&#128115;",
@@ -47060,7 +46917,7 @@ module.exports = {
 			"diversity"
 		]
 	},
-	"man_with_turban_tone1": {
+	":man_with_turban_tone1:": {
 		"unicode": "1f473-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#128115;&#127995;",
@@ -47072,7 +46929,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"man_with_turban_tone2": {
+	":man_with_turban_tone2:": {
 		"unicode": "1f473-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#128115;&#127996;",
@@ -47084,7 +46941,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"man_with_turban_tone3": {
+	":man_with_turban_tone3:": {
 		"unicode": "1f473-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#128115;&#127997;",
@@ -47096,7 +46953,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"man_with_turban_tone4": {
+	":man_with_turban_tone4:": {
 		"unicode": "1f473-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#128115;&#127998;",
@@ -47108,7 +46965,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"man_with_turban_tone5": {
+	":man_with_turban_tone5:": {
 		"unicode": "1f473-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#128115;&#127999;",
@@ -47120,7 +46977,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"person_with_blond_hair": {
+	":person_with_blond_hair:": {
 		"unicode": "1f471",
 		"unicode_alt": "",
 		"code_decimal": "&#128113;",
@@ -47136,7 +46993,7 @@ module.exports = {
 			"diversity"
 		]
 	},
-	"person_with_blond_hair_tone1": {
+	":person_with_blond_hair_tone1:": {
 		"unicode": "1f471-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#128113;&#127995;",
@@ -47148,7 +47005,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"person_with_blond_hair_tone2": {
+	":person_with_blond_hair_tone2:": {
 		"unicode": "1f471-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#128113;&#127996;",
@@ -47160,7 +47017,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"person_with_blond_hair_tone3": {
+	":person_with_blond_hair_tone3:": {
 		"unicode": "1f471-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#128113;&#127997;",
@@ -47172,7 +47029,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"person_with_blond_hair_tone4": {
+	":person_with_blond_hair_tone4:": {
 		"unicode": "1f471-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#128113;&#127998;",
@@ -47184,7 +47041,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"person_with_blond_hair_tone5": {
+	":person_with_blond_hair_tone5:": {
 		"unicode": "1f471-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#128113;&#127999;",
@@ -47196,7 +47053,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"santa": {
+	":santa:": {
 		"unicode": "1f385",
 		"unicode_alt": "",
 		"code_decimal": "&#127877;",
@@ -47216,7 +47073,7 @@ module.exports = {
 			"santa"
 		]
 	},
-	"santa_tone1": {
+	":santa_tone1:": {
 		"unicode": "1f385-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#127877;&#127995;",
@@ -47228,7 +47085,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"santa_tone2": {
+	":santa_tone2:": {
 		"unicode": "1f385-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#127877;&#127996;",
@@ -47240,7 +47097,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"santa_tone3": {
+	":santa_tone3:": {
 		"unicode": "1f385-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#127877;&#127997;",
@@ -47252,7 +47109,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"santa_tone4": {
+	":santa_tone4:": {
 		"unicode": "1f385-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#127877;&#127998;",
@@ -47264,7 +47121,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"santa_tone5": {
+	":santa_tone5:": {
 		"unicode": "1f385-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#127877;&#127999;",
@@ -47276,7 +47133,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"mrs_claus": {
+	":mrs_claus:": {
 		"unicode": "1f936",
 		"unicode_alt": "",
 		"code_decimal": "&#129334;",
@@ -47290,7 +47147,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"mrs_claus_tone1": {
+	":mrs_claus_tone1:": {
 		"unicode": "1f936-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#129334;&#127995;",
@@ -47304,7 +47161,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"mrs_claus_tone2": {
+	":mrs_claus_tone2:": {
 		"unicode": "1f936-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#129334;&#127996;",
@@ -47318,7 +47175,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"mrs_claus_tone3": {
+	":mrs_claus_tone3:": {
 		"unicode": "1f936-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#129334;&#127997;",
@@ -47332,7 +47189,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"mrs_claus_tone4": {
+	":mrs_claus_tone4:": {
 		"unicode": "1f936-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#129334;&#127998;",
@@ -47346,7 +47203,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"mrs_claus_tone5": {
+	":mrs_claus_tone5:": {
 		"unicode": "1f936-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#129334;&#127999;",
@@ -47360,7 +47217,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"princess": {
+	":princess:": {
 		"unicode": "1f478",
 		"unicode_alt": "",
 		"code_decimal": "&#128120;",
@@ -47378,7 +47235,7 @@ module.exports = {
 			"girls night"
 		]
 	},
-	"princess_tone1": {
+	":princess_tone1:": {
 		"unicode": "1f478-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#128120;&#127995;",
@@ -47390,7 +47247,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"princess_tone2": {
+	":princess_tone2:": {
 		"unicode": "1f478-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#128120;&#127996;",
@@ -47402,7 +47259,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"princess_tone3": {
+	":princess_tone3:": {
 		"unicode": "1f478-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#128120;&#127997;",
@@ -47414,7 +47271,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"princess_tone4": {
+	":princess_tone4:": {
 		"unicode": "1f478-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#128120;&#127998;",
@@ -47426,7 +47283,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"princess_tone5": {
+	":princess_tone5:": {
 		"unicode": "1f478-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#128120;&#127999;",
@@ -47438,7 +47295,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"prince": {
+	":prince:": {
 		"unicode": "1f934",
 		"unicode_alt": "",
 		"code_decimal": "&#129332;",
@@ -47450,7 +47307,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"prince_tone1": {
+	":prince_tone1:": {
 		"unicode": "1f934-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#129332;&#127995;",
@@ -47462,7 +47319,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"prince_tone2": {
+	":prince_tone2:": {
 		"unicode": "1f934-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#129332;&#127996;",
@@ -47474,7 +47331,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"prince_tone3": {
+	":prince_tone3:": {
 		"unicode": "1f934-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#129332;&#127997;",
@@ -47486,7 +47343,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"prince_tone4": {
+	":prince_tone4:": {
 		"unicode": "1f934-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#129332;&#127998;",
@@ -47498,7 +47355,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"prince_tone5": {
+	":prince_tone5:": {
 		"unicode": "1f934-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#129332;&#127999;",
@@ -47510,7 +47367,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"bride_with_veil": {
+	":bride_with_veil:": {
 		"unicode": "1f470",
 		"unicode_alt": "",
 		"code_decimal": "&#128112;",
@@ -47527,7 +47384,7 @@ module.exports = {
 			"diversity"
 		]
 	},
-	"bride_with_veil_tone1": {
+	":bride_with_veil_tone1:": {
 		"unicode": "1f470-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#128112;&#127995;",
@@ -47539,7 +47396,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"bride_with_veil_tone2": {
+	":bride_with_veil_tone2:": {
 		"unicode": "1f470-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#128112;&#127996;",
@@ -47551,7 +47408,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"bride_with_veil_tone3": {
+	":bride_with_veil_tone3:": {
 		"unicode": "1f470-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#128112;&#127997;",
@@ -47563,7 +47420,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"bride_with_veil_tone4": {
+	":bride_with_veil_tone4:": {
 		"unicode": "1f470-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#128112;&#127998;",
@@ -47575,7 +47432,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"bride_with_veil_tone5": {
+	":bride_with_veil_tone5:": {
 		"unicode": "1f470-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#128112;&#127999;",
@@ -47587,7 +47444,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"man_in_tuxedo": {
+	":man_in_tuxedo:": {
 		"unicode": "1f935",
 		"unicode_alt": "",
 		"code_decimal": "&#129333;",
@@ -47599,7 +47456,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"man_in_tuxedo_tone1": {
+	":man_in_tuxedo_tone1:": {
 		"unicode": "1f935-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#129333;&#127995;",
@@ -47613,7 +47470,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"man_in_tuxedo_tone2": {
+	":man_in_tuxedo_tone2:": {
 		"unicode": "1f935-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#129333;&#127996;",
@@ -47627,7 +47484,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"man_in_tuxedo_tone3": {
+	":man_in_tuxedo_tone3:": {
 		"unicode": "1f935-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#129333;&#127997;",
@@ -47641,7 +47498,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"man_in_tuxedo_tone4": {
+	":man_in_tuxedo_tone4:": {
 		"unicode": "1f935-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#129333;&#127998;",
@@ -47655,7 +47512,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"man_in_tuxedo_tone5": {
+	":man_in_tuxedo_tone5:": {
 		"unicode": "1f935-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#129333;&#127999;",
@@ -47669,7 +47526,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"pregnant_woman": {
+	":pregnant_woman:": {
 		"unicode": "1f930",
 		"unicode_alt": "",
 		"code_decimal": "&#129328;",
@@ -47683,7 +47540,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"pregnant_woman_tone1": {
+	":pregnant_woman_tone1:": {
 		"unicode": "1f930-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#129328;&#127995;",
@@ -47697,7 +47554,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"pregnant_woman_tone2": {
+	":pregnant_woman_tone2:": {
 		"unicode": "1f930-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#129328;&#127996;",
@@ -47711,7 +47568,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"pregnant_woman_tone3": {
+	":pregnant_woman_tone3:": {
 		"unicode": "1f930-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#129328;&#127997;",
@@ -47725,7 +47582,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"pregnant_woman_tone4": {
+	":pregnant_woman_tone4:": {
 		"unicode": "1f930-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#129328;&#127998;",
@@ -47739,7 +47596,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"pregnant_woman_tone5": {
+	":pregnant_woman_tone5:": {
 		"unicode": "1f930-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#129328;&#127999;",
@@ -47753,7 +47610,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"man_with_gua_pi_mao": {
+	":man_with_gua_pi_mao:": {
 		"unicode": "1f472",
 		"unicode_alt": "",
 		"code_decimal": "&#128114;",
@@ -47770,7 +47627,7 @@ module.exports = {
 			"diversity"
 		]
 	},
-	"man_with_gua_pi_mao_tone1": {
+	":man_with_gua_pi_mao_tone1:": {
 		"unicode": "1f472-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#128114;&#127995;",
@@ -47782,7 +47639,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"man_with_gua_pi_mao_tone2": {
+	":man_with_gua_pi_mao_tone2:": {
 		"unicode": "1f472-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#128114;&#127996;",
@@ -47794,7 +47651,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"man_with_gua_pi_mao_tone3": {
+	":man_with_gua_pi_mao_tone3:": {
 		"unicode": "1f472-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#128114;&#127997;",
@@ -47806,7 +47663,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"man_with_gua_pi_mao_tone4": {
+	":man_with_gua_pi_mao_tone4:": {
 		"unicode": "1f472-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#128114;&#127998;",
@@ -47818,7 +47675,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"man_with_gua_pi_mao_tone5": {
+	":man_with_gua_pi_mao_tone5:": {
 		"unicode": "1f472-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#128114;&#127999;",
@@ -47830,7 +47687,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"person_frowning": {
+	":person_frowning:": {
 		"unicode": "1f64d",
 		"unicode_alt": "",
 		"code_decimal": "&#128589;",
@@ -47846,7 +47703,7 @@ module.exports = {
 			"diversity"
 		]
 	},
-	"person_frowning_tone1": {
+	":person_frowning_tone1:": {
 		"unicode": "1f64d-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#128589;&#127995;",
@@ -47858,7 +47715,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"person_frowning_tone2": {
+	":person_frowning_tone2:": {
 		"unicode": "1f64d-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#128589;&#127996;",
@@ -47870,7 +47727,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"person_frowning_tone3": {
+	":person_frowning_tone3:": {
 		"unicode": "1f64d-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#128589;&#127997;",
@@ -47882,7 +47739,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"person_frowning_tone4": {
+	":person_frowning_tone4:": {
 		"unicode": "1f64d-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#128589;&#127998;",
@@ -47894,7 +47751,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"person_frowning_tone5": {
+	":person_frowning_tone5:": {
 		"unicode": "1f64d-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#128589;&#127999;",
@@ -47906,7 +47763,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"person_with_pouting_face": {
+	":person_with_pouting_face:": {
 		"unicode": "1f64e",
 		"unicode_alt": "",
 		"code_decimal": "&#128590;",
@@ -47922,7 +47779,7 @@ module.exports = {
 			"diversity"
 		]
 	},
-	"person_with_pouting_face_tone1": {
+	":person_with_pouting_face_tone1:": {
 		"unicode": "1f64e-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#128590;&#127995;",
@@ -47934,7 +47791,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"person_with_pouting_face_tone2": {
+	":person_with_pouting_face_tone2:": {
 		"unicode": "1f64e-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#128590;&#127996;",
@@ -47946,7 +47803,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"person_with_pouting_face_tone3": {
+	":person_with_pouting_face_tone3:": {
 		"unicode": "1f64e-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#128590;&#127997;",
@@ -47958,7 +47815,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"person_with_pouting_face_tone4": {
+	":person_with_pouting_face_tone4:": {
 		"unicode": "1f64e-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#128590;&#127998;",
@@ -47970,7 +47827,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"person_with_pouting_face_tone5": {
+	":person_with_pouting_face_tone5:": {
 		"unicode": "1f64e-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#128590;&#127999;",
@@ -47982,7 +47839,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"no_good": {
+	":no_good:": {
 		"unicode": "1f645",
 		"unicode_alt": "",
 		"code_decimal": "&#128581;",
@@ -47999,7 +47856,7 @@ module.exports = {
 			"girls night"
 		]
 	},
-	"no_good_tone1": {
+	":no_good_tone1:": {
 		"unicode": "1f645-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#128581;&#127995;",
@@ -48011,7 +47868,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"no_good_tone2": {
+	":no_good_tone2:": {
 		"unicode": "1f645-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#128581;&#127996;",
@@ -48023,7 +47880,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"no_good_tone3": {
+	":no_good_tone3:": {
 		"unicode": "1f645-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#128581;&#127997;",
@@ -48035,7 +47892,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"no_good_tone4": {
+	":no_good_tone4:": {
 		"unicode": "1f645-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#128581;&#127998;",
@@ -48047,7 +47904,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"no_good_tone5": {
+	":no_good_tone5:": {
 		"unicode": "1f645-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#128581;&#127999;",
@@ -48059,7 +47916,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"ok_woman": {
+	":ok_woman:": {
 		"unicode": "1f646",
 		"unicode_alt": "",
 		"code_decimal": "&#128582;",
@@ -48068,19 +47925,14 @@ module.exports = {
 		"category": "people",
 		"emoji_order": "549",
 		"aliases": [],
-		"aliases_ascii": [
-			"*\\0/*",
-			"\\0/",
-			"*\\O/*",
-			"\\O/"
-		],
+		"aliases_ascii": [],
 		"keywords": [
 			"people",
 			"women",
 			"diversity"
 		]
 	},
-	"ok_woman_tone1": {
+	":ok_woman_tone1:": {
 		"unicode": "1f646-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#128582;&#127995;",
@@ -48092,7 +47944,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"ok_woman_tone2": {
+	":ok_woman_tone2:": {
 		"unicode": "1f646-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#128582;&#127996;",
@@ -48104,7 +47956,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"ok_woman_tone3": {
+	":ok_woman_tone3:": {
 		"unicode": "1f646-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#128582;&#127997;",
@@ -48116,7 +47968,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"ok_woman_tone4": {
+	":ok_woman_tone4:": {
 		"unicode": "1f646-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#128582;&#127998;",
@@ -48128,7 +47980,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"ok_woman_tone5": {
+	":ok_woman_tone5:": {
 		"unicode": "1f646-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#128582;&#127999;",
@@ -48140,7 +47992,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"information_desk_person": {
+	":information_desk_person:": {
 		"unicode": "1f481",
 		"unicode_alt": "",
 		"code_decimal": "&#128129;",
@@ -48156,7 +48008,7 @@ module.exports = {
 			"diversity"
 		]
 	},
-	"information_desk_person_tone1": {
+	":information_desk_person_tone1:": {
 		"unicode": "1f481-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#128129;&#127995;",
@@ -48168,7 +48020,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"information_desk_person_tone2": {
+	":information_desk_person_tone2:": {
 		"unicode": "1f481-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#128129;&#127996;",
@@ -48180,7 +48032,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"information_desk_person_tone3": {
+	":information_desk_person_tone3:": {
 		"unicode": "1f481-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#128129;&#127997;",
@@ -48192,7 +48044,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"information_desk_person_tone4": {
+	":information_desk_person_tone4:": {
 		"unicode": "1f481-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#128129;&#127998;",
@@ -48204,7 +48056,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"information_desk_person_tone5": {
+	":information_desk_person_tone5:": {
 		"unicode": "1f481-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#128129;&#127999;",
@@ -48216,7 +48068,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"raising_hand": {
+	":raising_hand:": {
 		"unicode": "1f64b",
 		"unicode_alt": "",
 		"code_decimal": "&#128587;",
@@ -48232,7 +48084,7 @@ module.exports = {
 			"diversity"
 		]
 	},
-	"raising_hand_tone1": {
+	":raising_hand_tone1:": {
 		"unicode": "1f64b-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#128587;&#127995;",
@@ -48244,7 +48096,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"raising_hand_tone2": {
+	":raising_hand_tone2:": {
 		"unicode": "1f64b-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#128587;&#127996;",
@@ -48256,7 +48108,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"raising_hand_tone3": {
+	":raising_hand_tone3:": {
 		"unicode": "1f64b-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#128587;&#127997;",
@@ -48268,7 +48120,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"raising_hand_tone4": {
+	":raising_hand_tone4:": {
 		"unicode": "1f64b-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#128587;&#127998;",
@@ -48280,7 +48132,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"raising_hand_tone5": {
+	":raising_hand_tone5:": {
 		"unicode": "1f64b-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#128587;&#127999;",
@@ -48292,7 +48144,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"bow": {
+	":bow:": {
 		"unicode": "1f647",
 		"unicode_alt": "",
 		"code_decimal": "&#128583;",
@@ -48308,7 +48160,7 @@ module.exports = {
 			"diversity"
 		]
 	},
-	"bow_tone1": {
+	":bow_tone1:": {
 		"unicode": "1f647-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#128583;&#127995;",
@@ -48320,7 +48172,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"bow_tone2": {
+	":bow_tone2:": {
 		"unicode": "1f647-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#128583;&#127996;",
@@ -48332,7 +48184,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"bow_tone3": {
+	":bow_tone3:": {
 		"unicode": "1f647-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#128583;&#127997;",
@@ -48344,7 +48196,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"bow_tone4": {
+	":bow_tone4:": {
 		"unicode": "1f647-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#128583;&#127998;",
@@ -48356,7 +48208,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"bow_tone5": {
+	":bow_tone5:": {
 		"unicode": "1f647-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#128583;&#127999;",
@@ -48368,7 +48220,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"face_palm": {
+	":face_palm:": {
 		"unicode": "1f926",
 		"unicode_alt": "",
 		"code_decimal": "&#129318;",
@@ -48382,7 +48234,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"face_palm_tone1": {
+	":face_palm_tone1:": {
 		"unicode": "1f926-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#129318;&#127995;",
@@ -48396,7 +48248,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"face_palm_tone2": {
+	":face_palm_tone2:": {
 		"unicode": "1f926-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#129318;&#127996;",
@@ -48410,7 +48262,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"face_palm_tone3": {
+	":face_palm_tone3:": {
 		"unicode": "1f926-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#129318;&#127997;",
@@ -48424,7 +48276,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"face_palm_tone4": {
+	":face_palm_tone4:": {
 		"unicode": "1f926-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#129318;&#127998;",
@@ -48438,7 +48290,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"face_palm_tone5": {
+	":face_palm_tone5:": {
 		"unicode": "1f926-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#129318;&#127999;",
@@ -48452,7 +48304,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"shrug": {
+	":shrug:": {
 		"unicode": "1f937",
 		"unicode_alt": "",
 		"code_decimal": "&#129335;",
@@ -48464,7 +48316,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"shrug_tone1": {
+	":shrug_tone1:": {
 		"unicode": "1f937-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#129335;&#127995;",
@@ -48476,7 +48328,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"shrug_tone2": {
+	":shrug_tone2:": {
 		"unicode": "1f937-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#129335;&#127996;",
@@ -48488,7 +48340,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"shrug_tone3": {
+	":shrug_tone3:": {
 		"unicode": "1f937-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#129335;&#127997;",
@@ -48500,7 +48352,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"shrug_tone4": {
+	":shrug_tone4:": {
 		"unicode": "1f937-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#129335;&#127998;",
@@ -48512,7 +48364,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"shrug_tone5": {
+	":shrug_tone5:": {
 		"unicode": "1f937-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#129335;&#127999;",
@@ -48524,7 +48376,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"massage": {
+	":massage:": {
 		"unicode": "1f486",
 		"unicode_alt": "",
 		"code_decimal": "&#128134;",
@@ -48540,7 +48392,7 @@ module.exports = {
 			"diversity"
 		]
 	},
-	"massage_tone1": {
+	":massage_tone1:": {
 		"unicode": "1f486-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#128134;&#127995;",
@@ -48552,7 +48404,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"massage_tone2": {
+	":massage_tone2:": {
 		"unicode": "1f486-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#128134;&#127996;",
@@ -48564,7 +48416,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"massage_tone3": {
+	":massage_tone3:": {
 		"unicode": "1f486-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#128134;&#127997;",
@@ -48576,7 +48428,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"massage_tone4": {
+	":massage_tone4:": {
 		"unicode": "1f486-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#128134;&#127998;",
@@ -48588,7 +48440,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"massage_tone5": {
+	":massage_tone5:": {
 		"unicode": "1f486-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#128134;&#127999;",
@@ -48600,7 +48452,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"haircut": {
+	":haircut:": {
 		"unicode": "1f487",
 		"unicode_alt": "",
 		"code_decimal": "&#128135;",
@@ -48616,7 +48468,7 @@ module.exports = {
 			"diversity"
 		]
 	},
-	"haircut_tone1": {
+	":haircut_tone1:": {
 		"unicode": "1f487-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#128135;&#127995;",
@@ -48628,7 +48480,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"haircut_tone2": {
+	":haircut_tone2:": {
 		"unicode": "1f487-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#128135;&#127996;",
@@ -48640,7 +48492,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"haircut_tone3": {
+	":haircut_tone3:": {
 		"unicode": "1f487-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#128135;&#127997;",
@@ -48652,7 +48504,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"haircut_tone4": {
+	":haircut_tone4:": {
 		"unicode": "1f487-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#128135;&#127998;",
@@ -48664,7 +48516,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"haircut_tone5": {
+	":haircut_tone5:": {
 		"unicode": "1f487-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#128135;&#127999;",
@@ -48676,7 +48528,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"walking": {
+	":walking:": {
 		"unicode": "1f6b6",
 		"unicode_alt": "",
 		"code_decimal": "&#128694;",
@@ -48692,7 +48544,7 @@ module.exports = {
 			"diversity"
 		]
 	},
-	"walking_tone1": {
+	":walking_tone1:": {
 		"unicode": "1f6b6-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#128694;&#127995;",
@@ -48704,7 +48556,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"walking_tone2": {
+	":walking_tone2:": {
 		"unicode": "1f6b6-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#128694;&#127996;",
@@ -48716,7 +48568,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"walking_tone3": {
+	":walking_tone3:": {
 		"unicode": "1f6b6-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#128694;&#127997;",
@@ -48728,7 +48580,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"walking_tone4": {
+	":walking_tone4:": {
 		"unicode": "1f6b6-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#128694;&#127998;",
@@ -48740,7 +48592,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"walking_tone5": {
+	":walking_tone5:": {
 		"unicode": "1f6b6-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#128694;&#127999;",
@@ -48752,7 +48604,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"runner": {
+	":runner:": {
 		"unicode": "1f3c3",
 		"unicode_alt": "",
 		"code_decimal": "&#127939;",
@@ -48770,7 +48622,7 @@ module.exports = {
 			"run"
 		]
 	},
-	"runner_tone1": {
+	":runner_tone1:": {
 		"unicode": "1f3c3-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#127939;&#127995;",
@@ -48782,7 +48634,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"runner_tone2": {
+	":runner_tone2:": {
 		"unicode": "1f3c3-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#127939;&#127996;",
@@ -48794,7 +48646,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"runner_tone3": {
+	":runner_tone3:": {
 		"unicode": "1f3c3-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#127939;&#127997;",
@@ -48806,7 +48658,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"runner_tone4": {
+	":runner_tone4:": {
 		"unicode": "1f3c3-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#127939;&#127998;",
@@ -48818,7 +48670,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"runner_tone5": {
+	":runner_tone5:": {
 		"unicode": "1f3c3-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#127939;&#127999;",
@@ -48830,7 +48682,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"dancer": {
+	":dancer:": {
 		"unicode": "1f483",
 		"unicode_alt": "",
 		"code_decimal": "&#128131;",
@@ -48849,7 +48701,7 @@ module.exports = {
 			"dance"
 		]
 	},
-	"dancer_tone1": {
+	":dancer_tone1:": {
 		"unicode": "1f483-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#128131;&#127995;",
@@ -48861,7 +48713,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"dancer_tone2": {
+	":dancer_tone2:": {
 		"unicode": "1f483-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#128131;&#127996;",
@@ -48873,7 +48725,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"dancer_tone3": {
+	":dancer_tone3:": {
 		"unicode": "1f483-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#128131;&#127997;",
@@ -48885,7 +48737,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"dancer_tone4": {
+	":dancer_tone4:": {
 		"unicode": "1f483-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#128131;&#127998;",
@@ -48897,7 +48749,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"dancer_tone5": {
+	":dancer_tone5:": {
 		"unicode": "1f483-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#128131;&#127999;",
@@ -48909,7 +48761,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"man_dancing": {
+	":man_dancing:": {
 		"unicode": "1f57a",
 		"unicode_alt": "",
 		"code_decimal": "&#128378;",
@@ -48923,7 +48775,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"man_dancing_tone1": {
+	":man_dancing_tone1:": {
 		"unicode": "1f57a-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#128378;&#127995;",
@@ -48937,7 +48789,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"man_dancing_tone2": {
+	":man_dancing_tone2:": {
 		"unicode": "1f57a-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#128378;&#127996;",
@@ -48951,7 +48803,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"man_dancing_tone3": {
+	":man_dancing_tone3:": {
 		"unicode": "1f57a-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#128378;&#127997;",
@@ -48965,7 +48817,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"man_dancing_tone4": {
+	":man_dancing_tone4:": {
 		"unicode": "1f57a-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#128378;&#127998;",
@@ -48979,7 +48831,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"man_dancing_tone5": {
+	":man_dancing_tone5:": {
 		"unicode": "1f57a-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#128378;&#127999;",
@@ -48993,7 +48845,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"dancers": {
+	":dancers:": {
 		"unicode": "1f46f",
 		"unicode_alt": "",
 		"code_decimal": "&#128111;",
@@ -49013,7 +48865,7 @@ module.exports = {
 			"dance"
 		]
 	},
-	"levitate": {
+	":levitate:": {
 		"unicode": "1f574",
 		"unicode_alt": "1f574-fe0f",
 		"code_decimal": "&#128372;",
@@ -49030,7 +48882,7 @@ module.exports = {
 			"job"
 		]
 	},
-	"speaking_head": {
+	":speaking_head:": {
 		"unicode": "1f5e3",
 		"unicode_alt": "1f5e3-fe0f",
 		"code_decimal": "&#128483;",
@@ -49047,7 +48899,7 @@ module.exports = {
 			"talk"
 		]
 	},
-	"bust_in_silhouette": {
+	":bust_in_silhouette:": {
 		"unicode": "1f464",
 		"unicode_alt": "",
 		"code_decimal": "&#128100;",
@@ -49061,7 +48913,7 @@ module.exports = {
 			"people"
 		]
 	},
-	"busts_in_silhouette": {
+	":busts_in_silhouette:": {
 		"unicode": "1f465",
 		"unicode_alt": "",
 		"code_decimal": "&#128101;",
@@ -49075,7 +48927,7 @@ module.exports = {
 			"people"
 		]
 	},
-	"fencer": {
+	":fencer:": {
 		"unicode": "1f93a",
 		"unicode_alt": "",
 		"code_decimal": "&#129338;",
@@ -49089,7 +48941,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"horse_racing": {
+	":horse_racing:": {
 		"unicode": "1f3c7",
 		"unicode_alt": "",
 		"code_decimal": "&#127943;",
@@ -49105,7 +48957,7 @@ module.exports = {
 			"horse racing"
 		]
 	},
-	"horse_racing_tone1": {
+	":horse_racing_tone1:": {
 		"unicode": "1f3c7-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#127943;&#127995;",
@@ -49117,7 +48969,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"horse_racing_tone2": {
+	":horse_racing_tone2:": {
 		"unicode": "1f3c7-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#127943;&#127996;",
@@ -49129,7 +48981,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"horse_racing_tone3": {
+	":horse_racing_tone3:": {
 		"unicode": "1f3c7-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#127943;&#127997;",
@@ -49141,7 +48993,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"horse_racing_tone4": {
+	":horse_racing_tone4:": {
 		"unicode": "1f3c7-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#127943;&#127998;",
@@ -49153,7 +49005,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"horse_racing_tone5": {
+	":horse_racing_tone5:": {
 		"unicode": "1f3c7-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#127943;&#127999;",
@@ -49165,7 +49017,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"skier": {
+	":skier:": {
 		"unicode": "26f7",
 		"unicode_alt": "26f7-fe0f",
 		"code_decimal": "&#9975;",
@@ -49183,7 +49035,7 @@ module.exports = {
 			"skiing"
 		]
 	},
-	"snowboarder": {
+	":snowboarder:": {
 		"unicode": "1f3c2",
 		"unicode_alt": "",
 		"code_decimal": "&#127938;",
@@ -49201,7 +49053,7 @@ module.exports = {
 			"snowboarding"
 		]
 	},
-	"golfer": {
+	":golfer:": {
 		"unicode": "1f3cc",
 		"unicode_alt": "1f3cc-fe0f",
 		"code_decimal": "&#127948;",
@@ -49220,7 +49072,7 @@ module.exports = {
 			"golf"
 		]
 	},
-	"surfer": {
+	":surfer:": {
 		"unicode": "1f3c4",
 		"unicode_alt": "",
 		"code_decimal": "&#127940;",
@@ -49238,7 +49090,7 @@ module.exports = {
 			"diversity"
 		]
 	},
-	"surfer_tone1": {
+	":surfer_tone1:": {
 		"unicode": "1f3c4-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#127940;&#127995;",
@@ -49250,7 +49102,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"surfer_tone2": {
+	":surfer_tone2:": {
 		"unicode": "1f3c4-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#127940;&#127996;",
@@ -49262,7 +49114,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"surfer_tone3": {
+	":surfer_tone3:": {
 		"unicode": "1f3c4-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#127940;&#127997;",
@@ -49274,7 +49126,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"surfer_tone4": {
+	":surfer_tone4:": {
 		"unicode": "1f3c4-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#127940;&#127998;",
@@ -49286,7 +49138,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"surfer_tone5": {
+	":surfer_tone5:": {
 		"unicode": "1f3c4-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#127940;&#127999;",
@@ -49298,7 +49150,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"rowboat": {
+	":rowboat:": {
 		"unicode": "1f6a3",
 		"unicode_alt": "",
 		"code_decimal": "&#128675;",
@@ -49316,7 +49168,7 @@ module.exports = {
 			"diversity"
 		]
 	},
-	"rowboat_tone1": {
+	":rowboat_tone1:": {
 		"unicode": "1f6a3-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#128675;&#127995;",
@@ -49328,7 +49180,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"rowboat_tone2": {
+	":rowboat_tone2:": {
 		"unicode": "1f6a3-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#128675;&#127996;",
@@ -49340,7 +49192,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"rowboat_tone3": {
+	":rowboat_tone3:": {
 		"unicode": "1f6a3-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#128675;&#127997;",
@@ -49352,7 +49204,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"rowboat_tone4": {
+	":rowboat_tone4:": {
 		"unicode": "1f6a3-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#128675;&#127998;",
@@ -49364,7 +49216,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"rowboat_tone5": {
+	":rowboat_tone5:": {
 		"unicode": "1f6a3-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#128675;&#127999;",
@@ -49376,7 +49228,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"swimmer": {
+	":swimmer:": {
 		"unicode": "1f3ca",
 		"unicode_alt": "",
 		"code_decimal": "&#127946;",
@@ -49393,7 +49245,7 @@ module.exports = {
 			"diversity"
 		]
 	},
-	"swimmer_tone1": {
+	":swimmer_tone1:": {
 		"unicode": "1f3ca-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#127946;&#127995;",
@@ -49405,7 +49257,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"swimmer_tone2": {
+	":swimmer_tone2:": {
 		"unicode": "1f3ca-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#127946;&#127996;",
@@ -49417,7 +49269,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"swimmer_tone3": {
+	":swimmer_tone3:": {
 		"unicode": "1f3ca-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#127946;&#127997;",
@@ -49429,7 +49281,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"swimmer_tone4": {
+	":swimmer_tone4:": {
 		"unicode": "1f3ca-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#127946;&#127998;",
@@ -49441,7 +49293,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"swimmer_tone5": {
+	":swimmer_tone5:": {
 		"unicode": "1f3ca-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#127946;&#127999;",
@@ -49453,7 +49305,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"basketball_player": {
+	":basketball_player:": {
 		"unicode": "26f9",
 		"unicode_alt": "26f9-fe0f",
 		"code_decimal": "&#9977;",
@@ -49474,7 +49326,7 @@ module.exports = {
 			"diversity"
 		]
 	},
-	"basketball_player_tone1": {
+	":basketball_player_tone1:": {
 		"unicode": "26f9-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#9977;&#127995;",
@@ -49488,7 +49340,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"basketball_player_tone2": {
+	":basketball_player_tone2:": {
 		"unicode": "26f9-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#9977;&#127996;",
@@ -49502,7 +49354,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"basketball_player_tone3": {
+	":basketball_player_tone3:": {
 		"unicode": "26f9-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#9977;&#127997;",
@@ -49516,7 +49368,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"basketball_player_tone4": {
+	":basketball_player_tone4:": {
 		"unicode": "26f9-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#9977;&#127998;",
@@ -49530,7 +49382,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"basketball_player_tone5": {
+	":basketball_player_tone5:": {
 		"unicode": "26f9-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#9977;&#127999;",
@@ -49544,7 +49396,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"lifter": {
+	":lifter:": {
 		"unicode": "1f3cb",
 		"unicode_alt": "1f3cb-fe0f",
 		"code_decimal": "&#127947;",
@@ -49566,7 +49418,7 @@ module.exports = {
 			"diversity"
 		]
 	},
-	"lifter_tone1": {
+	":lifter_tone1:": {
 		"unicode": "1f3cb-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#127947;&#127995;",
@@ -49580,7 +49432,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"lifter_tone2": {
+	":lifter_tone2:": {
 		"unicode": "1f3cb-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#127947;&#127996;",
@@ -49594,7 +49446,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"lifter_tone3": {
+	":lifter_tone3:": {
 		"unicode": "1f3cb-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#127947;&#127997;",
@@ -49608,7 +49460,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"lifter_tone4": {
+	":lifter_tone4:": {
 		"unicode": "1f3cb-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#127947;&#127998;",
@@ -49622,7 +49474,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"lifter_tone5": {
+	":lifter_tone5:": {
 		"unicode": "1f3cb-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#127947;&#127999;",
@@ -49636,7 +49488,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"bicyclist": {
+	":bicyclist:": {
 		"unicode": "1f6b4",
 		"unicode_alt": "",
 		"code_decimal": "&#128692;",
@@ -49654,7 +49506,7 @@ module.exports = {
 			"diversity"
 		]
 	},
-	"bicyclist_tone1": {
+	":bicyclist_tone1:": {
 		"unicode": "1f6b4-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#128692;&#127995;",
@@ -49666,7 +49518,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"bicyclist_tone2": {
+	":bicyclist_tone2:": {
 		"unicode": "1f6b4-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#128692;&#127996;",
@@ -49678,7 +49530,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"bicyclist_tone3": {
+	":bicyclist_tone3:": {
 		"unicode": "1f6b4-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#128692;&#127997;",
@@ -49690,7 +49542,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"bicyclist_tone4": {
+	":bicyclist_tone4:": {
 		"unicode": "1f6b4-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#128692;&#127998;",
@@ -49702,7 +49554,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"bicyclist_tone5": {
+	":bicyclist_tone5:": {
 		"unicode": "1f6b4-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#128692;&#127999;",
@@ -49714,7 +49566,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"mountain_bicyclist": {
+	":mountain_bicyclist:": {
 		"unicode": "1f6b5",
 		"unicode_alt": "",
 		"code_decimal": "&#128693;",
@@ -49731,7 +49583,7 @@ module.exports = {
 			"diversity"
 		]
 	},
-	"mountain_bicyclist_tone1": {
+	":mountain_bicyclist_tone1:": {
 		"unicode": "1f6b5-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#128693;&#127995;",
@@ -49743,7 +49595,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"mountain_bicyclist_tone2": {
+	":mountain_bicyclist_tone2:": {
 		"unicode": "1f6b5-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#128693;&#127996;",
@@ -49755,7 +49607,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"mountain_bicyclist_tone3": {
+	":mountain_bicyclist_tone3:": {
 		"unicode": "1f6b5-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#128693;&#127997;",
@@ -49767,7 +49619,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"mountain_bicyclist_tone4": {
+	":mountain_bicyclist_tone4:": {
 		"unicode": "1f6b5-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#128693;&#127998;",
@@ -49779,7 +49631,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"mountain_bicyclist_tone5": {
+	":mountain_bicyclist_tone5:": {
 		"unicode": "1f6b5-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#128693;&#127999;",
@@ -49791,7 +49643,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"race_car": {
+	":race_car:": {
 		"unicode": "1f3ce",
 		"unicode_alt": "1f3ce-fe0f",
 		"code_decimal": "&#127950;",
@@ -49808,7 +49660,7 @@ module.exports = {
 			"car"
 		]
 	},
-	"motorcycle": {
+	":motorcycle:": {
 		"unicode": "1f3cd",
 		"unicode_alt": "1f3cd-fe0f",
 		"code_decimal": "&#127949;",
@@ -49826,7 +49678,7 @@ module.exports = {
 			"bike"
 		]
 	},
-	"cartwheel": {
+	":cartwheel:": {
 		"unicode": "1f938",
 		"unicode_alt": "",
 		"code_decimal": "&#129336;",
@@ -49840,7 +49692,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"cartwheel_tone1": {
+	":cartwheel_tone1:": {
 		"unicode": "1f938-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#129336;&#127995;",
@@ -49854,7 +49706,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"cartwheel_tone2": {
+	":cartwheel_tone2:": {
 		"unicode": "1f938-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#129336;&#127996;",
@@ -49868,7 +49720,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"cartwheel_tone3": {
+	":cartwheel_tone3:": {
 		"unicode": "1f938-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#129336;&#127997;",
@@ -49882,7 +49734,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"cartwheel_tone4": {
+	":cartwheel_tone4:": {
 		"unicode": "1f938-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#129336;&#127998;",
@@ -49896,7 +49748,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"cartwheel_tone5": {
+	":cartwheel_tone5:": {
 		"unicode": "1f938-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#129336;&#127999;",
@@ -49910,7 +49762,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"wrestlers": {
+	":wrestlers:": {
 		"unicode": "1f93c",
 		"unicode_alt": "",
 		"code_decimal": "&#129340;",
@@ -49924,7 +49776,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"wrestlers_tone1": {
+	":wrestlers_tone1:": {
 		"unicode": "1f93c-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#129340;&#127995;",
@@ -49938,7 +49790,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"wrestlers_tone2": {
+	":wrestlers_tone2:": {
 		"unicode": "1f93c-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#129340;&#127996;",
@@ -49952,7 +49804,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"wrestlers_tone3": {
+	":wrestlers_tone3:": {
 		"unicode": "1f93c-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#129340;&#127997;",
@@ -49966,7 +49818,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"wrestlers_tone4": {
+	":wrestlers_tone4:": {
 		"unicode": "1f93c-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#129340;&#127998;",
@@ -49980,7 +49832,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"wrestlers_tone5": {
+	":wrestlers_tone5:": {
 		"unicode": "1f93c-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#129340;&#127999;",
@@ -49994,7 +49846,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"water_polo": {
+	":water_polo:": {
 		"unicode": "1f93d",
 		"unicode_alt": "",
 		"code_decimal": "&#129341;",
@@ -50006,7 +49858,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"water_polo_tone1": {
+	":water_polo_tone1:": {
 		"unicode": "1f93d-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#129341;&#127995;",
@@ -50018,7 +49870,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"water_polo_tone2": {
+	":water_polo_tone2:": {
 		"unicode": "1f93d-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#129341;&#127996;",
@@ -50030,7 +49882,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"water_polo_tone3": {
+	":water_polo_tone3:": {
 		"unicode": "1f93d-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#129341;&#127997;",
@@ -50042,7 +49894,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"water_polo_tone4": {
+	":water_polo_tone4:": {
 		"unicode": "1f93d-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#129341;&#127998;",
@@ -50054,7 +49906,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"water_polo_tone5": {
+	":water_polo_tone5:": {
 		"unicode": "1f93d-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#129341;&#127999;",
@@ -50066,7 +49918,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"handball": {
+	":handball:": {
 		"unicode": "1f93e",
 		"unicode_alt": "",
 		"code_decimal": "&#129342;",
@@ -50078,7 +49930,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"handball_tone1": {
+	":handball_tone1:": {
 		"unicode": "1f93e-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#129342;&#127995;",
@@ -50090,7 +49942,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"handball_tone2": {
+	":handball_tone2:": {
 		"unicode": "1f93e-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#129342;&#127996;",
@@ -50102,7 +49954,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"handball_tone3": {
+	":handball_tone3:": {
 		"unicode": "1f93e-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#129342;&#127997;",
@@ -50114,7 +49966,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"handball_tone4": {
+	":handball_tone4:": {
 		"unicode": "1f93e-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#129342;&#127998;",
@@ -50126,7 +49978,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"handball_tone5": {
+	":handball_tone5:": {
 		"unicode": "1f93e-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#129342;&#127999;",
@@ -50138,7 +49990,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"juggling": {
+	":juggling:": {
 		"unicode": "1f939",
 		"unicode_alt": "",
 		"code_decimal": "&#129337;",
@@ -50152,7 +50004,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"juggling_tone1": {
+	":juggling_tone1:": {
 		"unicode": "1f939-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#129337;&#127995;",
@@ -50166,7 +50018,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"juggling_tone2": {
+	":juggling_tone2:": {
 		"unicode": "1f939-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#129337;&#127996;",
@@ -50180,7 +50032,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"juggling_tone3": {
+	":juggling_tone3:": {
 		"unicode": "1f939-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#129337;&#127997;",
@@ -50194,7 +50046,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"juggling_tone4": {
+	":juggling_tone4:": {
 		"unicode": "1f939-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#129337;&#127998;",
@@ -50208,7 +50060,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"juggling_tone5": {
+	":juggling_tone5:": {
 		"unicode": "1f939-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#129337;&#127999;",
@@ -50222,7 +50074,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"couple": {
+	":couple:": {
 		"unicode": "1f46b",
 		"unicode_alt": "",
 		"code_decimal": "&#128107;",
@@ -50238,7 +50090,7 @@ module.exports = {
 			"creationism"
 		]
 	},
-	"two_men_holding_hands": {
+	":two_men_holding_hands:": {
 		"unicode": "1f46c",
 		"unicode_alt": "",
 		"code_decimal": "&#128108;",
@@ -50256,7 +50108,7 @@ module.exports = {
 			"lgbt"
 		]
 	},
-	"two_women_holding_hands": {
+	":two_women_holding_hands:": {
 		"unicode": "1f46d",
 		"unicode_alt": "",
 		"code_decimal": "&#128109;",
@@ -50275,7 +50127,7 @@ module.exports = {
 			"girls night"
 		]
 	},
-	"couplekiss": {
+	":couplekiss:": {
 		"unicode": "1f48f",
 		"unicode_alt": "",
 		"code_decimal": "&#128143;",
@@ -50291,7 +50143,7 @@ module.exports = {
 			"sex"
 		]
 	},
-	"kiss_mm": {
+	":kiss_mm:": {
 		"unicode": "1f468-2764-1f48b-1f468",
 		"unicode_alt": "1f468-200d-2764-fe0f-200d-1f48b-200d-1f468",
 		"code_decimal": "&#128104;&#10084;&#128139;&#128104;",
@@ -50312,7 +50164,7 @@ module.exports = {
 			"lgbt"
 		]
 	},
-	"kiss_ww": {
+	":kiss_ww:": {
 		"unicode": "1f469-2764-1f48b-1f469",
 		"unicode_alt": "1f469-200d-2764-fe0f-200d-1f48b-200d-1f469",
 		"code_decimal": "&#128105;&#10084;&#128139;&#128105;",
@@ -50333,7 +50185,7 @@ module.exports = {
 			"lesbian"
 		]
 	},
-	"couple_with_heart": {
+	":couple_with_heart:": {
 		"unicode": "1f491",
 		"unicode_alt": "",
 		"code_decimal": "&#128145;",
@@ -50349,7 +50201,7 @@ module.exports = {
 			"sex"
 		]
 	},
-	"couple_mm": {
+	":couple_mm:": {
 		"unicode": "1f468-2764-1f468",
 		"unicode_alt": "1f468-200d-2764-fe0f-200d-1f468",
 		"code_decimal": "&#128104;&#10084;&#128104;",
@@ -50370,7 +50222,7 @@ module.exports = {
 			"lgbt"
 		]
 	},
-	"couple_ww": {
+	":couple_ww:": {
 		"unicode": "1f469-2764-1f469",
 		"unicode_alt": "1f469-200d-2764-fe0f-200d-1f469",
 		"code_decimal": "&#128105;&#10084;&#128105;",
@@ -50390,7 +50242,7 @@ module.exports = {
 			"lgbt"
 		]
 	},
-	"family": {
+	":family:": {
 		"unicode": "1f46a",
 		"unicode_alt": "",
 		"code_decimal": "&#128106;",
@@ -50406,7 +50258,7 @@ module.exports = {
 			"baby"
 		]
 	},
-	"family_mwg": {
+	":family_mwg:": {
 		"unicode": "1f468-1f469-1f467",
 		"unicode_alt": "1f468-200d-1f469-200d-1f467",
 		"code_decimal": "&#128104;&#128105;&#128103;",
@@ -50422,7 +50274,7 @@ module.exports = {
 			"baby"
 		]
 	},
-	"family_mwgb": {
+	":family_mwgb:": {
 		"unicode": "1f468-1f469-1f467-1f466",
 		"unicode_alt": "1f468-200d-1f469-200d-1f467-200d-1f466",
 		"code_decimal": "&#128104;&#128105;&#128103;&#128102;",
@@ -50438,7 +50290,7 @@ module.exports = {
 			"baby"
 		]
 	},
-	"family_mwbb": {
+	":family_mwbb:": {
 		"unicode": "1f468-1f469-1f466-1f466",
 		"unicode_alt": "1f468-200d-1f469-200d-1f466-200d-1f466",
 		"code_decimal": "&#128104;&#128105;&#128102;&#128102;",
@@ -50454,7 +50306,7 @@ module.exports = {
 			"baby"
 		]
 	},
-	"family_mwgg": {
+	":family_mwgg:": {
 		"unicode": "1f468-1f469-1f467-1f467",
 		"unicode_alt": "1f468-200d-1f469-200d-1f467-200d-1f467",
 		"code_decimal": "&#128104;&#128105;&#128103;&#128103;",
@@ -50470,7 +50322,7 @@ module.exports = {
 			"baby"
 		]
 	},
-	"family_mmb": {
+	":family_mmb:": {
 		"unicode": "1f468-1f468-1f466",
 		"unicode_alt": "1f468-200d-1f468-200d-1f466",
 		"code_decimal": "&#128104;&#128104;&#128102;",
@@ -50489,7 +50341,7 @@ module.exports = {
 			"lgbt"
 		]
 	},
-	"family_mmg": {
+	":family_mmg:": {
 		"unicode": "1f468-1f468-1f467",
 		"unicode_alt": "1f468-200d-1f468-200d-1f467",
 		"code_decimal": "&#128104;&#128104;&#128103;",
@@ -50508,7 +50360,7 @@ module.exports = {
 			"lgbt"
 		]
 	},
-	"family_mmgb": {
+	":family_mmgb:": {
 		"unicode": "1f468-1f468-1f467-1f466",
 		"unicode_alt": "1f468-200d-1f468-200d-1f467-200d-1f466",
 		"code_decimal": "&#128104;&#128104;&#128103;&#128102;",
@@ -50527,7 +50379,7 @@ module.exports = {
 			"lgbt"
 		]
 	},
-	"family_mmbb": {
+	":family_mmbb:": {
 		"unicode": "1f468-1f468-1f466-1f466",
 		"unicode_alt": "1f468-200d-1f468-200d-1f466-200d-1f466",
 		"code_decimal": "&#128104;&#128104;&#128102;&#128102;",
@@ -50546,7 +50398,7 @@ module.exports = {
 			"lgbt"
 		]
 	},
-	"family_mmgg": {
+	":family_mmgg:": {
 		"unicode": "1f468-1f468-1f467-1f467",
 		"unicode_alt": "1f468-200d-1f468-200d-1f467-200d-1f467",
 		"code_decimal": "&#128104;&#128104;&#128103;&#128103;",
@@ -50565,7 +50417,7 @@ module.exports = {
 			"lgbt"
 		]
 	},
-	"family_wwb": {
+	":family_wwb:": {
 		"unicode": "1f469-1f469-1f466",
 		"unicode_alt": "1f469-200d-1f469-200d-1f466",
 		"code_decimal": "&#128105;&#128105;&#128102;",
@@ -50584,7 +50436,7 @@ module.exports = {
 			"lesbian"
 		]
 	},
-	"family_wwg": {
+	":family_wwg:": {
 		"unicode": "1f469-1f469-1f467",
 		"unicode_alt": "1f469-200d-1f469-200d-1f467",
 		"code_decimal": "&#128105;&#128105;&#128103;",
@@ -50603,7 +50455,7 @@ module.exports = {
 			"lesbian"
 		]
 	},
-	"family_wwgb": {
+	":family_wwgb:": {
 		"unicode": "1f469-1f469-1f467-1f466",
 		"unicode_alt": "1f469-200d-1f469-200d-1f467-200d-1f466",
 		"code_decimal": "&#128105;&#128105;&#128103;&#128102;",
@@ -50622,7 +50474,7 @@ module.exports = {
 			"lesbian"
 		]
 	},
-	"family_wwbb": {
+	":family_wwbb:": {
 		"unicode": "1f469-1f469-1f466-1f466",
 		"unicode_alt": "1f469-200d-1f469-200d-1f466-200d-1f466",
 		"code_decimal": "&#128105;&#128105;&#128102;&#128102;",
@@ -50641,7 +50493,7 @@ module.exports = {
 			"lesbian"
 		]
 	},
-	"family_wwgg": {
+	":family_wwgg:": {
 		"unicode": "1f469-1f469-1f467-1f467",
 		"unicode_alt": "1f469-200d-1f469-200d-1f467-200d-1f467",
 		"code_decimal": "&#128105;&#128105;&#128103;&#128103;",
@@ -50660,67 +50512,7 @@ module.exports = {
 			"lesbian"
 		]
 	},
-	"tone1": {
-		"unicode": "1f3fb",
-		"unicode_alt": "",
-		"code_decimal": "&#127995;",
-		"name": "emoji modifier Fitzpatrick type-1-2",
-		"shortname": ":tone1:",
-		"category": "modifier",
-		"emoji_order": "1075",
-		"aliases": [],
-		"aliases_ascii": [],
-		"keywords": []
-	},
-	"tone2": {
-		"unicode": "1f3fc",
-		"unicode_alt": "",
-		"code_decimal": "&#127996;",
-		"name": "emoji modifier Fitzpatrick type-3",
-		"shortname": ":tone2:",
-		"category": "modifier",
-		"emoji_order": "1076",
-		"aliases": [],
-		"aliases_ascii": [],
-		"keywords": []
-	},
-	"tone3": {
-		"unicode": "1f3fd",
-		"unicode_alt": "",
-		"code_decimal": "&#127997;",
-		"name": "emoji modifier Fitzpatrick type-4",
-		"shortname": ":tone3:",
-		"category": "modifier",
-		"emoji_order": "1077",
-		"aliases": [],
-		"aliases_ascii": [],
-		"keywords": []
-	},
-	"tone4": {
-		"unicode": "1f3fe",
-		"unicode_alt": "",
-		"code_decimal": "&#127998;",
-		"name": "emoji modifier Fitzpatrick type-5",
-		"shortname": ":tone4:",
-		"category": "modifier",
-		"emoji_order": "1078",
-		"aliases": [],
-		"aliases_ascii": [],
-		"keywords": []
-	},
-	"tone5": {
-		"unicode": "1f3ff",
-		"unicode_alt": "",
-		"code_decimal": "&#127999;",
-		"name": "emoji modifier Fitzpatrick type-6",
-		"shortname": ":tone5:",
-		"category": "modifier",
-		"emoji_order": "1079",
-		"aliases": [],
-		"aliases_ascii": [],
-		"keywords": []
-	},
-	"muscle": {
+	":muscle:": {
 		"unicode": "1f4aa",
 		"unicode_alt": "",
 		"code_decimal": "&#128170;",
@@ -50741,7 +50533,7 @@ module.exports = {
 			"boys night"
 		]
 	},
-	"muscle_tone1": {
+	":muscle_tone1:": {
 		"unicode": "1f4aa-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#128170;&#127995;",
@@ -50753,7 +50545,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"muscle_tone2": {
+	":muscle_tone2:": {
 		"unicode": "1f4aa-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#128170;&#127996;",
@@ -50765,7 +50557,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"muscle_tone3": {
+	":muscle_tone3:": {
 		"unicode": "1f4aa-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#128170;&#127997;",
@@ -50777,7 +50569,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"muscle_tone4": {
+	":muscle_tone4:": {
 		"unicode": "1f4aa-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#128170;&#127998;",
@@ -50789,7 +50581,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"muscle_tone5": {
+	":muscle_tone5:": {
 		"unicode": "1f4aa-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#128170;&#127999;",
@@ -50801,7 +50593,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"selfie": {
+	":selfie:": {
 		"unicode": "1f933",
 		"unicode_alt": "",
 		"code_decimal": "&#129331;",
@@ -50813,7 +50605,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"selfie_tone1": {
+	":selfie_tone1:": {
 		"unicode": "1f933-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#129331;&#127995;",
@@ -50825,7 +50617,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"selfie_tone2": {
+	":selfie_tone2:": {
 		"unicode": "1f933-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#129331;&#127996;",
@@ -50837,7 +50629,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"selfie_tone3": {
+	":selfie_tone3:": {
 		"unicode": "1f933-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#129331;&#127997;",
@@ -50849,7 +50641,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"selfie_tone4": {
+	":selfie_tone4:": {
 		"unicode": "1f933-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#129331;&#127998;",
@@ -50861,7 +50653,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"selfie_tone5": {
+	":selfie_tone5:": {
 		"unicode": "1f933-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#129331;&#127999;",
@@ -50873,7 +50665,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"point_left": {
+	":point_left:": {
 		"unicode": "1f448",
 		"unicode_alt": "",
 		"code_decimal": "&#128072;",
@@ -50890,7 +50682,7 @@ module.exports = {
 			"diversity"
 		]
 	},
-	"point_left_tone1": {
+	":point_left_tone1:": {
 		"unicode": "1f448-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#128072;&#127995;",
@@ -50902,7 +50694,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"point_left_tone2": {
+	":point_left_tone2:": {
 		"unicode": "1f448-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#128072;&#127996;",
@@ -50914,7 +50706,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"point_left_tone3": {
+	":point_left_tone3:": {
 		"unicode": "1f448-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#128072;&#127997;",
@@ -50926,7 +50718,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"point_left_tone4": {
+	":point_left_tone4:": {
 		"unicode": "1f448-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#128072;&#127998;",
@@ -50938,7 +50730,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"point_left_tone5": {
+	":point_left_tone5:": {
 		"unicode": "1f448-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#128072;&#127999;",
@@ -50950,7 +50742,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"point_right": {
+	":point_right:": {
 		"unicode": "1f449",
 		"unicode_alt": "",
 		"code_decimal": "&#128073;",
@@ -50967,7 +50759,7 @@ module.exports = {
 			"diversity"
 		]
 	},
-	"point_right_tone1": {
+	":point_right_tone1:": {
 		"unicode": "1f449-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#128073;&#127995;",
@@ -50979,7 +50771,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"point_right_tone2": {
+	":point_right_tone2:": {
 		"unicode": "1f449-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#128073;&#127996;",
@@ -50991,7 +50783,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"point_right_tone3": {
+	":point_right_tone3:": {
 		"unicode": "1f449-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#128073;&#127997;",
@@ -51003,7 +50795,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"point_right_tone4": {
+	":point_right_tone4:": {
 		"unicode": "1f449-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#128073;&#127998;",
@@ -51015,7 +50807,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"point_right_tone5": {
+	":point_right_tone5:": {
 		"unicode": "1f449-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#128073;&#127999;",
@@ -51027,7 +50819,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"point_up": {
+	":point_up:": {
 		"unicode": "261d",
 		"unicode_alt": "261d-fe0f",
 		"code_decimal": "&#9757;",
@@ -51044,7 +50836,7 @@ module.exports = {
 			"diversity"
 		]
 	},
-	"point_up_tone1": {
+	":point_up_tone1:": {
 		"unicode": "261d-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#9757;&#127995;",
@@ -51056,7 +50848,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"point_up_tone2": {
+	":point_up_tone2:": {
 		"unicode": "261d-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#9757;&#127996;",
@@ -51068,7 +50860,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"point_up_tone3": {
+	":point_up_tone3:": {
 		"unicode": "261d-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#9757;&#127997;",
@@ -51080,7 +50872,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"point_up_tone4": {
+	":point_up_tone4:": {
 		"unicode": "261d-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#9757;&#127998;",
@@ -51092,7 +50884,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"point_up_tone5": {
+	":point_up_tone5:": {
 		"unicode": "261d-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#9757;&#127999;",
@@ -51104,7 +50896,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"point_up_2": {
+	":point_up_2:": {
 		"unicode": "1f446",
 		"unicode_alt": "",
 		"code_decimal": "&#128070;",
@@ -51120,7 +50912,7 @@ module.exports = {
 			"diversity"
 		]
 	},
-	"point_up_2_tone1": {
+	":point_up_2_tone1:": {
 		"unicode": "1f446-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#128070;&#127995;",
@@ -51132,7 +50924,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"point_up_2_tone2": {
+	":point_up_2_tone2:": {
 		"unicode": "1f446-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#128070;&#127996;",
@@ -51144,7 +50936,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"point_up_2_tone3": {
+	":point_up_2_tone3:": {
 		"unicode": "1f446-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#128070;&#127997;",
@@ -51156,7 +50948,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"point_up_2_tone4": {
+	":point_up_2_tone4:": {
 		"unicode": "1f446-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#128070;&#127998;",
@@ -51168,7 +50960,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"point_up_2_tone5": {
+	":point_up_2_tone5:": {
 		"unicode": "1f446-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#128070;&#127999;",
@@ -51180,7 +50972,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"middle_finger": {
+	":middle_finger:": {
 		"unicode": "1f595",
 		"unicode_alt": "",
 		"code_decimal": "&#128405;",
@@ -51199,7 +50991,7 @@ module.exports = {
 			"diversity"
 		]
 	},
-	"middle_finger_tone1": {
+	":middle_finger_tone1:": {
 		"unicode": "1f595-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#128405;&#127995;",
@@ -51213,7 +51005,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"middle_finger_tone2": {
+	":middle_finger_tone2:": {
 		"unicode": "1f595-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#128405;&#127996;",
@@ -51227,7 +51019,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"middle_finger_tone3": {
+	":middle_finger_tone3:": {
 		"unicode": "1f595-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#128405;&#127997;",
@@ -51241,7 +51033,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"middle_finger_tone4": {
+	":middle_finger_tone4:": {
 		"unicode": "1f595-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#128405;&#127998;",
@@ -51255,7 +51047,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"middle_finger_tone5": {
+	":middle_finger_tone5:": {
 		"unicode": "1f595-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#128405;&#127999;",
@@ -51269,7 +51061,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"point_down": {
+	":point_down:": {
 		"unicode": "1f447",
 		"unicode_alt": "",
 		"code_decimal": "&#128071;",
@@ -51285,7 +51077,7 @@ module.exports = {
 			"diversity"
 		]
 	},
-	"point_down_tone1": {
+	":point_down_tone1:": {
 		"unicode": "1f447-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#128071;&#127995;",
@@ -51297,7 +51089,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"point_down_tone2": {
+	":point_down_tone2:": {
 		"unicode": "1f447-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#128071;&#127996;",
@@ -51309,7 +51101,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"point_down_tone3": {
+	":point_down_tone3:": {
 		"unicode": "1f447-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#128071;&#127997;",
@@ -51321,7 +51113,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"point_down_tone4": {
+	":point_down_tone4:": {
 		"unicode": "1f447-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#128071;&#127998;",
@@ -51333,7 +51125,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"point_down_tone5": {
+	":point_down_tone5:": {
 		"unicode": "1f447-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#128071;&#127999;",
@@ -51345,7 +51137,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"v": {
+	":v:": {
 		"unicode": "270c",
 		"unicode_alt": "270c-fe0f",
 		"code_decimal": "&#9996;",
@@ -51365,7 +51157,7 @@ module.exports = {
 			"girls night"
 		]
 	},
-	"v_tone1": {
+	":v_tone1:": {
 		"unicode": "270c-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#9996;&#127995;",
@@ -51377,7 +51169,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"v_tone2": {
+	":v_tone2:": {
 		"unicode": "270c-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#9996;&#127996;",
@@ -51389,7 +51181,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"v_tone3": {
+	":v_tone3:": {
 		"unicode": "270c-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#9996;&#127997;",
@@ -51401,7 +51193,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"v_tone4": {
+	":v_tone4:": {
 		"unicode": "270c-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#9996;&#127998;",
@@ -51413,7 +51205,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"v_tone5": {
+	":v_tone5:": {
 		"unicode": "270c-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#9996;&#127999;",
@@ -51425,7 +51217,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"fingers_crossed": {
+	":fingers_crossed:": {
 		"unicode": "1f91e",
 		"unicode_alt": "",
 		"code_decimal": "&#129310;",
@@ -51439,7 +51231,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"fingers_crossed_tone1": {
+	":fingers_crossed_tone1:": {
 		"unicode": "1f91e-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#129310;&#127995;",
@@ -51453,7 +51245,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"fingers_crossed_tone2": {
+	":fingers_crossed_tone2:": {
 		"unicode": "1f91e-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#129310;&#127996;",
@@ -51467,7 +51259,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"fingers_crossed_tone3": {
+	":fingers_crossed_tone3:": {
 		"unicode": "1f91e-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#129310;&#127997;",
@@ -51481,7 +51273,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"fingers_crossed_tone4": {
+	":fingers_crossed_tone4:": {
 		"unicode": "1f91e-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#129310;&#127998;",
@@ -51495,7 +51287,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"fingers_crossed_tone5": {
+	":fingers_crossed_tone5:": {
 		"unicode": "1f91e-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#129310;&#127999;",
@@ -51509,7 +51301,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"vulcan": {
+	":vulcan:": {
 		"unicode": "1f596",
 		"unicode_alt": "",
 		"code_decimal": "&#128406;",
@@ -51528,7 +51320,7 @@ module.exports = {
 			"diversity"
 		]
 	},
-	"vulcan_tone1": {
+	":vulcan_tone1:": {
 		"unicode": "1f596-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#128406;&#127995;",
@@ -51542,7 +51334,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"vulcan_tone2": {
+	":vulcan_tone2:": {
 		"unicode": "1f596-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#128406;&#127996;",
@@ -51556,7 +51348,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"vulcan_tone3": {
+	":vulcan_tone3:": {
 		"unicode": "1f596-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#128406;&#127997;",
@@ -51570,7 +51362,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"vulcan_tone4": {
+	":vulcan_tone4:": {
 		"unicode": "1f596-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#128406;&#127998;",
@@ -51584,7 +51376,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"vulcan_tone5": {
+	":vulcan_tone5:": {
 		"unicode": "1f596-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#128406;&#127999;",
@@ -51598,7 +51390,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"metal": {
+	":metal:": {
 		"unicode": "1f918",
 		"unicode_alt": "",
 		"code_decimal": "&#129304;",
@@ -51619,7 +51411,7 @@ module.exports = {
 			"parties"
 		]
 	},
-	"metal_tone1": {
+	":metal_tone1:": {
 		"unicode": "1f918-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#129304;&#127995;",
@@ -51633,7 +51425,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"metal_tone2": {
+	":metal_tone2:": {
 		"unicode": "1f918-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#129304;&#127996;",
@@ -51647,7 +51439,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"metal_tone3": {
+	":metal_tone3:": {
 		"unicode": "1f918-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#129304;&#127997;",
@@ -51661,7 +51453,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"metal_tone4": {
+	":metal_tone4:": {
 		"unicode": "1f918-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#129304;&#127998;",
@@ -51675,7 +51467,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"metal_tone5": {
+	":metal_tone5:": {
 		"unicode": "1f918-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#129304;&#127999;",
@@ -51689,7 +51481,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"call_me": {
+	":call_me:": {
 		"unicode": "1f919",
 		"unicode_alt": "",
 		"code_decimal": "&#129305;",
@@ -51703,7 +51495,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"call_me_tone1": {
+	":call_me_tone1:": {
 		"unicode": "1f919-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#129305;&#127995;",
@@ -51717,7 +51509,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"call_me_tone2": {
+	":call_me_tone2:": {
 		"unicode": "1f919-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#129305;&#127996;",
@@ -51731,7 +51523,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"call_me_tone3": {
+	":call_me_tone3:": {
 		"unicode": "1f919-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#129305;&#127997;",
@@ -51745,7 +51537,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"call_me_tone4": {
+	":call_me_tone4:": {
 		"unicode": "1f919-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#129305;&#127998;",
@@ -51759,7 +51551,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"call_me_tone5": {
+	":call_me_tone5:": {
 		"unicode": "1f919-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#129305;&#127999;",
@@ -51773,7 +51565,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"hand_splayed": {
+	":hand_splayed:": {
 		"unicode": "1f590",
 		"unicode_alt": "1f590-fe0f",
 		"code_decimal": "&#128400;",
@@ -51792,7 +51584,7 @@ module.exports = {
 			"diversity"
 		]
 	},
-	"hand_splayed_tone1": {
+	":hand_splayed_tone1:": {
 		"unicode": "1f590-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#128400;&#127995;",
@@ -51806,7 +51598,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"hand_splayed_tone2": {
+	":hand_splayed_tone2:": {
 		"unicode": "1f590-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#128400;&#127996;",
@@ -51820,7 +51612,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"hand_splayed_tone3": {
+	":hand_splayed_tone3:": {
 		"unicode": "1f590-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#128400;&#127997;",
@@ -51834,7 +51626,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"hand_splayed_tone4": {
+	":hand_splayed_tone4:": {
 		"unicode": "1f590-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#128400;&#127998;",
@@ -51848,7 +51640,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"hand_splayed_tone5": {
+	":hand_splayed_tone5:": {
 		"unicode": "1f590-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#128400;&#127999;",
@@ -51862,7 +51654,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"raised_hand": {
+	":raised_hand:": {
 		"unicode": "270b",
 		"unicode_alt": "",
 		"code_decimal": "&#9995;",
@@ -51880,7 +51672,7 @@ module.exports = {
 			"girls night"
 		]
 	},
-	"raised_hand_tone1": {
+	":raised_hand_tone1:": {
 		"unicode": "270b-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#9995;&#127995;",
@@ -51892,7 +51684,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"raised_hand_tone2": {
+	":raised_hand_tone2:": {
 		"unicode": "270b-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#9995;&#127996;",
@@ -51904,7 +51696,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"raised_hand_tone3": {
+	":raised_hand_tone3:": {
 		"unicode": "270b-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#9995;&#127997;",
@@ -51916,7 +51708,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"raised_hand_tone4": {
+	":raised_hand_tone4:": {
 		"unicode": "270b-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#9995;&#127998;",
@@ -51928,7 +51720,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"raised_hand_tone5": {
+	":raised_hand_tone5:": {
 		"unicode": "270b-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#9995;&#127999;",
@@ -51940,7 +51732,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"ok_hand": {
+	":ok_hand:": {
 		"unicode": "1f44c",
 		"unicode_alt": "",
 		"code_decimal": "&#128076;",
@@ -51960,7 +51752,7 @@ module.exports = {
 			"beautiful"
 		]
 	},
-	"ok_hand_tone1": {
+	":ok_hand_tone1:": {
 		"unicode": "1f44c-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#128076;&#127995;",
@@ -51972,7 +51764,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"ok_hand_tone2": {
+	":ok_hand_tone2:": {
 		"unicode": "1f44c-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#128076;&#127996;",
@@ -51984,7 +51776,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"ok_hand_tone3": {
+	":ok_hand_tone3:": {
 		"unicode": "1f44c-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#128076;&#127997;",
@@ -51996,7 +51788,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"ok_hand_tone4": {
+	":ok_hand_tone4:": {
 		"unicode": "1f44c-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#128076;&#127998;",
@@ -52008,7 +51800,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"ok_hand_tone5": {
+	":ok_hand_tone5:": {
 		"unicode": "1f44c-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#128076;&#127999;",
@@ -52020,7 +51812,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"thumbsup": {
+	":thumbsup:": {
 		"unicode": "1f44d",
 		"unicode_alt": "",
 		"code_decimal": "&#128077;",
@@ -52045,7 +51837,7 @@ module.exports = {
 			"beautiful"
 		]
 	},
-	"thumbsup_tone1": {
+	":thumbsup_tone1:": {
 		"unicode": "1f44d-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#128077;&#127995;",
@@ -52060,7 +51852,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"thumbsup_tone2": {
+	":thumbsup_tone2:": {
 		"unicode": "1f44d-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#128077;&#127996;",
@@ -52075,7 +51867,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"thumbsup_tone3": {
+	":thumbsup_tone3:": {
 		"unicode": "1f44d-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#128077;&#127997;",
@@ -52090,7 +51882,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"thumbsup_tone4": {
+	":thumbsup_tone4:": {
 		"unicode": "1f44d-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#128077;&#127998;",
@@ -52105,7 +51897,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"thumbsup_tone5": {
+	":thumbsup_tone5:": {
 		"unicode": "1f44d-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#128077;&#127999;",
@@ -52120,7 +51912,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"thumbsdown": {
+	":thumbsdown:": {
 		"unicode": "1f44e",
 		"unicode_alt": "",
 		"code_decimal": "&#128078;",
@@ -52139,7 +51931,7 @@ module.exports = {
 			"diversity"
 		]
 	},
-	"thumbsdown_tone1": {
+	":thumbsdown_tone1:": {
 		"unicode": "1f44e-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#128078;&#127995;",
@@ -52154,7 +51946,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"thumbsdown_tone2": {
+	":thumbsdown_tone2:": {
 		"unicode": "1f44e-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#128078;&#127996;",
@@ -52169,7 +51961,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"thumbsdown_tone3": {
+	":thumbsdown_tone3:": {
 		"unicode": "1f44e-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#128078;&#127997;",
@@ -52184,7 +51976,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"thumbsdown_tone4": {
+	":thumbsdown_tone4:": {
 		"unicode": "1f44e-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#128078;&#127998;",
@@ -52199,7 +51991,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"thumbsdown_tone5": {
+	":thumbsdown_tone5:": {
 		"unicode": "1f44e-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#128078;&#127999;",
@@ -52214,7 +52006,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"fist": {
+	":fist:": {
 		"unicode": "270a",
 		"unicode_alt": "",
 		"code_decimal": "&#9994;",
@@ -52233,7 +52025,7 @@ module.exports = {
 			"condolence"
 		]
 	},
-	"fist_tone1": {
+	":fist_tone1:": {
 		"unicode": "270a-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#9994;&#127995;",
@@ -52245,7 +52037,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"fist_tone2": {
+	":fist_tone2:": {
 		"unicode": "270a-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#9994;&#127996;",
@@ -52257,7 +52049,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"fist_tone3": {
+	":fist_tone3:": {
 		"unicode": "270a-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#9994;&#127997;",
@@ -52269,7 +52061,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"fist_tone4": {
+	":fist_tone4:": {
 		"unicode": "270a-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#9994;&#127998;",
@@ -52281,7 +52073,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"fist_tone5": {
+	":fist_tone5:": {
 		"unicode": "270a-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#9994;&#127999;",
@@ -52293,7 +52085,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"punch": {
+	":punch:": {
 		"unicode": "1f44a",
 		"unicode_alt": "",
 		"code_decimal": "&#128074;",
@@ -52312,7 +52104,7 @@ module.exports = {
 			"boys night"
 		]
 	},
-	"punch_tone1": {
+	":punch_tone1:": {
 		"unicode": "1f44a-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#128074;&#127995;",
@@ -52324,7 +52116,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"punch_tone2": {
+	":punch_tone2:": {
 		"unicode": "1f44a-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#128074;&#127996;",
@@ -52336,7 +52128,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"punch_tone3": {
+	":punch_tone3:": {
 		"unicode": "1f44a-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#128074;&#127997;",
@@ -52348,7 +52140,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"punch_tone4": {
+	":punch_tone4:": {
 		"unicode": "1f44a-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#128074;&#127998;",
@@ -52360,7 +52152,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"punch_tone5": {
+	":punch_tone5:": {
 		"unicode": "1f44a-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#128074;&#127999;",
@@ -52372,7 +52164,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"left_facing_fist": {
+	":left_facing_fist:": {
 		"unicode": "1f91b",
 		"unicode_alt": "",
 		"code_decimal": "&#129307;",
@@ -52386,7 +52178,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"left_facing_fist_tone1": {
+	":left_facing_fist_tone1:": {
 		"unicode": "1f91b-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#129307;&#127995;",
@@ -52400,7 +52192,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"left_facing_fist_tone2": {
+	":left_facing_fist_tone2:": {
 		"unicode": "1f91b-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#129307;&#127996;",
@@ -52414,7 +52206,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"left_facing_fist_tone3": {
+	":left_facing_fist_tone3:": {
 		"unicode": "1f91b-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#129307;&#127997;",
@@ -52428,7 +52220,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"left_facing_fist_tone4": {
+	":left_facing_fist_tone4:": {
 		"unicode": "1f91b-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#129307;&#127998;",
@@ -52442,7 +52234,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"left_facing_fist_tone5": {
+	":left_facing_fist_tone5:": {
 		"unicode": "1f91b-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#129307;&#127999;",
@@ -52456,7 +52248,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"right_facing_fist": {
+	":right_facing_fist:": {
 		"unicode": "1f91c",
 		"unicode_alt": "",
 		"code_decimal": "&#129308;",
@@ -52470,7 +52262,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"right_facing_fist_tone1": {
+	":right_facing_fist_tone1:": {
 		"unicode": "1f91c-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#129308;&#127995;",
@@ -52484,7 +52276,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"right_facing_fist_tone2": {
+	":right_facing_fist_tone2:": {
 		"unicode": "1f91c-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#129308;&#127996;",
@@ -52498,7 +52290,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"right_facing_fist_tone3": {
+	":right_facing_fist_tone3:": {
 		"unicode": "1f91c-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#129308;&#127997;",
@@ -52512,7 +52304,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"right_facing_fist_tone4": {
+	":right_facing_fist_tone4:": {
 		"unicode": "1f91c-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#129308;&#127998;",
@@ -52526,7 +52318,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"right_facing_fist_tone5": {
+	":right_facing_fist_tone5:": {
 		"unicode": "1f91c-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#129308;&#127999;",
@@ -52540,7 +52332,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"raised_back_of_hand": {
+	":raised_back_of_hand:": {
 		"unicode": "1f91a",
 		"unicode_alt": "",
 		"code_decimal": "&#129306;",
@@ -52554,7 +52346,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"raised_back_of_hand_tone1": {
+	":raised_back_of_hand_tone1:": {
 		"unicode": "1f91a-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#129306;&#127995;",
@@ -52568,7 +52360,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"raised_back_of_hand_tone2": {
+	":raised_back_of_hand_tone2:": {
 		"unicode": "1f91a-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#129306;&#127996;",
@@ -52582,7 +52374,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"raised_back_of_hand_tone3": {
+	":raised_back_of_hand_tone3:": {
 		"unicode": "1f91a-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#129306;&#127997;",
@@ -52596,7 +52388,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"raised_back_of_hand_tone4": {
+	":raised_back_of_hand_tone4:": {
 		"unicode": "1f91a-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#129306;&#127998;",
@@ -52610,7 +52402,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"raised_back_of_hand_tone5": {
+	":raised_back_of_hand_tone5:": {
 		"unicode": "1f91a-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#129306;&#127999;",
@@ -52624,7 +52416,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"wave": {
+	":wave:": {
 		"unicode": "1f44b",
 		"unicode_alt": "",
 		"code_decimal": "&#128075;",
@@ -52641,7 +52433,7 @@ module.exports = {
 			"diversity"
 		]
 	},
-	"wave_tone1": {
+	":wave_tone1:": {
 		"unicode": "1f44b-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#128075;&#127995;",
@@ -52653,7 +52445,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"wave_tone2": {
+	":wave_tone2:": {
 		"unicode": "1f44b-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#128075;&#127996;",
@@ -52665,7 +52457,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"wave_tone3": {
+	":wave_tone3:": {
 		"unicode": "1f44b-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#128075;&#127997;",
@@ -52677,7 +52469,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"wave_tone4": {
+	":wave_tone4:": {
 		"unicode": "1f44b-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#128075;&#127998;",
@@ -52689,7 +52481,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"wave_tone5": {
+	":wave_tone5:": {
 		"unicode": "1f44b-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#128075;&#127999;",
@@ -52701,7 +52493,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"clap": {
+	":clap:": {
 		"unicode": "1f44f",
 		"unicode_alt": "",
 		"code_decimal": "&#128079;",
@@ -52720,7 +52512,7 @@ module.exports = {
 			"beautiful"
 		]
 	},
-	"clap_tone1": {
+	":clap_tone1:": {
 		"unicode": "1f44f-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#128079;&#127995;",
@@ -52732,7 +52524,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"clap_tone2": {
+	":clap_tone2:": {
 		"unicode": "1f44f-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#128079;&#127996;",
@@ -52744,7 +52536,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"clap_tone3": {
+	":clap_tone3:": {
 		"unicode": "1f44f-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#128079;&#127997;",
@@ -52756,7 +52548,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"clap_tone4": {
+	":clap_tone4:": {
 		"unicode": "1f44f-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#128079;&#127998;",
@@ -52768,7 +52560,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"clap_tone5": {
+	":clap_tone5:": {
 		"unicode": "1f44f-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#128079;&#127999;",
@@ -52780,7 +52572,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"writing_hand": {
+	":writing_hand:": {
 		"unicode": "270d",
 		"unicode_alt": "270d-fe0f",
 		"code_decimal": "&#9997;",
@@ -52797,7 +52589,7 @@ module.exports = {
 			"diversity"
 		]
 	},
-	"writing_hand_tone1": {
+	":writing_hand_tone1:": {
 		"unicode": "270d-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#9997;&#127995;",
@@ -52809,7 +52601,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"writing_hand_tone2": {
+	":writing_hand_tone2:": {
 		"unicode": "270d-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#9997;&#127996;",
@@ -52821,7 +52613,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"writing_hand_tone3": {
+	":writing_hand_tone3:": {
 		"unicode": "270d-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#9997;&#127997;",
@@ -52833,7 +52625,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"writing_hand_tone4": {
+	":writing_hand_tone4:": {
 		"unicode": "270d-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#9997;&#127998;",
@@ -52845,7 +52637,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"writing_hand_tone5": {
+	":writing_hand_tone5:": {
 		"unicode": "270d-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#9997;&#127999;",
@@ -52857,7 +52649,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"open_hands": {
+	":open_hands:": {
 		"unicode": "1f450",
 		"unicode_alt": "",
 		"code_decimal": "&#128080;",
@@ -52874,7 +52666,7 @@ module.exports = {
 			"condolence"
 		]
 	},
-	"open_hands_tone1": {
+	":open_hands_tone1:": {
 		"unicode": "1f450-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#128080;&#127995;",
@@ -52886,7 +52678,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"open_hands_tone2": {
+	":open_hands_tone2:": {
 		"unicode": "1f450-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#128080;&#127996;",
@@ -52898,7 +52690,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"open_hands_tone3": {
+	":open_hands_tone3:": {
 		"unicode": "1f450-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#128080;&#127997;",
@@ -52910,7 +52702,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"open_hands_tone4": {
+	":open_hands_tone4:": {
 		"unicode": "1f450-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#128080;&#127998;",
@@ -52922,7 +52714,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"open_hands_tone5": {
+	":open_hands_tone5:": {
 		"unicode": "1f450-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#128080;&#127999;",
@@ -52934,7 +52726,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"raised_hands": {
+	":raised_hands:": {
 		"unicode": "1f64c",
 		"unicode_alt": "",
 		"code_decimal": "&#128588;",
@@ -52953,7 +52745,7 @@ module.exports = {
 			"parties"
 		]
 	},
-	"raised_hands_tone1": {
+	":raised_hands_tone1:": {
 		"unicode": "1f64c-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#128588;&#127995;",
@@ -52965,7 +52757,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"raised_hands_tone2": {
+	":raised_hands_tone2:": {
 		"unicode": "1f64c-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#128588;&#127996;",
@@ -52977,7 +52769,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"raised_hands_tone3": {
+	":raised_hands_tone3:": {
 		"unicode": "1f64c-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#128588;&#127997;",
@@ -52989,7 +52781,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"raised_hands_tone4": {
+	":raised_hands_tone4:": {
 		"unicode": "1f64c-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#128588;&#127998;",
@@ -53001,7 +52793,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"raised_hands_tone5": {
+	":raised_hands_tone5:": {
 		"unicode": "1f64c-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#128588;&#127999;",
@@ -53013,7 +52805,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"pray": {
+	":pray:": {
 		"unicode": "1f64f",
 		"unicode_alt": "",
 		"code_decimal": "&#128591;",
@@ -53034,7 +52826,7 @@ module.exports = {
 			"scientology"
 		]
 	},
-	"pray_tone1": {
+	":pray_tone1:": {
 		"unicode": "1f64f-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#128591;&#127995;",
@@ -53046,7 +52838,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"pray_tone2": {
+	":pray_tone2:": {
 		"unicode": "1f64f-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#128591;&#127996;",
@@ -53058,7 +52850,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"pray_tone3": {
+	":pray_tone3:": {
 		"unicode": "1f64f-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#128591;&#127997;",
@@ -53070,7 +52862,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"pray_tone4": {
+	":pray_tone4:": {
 		"unicode": "1f64f-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#128591;&#127998;",
@@ -53082,7 +52874,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"pray_tone5": {
+	":pray_tone5:": {
 		"unicode": "1f64f-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#128591;&#127999;",
@@ -53094,7 +52886,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"handshake": {
+	":handshake:": {
 		"unicode": "1f91d",
 		"unicode_alt": "",
 		"code_decimal": "&#129309;",
@@ -53108,7 +52900,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"handshake_tone1": {
+	":handshake_tone1:": {
 		"unicode": "1f91d-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#129309;&#127995;",
@@ -53122,7 +52914,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"handshake_tone2": {
+	":handshake_tone2:": {
 		"unicode": "1f91d-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#129309;&#127996;",
@@ -53136,7 +52928,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"handshake_tone3": {
+	":handshake_tone3:": {
 		"unicode": "1f91d-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#129309;&#127997;",
@@ -53150,7 +52942,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"handshake_tone4": {
+	":handshake_tone4:": {
 		"unicode": "1f91d-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#129309;&#127998;",
@@ -53164,7 +52956,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"handshake_tone5": {
+	":handshake_tone5:": {
 		"unicode": "1f91d-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#129309;&#127999;",
@@ -53178,7 +52970,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"nail_care": {
+	":nail_care:": {
 		"unicode": "1f485",
 		"unicode_alt": "",
 		"code_decimal": "&#128133;",
@@ -53197,7 +52989,7 @@ module.exports = {
 			"girls night"
 		]
 	},
-	"nail_care_tone1": {
+	":nail_care_tone1:": {
 		"unicode": "1f485-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#128133;&#127995;",
@@ -53209,7 +53001,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"nail_care_tone2": {
+	":nail_care_tone2:": {
 		"unicode": "1f485-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#128133;&#127996;",
@@ -53221,7 +53013,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"nail_care_tone3": {
+	":nail_care_tone3:": {
 		"unicode": "1f485-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#128133;&#127997;",
@@ -53233,7 +53025,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"nail_care_tone4": {
+	":nail_care_tone4:": {
 		"unicode": "1f485-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#128133;&#127998;",
@@ -53245,7 +53037,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"nail_care_tone5": {
+	":nail_care_tone5:": {
 		"unicode": "1f485-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#128133;&#127999;",
@@ -53257,7 +53049,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"ear": {
+	":ear:": {
 		"unicode": "1f442",
 		"unicode_alt": "",
 		"code_decimal": "&#128066;",
@@ -53272,7 +53064,7 @@ module.exports = {
 			"diversity"
 		]
 	},
-	"ear_tone1": {
+	":ear_tone1:": {
 		"unicode": "1f442-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#128066;&#127995;",
@@ -53284,7 +53076,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"ear_tone2": {
+	":ear_tone2:": {
 		"unicode": "1f442-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#128066;&#127996;",
@@ -53296,7 +53088,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"ear_tone3": {
+	":ear_tone3:": {
 		"unicode": "1f442-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#128066;&#127997;",
@@ -53308,7 +53100,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"ear_tone4": {
+	":ear_tone4:": {
 		"unicode": "1f442-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#128066;&#127998;",
@@ -53320,7 +53112,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"ear_tone5": {
+	":ear_tone5:": {
 		"unicode": "1f442-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#128066;&#127999;",
@@ -53332,7 +53124,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"nose": {
+	":nose:": {
 		"unicode": "1f443",
 		"unicode_alt": "",
 		"code_decimal": "&#128067;",
@@ -53347,7 +53139,7 @@ module.exports = {
 			"diversity"
 		]
 	},
-	"nose_tone1": {
+	":nose_tone1:": {
 		"unicode": "1f443-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#128067;&#127995;",
@@ -53359,7 +53151,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"nose_tone2": {
+	":nose_tone2:": {
 		"unicode": "1f443-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#128067;&#127996;",
@@ -53371,7 +53163,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"nose_tone3": {
+	":nose_tone3:": {
 		"unicode": "1f443-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#128067;&#127997;",
@@ -53383,7 +53175,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"nose_tone4": {
+	":nose_tone4:": {
 		"unicode": "1f443-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#128067;&#127998;",
@@ -53395,7 +53187,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"nose_tone5": {
+	":nose_tone5:": {
 		"unicode": "1f443-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#128067;&#127999;",
@@ -53407,7 +53199,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"footprints": {
+	":footprints:": {
 		"unicode": "1f463",
 		"unicode_alt": "",
 		"code_decimal": "&#128099;",
@@ -53419,7 +53211,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"eyes": {
+	":eyes:": {
 		"unicode": "1f440",
 		"unicode_alt": "",
 		"code_decimal": "&#128064;",
@@ -53434,7 +53226,7 @@ module.exports = {
 			"eyes"
 		]
 	},
-	"eye": {
+	":eye:": {
 		"unicode": "1f441",
 		"unicode_alt": "1f441-fe0f",
 		"code_decimal": "&#128065;",
@@ -53449,7 +53241,7 @@ module.exports = {
 			"eyes"
 		]
 	},
-	"eye_in_speech_bubble": {
+	":eye_in_speech_bubble:": {
 		"unicode": "1f441-1f5e8",
 		"unicode_alt": "1f441-200d-1f5e8",
 		"code_decimal": "&#128065;&#128488;",
@@ -53466,7 +53258,7 @@ module.exports = {
 			"talk"
 		]
 	},
-	"tongue": {
+	":tongue:": {
 		"unicode": "1f445",
 		"unicode_alt": "",
 		"code_decimal": "&#128069;",
@@ -53482,7 +53274,7 @@ module.exports = {
 			"lip"
 		]
 	},
-	"lips": {
+	":lips:": {
 		"unicode": "1f444",
 		"unicode_alt": "",
 		"code_decimal": "&#128068;",
@@ -53499,7 +53291,7 @@ module.exports = {
 			"lip"
 		]
 	},
-	"kiss": {
+	":kiss:": {
 		"unicode": "1f48b",
 		"unicode_alt": "",
 		"code_decimal": "&#128139;",
@@ -53518,7 +53310,7 @@ module.exports = {
 			"girls night"
 		]
 	},
-	"cupid": {
+	":cupid:": {
 		"unicode": "1f498",
 		"unicode_alt": "",
 		"code_decimal": "&#128152;",
@@ -53533,7 +53325,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"heart": {
+	":heart:": {
 		"unicode": "2764",
 		"unicode_alt": "2764-fe0f",
 		"code_decimal": "&#10084;",
@@ -53542,16 +53334,14 @@ module.exports = {
 		"category": "symbols",
 		"emoji_order": "1286",
 		"aliases": [],
-		"aliases_ascii": [
-			"<3"
-		],
+		"aliases_ascii": [],
 		"keywords": [
 			"love",
 			"symbol",
 			"parties"
 		]
 	},
-	"heartbeat": {
+	":heartbeat:": {
 		"unicode": "1f493",
 		"unicode_alt": "",
 		"code_decimal": "&#128147;",
@@ -53566,7 +53356,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"broken_heart": {
+	":broken_heart:": {
 		"unicode": "1f494",
 		"unicode_alt": "",
 		"code_decimal": "&#128148;",
@@ -53575,16 +53365,14 @@ module.exports = {
 		"category": "symbols",
 		"emoji_order": "1288",
 		"aliases": [],
-		"aliases_ascii": [
-			"</3"
-		],
+		"aliases_ascii": [],
 		"keywords": [
 			"love",
 			"symbol",
 			"heartbreak"
 		]
 	},
-	"two_hearts": {
+	":two_hearts:": {
 		"unicode": "1f495",
 		"unicode_alt": "",
 		"code_decimal": "&#128149;",
@@ -53599,7 +53387,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"sparkling_heart": {
+	":sparkling_heart:": {
 		"unicode": "1f496",
 		"unicode_alt": "",
 		"code_decimal": "&#128150;",
@@ -53615,7 +53403,7 @@ module.exports = {
 			"girls night"
 		]
 	},
-	"heartpulse": {
+	":heartpulse:": {
 		"unicode": "1f497",
 		"unicode_alt": "",
 		"code_decimal": "&#128151;",
@@ -53630,7 +53418,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"blue_heart": {
+	":blue_heart:": {
 		"unicode": "1f499",
 		"unicode_alt": "",
 		"code_decimal": "&#128153;",
@@ -53645,7 +53433,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"green_heart": {
+	":green_heart:": {
 		"unicode": "1f49a",
 		"unicode_alt": "",
 		"code_decimal": "&#128154;",
@@ -53660,7 +53448,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"yellow_heart": {
+	":yellow_heart:": {
 		"unicode": "1f49b",
 		"unicode_alt": "",
 		"code_decimal": "&#128155;",
@@ -53675,7 +53463,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"purple_heart": {
+	":purple_heart:": {
 		"unicode": "1f49c",
 		"unicode_alt": "",
 		"code_decimal": "&#128156;",
@@ -53690,7 +53478,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"black_heart": {
+	":black_heart:": {
 		"unicode": "1f5a4",
 		"unicode_alt": "",
 		"code_decimal": "&#128420;",
@@ -53702,7 +53490,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"gift_heart": {
+	":gift_heart:": {
 		"unicode": "1f49d",
 		"unicode_alt": "",
 		"code_decimal": "&#128157;",
@@ -53718,7 +53506,7 @@ module.exports = {
 			"condolence"
 		]
 	},
-	"revolving_hearts": {
+	":revolving_hearts:": {
 		"unicode": "1f49e",
 		"unicode_alt": "",
 		"code_decimal": "&#128158;",
@@ -53733,7 +53521,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"heart_decoration": {
+	":heart_decoration:": {
 		"unicode": "1f49f",
 		"unicode_alt": "",
 		"code_decimal": "&#128159;",
@@ -53748,7 +53536,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"heart_exclamation": {
+	":heart_exclamation:": {
 		"unicode": "2763",
 		"unicode_alt": "2763-fe0f",
 		"code_decimal": "&#10083;",
@@ -53765,7 +53553,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"love_letter": {
+	":love_letter:": {
 		"unicode": "1f48c",
 		"unicode_alt": "",
 		"code_decimal": "&#128140;",
@@ -53779,7 +53567,7 @@ module.exports = {
 			"object"
 		]
 	},
-	"zzz": {
+	":zzz:": {
 		"unicode": "1f4a4",
 		"unicode_alt": "",
 		"code_decimal": "&#128164;",
@@ -53794,7 +53582,7 @@ module.exports = {
 			"goodnight"
 		]
 	},
-	"anger": {
+	":anger:": {
 		"unicode": "1f4a2",
 		"unicode_alt": "",
 		"code_decimal": "&#128162;",
@@ -53808,7 +53596,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"bomb": {
+	":bomb:": {
 		"unicode": "1f4a3",
 		"unicode_alt": "",
 		"code_decimal": "&#128163;",
@@ -53825,7 +53613,7 @@ module.exports = {
 			"blast"
 		]
 	},
-	"boom": {
+	":boom:": {
 		"unicode": "1f4a5",
 		"unicode_alt": "",
 		"code_decimal": "&#128165;",
@@ -53840,7 +53628,7 @@ module.exports = {
 			"blast"
 		]
 	},
-	"sweat_drops": {
+	":sweat_drops:": {
 		"unicode": "1f4a6",
 		"unicode_alt": "",
 		"code_decimal": "&#128166;",
@@ -53856,7 +53644,7 @@ module.exports = {
 			"sweat"
 		]
 	},
-	"dash": {
+	":dash:": {
 		"unicode": "1f4a8",
 		"unicode_alt": "",
 		"code_decimal": "&#128168;",
@@ -53872,7 +53660,7 @@ module.exports = {
 			"smoking"
 		]
 	},
-	"dizzy": {
+	":dizzy:": {
 		"unicode": "1f4ab",
 		"unicode_alt": "",
 		"code_decimal": "&#128171;",
@@ -53887,7 +53675,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"speech_balloon": {
+	":speech_balloon:": {
 		"unicode": "1f4ac",
 		"unicode_alt": "",
 		"code_decimal": "&#128172;",
@@ -53902,7 +53690,7 @@ module.exports = {
 			"free speech"
 		]
 	},
-	"speech_left": {
+	":speech_left:": {
 		"unicode": "1f5e8",
 		"unicode_alt": "1f5e8-fe0f",
 		"code_decimal": "&#128488;",
@@ -53916,7 +53704,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"anger_right": {
+	":anger_right:": {
 		"unicode": "1f5ef",
 		"unicode_alt": "1f5ef-fe0f",
 		"code_decimal": "&#128495;",
@@ -53932,7 +53720,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"thought_balloon": {
+	":thought_balloon:": {
 		"unicode": "1f4ad",
 		"unicode_alt": "",
 		"code_decimal": "&#128173;",
@@ -53946,7 +53734,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"hole": {
+	":hole:": {
 		"unicode": "1f573",
 		"unicode_alt": "1f573-fe0f",
 		"code_decimal": "&#128371;",
@@ -53960,7 +53748,7 @@ module.exports = {
 			"object"
 		]
 	},
-	"eyeglasses": {
+	":eyeglasses:": {
 		"unicode": "1f453",
 		"unicode_alt": "",
 		"code_decimal": "&#128083;",
@@ -53976,7 +53764,7 @@ module.exports = {
 			"accessories"
 		]
 	},
-	"dark_sunglasses": {
+	":dark_sunglasses:": {
 		"unicode": "1f576",
 		"unicode_alt": "1f576-fe0f",
 		"code_decimal": "&#128374;",
@@ -53992,7 +53780,7 @@ module.exports = {
 			"accessories"
 		]
 	},
-	"necktie": {
+	":necktie:": {
 		"unicode": "1f454",
 		"unicode_alt": "",
 		"code_decimal": "&#128084;",
@@ -54006,7 +53794,7 @@ module.exports = {
 			"fashion"
 		]
 	},
-	"shirt": {
+	":shirt:": {
 		"unicode": "1f455",
 		"unicode_alt": "",
 		"code_decimal": "&#128085;",
@@ -54020,7 +53808,7 @@ module.exports = {
 			"fashion"
 		]
 	},
-	"jeans": {
+	":jeans:": {
 		"unicode": "1f456",
 		"unicode_alt": "",
 		"code_decimal": "&#128086;",
@@ -54034,7 +53822,7 @@ module.exports = {
 			"fashion"
 		]
 	},
-	"dress": {
+	":dress:": {
 		"unicode": "1f457",
 		"unicode_alt": "",
 		"code_decimal": "&#128087;",
@@ -54051,7 +53839,7 @@ module.exports = {
 			"girls night"
 		]
 	},
-	"kimono": {
+	":kimono:": {
 		"unicode": "1f458",
 		"unicode_alt": "",
 		"code_decimal": "&#128088;",
@@ -54065,7 +53853,7 @@ module.exports = {
 			"fashion"
 		]
 	},
-	"bikini": {
+	":bikini:": {
 		"unicode": "1f459",
 		"unicode_alt": "",
 		"code_decimal": "&#128089;",
@@ -54084,7 +53872,7 @@ module.exports = {
 			"swim"
 		]
 	},
-	"womans_clothes": {
+	":womans_clothes:": {
 		"unicode": "1f45a",
 		"unicode_alt": "",
 		"code_decimal": "&#128090;",
@@ -54099,7 +53887,7 @@ module.exports = {
 			"fashion"
 		]
 	},
-	"purse": {
+	":purse:": {
 		"unicode": "1f45b",
 		"unicode_alt": "",
 		"code_decimal": "&#128091;",
@@ -54117,7 +53905,7 @@ module.exports = {
 			"money"
 		]
 	},
-	"handbag": {
+	":handbag:": {
 		"unicode": "1f45c",
 		"unicode_alt": "",
 		"code_decimal": "&#128092;",
@@ -54135,7 +53923,7 @@ module.exports = {
 			"accessories"
 		]
 	},
-	"pouch": {
+	":pouch:": {
 		"unicode": "1f45d",
 		"unicode_alt": "",
 		"code_decimal": "&#128093;",
@@ -54152,7 +53940,7 @@ module.exports = {
 			"accessories"
 		]
 	},
-	"shopping_bags": {
+	":shopping_bags:": {
 		"unicode": "1f6cd",
 		"unicode_alt": "1f6cd-fe0f",
 		"code_decimal": "&#128717;",
@@ -54168,7 +53956,7 @@ module.exports = {
 			"parties"
 		]
 	},
-	"school_satchel": {
+	":school_satchel:": {
 		"unicode": "1f392",
 		"unicode_alt": "",
 		"code_decimal": "&#127890;",
@@ -54186,7 +53974,7 @@ module.exports = {
 			"accessories"
 		]
 	},
-	"mans_shoe": {
+	":mans_shoe:": {
 		"unicode": "1f45e",
 		"unicode_alt": "",
 		"code_decimal": "&#128094;",
@@ -54202,7 +53990,7 @@ module.exports = {
 			"accessories"
 		]
 	},
-	"athletic_shoe": {
+	":athletic_shoe:": {
 		"unicode": "1f45f",
 		"unicode_alt": "",
 		"code_decimal": "&#128095;",
@@ -54219,7 +54007,7 @@ module.exports = {
 			"boys night"
 		]
 	},
-	"high_heel": {
+	":high_heel:": {
 		"unicode": "1f460",
 		"unicode_alt": "",
 		"code_decimal": "&#128096;",
@@ -54238,7 +54026,7 @@ module.exports = {
 			"girls night"
 		]
 	},
-	"sandal": {
+	":sandal:": {
 		"unicode": "1f461",
 		"unicode_alt": "",
 		"code_decimal": "&#128097;",
@@ -54254,7 +54042,7 @@ module.exports = {
 			"accessories"
 		]
 	},
-	"boot": {
+	":boot:": {
 		"unicode": "1f462",
 		"unicode_alt": "",
 		"code_decimal": "&#128098;",
@@ -54272,7 +54060,7 @@ module.exports = {
 			"accessories"
 		]
 	},
-	"crown": {
+	":crown:": {
 		"unicode": "1f451",
 		"unicode_alt": "",
 		"code_decimal": "&#128081;",
@@ -54288,7 +54076,7 @@ module.exports = {
 			"accessories"
 		]
 	},
-	"womans_hat": {
+	":womans_hat:": {
 		"unicode": "1f452",
 		"unicode_alt": "",
 		"code_decimal": "&#128082;",
@@ -54304,7 +54092,7 @@ module.exports = {
 			"accessories"
 		]
 	},
-	"tophat": {
+	":tophat:": {
 		"unicode": "1f3a9",
 		"unicode_alt": "",
 		"code_decimal": "&#127913;",
@@ -54320,7 +54108,7 @@ module.exports = {
 			"accessories"
 		]
 	},
-	"mortar_board": {
+	":mortar_board:": {
 		"unicode": "1f393",
 		"unicode_alt": "",
 		"code_decimal": "&#127891;",
@@ -54336,7 +54124,7 @@ module.exports = {
 			"accessories"
 		]
 	},
-	"helmet_with_cross": {
+	":helmet_with_cross:": {
 		"unicode": "26d1",
 		"unicode_alt": "26d1-fe0f",
 		"code_decimal": "&#9937;",
@@ -54355,7 +54143,7 @@ module.exports = {
 			"job"
 		]
 	},
-	"prayer_beads": {
+	":prayer_beads:": {
 		"unicode": "1f4ff",
 		"unicode_alt": "",
 		"code_decimal": "&#128255;",
@@ -54370,7 +54158,7 @@ module.exports = {
 			"rosary"
 		]
 	},
-	"lipstick": {
+	":lipstick:": {
 		"unicode": "1f484",
 		"unicode_alt": "",
 		"code_decimal": "&#128132;",
@@ -54388,7 +54176,7 @@ module.exports = {
 			"lip"
 		]
 	},
-	"ring": {
+	":ring:": {
 		"unicode": "1f48d",
 		"unicode_alt": "",
 		"code_decimal": "&#128141;",
@@ -54406,7 +54194,7 @@ module.exports = {
 			"accessories"
 		]
 	},
-	"gem": {
+	":gem:": {
 		"unicode": "1f48e",
 		"unicode_alt": "",
 		"code_decimal": "&#128142;",
@@ -54421,7 +54209,7 @@ module.exports = {
 			"gem"
 		]
 	},
-	"monkey_face": {
+	":monkey_face:": {
 		"unicode": "1f435",
 		"unicode_alt": "",
 		"code_decimal": "&#128053;",
@@ -54435,7 +54223,7 @@ module.exports = {
 			"animal"
 		]
 	},
-	"monkey": {
+	":monkey:": {
 		"unicode": "1f412",
 		"unicode_alt": "",
 		"code_decimal": "&#128018;",
@@ -54450,7 +54238,7 @@ module.exports = {
 			"animal"
 		]
 	},
-	"gorilla": {
+	":gorilla:": {
 		"unicode": "1f98d",
 		"unicode_alt": "",
 		"code_decimal": "&#129421;",
@@ -54462,7 +54250,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"dog": {
+	":dog:": {
 		"unicode": "1f436",
 		"unicode_alt": "",
 		"code_decimal": "&#128054;",
@@ -54478,7 +54266,7 @@ module.exports = {
 			"animal"
 		]
 	},
-	"dog2": {
+	":dog2:": {
 		"unicode": "1f415",
 		"unicode_alt": "",
 		"code_decimal": "&#128021;",
@@ -54494,7 +54282,7 @@ module.exports = {
 			"animal"
 		]
 	},
-	"poodle": {
+	":poodle:": {
 		"unicode": "1f429",
 		"unicode_alt": "",
 		"code_decimal": "&#128041;",
@@ -54509,7 +54297,7 @@ module.exports = {
 			"animal"
 		]
 	},
-	"wolf": {
+	":wolf:": {
 		"unicode": "1f43a",
 		"unicode_alt": "",
 		"code_decimal": "&#128058;",
@@ -54525,7 +54313,7 @@ module.exports = {
 			"animal"
 		]
 	},
-	"fox": {
+	":fox:": {
 		"unicode": "1f98a",
 		"unicode_alt": "",
 		"code_decimal": "&#129418;",
@@ -54539,7 +54327,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"cat": {
+	":cat:": {
 		"unicode": "1f431",
 		"unicode_alt": "",
 		"code_decimal": "&#128049;",
@@ -54556,7 +54344,7 @@ module.exports = {
 			"animal"
 		]
 	},
-	"cat2": {
+	":cat2:": {
 		"unicode": "1f408",
 		"unicode_alt": "",
 		"code_decimal": "&#128008;",
@@ -54572,7 +54360,7 @@ module.exports = {
 			"animal"
 		]
 	},
-	"lion_face": {
+	":lion_face:": {
 		"unicode": "1f981",
 		"unicode_alt": "",
 		"code_decimal": "&#129409;",
@@ -54591,7 +54379,7 @@ module.exports = {
 			"animal"
 		]
 	},
-	"tiger": {
+	":tiger:": {
 		"unicode": "1f42f",
 		"unicode_alt": "",
 		"code_decimal": "&#128047;",
@@ -54608,7 +54396,7 @@ module.exports = {
 			"animal"
 		]
 	},
-	"tiger2": {
+	":tiger2:": {
 		"unicode": "1f405",
 		"unicode_alt": "",
 		"code_decimal": "&#128005;",
@@ -54624,7 +54412,7 @@ module.exports = {
 			"animal"
 		]
 	},
-	"leopard": {
+	":leopard:": {
 		"unicode": "1f406",
 		"unicode_alt": "",
 		"code_decimal": "&#128006;",
@@ -54640,7 +54428,7 @@ module.exports = {
 			"animal"
 		]
 	},
-	"horse": {
+	":horse:": {
 		"unicode": "1f434",
 		"unicode_alt": "",
 		"code_decimal": "&#128052;",
@@ -54655,7 +54443,7 @@ module.exports = {
 			"animal"
 		]
 	},
-	"racehorse": {
+	":racehorse:": {
 		"unicode": "1f40e",
 		"unicode_alt": "",
 		"code_decimal": "&#128014;",
@@ -54670,7 +54458,7 @@ module.exports = {
 			"animal"
 		]
 	},
-	"deer": {
+	":deer:": {
 		"unicode": "1f98c",
 		"unicode_alt": "",
 		"code_decimal": "&#129420;",
@@ -54682,7 +54470,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"unicorn": {
+	":unicorn:": {
 		"unicode": "1f984",
 		"unicode_alt": "",
 		"code_decimal": "&#129412;",
@@ -54698,7 +54486,7 @@ module.exports = {
 			"animal"
 		]
 	},
-	"cow": {
+	":cow:": {
 		"unicode": "1f42e",
 		"unicode_alt": "",
 		"code_decimal": "&#128046;",
@@ -54712,7 +54500,7 @@ module.exports = {
 			"animal"
 		]
 	},
-	"ox": {
+	":ox:": {
 		"unicode": "1f402",
 		"unicode_alt": "",
 		"code_decimal": "&#128002;",
@@ -54726,7 +54514,7 @@ module.exports = {
 			"animal"
 		]
 	},
-	"water_buffalo": {
+	":water_buffalo:": {
 		"unicode": "1f403",
 		"unicode_alt": "",
 		"code_decimal": "&#128003;",
@@ -54741,7 +54529,7 @@ module.exports = {
 			"animal"
 		]
 	},
-	"cow2": {
+	":cow2:": {
 		"unicode": "1f404",
 		"unicode_alt": "",
 		"code_decimal": "&#128004;",
@@ -54755,7 +54543,7 @@ module.exports = {
 			"animal"
 		]
 	},
-	"pig": {
+	":pig:": {
 		"unicode": "1f437",
 		"unicode_alt": "",
 		"code_decimal": "&#128055;",
@@ -54769,7 +54557,7 @@ module.exports = {
 			"animal"
 		]
 	},
-	"pig2": {
+	":pig2:": {
 		"unicode": "1f416",
 		"unicode_alt": "",
 		"code_decimal": "&#128022;",
@@ -54783,7 +54571,7 @@ module.exports = {
 			"animal"
 		]
 	},
-	"boar": {
+	":boar:": {
 		"unicode": "1f417",
 		"unicode_alt": "",
 		"code_decimal": "&#128023;",
@@ -54798,7 +54586,7 @@ module.exports = {
 			"animal"
 		]
 	},
-	"pig_nose": {
+	":pig_nose:": {
 		"unicode": "1f43d",
 		"unicode_alt": "",
 		"code_decimal": "&#128061;",
@@ -54812,7 +54600,7 @@ module.exports = {
 			"animal"
 		]
 	},
-	"ram": {
+	":ram:": {
 		"unicode": "1f40f",
 		"unicode_alt": "",
 		"code_decimal": "&#128015;",
@@ -54827,7 +54615,7 @@ module.exports = {
 			"animal"
 		]
 	},
-	"sheep": {
+	":sheep:": {
 		"unicode": "1f411",
 		"unicode_alt": "",
 		"code_decimal": "&#128017;",
@@ -54841,7 +54629,7 @@ module.exports = {
 			"animal"
 		]
 	},
-	"goat": {
+	":goat:": {
 		"unicode": "1f410",
 		"unicode_alt": "",
 		"code_decimal": "&#128016;",
@@ -54855,7 +54643,7 @@ module.exports = {
 			"animal"
 		]
 	},
-	"dromedary_camel": {
+	":dromedary_camel:": {
 		"unicode": "1f42a",
 		"unicode_alt": "",
 		"code_decimal": "&#128042;",
@@ -54870,7 +54658,7 @@ module.exports = {
 			"animal"
 		]
 	},
-	"camel": {
+	":camel:": {
 		"unicode": "1f42b",
 		"unicode_alt": "",
 		"code_decimal": "&#128043;",
@@ -54886,7 +54674,7 @@ module.exports = {
 			"hump day"
 		]
 	},
-	"elephant": {
+	":elephant:": {
 		"unicode": "1f418",
 		"unicode_alt": "",
 		"code_decimal": "&#128024;",
@@ -54901,7 +54689,7 @@ module.exports = {
 			"animal"
 		]
 	},
-	"rhino": {
+	":rhino:": {
 		"unicode": "1f98f",
 		"unicode_alt": "",
 		"code_decimal": "&#129423;",
@@ -54915,7 +54703,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"mouse": {
+	":mouse:": {
 		"unicode": "1f42d",
 		"unicode_alt": "",
 		"code_decimal": "&#128045;",
@@ -54929,7 +54717,7 @@ module.exports = {
 			"animal"
 		]
 	},
-	"mouse2": {
+	":mouse2:": {
 		"unicode": "1f401",
 		"unicode_alt": "",
 		"code_decimal": "&#128001;",
@@ -54943,7 +54731,7 @@ module.exports = {
 			"animal"
 		]
 	},
-	"rat": {
+	":rat:": {
 		"unicode": "1f400",
 		"unicode_alt": "",
 		"code_decimal": "&#128000;",
@@ -54957,7 +54745,7 @@ module.exports = {
 			"animal"
 		]
 	},
-	"hamster": {
+	":hamster:": {
 		"unicode": "1f439",
 		"unicode_alt": "",
 		"code_decimal": "&#128057;",
@@ -54971,7 +54759,7 @@ module.exports = {
 			"animal"
 		]
 	},
-	"rabbit": {
+	":rabbit:": {
 		"unicode": "1f430",
 		"unicode_alt": "",
 		"code_decimal": "&#128048;",
@@ -54986,7 +54774,7 @@ module.exports = {
 			"animal"
 		]
 	},
-	"rabbit2": {
+	":rabbit2:": {
 		"unicode": "1f407",
 		"unicode_alt": "",
 		"code_decimal": "&#128007;",
@@ -55001,7 +54789,7 @@ module.exports = {
 			"animal"
 		]
 	},
-	"chipmunk": {
+	":chipmunk:": {
 		"unicode": "1f43f",
 		"unicode_alt": "1f43f-fe0f",
 		"code_decimal": "&#128063;",
@@ -55016,7 +54804,7 @@ module.exports = {
 			"animal"
 		]
 	},
-	"bat": {
+	":bat:": {
 		"unicode": "1f987",
 		"unicode_alt": "",
 		"code_decimal": "&#129415;",
@@ -55028,7 +54816,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"bear": {
+	":bear:": {
 		"unicode": "1f43b",
 		"unicode_alt": "",
 		"code_decimal": "&#128059;",
@@ -55044,7 +54832,7 @@ module.exports = {
 			"animal"
 		]
 	},
-	"koala": {
+	":koala:": {
 		"unicode": "1f428",
 		"unicode_alt": "",
 		"code_decimal": "&#128040;",
@@ -55059,7 +54847,7 @@ module.exports = {
 			"animal"
 		]
 	},
-	"panda_face": {
+	":panda_face:": {
 		"unicode": "1f43c",
 		"unicode_alt": "",
 		"code_decimal": "&#128060;",
@@ -55075,7 +54863,7 @@ module.exports = {
 			"animal"
 		]
 	},
-	"feet": {
+	":feet:": {
 		"unicode": "1f43e",
 		"unicode_alt": "",
 		"code_decimal": "&#128062;",
@@ -55091,7 +54879,7 @@ module.exports = {
 			"animal"
 		]
 	},
-	"turkey": {
+	":turkey:": {
 		"unicode": "1f983",
 		"unicode_alt": "",
 		"code_decimal": "&#129411;",
@@ -55106,7 +54894,7 @@ module.exports = {
 			"animal"
 		]
 	},
-	"chicken": {
+	":chicken:": {
 		"unicode": "1f414",
 		"unicode_alt": "",
 		"code_decimal": "&#128020;",
@@ -55121,7 +54909,7 @@ module.exports = {
 			"chicken"
 		]
 	},
-	"rooster": {
+	":rooster:": {
 		"unicode": "1f413",
 		"unicode_alt": "",
 		"code_decimal": "&#128019;",
@@ -55135,7 +54923,7 @@ module.exports = {
 			"animal"
 		]
 	},
-	"hatching_chick": {
+	":hatching_chick:": {
 		"unicode": "1f423",
 		"unicode_alt": "",
 		"code_decimal": "&#128035;",
@@ -55150,7 +54938,7 @@ module.exports = {
 			"chicken"
 		]
 	},
-	"baby_chick": {
+	":baby_chick:": {
 		"unicode": "1f424",
 		"unicode_alt": "",
 		"code_decimal": "&#128036;",
@@ -55165,7 +54953,7 @@ module.exports = {
 			"chicken"
 		]
 	},
-	"hatched_chick": {
+	":hatched_chick:": {
 		"unicode": "1f425",
 		"unicode_alt": "",
 		"code_decimal": "&#128037;",
@@ -55180,7 +54968,7 @@ module.exports = {
 			"chicken"
 		]
 	},
-	"bird": {
+	":bird:": {
 		"unicode": "1f426",
 		"unicode_alt": "",
 		"code_decimal": "&#128038;",
@@ -55195,7 +54983,7 @@ module.exports = {
 			"animal"
 		]
 	},
-	"penguin": {
+	":penguin:": {
 		"unicode": "1f427",
 		"unicode_alt": "",
 		"code_decimal": "&#128039;",
@@ -55210,7 +54998,7 @@ module.exports = {
 			"animal"
 		]
 	},
-	"dove": {
+	":dove:": {
 		"unicode": "1f54a",
 		"unicode_alt": "1f54a-fe0f",
 		"code_decimal": "&#128330;",
@@ -55226,7 +55014,7 @@ module.exports = {
 			"animal"
 		]
 	},
-	"eagle": {
+	":eagle:": {
 		"unicode": "1f985",
 		"unicode_alt": "",
 		"code_decimal": "&#129413;",
@@ -55238,7 +55026,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"duck": {
+	":duck:": {
 		"unicode": "1f986",
 		"unicode_alt": "",
 		"code_decimal": "&#129414;",
@@ -55250,7 +55038,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"owl": {
+	":owl:": {
 		"unicode": "1f989",
 		"unicode_alt": "",
 		"code_decimal": "&#129417;",
@@ -55262,7 +55050,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"frog": {
+	":frog:": {
 		"unicode": "1f438",
 		"unicode_alt": "",
 		"code_decimal": "&#128056;",
@@ -55277,7 +55065,7 @@ module.exports = {
 			"animal"
 		]
 	},
-	"crocodile": {
+	":crocodile:": {
 		"unicode": "1f40a",
 		"unicode_alt": "",
 		"code_decimal": "&#128010;",
@@ -55293,7 +55081,7 @@ module.exports = {
 			"animal"
 		]
 	},
-	"turtle": {
+	":turtle:": {
 		"unicode": "1f422",
 		"unicode_alt": "",
 		"code_decimal": "&#128034;",
@@ -55309,7 +55097,7 @@ module.exports = {
 			"animal"
 		]
 	},
-	"lizard": {
+	":lizard:": {
 		"unicode": "1f98e",
 		"unicode_alt": "",
 		"code_decimal": "&#129422;",
@@ -55321,7 +55109,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"snake": {
+	":snake:": {
 		"unicode": "1f40d",
 		"unicode_alt": "",
 		"code_decimal": "&#128013;",
@@ -55338,7 +55126,7 @@ module.exports = {
 			"creationism"
 		]
 	},
-	"dragon_face": {
+	":dragon_face:": {
 		"unicode": "1f432",
 		"unicode_alt": "",
 		"code_decimal": "&#128050;",
@@ -55355,7 +55143,7 @@ module.exports = {
 			"animal"
 		]
 	},
-	"dragon": {
+	":dragon:": {
 		"unicode": "1f409",
 		"unicode_alt": "",
 		"code_decimal": "&#128009;",
@@ -55371,7 +55159,7 @@ module.exports = {
 			"animal"
 		]
 	},
-	"whale": {
+	":whale:": {
 		"unicode": "1f433",
 		"unicode_alt": "",
 		"code_decimal": "&#128051;",
@@ -55388,7 +55176,7 @@ module.exports = {
 			"animal"
 		]
 	},
-	"whale2": {
+	":whale2:": {
 		"unicode": "1f40b",
 		"unicode_alt": "",
 		"code_decimal": "&#128011;",
@@ -55405,7 +55193,7 @@ module.exports = {
 			"animal"
 		]
 	},
-	"dolphin": {
+	":dolphin:": {
 		"unicode": "1f42c",
 		"unicode_alt": "",
 		"code_decimal": "&#128044;",
@@ -55421,7 +55209,7 @@ module.exports = {
 			"animal"
 		]
 	},
-	"fish": {
+	":fish:": {
 		"unicode": "1f41f",
 		"unicode_alt": "",
 		"code_decimal": "&#128031;",
@@ -55436,7 +55224,7 @@ module.exports = {
 			"animal"
 		]
 	},
-	"tropical_fish": {
+	":tropical_fish:": {
 		"unicode": "1f420",
 		"unicode_alt": "",
 		"code_decimal": "&#128032;",
@@ -55451,7 +55239,7 @@ module.exports = {
 			"animal"
 		]
 	},
-	"blowfish": {
+	":blowfish:": {
 		"unicode": "1f421",
 		"unicode_alt": "",
 		"code_decimal": "&#128033;",
@@ -55466,7 +55254,7 @@ module.exports = {
 			"animal"
 		]
 	},
-	"shark": {
+	":shark:": {
 		"unicode": "1f988",
 		"unicode_alt": "",
 		"code_decimal": "&#129416;",
@@ -55478,7 +55266,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"octopus": {
+	":octopus:": {
 		"unicode": "1f419",
 		"unicode_alt": "",
 		"code_decimal": "&#128025;",
@@ -55493,7 +55281,7 @@ module.exports = {
 			"animal"
 		]
 	},
-	"shell": {
+	":shell:": {
 		"unicode": "1f41a",
 		"unicode_alt": "",
 		"code_decimal": "&#128026;",
@@ -55505,7 +55293,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"crab": {
+	":crab:": {
 		"unicode": "1f980",
 		"unicode_alt": "",
 		"code_decimal": "&#129408;",
@@ -55520,7 +55308,7 @@ module.exports = {
 			"animal"
 		]
 	},
-	"shrimp": {
+	":shrimp:": {
 		"unicode": "1f990",
 		"unicode_alt": "",
 		"code_decimal": "&#129424;",
@@ -55532,7 +55320,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"squid": {
+	":squid:": {
 		"unicode": "1f991",
 		"unicode_alt": "",
 		"code_decimal": "&#129425;",
@@ -55544,7 +55332,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"butterfly": {
+	":butterfly:": {
 		"unicode": "1f98b",
 		"unicode_alt": "",
 		"code_decimal": "&#129419;",
@@ -55556,7 +55344,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"snail": {
+	":snail:": {
 		"unicode": "1f40c",
 		"unicode_alt": "",
 		"code_decimal": "&#128012;",
@@ -55571,7 +55359,7 @@ module.exports = {
 			"animal"
 		]
 	},
-	"bug": {
+	":bug:": {
 		"unicode": "1f41b",
 		"unicode_alt": "",
 		"code_decimal": "&#128027;",
@@ -55586,7 +55374,7 @@ module.exports = {
 			"animal"
 		]
 	},
-	"ant": {
+	":ant:": {
 		"unicode": "1f41c",
 		"unicode_alt": "",
 		"code_decimal": "&#128028;",
@@ -55601,7 +55389,7 @@ module.exports = {
 			"animal"
 		]
 	},
-	"bee": {
+	":bee:": {
 		"unicode": "1f41d",
 		"unicode_alt": "",
 		"code_decimal": "&#128029;",
@@ -55616,7 +55404,7 @@ module.exports = {
 			"animal"
 		]
 	},
-	"beetle": {
+	":beetle:": {
 		"unicode": "1f41e",
 		"unicode_alt": "",
 		"code_decimal": "&#128030;",
@@ -55631,7 +55419,7 @@ module.exports = {
 			"animal"
 		]
 	},
-	"spider": {
+	":spider:": {
 		"unicode": "1f577",
 		"unicode_alt": "1f577-fe0f",
 		"code_decimal": "&#128375;",
@@ -55647,7 +55435,7 @@ module.exports = {
 			"animal"
 		]
 	},
-	"spider_web": {
+	":spider_web:": {
 		"unicode": "1f578",
 		"unicode_alt": "1f578-fe0f",
 		"code_decimal": "&#128376;",
@@ -55661,7 +55449,7 @@ module.exports = {
 			"halloween"
 		]
 	},
-	"scorpion": {
+	":scorpion:": {
 		"unicode": "1f982",
 		"unicode_alt": "",
 		"code_decimal": "&#129410;",
@@ -55677,7 +55465,7 @@ module.exports = {
 			"animal"
 		]
 	},
-	"bouquet": {
+	":bouquet:": {
 		"unicode": "1f490",
 		"unicode_alt": "",
 		"code_decimal": "&#128144;",
@@ -55695,7 +55483,7 @@ module.exports = {
 			"condolence"
 		]
 	},
-	"cherry_blossom": {
+	":cherry_blossom:": {
 		"unicode": "1f338",
 		"unicode_alt": "",
 		"code_decimal": "&#127800;",
@@ -55712,7 +55500,7 @@ module.exports = {
 			"tropical"
 		]
 	},
-	"white_flower": {
+	":white_flower:": {
 		"unicode": "1f4ae",
 		"unicode_alt": "",
 		"code_decimal": "&#128174;",
@@ -55727,7 +55515,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"rosette": {
+	":rosette:": {
 		"unicode": "1f3f5",
 		"unicode_alt": "1f3f5-fe0f",
 		"code_decimal": "&#127989;",
@@ -55741,7 +55529,7 @@ module.exports = {
 			"tropical"
 		]
 	},
-	"rose": {
+	":rose:": {
 		"unicode": "1f339",
 		"unicode_alt": "",
 		"code_decimal": "&#127801;",
@@ -55760,7 +55548,7 @@ module.exports = {
 			"beautiful"
 		]
 	},
-	"wilted_rose": {
+	":wilted_rose:": {
 		"unicode": "1f940",
 		"unicode_alt": "",
 		"code_decimal": "&#129344;",
@@ -55774,7 +55562,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"hibiscus": {
+	":hibiscus:": {
 		"unicode": "1f33a",
 		"unicode_alt": "",
 		"code_decimal": "&#127802;",
@@ -55791,7 +55579,7 @@ module.exports = {
 			"tropical"
 		]
 	},
-	"sunflower": {
+	":sunflower:": {
 		"unicode": "1f33b",
 		"unicode_alt": "",
 		"code_decimal": "&#127803;",
@@ -55807,7 +55595,7 @@ module.exports = {
 			"plant"
 		]
 	},
-	"blossom": {
+	":blossom:": {
 		"unicode": "1f33c",
 		"unicode_alt": "",
 		"code_decimal": "&#127804;",
@@ -55823,7 +55611,7 @@ module.exports = {
 			"plant"
 		]
 	},
-	"tulip": {
+	":tulip:": {
 		"unicode": "1f337",
 		"unicode_alt": "",
 		"code_decimal": "&#127799;",
@@ -55841,7 +55629,7 @@ module.exports = {
 			"girls night"
 		]
 	},
-	"seedling": {
+	":seedling:": {
 		"unicode": "1f331",
 		"unicode_alt": "",
 		"code_decimal": "&#127793;",
@@ -55857,7 +55645,7 @@ module.exports = {
 			"leaf"
 		]
 	},
-	"evergreen_tree": {
+	":evergreen_tree:": {
 		"unicode": "1f332",
 		"unicode_alt": "",
 		"code_decimal": "&#127794;",
@@ -55876,7 +55664,7 @@ module.exports = {
 			"trees"
 		]
 	},
-	"deciduous_tree": {
+	":deciduous_tree:": {
 		"unicode": "1f333",
 		"unicode_alt": "",
 		"code_decimal": "&#127795;",
@@ -55893,7 +55681,7 @@ module.exports = {
 			"trees"
 		]
 	},
-	"palm_tree": {
+	":palm_tree:": {
 		"unicode": "1f334",
 		"unicode_alt": "",
 		"code_decimal": "&#127796;",
@@ -55910,7 +55698,7 @@ module.exports = {
 			"trees"
 		]
 	},
-	"cactus": {
+	":cactus:": {
 		"unicode": "1f335",
 		"unicode_alt": "",
 		"code_decimal": "&#127797;",
@@ -55926,7 +55714,7 @@ module.exports = {
 			"trees"
 		]
 	},
-	"ear_of_rice": {
+	":ear_of_rice:": {
 		"unicode": "1f33e",
 		"unicode_alt": "",
 		"code_decimal": "&#127806;",
@@ -55942,7 +55730,7 @@ module.exports = {
 			"leaf"
 		]
 	},
-	"herb": {
+	":herb:": {
 		"unicode": "1f33f",
 		"unicode_alt": "",
 		"code_decimal": "&#127807;",
@@ -55958,7 +55746,7 @@ module.exports = {
 			"leaf"
 		]
 	},
-	"shamrock": {
+	":shamrock:": {
 		"unicode": "2618",
 		"unicode_alt": "2618-fe0f",
 		"code_decimal": "&#9752;",
@@ -55975,7 +55763,7 @@ module.exports = {
 			"leaf"
 		]
 	},
-	"four_leaf_clover": {
+	":four_leaf_clover:": {
 		"unicode": "1f340",
 		"unicode_alt": "",
 		"code_decimal": "&#127808;",
@@ -55993,7 +55781,7 @@ module.exports = {
 			"sol"
 		]
 	},
-	"maple_leaf": {
+	":maple_leaf:": {
 		"unicode": "1f341",
 		"unicode_alt": "",
 		"code_decimal": "&#127809;",
@@ -56009,7 +55797,7 @@ module.exports = {
 			"leaf"
 		]
 	},
-	"fallen_leaf": {
+	":fallen_leaf:": {
 		"unicode": "1f342",
 		"unicode_alt": "",
 		"code_decimal": "&#127810;",
@@ -56025,7 +55813,7 @@ module.exports = {
 			"leaf"
 		]
 	},
-	"leaves": {
+	":leaves:": {
 		"unicode": "1f343",
 		"unicode_alt": "",
 		"code_decimal": "&#127811;",
@@ -56041,7 +55829,7 @@ module.exports = {
 			"leaf"
 		]
 	},
-	"grapes": {
+	":grapes:": {
 		"unicode": "1f347",
 		"unicode_alt": "",
 		"code_decimal": "&#127815;",
@@ -56056,7 +55844,7 @@ module.exports = {
 			"food"
 		]
 	},
-	"melon": {
+	":melon:": {
 		"unicode": "1f348",
 		"unicode_alt": "",
 		"code_decimal": "&#127816;",
@@ -56072,7 +55860,7 @@ module.exports = {
 			"food"
 		]
 	},
-	"watermelon": {
+	":watermelon:": {
 		"unicode": "1f349",
 		"unicode_alt": "",
 		"code_decimal": "&#127817;",
@@ -56087,7 +55875,7 @@ module.exports = {
 			"food"
 		]
 	},
-	"tangerine": {
+	":tangerine:": {
 		"unicode": "1f34a",
 		"unicode_alt": "",
 		"code_decimal": "&#127818;",
@@ -56102,7 +55890,7 @@ module.exports = {
 			"food"
 		]
 	},
-	"lemon": {
+	":lemon:": {
 		"unicode": "1f34b",
 		"unicode_alt": "",
 		"code_decimal": "&#127819;",
@@ -56117,7 +55905,7 @@ module.exports = {
 			"food"
 		]
 	},
-	"banana": {
+	":banana:": {
 		"unicode": "1f34c",
 		"unicode_alt": "",
 		"code_decimal": "&#127820;",
@@ -56133,7 +55921,7 @@ module.exports = {
 			"food"
 		]
 	},
-	"pineapple": {
+	":pineapple:": {
 		"unicode": "1f34d",
 		"unicode_alt": "",
 		"code_decimal": "&#127821;",
@@ -56149,7 +55937,7 @@ module.exports = {
 			"tropical"
 		]
 	},
-	"apple": {
+	":apple:": {
 		"unicode": "1f34e",
 		"unicode_alt": "",
 		"code_decimal": "&#127822;",
@@ -56165,7 +55953,7 @@ module.exports = {
 			"creationism"
 		]
 	},
-	"green_apple": {
+	":green_apple:": {
 		"unicode": "1f34f",
 		"unicode_alt": "",
 		"code_decimal": "&#127823;",
@@ -56180,7 +55968,7 @@ module.exports = {
 			"food"
 		]
 	},
-	"pear": {
+	":pear:": {
 		"unicode": "1f350",
 		"unicode_alt": "",
 		"code_decimal": "&#127824;",
@@ -56195,7 +55983,7 @@ module.exports = {
 			"food"
 		]
 	},
-	"peach": {
+	":peach:": {
 		"unicode": "1f351",
 		"unicode_alt": "",
 		"code_decimal": "&#127825;",
@@ -56211,7 +55999,7 @@ module.exports = {
 			"food"
 		]
 	},
-	"cherries": {
+	":cherries:": {
 		"unicode": "1f352",
 		"unicode_alt": "",
 		"code_decimal": "&#127826;",
@@ -56226,7 +56014,7 @@ module.exports = {
 			"food"
 		]
 	},
-	"strawberry": {
+	":strawberry:": {
 		"unicode": "1f353",
 		"unicode_alt": "",
 		"code_decimal": "&#127827;",
@@ -56241,7 +56029,7 @@ module.exports = {
 			"food"
 		]
 	},
-	"kiwi": {
+	":kiwi:": {
 		"unicode": "1f95d",
 		"unicode_alt": "",
 		"code_decimal": "&#129373;",
@@ -56255,7 +56043,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"tomato": {
+	":tomato:": {
 		"unicode": "1f345",
 		"unicode_alt": "",
 		"code_decimal": "&#127813;",
@@ -56271,7 +56059,7 @@ module.exports = {
 			"food"
 		]
 	},
-	"avocado": {
+	":avocado:": {
 		"unicode": "1f951",
 		"unicode_alt": "",
 		"code_decimal": "&#129361;",
@@ -56283,7 +56071,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"eggplant": {
+	":eggplant:": {
 		"unicode": "1f346",
 		"unicode_alt": "",
 		"code_decimal": "&#127814;",
@@ -56299,7 +56087,7 @@ module.exports = {
 			"food"
 		]
 	},
-	"potato": {
+	":potato:": {
 		"unicode": "1f954",
 		"unicode_alt": "",
 		"code_decimal": "&#129364;",
@@ -56311,7 +56099,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"carrot": {
+	":carrot:": {
 		"unicode": "1f955",
 		"unicode_alt": "",
 		"code_decimal": "&#129365;",
@@ -56323,7 +56111,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"corn": {
+	":corn:": {
 		"unicode": "1f33d",
 		"unicode_alt": "",
 		"code_decimal": "&#127805;",
@@ -56338,7 +56126,7 @@ module.exports = {
 			"food"
 		]
 	},
-	"hot_pepper": {
+	":hot_pepper:": {
 		"unicode": "1f336",
 		"unicode_alt": "1f336-fe0f",
 		"code_decimal": "&#127798;",
@@ -56353,7 +56141,7 @@ module.exports = {
 			"food"
 		]
 	},
-	"cucumber": {
+	":cucumber:": {
 		"unicode": "1f952",
 		"unicode_alt": "",
 		"code_decimal": "&#129362;",
@@ -56365,7 +56153,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"mushroom": {
+	":mushroom:": {
 		"unicode": "1f344",
 		"unicode_alt": "",
 		"code_decimal": "&#127812;",
@@ -56381,7 +56169,7 @@ module.exports = {
 			"drugs"
 		]
 	},
-	"peanuts": {
+	":peanuts:": {
 		"unicode": "1f95c",
 		"unicode_alt": "",
 		"code_decimal": "&#129372;",
@@ -56395,7 +56183,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"chestnut": {
+	":chestnut:": {
 		"unicode": "1f330",
 		"unicode_alt": "",
 		"code_decimal": "&#127792;",
@@ -56410,7 +56198,7 @@ module.exports = {
 			"plant"
 		]
 	},
-	"bread": {
+	":bread:": {
 		"unicode": "1f35e",
 		"unicode_alt": "",
 		"code_decimal": "&#127838;",
@@ -56424,7 +56212,7 @@ module.exports = {
 			"food"
 		]
 	},
-	"croissant": {
+	":croissant:": {
 		"unicode": "1f950",
 		"unicode_alt": "",
 		"code_decimal": "&#129360;",
@@ -56436,7 +56224,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"french_bread": {
+	":french_bread:": {
 		"unicode": "1f956",
 		"unicode_alt": "",
 		"code_decimal": "&#129366;",
@@ -56450,7 +56238,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"pancakes": {
+	":pancakes:": {
 		"unicode": "1f95e",
 		"unicode_alt": "",
 		"code_decimal": "&#129374;",
@@ -56462,7 +56250,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"cheese": {
+	":cheese:": {
 		"unicode": "1f9c0",
 		"unicode_alt": "",
 		"code_decimal": "&#129472;",
@@ -56478,7 +56266,7 @@ module.exports = {
 			"food"
 		]
 	},
-	"meat_on_bone": {
+	":meat_on_bone:": {
 		"unicode": "1f356",
 		"unicode_alt": "",
 		"code_decimal": "&#127830;",
@@ -56492,7 +56280,7 @@ module.exports = {
 			"food"
 		]
 	},
-	"poultry_leg": {
+	":poultry_leg:": {
 		"unicode": "1f357",
 		"unicode_alt": "",
 		"code_decimal": "&#127831;",
@@ -56507,7 +56295,7 @@ module.exports = {
 			"holidays"
 		]
 	},
-	"bacon": {
+	":bacon:": {
 		"unicode": "1f953",
 		"unicode_alt": "",
 		"code_decimal": "&#129363;",
@@ -56521,7 +56309,7 @@ module.exports = {
 			"pig"
 		]
 	},
-	"hamburger": {
+	":hamburger:": {
 		"unicode": "1f354",
 		"unicode_alt": "",
 		"code_decimal": "&#127828;",
@@ -56536,7 +56324,7 @@ module.exports = {
 			"food"
 		]
 	},
-	"fries": {
+	":fries:": {
 		"unicode": "1f35f",
 		"unicode_alt": "",
 		"code_decimal": "&#127839;",
@@ -56551,7 +56339,7 @@ module.exports = {
 			"food"
 		]
 	},
-	"pizza": {
+	":pizza:": {
 		"unicode": "1f355",
 		"unicode_alt": "",
 		"code_decimal": "&#127829;",
@@ -56567,7 +56355,7 @@ module.exports = {
 			"boys night"
 		]
 	},
-	"hotdog": {
+	":hotdog:": {
 		"unicode": "1f32d",
 		"unicode_alt": "",
 		"code_decimal": "&#127789;",
@@ -56584,7 +56372,7 @@ module.exports = {
 			"food"
 		]
 	},
-	"taco": {
+	":taco:": {
 		"unicode": "1f32e",
 		"unicode_alt": "",
 		"code_decimal": "&#127790;",
@@ -56600,7 +56388,7 @@ module.exports = {
 			"vagina"
 		]
 	},
-	"burrito": {
+	":burrito:": {
 		"unicode": "1f32f",
 		"unicode_alt": "",
 		"code_decimal": "&#127791;",
@@ -56615,7 +56403,7 @@ module.exports = {
 			"mexican"
 		]
 	},
-	"stuffed_flatbread": {
+	":stuffed_flatbread:": {
 		"unicode": "1f959",
 		"unicode_alt": "",
 		"code_decimal": "&#129369;",
@@ -56629,7 +56417,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"egg": {
+	":egg:": {
 		"unicode": "1f95a",
 		"unicode_alt": "",
 		"code_decimal": "&#129370;",
@@ -56641,7 +56429,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"cooking": {
+	":cooking:": {
 		"unicode": "1f373",
 		"unicode_alt": "",
 		"code_decimal": "&#127859;",
@@ -56655,7 +56443,7 @@ module.exports = {
 			"food"
 		]
 	},
-	"shallow_pan_of_food": {
+	":shallow_pan_of_food:": {
 		"unicode": "1f958",
 		"unicode_alt": "",
 		"code_decimal": "&#129368;",
@@ -56671,7 +56459,7 @@ module.exports = {
 			"pan of food"
 		]
 	},
-	"stew": {
+	":stew:": {
 		"unicode": "1f372",
 		"unicode_alt": "",
 		"code_decimal": "&#127858;",
@@ -56686,7 +56474,7 @@ module.exports = {
 			"steam"
 		]
 	},
-	"salad": {
+	":salad:": {
 		"unicode": "1f957",
 		"unicode_alt": "",
 		"code_decimal": "&#129367;",
@@ -56700,7 +56488,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"popcorn": {
+	":popcorn:": {
 		"unicode": "1f37f",
 		"unicode_alt": "",
 		"code_decimal": "&#127871;",
@@ -56715,7 +56503,7 @@ module.exports = {
 			"parties"
 		]
 	},
-	"bento": {
+	":bento:": {
 		"unicode": "1f371",
 		"unicode_alt": "",
 		"code_decimal": "&#127857;",
@@ -56732,7 +56520,7 @@ module.exports = {
 			"food"
 		]
 	},
-	"rice_cracker": {
+	":rice_cracker:": {
 		"unicode": "1f358",
 		"unicode_alt": "",
 		"code_decimal": "&#127832;",
@@ -56747,7 +56535,7 @@ module.exports = {
 			"food"
 		]
 	},
-	"rice_ball": {
+	":rice_ball:": {
 		"unicode": "1f359",
 		"unicode_alt": "",
 		"code_decimal": "&#127833;",
@@ -56763,7 +56551,7 @@ module.exports = {
 			"food"
 		]
 	},
-	"rice": {
+	":rice:": {
 		"unicode": "1f35a",
 		"unicode_alt": "",
 		"code_decimal": "&#127834;",
@@ -56779,7 +56567,7 @@ module.exports = {
 			"food"
 		]
 	},
-	"curry": {
+	":curry:": {
 		"unicode": "1f35b",
 		"unicode_alt": "",
 		"code_decimal": "&#127835;",
@@ -56793,7 +56581,7 @@ module.exports = {
 			"food"
 		]
 	},
-	"ramen": {
+	":ramen:": {
 		"unicode": "1f35c",
 		"unicode_alt": "",
 		"code_decimal": "&#127836;",
@@ -56810,7 +56598,7 @@ module.exports = {
 			"food"
 		]
 	},
-	"spaghetti": {
+	":spaghetti:": {
 		"unicode": "1f35d",
 		"unicode_alt": "",
 		"code_decimal": "&#127837;",
@@ -56827,7 +56615,7 @@ module.exports = {
 			"food"
 		]
 	},
-	"sweet_potato": {
+	":sweet_potato:": {
 		"unicode": "1f360",
 		"unicode_alt": "",
 		"code_decimal": "&#127840;",
@@ -56842,7 +56630,7 @@ module.exports = {
 			"food"
 		]
 	},
-	"oden": {
+	":oden:": {
 		"unicode": "1f362",
 		"unicode_alt": "",
 		"code_decimal": "&#127842;",
@@ -56856,7 +56644,7 @@ module.exports = {
 			"food"
 		]
 	},
-	"sushi": {
+	":sushi:": {
 		"unicode": "1f363",
 		"unicode_alt": "",
 		"code_decimal": "&#127843;",
@@ -56872,7 +56660,7 @@ module.exports = {
 			"food"
 		]
 	},
-	"fried_shrimp": {
+	":fried_shrimp:": {
 		"unicode": "1f364",
 		"unicode_alt": "",
 		"code_decimal": "&#127844;",
@@ -56886,7 +56674,7 @@ module.exports = {
 			"food"
 		]
 	},
-	"fish_cake": {
+	":fish_cake:": {
 		"unicode": "1f365",
 		"unicode_alt": "",
 		"code_decimal": "&#127845;",
@@ -56901,7 +56689,7 @@ module.exports = {
 			"food"
 		]
 	},
-	"dango": {
+	":dango:": {
 		"unicode": "1f361",
 		"unicode_alt": "",
 		"code_decimal": "&#127841;",
@@ -56915,7 +56703,7 @@ module.exports = {
 			"food"
 		]
 	},
-	"icecream": {
+	":icecream:": {
 		"unicode": "1f366",
 		"unicode_alt": "",
 		"code_decimal": "&#127846;",
@@ -56929,7 +56717,7 @@ module.exports = {
 			"food"
 		]
 	},
-	"shaved_ice": {
+	":shaved_ice:": {
 		"unicode": "1f367",
 		"unicode_alt": "",
 		"code_decimal": "&#127847;",
@@ -56943,7 +56731,7 @@ module.exports = {
 			"food"
 		]
 	},
-	"ice_cream": {
+	":ice_cream:": {
 		"unicode": "1f368",
 		"unicode_alt": "",
 		"code_decimal": "&#127848;",
@@ -56957,7 +56745,7 @@ module.exports = {
 			"food"
 		]
 	},
-	"doughnut": {
+	":doughnut:": {
 		"unicode": "1f369",
 		"unicode_alt": "",
 		"code_decimal": "&#127849;",
@@ -56971,7 +56759,7 @@ module.exports = {
 			"food"
 		]
 	},
-	"cookie": {
+	":cookie:": {
 		"unicode": "1f36a",
 		"unicode_alt": "",
 		"code_decimal": "&#127850;",
@@ -56986,7 +56774,7 @@ module.exports = {
 			"vagina"
 		]
 	},
-	"birthday": {
+	":birthday:": {
 		"unicode": "1f382",
 		"unicode_alt": "",
 		"code_decimal": "&#127874;",
@@ -57002,7 +56790,7 @@ module.exports = {
 			"parties"
 		]
 	},
-	"cake": {
+	":cake:": {
 		"unicode": "1f370",
 		"unicode_alt": "",
 		"code_decimal": "&#127856;",
@@ -57016,7 +56804,7 @@ module.exports = {
 			"food"
 		]
 	},
-	"chocolate_bar": {
+	":chocolate_bar:": {
 		"unicode": "1f36b",
 		"unicode_alt": "",
 		"code_decimal": "&#127851;",
@@ -57031,7 +56819,7 @@ module.exports = {
 			"halloween"
 		]
 	},
-	"candy": {
+	":candy:": {
 		"unicode": "1f36c",
 		"unicode_alt": "",
 		"code_decimal": "&#127852;",
@@ -57046,7 +56834,7 @@ module.exports = {
 			"halloween"
 		]
 	},
-	"lollipop": {
+	":lollipop:": {
 		"unicode": "1f36d",
 		"unicode_alt": "",
 		"code_decimal": "&#127853;",
@@ -57061,7 +56849,7 @@ module.exports = {
 			"halloween"
 		]
 	},
-	"custard": {
+	":custard:": {
 		"unicode": "1f36e",
 		"unicode_alt": "",
 		"code_decimal": "&#127854;",
@@ -57078,7 +56866,7 @@ module.exports = {
 			"food"
 		]
 	},
-	"honey_pot": {
+	":honey_pot:": {
 		"unicode": "1f36f",
 		"unicode_alt": "",
 		"code_decimal": "&#127855;",
@@ -57093,7 +56881,7 @@ module.exports = {
 			"vagina"
 		]
 	},
-	"baby_bottle": {
+	":baby_bottle:": {
 		"unicode": "1f37c",
 		"unicode_alt": "",
 		"code_decimal": "&#127868;",
@@ -57110,7 +56898,7 @@ module.exports = {
 			"baby"
 		]
 	},
-	"milk": {
+	":milk:": {
 		"unicode": "1f95b",
 		"unicode_alt": "",
 		"code_decimal": "&#129371;",
@@ -57124,7 +56912,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"coffee": {
+	":coffee:": {
 		"unicode": "2615",
 		"unicode_alt": "2615-fe0f",
 		"code_decimal": "&#9749;",
@@ -57141,7 +56929,7 @@ module.exports = {
 			"morning"
 		]
 	},
-	"tea": {
+	":tea:": {
 		"unicode": "1f375",
 		"unicode_alt": "",
 		"code_decimal": "&#127861;",
@@ -57159,7 +56947,7 @@ module.exports = {
 			"morning"
 		]
 	},
-	"sake": {
+	":sake:": {
 		"unicode": "1f376",
 		"unicode_alt": "",
 		"code_decimal": "&#127862;",
@@ -57177,7 +56965,7 @@ module.exports = {
 			"girls night"
 		]
 	},
-	"champagne": {
+	":champagne:": {
 		"unicode": "1f37e",
 		"unicode_alt": "",
 		"code_decimal": "&#127870;",
@@ -57196,7 +56984,7 @@ module.exports = {
 			"parties"
 		]
 	},
-	"wine_glass": {
+	":wine_glass:": {
 		"unicode": "1f377",
 		"unicode_alt": "",
 		"code_decimal": "&#127863;",
@@ -57214,7 +57002,7 @@ module.exports = {
 			"parties"
 		]
 	},
-	"cocktail": {
+	":cocktail:": {
 		"unicode": "1f378",
 		"unicode_alt": "",
 		"code_decimal": "&#127864;",
@@ -57232,7 +57020,7 @@ module.exports = {
 			"parties"
 		]
 	},
-	"tropical_drink": {
+	":tropical_drink:": {
 		"unicode": "1f379",
 		"unicode_alt": "",
 		"code_decimal": "&#127865;",
@@ -57249,7 +57037,7 @@ module.exports = {
 			"alcohol"
 		]
 	},
-	"beer": {
+	":beer:": {
 		"unicode": "1f37a",
 		"unicode_alt": "",
 		"code_decimal": "&#127866;",
@@ -57266,7 +57054,7 @@ module.exports = {
 			"parties"
 		]
 	},
-	"beers": {
+	":beers:": {
 		"unicode": "1f37b",
 		"unicode_alt": "",
 		"code_decimal": "&#127867;",
@@ -57286,7 +57074,7 @@ module.exports = {
 			"parties"
 		]
 	},
-	"champagne_glass": {
+	":champagne_glass:": {
 		"unicode": "1f942",
 		"unicode_alt": "",
 		"code_decimal": "&#129346;",
@@ -57300,7 +57088,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"tumbler_glass": {
+	":tumbler_glass:": {
 		"unicode": "1f943",
 		"unicode_alt": "",
 		"code_decimal": "&#129347;",
@@ -57316,7 +57104,7 @@ module.exports = {
 			"booze"
 		]
 	},
-	"fork_knife_plate": {
+	":fork_knife_plate:": {
 		"unicode": "1f37d",
 		"unicode_alt": "1f37d-fe0f",
 		"code_decimal": "&#127869;",
@@ -57333,7 +57121,7 @@ module.exports = {
 			"food"
 		]
 	},
-	"fork_and_knife": {
+	":fork_and_knife:": {
 		"unicode": "1f374",
 		"unicode_alt": "",
 		"code_decimal": "&#127860;",
@@ -57349,7 +57137,7 @@ module.exports = {
 			"food"
 		]
 	},
-	"spoon": {
+	":spoon:": {
 		"unicode": "1f944",
 		"unicode_alt": "",
 		"code_decimal": "&#129348;",
@@ -57361,7 +57149,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"knife": {
+	":knife:": {
 		"unicode": "1f52a",
 		"unicode_alt": "",
 		"code_decimal": "&#128298;",
@@ -57376,7 +57164,7 @@ module.exports = {
 			"weapon"
 		]
 	},
-	"amphora": {
+	":amphora:": {
 		"unicode": "1f3fa",
 		"unicode_alt": "",
 		"code_decimal": "&#127994;",
@@ -57390,7 +57178,7 @@ module.exports = {
 			"object"
 		]
 	},
-	"earth_africa": {
+	":earth_africa:": {
 		"unicode": "1f30d",
 		"unicode_alt": "",
 		"code_decimal": "&#127757;",
@@ -57406,7 +57194,7 @@ module.exports = {
 			"globe"
 		]
 	},
-	"earth_americas": {
+	":earth_americas:": {
 		"unicode": "1f30e",
 		"unicode_alt": "",
 		"code_decimal": "&#127758;",
@@ -57422,7 +57210,7 @@ module.exports = {
 			"globe"
 		]
 	},
-	"earth_asia": {
+	":earth_asia:": {
 		"unicode": "1f30f",
 		"unicode_alt": "",
 		"code_decimal": "&#127759;",
@@ -57438,7 +57226,7 @@ module.exports = {
 			"globe"
 		]
 	},
-	"globe_with_meridians": {
+	":globe_with_meridians:": {
 		"unicode": "1f310",
 		"unicode_alt": "",
 		"code_decimal": "&#127760;",
@@ -57453,7 +57241,7 @@ module.exports = {
 			"globe"
 		]
 	},
-	"map": {
+	":map:": {
 		"unicode": "1f5fa",
 		"unicode_alt": "1f5fa-fe0f",
 		"code_decimal": "&#128506;",
@@ -57471,7 +57259,7 @@ module.exports = {
 			"vacation"
 		]
 	},
-	"japan": {
+	":japan:": {
 		"unicode": "1f5fe",
 		"unicode_alt": "",
 		"code_decimal": "&#128510;",
@@ -57489,7 +57277,7 @@ module.exports = {
 			"tropical"
 		]
 	},
-	"mountain_snow": {
+	":mountain_snow:": {
 		"unicode": "1f3d4",
 		"unicode_alt": "1f3d4-fe0f",
 		"code_decimal": "&#127956;",
@@ -57509,7 +57297,7 @@ module.exports = {
 			"camp"
 		]
 	},
-	"mountain": {
+	":mountain:": {
 		"unicode": "26f0",
 		"unicode_alt": "26f0-fe0f",
 		"code_decimal": "&#9968;",
@@ -57526,7 +57314,7 @@ module.exports = {
 			"camp"
 		]
 	},
-	"volcano": {
+	":volcano:": {
 		"unicode": "1f30b",
 		"unicode_alt": "",
 		"code_decimal": "&#127755;",
@@ -57541,7 +57329,7 @@ module.exports = {
 			"tropical"
 		]
 	},
-	"mount_fuji": {
+	":mount_fuji:": {
 		"unicode": "1f5fb",
 		"unicode_alt": "",
 		"code_decimal": "&#128507;",
@@ -57559,7 +57347,7 @@ module.exports = {
 			"camp"
 		]
 	},
-	"camping": {
+	":camping:": {
 		"unicode": "1f3d5",
 		"unicode_alt": "1f3d5-fe0f",
 		"code_decimal": "&#127957;",
@@ -57576,7 +57364,7 @@ module.exports = {
 			"camp"
 		]
 	},
-	"beach": {
+	":beach:": {
 		"unicode": "1f3d6",
 		"unicode_alt": "1f3d6-fe0f",
 		"code_decimal": "&#127958;",
@@ -57597,7 +57385,7 @@ module.exports = {
 			"swim"
 		]
 	},
-	"desert": {
+	":desert:": {
 		"unicode": "1f3dc",
 		"unicode_alt": "1f3dc-fe0f",
 		"code_decimal": "&#127964;",
@@ -57614,7 +57402,7 @@ module.exports = {
 			"hot"
 		]
 	},
-	"island": {
+	":island:": {
 		"unicode": "1f3dd",
 		"unicode_alt": "1f3dd-fe0f",
 		"code_decimal": "&#127965;",
@@ -57635,7 +57423,7 @@ module.exports = {
 			"swim"
 		]
 	},
-	"park": {
+	":park:": {
 		"unicode": "1f3de",
 		"unicode_alt": "1f3de-fe0f",
 		"code_decimal": "&#127966;",
@@ -57654,7 +57442,7 @@ module.exports = {
 			"camp"
 		]
 	},
-	"stadium": {
+	":stadium:": {
 		"unicode": "1f3df",
 		"unicode_alt": "1f3df-fe0f",
 		"code_decimal": "&#127967;",
@@ -57672,7 +57460,7 @@ module.exports = {
 			"boys night"
 		]
 	},
-	"classical_building": {
+	":classical_building:": {
 		"unicode": "1f3db",
 		"unicode_alt": "1f3db-fe0f",
 		"code_decimal": "&#127963;",
@@ -57689,7 +57477,7 @@ module.exports = {
 			"vacation"
 		]
 	},
-	"construction_site": {
+	":construction_site:": {
 		"unicode": "1f3d7",
 		"unicode_alt": "1f3d7-fe0f",
 		"code_decimal": "&#127959;",
@@ -57706,7 +57494,7 @@ module.exports = {
 			"crane"
 		]
 	},
-	"homes": {
+	":homes:": {
 		"unicode": "1f3d8",
 		"unicode_alt": "1f3d8-fe0f",
 		"code_decimal": "&#127960;",
@@ -57724,7 +57512,7 @@ module.exports = {
 			"house"
 		]
 	},
-	"cityscape": {
+	":cityscape:": {
 		"unicode": "1f3d9",
 		"unicode_alt": "1f3d9-fe0f",
 		"code_decimal": "&#127961;",
@@ -57740,7 +57528,7 @@ module.exports = {
 			"vacation"
 		]
 	},
-	"house_abandoned": {
+	":house_abandoned:": {
 		"unicode": "1f3da",
 		"unicode_alt": "1f3da-fe0f",
 		"code_decimal": "&#127962;",
@@ -57758,7 +57546,7 @@ module.exports = {
 			"house"
 		]
 	},
-	"house": {
+	":house:": {
 		"unicode": "1f3e0",
 		"unicode_alt": "",
 		"code_decimal": "&#127968;",
@@ -57774,7 +57562,7 @@ module.exports = {
 			"house"
 		]
 	},
-	"house_with_garden": {
+	":house_with_garden:": {
 		"unicode": "1f3e1",
 		"unicode_alt": "",
 		"code_decimal": "&#127969;",
@@ -57790,7 +57578,7 @@ module.exports = {
 			"house"
 		]
 	},
-	"office": {
+	":office:": {
 		"unicode": "1f3e2",
 		"unicode_alt": "",
 		"code_decimal": "&#127970;",
@@ -57806,7 +57594,7 @@ module.exports = {
 			"work"
 		]
 	},
-	"post_office": {
+	":post_office:": {
 		"unicode": "1f3e3",
 		"unicode_alt": "",
 		"code_decimal": "&#127971;",
@@ -57822,7 +57610,7 @@ module.exports = {
 			"post office"
 		]
 	},
-	"european_post_office": {
+	":european_post_office:": {
 		"unicode": "1f3e4",
 		"unicode_alt": "",
 		"code_decimal": "&#127972;",
@@ -57838,7 +57626,7 @@ module.exports = {
 			"post office"
 		]
 	},
-	"hospital": {
+	":hospital:": {
 		"unicode": "1f3e5",
 		"unicode_alt": "",
 		"code_decimal": "&#127973;",
@@ -57855,7 +57643,7 @@ module.exports = {
 			"911"
 		]
 	},
-	"bank": {
+	":bank:": {
 		"unicode": "1f3e6",
 		"unicode_alt": "",
 		"code_decimal": "&#127974;",
@@ -57870,7 +57658,7 @@ module.exports = {
 			"building"
 		]
 	},
-	"hotel": {
+	":hotel:": {
 		"unicode": "1f3e8",
 		"unicode_alt": "",
 		"code_decimal": "&#127976;",
@@ -57886,7 +57674,7 @@ module.exports = {
 			"vacation"
 		]
 	},
-	"love_hotel": {
+	":love_hotel:": {
 		"unicode": "1f3e9",
 		"unicode_alt": "",
 		"code_decimal": "&#127977;",
@@ -57902,7 +57690,7 @@ module.exports = {
 			"love"
 		]
 	},
-	"convenience_store": {
+	":convenience_store:": {
 		"unicode": "1f3ea",
 		"unicode_alt": "",
 		"code_decimal": "&#127978;",
@@ -57917,7 +57705,7 @@ module.exports = {
 			"building"
 		]
 	},
-	"school": {
+	":school:": {
 		"unicode": "1f3eb",
 		"unicode_alt": "",
 		"code_decimal": "&#127979;",
@@ -57932,7 +57720,7 @@ module.exports = {
 			"building"
 		]
 	},
-	"department_store": {
+	":department_store:": {
 		"unicode": "1f3ec",
 		"unicode_alt": "",
 		"code_decimal": "&#127980;",
@@ -57947,7 +57735,7 @@ module.exports = {
 			"building"
 		]
 	},
-	"factory": {
+	":factory:": {
 		"unicode": "1f3ed",
 		"unicode_alt": "",
 		"code_decimal": "&#127981;",
@@ -57964,7 +57752,7 @@ module.exports = {
 			"steam"
 		]
 	},
-	"japanese_castle": {
+	":japanese_castle:": {
 		"unicode": "1f3ef",
 		"unicode_alt": "",
 		"code_decimal": "&#127983;",
@@ -57981,7 +57769,7 @@ module.exports = {
 			"vacation"
 		]
 	},
-	"european_castle": {
+	":european_castle:": {
 		"unicode": "1f3f0",
 		"unicode_alt": "",
 		"code_decimal": "&#127984;",
@@ -57998,7 +57786,7 @@ module.exports = {
 			"vacation"
 		]
 	},
-	"wedding": {
+	":wedding:": {
 		"unicode": "1f492",
 		"unicode_alt": "",
 		"code_decimal": "&#128146;",
@@ -58016,7 +57804,7 @@ module.exports = {
 			"parties"
 		]
 	},
-	"tokyo_tower": {
+	":tokyo_tower:": {
 		"unicode": "1f5fc",
 		"unicode_alt": "",
 		"code_decimal": "&#128508;",
@@ -58033,7 +57821,7 @@ module.exports = {
 			"eiffel tower"
 		]
 	},
-	"statue_of_liberty": {
+	":statue_of_liberty:": {
 		"unicode": "1f5fd",
 		"unicode_alt": "",
 		"code_decimal": "&#128509;",
@@ -58052,7 +57840,7 @@ module.exports = {
 			"free speech"
 		]
 	},
-	"church": {
+	":church:": {
 		"unicode": "26ea",
 		"unicode_alt": "26ea-fe0f",
 		"code_decimal": "&#9962;",
@@ -58070,7 +57858,7 @@ module.exports = {
 			"condolence"
 		]
 	},
-	"mosque": {
+	":mosque:": {
 		"unicode": "1f54c",
 		"unicode_alt": "",
 		"code_decimal": "&#128332;",
@@ -58088,7 +57876,7 @@ module.exports = {
 			"condolence"
 		]
 	},
-	"synagogue": {
+	":synagogue:": {
 		"unicode": "1f54d",
 		"unicode_alt": "",
 		"code_decimal": "&#128333;",
@@ -58107,7 +57895,7 @@ module.exports = {
 			"condolence"
 		]
 	},
-	"shinto_shrine": {
+	":shinto_shrine:": {
 		"unicode": "26e9",
 		"unicode_alt": "26e9-fe0f",
 		"code_decimal": "&#9961;",
@@ -58124,7 +57912,7 @@ module.exports = {
 			"vacation"
 		]
 	},
-	"kaaba": {
+	":kaaba:": {
 		"unicode": "1f54b",
 		"unicode_alt": "",
 		"code_decimal": "&#128331;",
@@ -58141,7 +57929,7 @@ module.exports = {
 			"condolence"
 		]
 	},
-	"fountain": {
+	":fountain:": {
 		"unicode": "26f2",
 		"unicode_alt": "26f2-fe0f",
 		"code_decimal": "&#9970;",
@@ -58156,7 +57944,7 @@ module.exports = {
 			"vacation"
 		]
 	},
-	"tent": {
+	":tent:": {
 		"unicode": "26fa",
 		"unicode_alt": "26fa-fe0f",
 		"code_decimal": "&#9978;",
@@ -58173,7 +57961,7 @@ module.exports = {
 			"camp"
 		]
 	},
-	"foggy": {
+	":foggy:": {
 		"unicode": "1f301",
 		"unicode_alt": "",
 		"code_decimal": "&#127745;",
@@ -58191,7 +57979,7 @@ module.exports = {
 			"vacation"
 		]
 	},
-	"night_with_stars": {
+	":night_with_stars:": {
 		"unicode": "1f303",
 		"unicode_alt": "",
 		"code_decimal": "&#127747;",
@@ -58209,7 +57997,7 @@ module.exports = {
 			"goodnight"
 		]
 	},
-	"sunrise_over_mountains": {
+	":sunrise_over_mountains:": {
 		"unicode": "1f304",
 		"unicode_alt": "",
 		"code_decimal": "&#127748;",
@@ -58230,7 +58018,7 @@ module.exports = {
 			"morning"
 		]
 	},
-	"sunrise": {
+	":sunrise:": {
 		"unicode": "1f305",
 		"unicode_alt": "",
 		"code_decimal": "&#127749;",
@@ -58252,7 +58040,7 @@ module.exports = {
 			"morning"
 		]
 	},
-	"city_dusk": {
+	":city_dusk:": {
 		"unicode": "1f306",
 		"unicode_alt": "",
 		"code_decimal": "&#127750;",
@@ -58267,7 +58055,7 @@ module.exports = {
 			"building"
 		]
 	},
-	"city_sunset": {
+	":city_sunset:": {
 		"unicode": "1f307",
 		"unicode_alt": "",
 		"code_decimal": "&#127751;",
@@ -58286,7 +58074,7 @@ module.exports = {
 			"vacation"
 		]
 	},
-	"bridge_at_night": {
+	":bridge_at_night:": {
 		"unicode": "1f309",
 		"unicode_alt": "",
 		"code_decimal": "&#127753;",
@@ -58303,7 +58091,7 @@ module.exports = {
 			"goodnight"
 		]
 	},
-	"hotsprings": {
+	":hotsprings:": {
 		"unicode": "2668",
 		"unicode_alt": "2668-fe0f",
 		"code_decimal": "&#9832;",
@@ -58317,7 +58105,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"milky_way": {
+	":milky_way:": {
 		"unicode": "1f30c",
 		"unicode_alt": "",
 		"code_decimal": "&#127756;",
@@ -58335,7 +58123,7 @@ module.exports = {
 			"vacation"
 		]
 	},
-	"carousel_horse": {
+	":carousel_horse:": {
 		"unicode": "1f3a0",
 		"unicode_alt": "",
 		"code_decimal": "&#127904;",
@@ -58353,7 +58141,7 @@ module.exports = {
 			"carousel"
 		]
 	},
-	"ferris_wheel": {
+	":ferris_wheel:": {
 		"unicode": "1f3a1",
 		"unicode_alt": "",
 		"code_decimal": "&#127905;",
@@ -58369,7 +58157,7 @@ module.exports = {
 			"ferris wheel"
 		]
 	},
-	"roller_coaster": {
+	":roller_coaster:": {
 		"unicode": "1f3a2",
 		"unicode_alt": "",
 		"code_decimal": "&#127906;",
@@ -58385,7 +58173,7 @@ module.exports = {
 			"roller coaster"
 		]
 	},
-	"barber": {
+	":barber:": {
 		"unicode": "1f488",
 		"unicode_alt": "",
 		"code_decimal": "&#128136;",
@@ -58399,7 +58187,7 @@ module.exports = {
 			"object"
 		]
 	},
-	"circus_tent": {
+	":circus_tent:": {
 		"unicode": "1f3aa",
 		"unicode_alt": "",
 		"code_decimal": "&#127914;",
@@ -58413,7 +58201,7 @@ module.exports = {
 			"circus tent"
 		]
 	},
-	"performing_arts": {
+	":performing_arts:": {
 		"unicode": "1f3ad",
 		"unicode_alt": "",
 		"code_decimal": "&#127917;",
@@ -58428,7 +58216,7 @@ module.exports = {
 			"movie"
 		]
 	},
-	"frame_photo": {
+	":frame_photo:": {
 		"unicode": "1f5bc",
 		"unicode_alt": "1f5bc-fe0f",
 		"code_decimal": "&#128444;",
@@ -58445,7 +58233,7 @@ module.exports = {
 			"vacation"
 		]
 	},
-	"art": {
+	":art:": {
 		"unicode": "1f3a8",
 		"unicode_alt": "",
 		"code_decimal": "&#127912;",
@@ -58457,7 +58245,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"slot_machine": {
+	":slot_machine:": {
 		"unicode": "1f3b0",
 		"unicode_alt": "",
 		"code_decimal": "&#127920;",
@@ -58472,7 +58260,7 @@ module.exports = {
 			"boys night"
 		]
 	},
-	"steam_locomotive": {
+	":steam_locomotive:": {
 		"unicode": "1f682",
 		"unicode_alt": "",
 		"code_decimal": "&#128642;",
@@ -58489,7 +58277,7 @@ module.exports = {
 			"steam"
 		]
 	},
-	"railway_car": {
+	":railway_car:": {
 		"unicode": "1f683",
 		"unicode_alt": "",
 		"code_decimal": "&#128643;",
@@ -58505,7 +58293,7 @@ module.exports = {
 			"train"
 		]
 	},
-	"bullettrain_side": {
+	":bullettrain_side:": {
 		"unicode": "1f684",
 		"unicode_alt": "",
 		"code_decimal": "&#128644;",
@@ -58521,7 +58309,7 @@ module.exports = {
 			"train"
 		]
 	},
-	"bullettrain_front": {
+	":bullettrain_front:": {
 		"unicode": "1f685",
 		"unicode_alt": "",
 		"code_decimal": "&#128645;",
@@ -58537,7 +58325,7 @@ module.exports = {
 			"train"
 		]
 	},
-	"train2": {
+	":train2:": {
 		"unicode": "1f686",
 		"unicode_alt": "",
 		"code_decimal": "&#128646;",
@@ -58553,7 +58341,7 @@ module.exports = {
 			"train"
 		]
 	},
-	"metro": {
+	":metro:": {
 		"unicode": "1f687",
 		"unicode_alt": "",
 		"code_decimal": "&#128647;",
@@ -58569,7 +58357,7 @@ module.exports = {
 			"train"
 		]
 	},
-	"light_rail": {
+	":light_rail:": {
 		"unicode": "1f688",
 		"unicode_alt": "",
 		"code_decimal": "&#128648;",
@@ -58585,7 +58373,7 @@ module.exports = {
 			"train"
 		]
 	},
-	"station": {
+	":station:": {
 		"unicode": "1f689",
 		"unicode_alt": "",
 		"code_decimal": "&#128649;",
@@ -58601,7 +58389,7 @@ module.exports = {
 			"train"
 		]
 	},
-	"tram": {
+	":tram:": {
 		"unicode": "1f68a",
 		"unicode_alt": "",
 		"code_decimal": "&#128650;",
@@ -58617,7 +58405,7 @@ module.exports = {
 			"train"
 		]
 	},
-	"monorail": {
+	":monorail:": {
 		"unicode": "1f69d",
 		"unicode_alt": "",
 		"code_decimal": "&#128669;",
@@ -58634,7 +58422,7 @@ module.exports = {
 			"vacation"
 		]
 	},
-	"mountain_railway": {
+	":mountain_railway:": {
 		"unicode": "1f69e",
 		"unicode_alt": "",
 		"code_decimal": "&#128670;",
@@ -58650,7 +58438,7 @@ module.exports = {
 			"train"
 		]
 	},
-	"train": {
+	":train:": {
 		"unicode": "1f68b",
 		"unicode_alt": "",
 		"code_decimal": "&#128651;",
@@ -58666,7 +58454,7 @@ module.exports = {
 			"train"
 		]
 	},
-	"bus": {
+	":bus:": {
 		"unicode": "1f68c",
 		"unicode_alt": "",
 		"code_decimal": "&#128652;",
@@ -58682,7 +58470,7 @@ module.exports = {
 			"office"
 		]
 	},
-	"oncoming_bus": {
+	":oncoming_bus:": {
 		"unicode": "1f68d",
 		"unicode_alt": "",
 		"code_decimal": "&#128653;",
@@ -58698,7 +58486,7 @@ module.exports = {
 			"travel"
 		]
 	},
-	"trolleybus": {
+	":trolleybus:": {
 		"unicode": "1f68e",
 		"unicode_alt": "",
 		"code_decimal": "&#128654;",
@@ -58714,7 +58502,7 @@ module.exports = {
 			"travel"
 		]
 	},
-	"minibus": {
+	":minibus:": {
 		"unicode": "1f690",
 		"unicode_alt": "",
 		"code_decimal": "&#128656;",
@@ -58729,7 +58517,7 @@ module.exports = {
 			"bus"
 		]
 	},
-	"ambulance": {
+	":ambulance:": {
 		"unicode": "1f691",
 		"unicode_alt": "",
 		"code_decimal": "&#128657;",
@@ -58744,7 +58532,7 @@ module.exports = {
 			"911"
 		]
 	},
-	"fire_engine": {
+	":fire_engine:": {
 		"unicode": "1f692",
 		"unicode_alt": "",
 		"code_decimal": "&#128658;",
@@ -58760,7 +58548,7 @@ module.exports = {
 			"911"
 		]
 	},
-	"police_car": {
+	":police_car:": {
 		"unicode": "1f693",
 		"unicode_alt": "",
 		"code_decimal": "&#128659;",
@@ -58777,7 +58565,7 @@ module.exports = {
 			"911"
 		]
 	},
-	"oncoming_police_car": {
+	":oncoming_police_car:": {
 		"unicode": "1f694",
 		"unicode_alt": "",
 		"code_decimal": "&#128660;",
@@ -58794,7 +58582,7 @@ module.exports = {
 			"911"
 		]
 	},
-	"taxi": {
+	":taxi:": {
 		"unicode": "1f695",
 		"unicode_alt": "",
 		"code_decimal": "&#128661;",
@@ -58810,7 +58598,7 @@ module.exports = {
 			"travel"
 		]
 	},
-	"oncoming_taxi": {
+	":oncoming_taxi:": {
 		"unicode": "1f696",
 		"unicode_alt": "",
 		"code_decimal": "&#128662;",
@@ -58826,7 +58614,7 @@ module.exports = {
 			"travel"
 		]
 	},
-	"red_car": {
+	":red_car:": {
 		"unicode": "1f697",
 		"unicode_alt": "",
 		"code_decimal": "&#128663;",
@@ -58842,7 +58630,7 @@ module.exports = {
 			"travel"
 		]
 	},
-	"oncoming_automobile": {
+	":oncoming_automobile:": {
 		"unicode": "1f698",
 		"unicode_alt": "",
 		"code_decimal": "&#128664;",
@@ -58858,7 +58646,7 @@ module.exports = {
 			"travel"
 		]
 	},
-	"blue_car": {
+	":blue_car:": {
 		"unicode": "1f699",
 		"unicode_alt": "",
 		"code_decimal": "&#128665;",
@@ -58874,7 +58662,7 @@ module.exports = {
 			"travel"
 		]
 	},
-	"truck": {
+	":truck:": {
 		"unicode": "1f69a",
 		"unicode_alt": "",
 		"code_decimal": "&#128666;",
@@ -58889,7 +58677,7 @@ module.exports = {
 			"truck"
 		]
 	},
-	"articulated_lorry": {
+	":articulated_lorry:": {
 		"unicode": "1f69b",
 		"unicode_alt": "",
 		"code_decimal": "&#128667;",
@@ -58904,7 +58692,7 @@ module.exports = {
 			"truck"
 		]
 	},
-	"tractor": {
+	":tractor:": {
 		"unicode": "1f69c",
 		"unicode_alt": "",
 		"code_decimal": "&#128668;",
@@ -58918,7 +58706,7 @@ module.exports = {
 			"transportation"
 		]
 	},
-	"bike": {
+	":bike:": {
 		"unicode": "1f6b2",
 		"unicode_alt": "",
 		"code_decimal": "&#128690;",
@@ -58934,7 +58722,7 @@ module.exports = {
 			"bike"
 		]
 	},
-	"scooter": {
+	":scooter:": {
 		"unicode": "1f6f4",
 		"unicode_alt": "",
 		"code_decimal": "&#128756;",
@@ -58946,7 +58734,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"motor_scooter": {
+	":motor_scooter:": {
 		"unicode": "1f6f5",
 		"unicode_alt": "",
 		"code_decimal": "&#128757;",
@@ -58962,7 +58750,7 @@ module.exports = {
 			"moped"
 		]
 	},
-	"busstop": {
+	":busstop:": {
 		"unicode": "1f68f",
 		"unicode_alt": "",
 		"code_decimal": "&#128655;",
@@ -58976,7 +58764,7 @@ module.exports = {
 			"object"
 		]
 	},
-	"motorway": {
+	":motorway:": {
 		"unicode": "1f6e3",
 		"unicode_alt": "1f6e3-fe0f",
 		"code_decimal": "&#128739;",
@@ -58992,7 +58780,7 @@ module.exports = {
 			"camp"
 		]
 	},
-	"railway_track": {
+	":railway_track:": {
 		"unicode": "1f6e4",
 		"unicode_alt": "1f6e4-fe0f",
 		"code_decimal": "&#128740;",
@@ -59010,7 +58798,7 @@ module.exports = {
 			"vacation"
 		]
 	},
-	"fuelpump": {
+	":fuelpump:": {
 		"unicode": "26fd",
 		"unicode_alt": "26fd-fe0f",
 		"code_decimal": "&#9981;",
@@ -59025,7 +58813,7 @@ module.exports = {
 			"gas pump"
 		]
 	},
-	"rotating_light": {
+	":rotating_light:": {
 		"unicode": "1f6a8",
 		"unicode_alt": "",
 		"code_decimal": "&#128680;",
@@ -59042,7 +58830,7 @@ module.exports = {
 			"911"
 		]
 	},
-	"traffic_light": {
+	":traffic_light:": {
 		"unicode": "1f6a5",
 		"unicode_alt": "",
 		"code_decimal": "&#128677;",
@@ -59057,7 +58845,7 @@ module.exports = {
 			"stop light"
 		]
 	},
-	"vertical_traffic_light": {
+	":vertical_traffic_light:": {
 		"unicode": "1f6a6",
 		"unicode_alt": "",
 		"code_decimal": "&#128678;",
@@ -59072,7 +58860,7 @@ module.exports = {
 			"stop light"
 		]
 	},
-	"construction": {
+	":construction:": {
 		"unicode": "1f6a7",
 		"unicode_alt": "",
 		"code_decimal": "&#128679;",
@@ -59086,7 +58874,7 @@ module.exports = {
 			"object"
 		]
 	},
-	"octagonal_sign": {
+	":octagonal_sign:": {
 		"unicode": "1f6d1",
 		"unicode_alt": "",
 		"code_decimal": "&#128721;",
@@ -59100,7 +58888,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"anchor": {
+	":anchor:": {
 		"unicode": "2693",
 		"unicode_alt": "2693-fe0f",
 		"code_decimal": "&#9875;",
@@ -59117,7 +58905,7 @@ module.exports = {
 			"vacation"
 		]
 	},
-	"sailboat": {
+	":sailboat:": {
 		"unicode": "26f5",
 		"unicode_alt": "26f5-fe0f",
 		"code_decimal": "&#9973;",
@@ -59134,7 +58922,7 @@ module.exports = {
 			"vacation"
 		]
 	},
-	"canoe": {
+	":canoe:": {
 		"unicode": "1f6f6",
 		"unicode_alt": "",
 		"code_decimal": "&#128758;",
@@ -59148,7 +58936,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"speedboat": {
+	":speedboat:": {
 		"unicode": "1f6a4",
 		"unicode_alt": "",
 		"code_decimal": "&#128676;",
@@ -59166,7 +58954,7 @@ module.exports = {
 			"tropical"
 		]
 	},
-	"cruise_ship": {
+	":cruise_ship:": {
 		"unicode": "1f6f3",
 		"unicode_alt": "1f6f3-fe0f",
 		"code_decimal": "&#128755;",
@@ -59185,7 +58973,7 @@ module.exports = {
 			"vacation"
 		]
 	},
-	"ferry": {
+	":ferry:": {
 		"unicode": "26f4",
 		"unicode_alt": "26f4-fe0f",
 		"code_decimal": "&#9972;",
@@ -59202,7 +58990,7 @@ module.exports = {
 			"vacation"
 		]
 	},
-	"motorboat": {
+	":motorboat:": {
 		"unicode": "1f6e5",
 		"unicode_alt": "1f6e5-fe0f",
 		"code_decimal": "&#128741;",
@@ -59218,7 +59006,7 @@ module.exports = {
 			"boat"
 		]
 	},
-	"ship": {
+	":ship:": {
 		"unicode": "1f6a2",
 		"unicode_alt": "",
 		"code_decimal": "&#128674;",
@@ -59235,7 +59023,7 @@ module.exports = {
 			"vacation"
 		]
 	},
-	"airplane": {
+	":airplane:": {
 		"unicode": "2708",
 		"unicode_alt": "2708-fe0f",
 		"code_decimal": "&#9992;",
@@ -59253,7 +59041,7 @@ module.exports = {
 			"fly"
 		]
 	},
-	"airplane_small": {
+	":airplane_small:": {
 		"unicode": "1f6e9",
 		"unicode_alt": "1f6e9-fe0f",
 		"code_decimal": "&#128745;",
@@ -59273,7 +59061,7 @@ module.exports = {
 			"fly"
 		]
 	},
-	"airplane_departure": {
+	":airplane_departure:": {
 		"unicode": "1f6eb",
 		"unicode_alt": "",
 		"code_decimal": "&#128747;",
@@ -59291,7 +59079,7 @@ module.exports = {
 			"fly"
 		]
 	},
-	"airplane_arriving": {
+	":airplane_arriving:": {
 		"unicode": "1f6ec",
 		"unicode_alt": "",
 		"code_decimal": "&#128748;",
@@ -59309,7 +59097,7 @@ module.exports = {
 			"fly"
 		]
 	},
-	"seat": {
+	":seat:": {
 		"unicode": "1f4ba",
 		"unicode_alt": "",
 		"code_decimal": "&#128186;",
@@ -59326,7 +59114,7 @@ module.exports = {
 			"vacation"
 		]
 	},
-	"helicopter": {
+	":helicopter:": {
 		"unicode": "1f681",
 		"unicode_alt": "",
 		"code_decimal": "&#128641;",
@@ -59343,7 +59131,7 @@ module.exports = {
 			"fly"
 		]
 	},
-	"suspension_railway": {
+	":suspension_railway:": {
 		"unicode": "1f69f",
 		"unicode_alt": "",
 		"code_decimal": "&#128671;",
@@ -59359,7 +59147,7 @@ module.exports = {
 			"train"
 		]
 	},
-	"mountain_cableway": {
+	":mountain_cableway:": {
 		"unicode": "1f6a0",
 		"unicode_alt": "",
 		"code_decimal": "&#128672;",
@@ -59375,7 +59163,7 @@ module.exports = {
 			"train"
 		]
 	},
-	"aerial_tramway": {
+	":aerial_tramway:": {
 		"unicode": "1f6a1",
 		"unicode_alt": "",
 		"code_decimal": "&#128673;",
@@ -59391,7 +59179,7 @@ module.exports = {
 			"train"
 		]
 	},
-	"rocket": {
+	":rocket:": {
 		"unicode": "1f680",
 		"unicode_alt": "",
 		"code_decimal": "&#128640;",
@@ -59409,7 +59197,7 @@ module.exports = {
 			"blast"
 		]
 	},
-	"satellite_orbital": {
+	":satellite_orbital:": {
 		"unicode": "1f6f0",
 		"unicode_alt": "1f6f0-fe0f",
 		"code_decimal": "&#128752;",
@@ -59423,7 +59211,7 @@ module.exports = {
 			"object"
 		]
 	},
-	"bellhop": {
+	":bellhop:": {
 		"unicode": "1f6ce",
 		"unicode_alt": "1f6ce-fe0f",
 		"code_decimal": "&#128718;",
@@ -59439,7 +59227,7 @@ module.exports = {
 			"object"
 		]
 	},
-	"door": {
+	":door:": {
 		"unicode": "1f6aa",
 		"unicode_alt": "",
 		"code_decimal": "&#128682;",
@@ -59453,7 +59241,7 @@ module.exports = {
 			"object"
 		]
 	},
-	"sleeping_accommodation": {
+	":sleeping_accommodation:": {
 		"unicode": "1f6cc",
 		"unicode_alt": "",
 		"code_decimal": "&#128716;",
@@ -59467,7 +59255,7 @@ module.exports = {
 			"tired"
 		]
 	},
-	"bed": {
+	":bed:": {
 		"unicode": "1f6cf",
 		"unicode_alt": "1f6cf-fe0f",
 		"code_decimal": "&#128719;",
@@ -59482,7 +59270,7 @@ module.exports = {
 			"tired"
 		]
 	},
-	"couch": {
+	":couch:": {
 		"unicode": "1f6cb",
 		"unicode_alt": "1f6cb-fe0f",
 		"code_decimal": "&#128715;",
@@ -59498,7 +59286,7 @@ module.exports = {
 			"object"
 		]
 	},
-	"toilet": {
+	":toilet:": {
 		"unicode": "1f6bd",
 		"unicode_alt": "",
 		"code_decimal": "&#128701;",
@@ -59513,7 +59301,7 @@ module.exports = {
 			"bathroom"
 		]
 	},
-	"shower": {
+	":shower:": {
 		"unicode": "1f6bf",
 		"unicode_alt": "",
 		"code_decimal": "&#128703;",
@@ -59528,7 +59316,7 @@ module.exports = {
 			"bathroom"
 		]
 	},
-	"bath": {
+	":bath:": {
 		"unicode": "1f6c0",
 		"unicode_alt": "",
 		"code_decimal": "&#128704;",
@@ -59545,7 +59333,7 @@ module.exports = {
 			"steam"
 		]
 	},
-	"bath_tone1": {
+	":bath_tone1:": {
 		"unicode": "1f6c0-1f3fb",
 		"unicode_alt": "",
 		"code_decimal": "&#128704;&#127995;",
@@ -59557,7 +59345,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"bath_tone2": {
+	":bath_tone2:": {
 		"unicode": "1f6c0-1f3fc",
 		"unicode_alt": "",
 		"code_decimal": "&#128704;&#127996;",
@@ -59569,7 +59357,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"bath_tone3": {
+	":bath_tone3:": {
 		"unicode": "1f6c0-1f3fd",
 		"unicode_alt": "",
 		"code_decimal": "&#128704;&#127997;",
@@ -59581,7 +59369,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"bath_tone4": {
+	":bath_tone4:": {
 		"unicode": "1f6c0-1f3fe",
 		"unicode_alt": "",
 		"code_decimal": "&#128704;&#127998;",
@@ -59593,7 +59381,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"bath_tone5": {
+	":bath_tone5:": {
 		"unicode": "1f6c0-1f3ff",
 		"unicode_alt": "",
 		"code_decimal": "&#128704;&#127999;",
@@ -59605,7 +59393,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"bathtub": {
+	":bathtub:": {
 		"unicode": "1f6c1",
 		"unicode_alt": "",
 		"code_decimal": "&#128705;",
@@ -59622,7 +59410,7 @@ module.exports = {
 			"steam"
 		]
 	},
-	"hourglass": {
+	":hourglass:": {
 		"unicode": "231b",
 		"unicode_alt": "231b-fe0f",
 		"code_decimal": "&#8987;",
@@ -59637,7 +59425,7 @@ module.exports = {
 			"time"
 		]
 	},
-	"hourglass_flowing_sand": {
+	":hourglass_flowing_sand:": {
 		"unicode": "23f3",
 		"unicode_alt": "",
 		"code_decimal": "&#9203;",
@@ -59652,7 +59440,7 @@ module.exports = {
 			"time"
 		]
 	},
-	"watch": {
+	":watch:": {
 		"unicode": "231a",
 		"unicode_alt": "231a-fe0f",
 		"code_decimal": "&#8986;",
@@ -59667,7 +59455,7 @@ module.exports = {
 			"time"
 		]
 	},
-	"alarm_clock": {
+	":alarm_clock:": {
 		"unicode": "23f0",
 		"unicode_alt": "",
 		"code_decimal": "&#9200;",
@@ -59682,7 +59470,7 @@ module.exports = {
 			"time"
 		]
 	},
-	"stopwatch": {
+	":stopwatch:": {
 		"unicode": "23f1",
 		"unicode_alt": "23f1-fe0f",
 		"code_decimal": "&#9201;",
@@ -59697,7 +59485,7 @@ module.exports = {
 			"time"
 		]
 	},
-	"timer": {
+	":timer:": {
 		"unicode": "23f2",
 		"unicode_alt": "23f2-fe0f",
 		"code_decimal": "&#9202;",
@@ -59714,7 +59502,7 @@ module.exports = {
 			"time"
 		]
 	},
-	"clock": {
+	":clock:": {
 		"unicode": "1f570",
 		"unicode_alt": "1f570-fe0f",
 		"code_decimal": "&#128368;",
@@ -59731,7 +59519,7 @@ module.exports = {
 			"time"
 		]
 	},
-	"clock12": {
+	":clock12:": {
 		"unicode": "1f55b",
 		"unicode_alt": "",
 		"code_decimal": "&#128347;",
@@ -59746,7 +59534,7 @@ module.exports = {
 			"time"
 		]
 	},
-	"clock1230": {
+	":clock1230:": {
 		"unicode": "1f567",
 		"unicode_alt": "",
 		"code_decimal": "&#128359;",
@@ -59761,7 +59549,7 @@ module.exports = {
 			"time"
 		]
 	},
-	"clock1": {
+	":clock1:": {
 		"unicode": "1f550",
 		"unicode_alt": "",
 		"code_decimal": "&#128336;",
@@ -59776,7 +59564,7 @@ module.exports = {
 			"time"
 		]
 	},
-	"clock130": {
+	":clock130:": {
 		"unicode": "1f55c",
 		"unicode_alt": "",
 		"code_decimal": "&#128348;",
@@ -59791,7 +59579,7 @@ module.exports = {
 			"time"
 		]
 	},
-	"clock2": {
+	":clock2:": {
 		"unicode": "1f551",
 		"unicode_alt": "",
 		"code_decimal": "&#128337;",
@@ -59806,7 +59594,7 @@ module.exports = {
 			"time"
 		]
 	},
-	"clock230": {
+	":clock230:": {
 		"unicode": "1f55d",
 		"unicode_alt": "",
 		"code_decimal": "&#128349;",
@@ -59821,7 +59609,7 @@ module.exports = {
 			"time"
 		]
 	},
-	"clock3": {
+	":clock3:": {
 		"unicode": "1f552",
 		"unicode_alt": "",
 		"code_decimal": "&#128338;",
@@ -59836,7 +59624,7 @@ module.exports = {
 			"time"
 		]
 	},
-	"clock330": {
+	":clock330:": {
 		"unicode": "1f55e",
 		"unicode_alt": "",
 		"code_decimal": "&#128350;",
@@ -59851,7 +59639,7 @@ module.exports = {
 			"time"
 		]
 	},
-	"clock4": {
+	":clock4:": {
 		"unicode": "1f553",
 		"unicode_alt": "",
 		"code_decimal": "&#128339;",
@@ -59866,7 +59654,7 @@ module.exports = {
 			"time"
 		]
 	},
-	"clock430": {
+	":clock430:": {
 		"unicode": "1f55f",
 		"unicode_alt": "",
 		"code_decimal": "&#128351;",
@@ -59881,7 +59669,7 @@ module.exports = {
 			"time"
 		]
 	},
-	"clock5": {
+	":clock5:": {
 		"unicode": "1f554",
 		"unicode_alt": "",
 		"code_decimal": "&#128340;",
@@ -59896,7 +59684,7 @@ module.exports = {
 			"time"
 		]
 	},
-	"clock530": {
+	":clock530:": {
 		"unicode": "1f560",
 		"unicode_alt": "",
 		"code_decimal": "&#128352;",
@@ -59911,7 +59699,7 @@ module.exports = {
 			"time"
 		]
 	},
-	"clock6": {
+	":clock6:": {
 		"unicode": "1f555",
 		"unicode_alt": "",
 		"code_decimal": "&#128341;",
@@ -59926,7 +59714,7 @@ module.exports = {
 			"time"
 		]
 	},
-	"clock630": {
+	":clock630:": {
 		"unicode": "1f561",
 		"unicode_alt": "",
 		"code_decimal": "&#128353;",
@@ -59941,7 +59729,7 @@ module.exports = {
 			"time"
 		]
 	},
-	"clock7": {
+	":clock7:": {
 		"unicode": "1f556",
 		"unicode_alt": "",
 		"code_decimal": "&#128342;",
@@ -59956,7 +59744,7 @@ module.exports = {
 			"time"
 		]
 	},
-	"clock730": {
+	":clock730:": {
 		"unicode": "1f562",
 		"unicode_alt": "",
 		"code_decimal": "&#128354;",
@@ -59971,7 +59759,7 @@ module.exports = {
 			"time"
 		]
 	},
-	"clock8": {
+	":clock8:": {
 		"unicode": "1f557",
 		"unicode_alt": "",
 		"code_decimal": "&#128343;",
@@ -59986,7 +59774,7 @@ module.exports = {
 			"time"
 		]
 	},
-	"clock830": {
+	":clock830:": {
 		"unicode": "1f563",
 		"unicode_alt": "",
 		"code_decimal": "&#128355;",
@@ -60001,7 +59789,7 @@ module.exports = {
 			"time"
 		]
 	},
-	"clock9": {
+	":clock9:": {
 		"unicode": "1f558",
 		"unicode_alt": "",
 		"code_decimal": "&#128344;",
@@ -60016,7 +59804,7 @@ module.exports = {
 			"time"
 		]
 	},
-	"clock930": {
+	":clock930:": {
 		"unicode": "1f564",
 		"unicode_alt": "",
 		"code_decimal": "&#128356;",
@@ -60031,7 +59819,7 @@ module.exports = {
 			"time"
 		]
 	},
-	"clock10": {
+	":clock10:": {
 		"unicode": "1f559",
 		"unicode_alt": "",
 		"code_decimal": "&#128345;",
@@ -60046,7 +59834,7 @@ module.exports = {
 			"time"
 		]
 	},
-	"clock1030": {
+	":clock1030:": {
 		"unicode": "1f565",
 		"unicode_alt": "",
 		"code_decimal": "&#128357;",
@@ -60061,7 +59849,7 @@ module.exports = {
 			"time"
 		]
 	},
-	"clock11": {
+	":clock11:": {
 		"unicode": "1f55a",
 		"unicode_alt": "",
 		"code_decimal": "&#128346;",
@@ -60076,7 +59864,7 @@ module.exports = {
 			"time"
 		]
 	},
-	"clock1130": {
+	":clock1130:": {
 		"unicode": "1f566",
 		"unicode_alt": "",
 		"code_decimal": "&#128358;",
@@ -60091,7 +59879,7 @@ module.exports = {
 			"time"
 		]
 	},
-	"new_moon": {
+	":new_moon:": {
 		"unicode": "1f311",
 		"unicode_alt": "",
 		"code_decimal": "&#127761;",
@@ -60107,7 +59895,7 @@ module.exports = {
 			"moon"
 		]
 	},
-	"waxing_crescent_moon": {
+	":waxing_crescent_moon:": {
 		"unicode": "1f312",
 		"unicode_alt": "",
 		"code_decimal": "&#127762;",
@@ -60123,7 +59911,7 @@ module.exports = {
 			"moon"
 		]
 	},
-	"first_quarter_moon": {
+	":first_quarter_moon:": {
 		"unicode": "1f313",
 		"unicode_alt": "",
 		"code_decimal": "&#127763;",
@@ -60139,7 +59927,7 @@ module.exports = {
 			"moon"
 		]
 	},
-	"waxing_gibbous_moon": {
+	":waxing_gibbous_moon:": {
 		"unicode": "1f314",
 		"unicode_alt": "",
 		"code_decimal": "&#127764;",
@@ -60155,7 +59943,7 @@ module.exports = {
 			"moon"
 		]
 	},
-	"full_moon": {
+	":full_moon:": {
 		"unicode": "1f315",
 		"unicode_alt": "",
 		"code_decimal": "&#127765;",
@@ -60171,7 +59959,7 @@ module.exports = {
 			"moon"
 		]
 	},
-	"waning_gibbous_moon": {
+	":waning_gibbous_moon:": {
 		"unicode": "1f316",
 		"unicode_alt": "",
 		"code_decimal": "&#127766;",
@@ -60187,7 +59975,7 @@ module.exports = {
 			"moon"
 		]
 	},
-	"last_quarter_moon": {
+	":last_quarter_moon:": {
 		"unicode": "1f317",
 		"unicode_alt": "",
 		"code_decimal": "&#127767;",
@@ -60203,7 +59991,7 @@ module.exports = {
 			"moon"
 		]
 	},
-	"waning_crescent_moon": {
+	":waning_crescent_moon:": {
 		"unicode": "1f318",
 		"unicode_alt": "",
 		"code_decimal": "&#127768;",
@@ -60219,7 +60007,7 @@ module.exports = {
 			"moon"
 		]
 	},
-	"crescent_moon": {
+	":crescent_moon:": {
 		"unicode": "1f319",
 		"unicode_alt": "",
 		"code_decimal": "&#127769;",
@@ -60236,7 +60024,7 @@ module.exports = {
 			"moon"
 		]
 	},
-	"new_moon_with_face": {
+	":new_moon_with_face:": {
 		"unicode": "1f31a",
 		"unicode_alt": "",
 		"code_decimal": "&#127770;",
@@ -60253,7 +60041,7 @@ module.exports = {
 			"moon"
 		]
 	},
-	"first_quarter_moon_with_face": {
+	":first_quarter_moon_with_face:": {
 		"unicode": "1f31b",
 		"unicode_alt": "",
 		"code_decimal": "&#127771;",
@@ -60269,7 +60057,7 @@ module.exports = {
 			"moon"
 		]
 	},
-	"last_quarter_moon_with_face": {
+	":last_quarter_moon_with_face:": {
 		"unicode": "1f31c",
 		"unicode_alt": "",
 		"code_decimal": "&#127772;",
@@ -60285,7 +60073,7 @@ module.exports = {
 			"moon"
 		]
 	},
-	"thermometer": {
+	":thermometer:": {
 		"unicode": "1f321",
 		"unicode_alt": "1f321-fe0f",
 		"code_decimal": "&#127777;",
@@ -60302,7 +60090,7 @@ module.exports = {
 			"hot"
 		]
 	},
-	"sunny": {
+	":sunny:": {
 		"unicode": "2600",
 		"unicode_alt": "2600-fe0f",
 		"code_decimal": "&#9728;",
@@ -60321,7 +60109,7 @@ module.exports = {
 			"morning"
 		]
 	},
-	"full_moon_with_face": {
+	":full_moon_with_face:": {
 		"unicode": "1f31d",
 		"unicode_alt": "",
 		"code_decimal": "&#127773;",
@@ -60338,7 +60126,7 @@ module.exports = {
 			"moon"
 		]
 	},
-	"sun_with_face": {
+	":sun_with_face:": {
 		"unicode": "1f31e",
 		"unicode_alt": "",
 		"code_decimal": "&#127774;",
@@ -60356,7 +60144,7 @@ module.exports = {
 			"morning"
 		]
 	},
-	"star": {
+	":star:": {
 		"unicode": "2b50",
 		"unicode_alt": "2b50-fe0f",
 		"code_decimal": "&#11088;",
@@ -60372,7 +60160,7 @@ module.exports = {
 			"star"
 		]
 	},
-	"star2": {
+	":star2:": {
 		"unicode": "1f31f",
 		"unicode_alt": "",
 		"code_decimal": "&#127775;",
@@ -60388,7 +60176,7 @@ module.exports = {
 			"star"
 		]
 	},
-	"stars": {
+	":stars:": {
 		"unicode": "1f320",
 		"unicode_alt": "",
 		"code_decimal": "&#127776;",
@@ -60402,7 +60190,7 @@ module.exports = {
 			"space"
 		]
 	},
-	"cloud": {
+	":cloud:": {
 		"unicode": "2601",
 		"unicode_alt": "2601-fe0f",
 		"code_decimal": "&#9729;",
@@ -60420,7 +60208,7 @@ module.exports = {
 			"rain"
 		]
 	},
-	"partly_sunny": {
+	":partly_sunny:": {
 		"unicode": "26c5",
 		"unicode_alt": "26c5-fe0f",
 		"code_decimal": "&#9925;",
@@ -60437,7 +60225,7 @@ module.exports = {
 			"sun"
 		]
 	},
-	"thunder_cloud_rain": {
+	":thunder_cloud_rain:": {
 		"unicode": "26c8",
 		"unicode_alt": "26c8-fe0f",
 		"code_decimal": "&#9928;",
@@ -60457,7 +60245,7 @@ module.exports = {
 			"rain"
 		]
 	},
-	"white_sun_small_cloud": {
+	":white_sun_small_cloud:": {
 		"unicode": "1f324",
 		"unicode_alt": "1f324-fe0f",
 		"code_decimal": "&#127780;",
@@ -60476,7 +60264,7 @@ module.exports = {
 			"sun"
 		]
 	},
-	"white_sun_cloud": {
+	":white_sun_cloud:": {
 		"unicode": "1f325",
 		"unicode_alt": "1f325-fe0f",
 		"code_decimal": "&#127781;",
@@ -60496,7 +60284,7 @@ module.exports = {
 			"sun"
 		]
 	},
-	"white_sun_rain_cloud": {
+	":white_sun_rain_cloud:": {
 		"unicode": "1f326",
 		"unicode_alt": "1f326-fe0f",
 		"code_decimal": "&#127782;",
@@ -60517,7 +60305,7 @@ module.exports = {
 			"sun"
 		]
 	},
-	"cloud_rain": {
+	":cloud_rain:": {
 		"unicode": "1f327",
 		"unicode_alt": "1f327-fe0f",
 		"code_decimal": "&#127783;",
@@ -60538,7 +60326,7 @@ module.exports = {
 			"rain"
 		]
 	},
-	"cloud_snow": {
+	":cloud_snow:": {
 		"unicode": "1f328",
 		"unicode_alt": "1f328-fe0f",
 		"code_decimal": "&#127784;",
@@ -60559,7 +60347,7 @@ module.exports = {
 			"snow"
 		]
 	},
-	"cloud_lightning": {
+	":cloud_lightning:": {
 		"unicode": "1f329",
 		"unicode_alt": "1f329-fe0f",
 		"code_decimal": "&#127785;",
@@ -60579,7 +60367,7 @@ module.exports = {
 			"rain"
 		]
 	},
-	"cloud_tornado": {
+	":cloud_tornado:": {
 		"unicode": "1f32a",
 		"unicode_alt": "1f32a-fe0f",
 		"code_decimal": "&#127786;",
@@ -60597,7 +60385,7 @@ module.exports = {
 			"cold"
 		]
 	},
-	"fog": {
+	":fog:": {
 		"unicode": "1f32b",
 		"unicode_alt": "1f32b-fe0f",
 		"code_decimal": "&#127787;",
@@ -60613,7 +60401,7 @@ module.exports = {
 			"cold"
 		]
 	},
-	"wind_blowing_face": {
+	":wind_blowing_face:": {
 		"unicode": "1f32c",
 		"unicode_alt": "1f32c-fe0f",
 		"code_decimal": "&#127788;",
@@ -60628,7 +60416,7 @@ module.exports = {
 			"cold"
 		]
 	},
-	"cyclone": {
+	":cyclone:": {
 		"unicode": "1f300",
 		"unicode_alt": "",
 		"code_decimal": "&#127744;",
@@ -60643,7 +60431,7 @@ module.exports = {
 			"drugs"
 		]
 	},
-	"rainbow": {
+	":rainbow:": {
 		"unicode": "1f308",
 		"unicode_alt": "",
 		"code_decimal": "&#127752;",
@@ -60660,7 +60448,7 @@ module.exports = {
 			"rain"
 		]
 	},
-	"closed_umbrella": {
+	":closed_umbrella:": {
 		"unicode": "1f302",
 		"unicode_alt": "",
 		"code_decimal": "&#127746;",
@@ -60677,7 +60465,7 @@ module.exports = {
 			"accessories"
 		]
 	},
-	"umbrella2": {
+	":umbrella2:": {
 		"unicode": "2602",
 		"unicode_alt": "2602-fe0f",
 		"code_decimal": "&#9730;",
@@ -60694,7 +60482,7 @@ module.exports = {
 			"cold"
 		]
 	},
-	"umbrella": {
+	":umbrella:": {
 		"unicode": "2614",
 		"unicode_alt": "2614-fe0f",
 		"code_decimal": "&#9748;",
@@ -60711,7 +60499,7 @@ module.exports = {
 			"rain"
 		]
 	},
-	"beach_umbrella": {
+	":beach_umbrella:": {
 		"unicode": "26f1",
 		"unicode_alt": "26f1-fe0f",
 		"code_decimal": "&#9969;",
@@ -60729,7 +60517,7 @@ module.exports = {
 			"tropical"
 		]
 	},
-	"zap": {
+	":zap:": {
 		"unicode": "26a1",
 		"unicode_alt": "26a1-fe0f",
 		"code_decimal": "&#9889;",
@@ -60745,7 +60533,7 @@ module.exports = {
 			"diarrhea"
 		]
 	},
-	"snowflake": {
+	":snowflake:": {
 		"unicode": "2744",
 		"unicode_alt": "2744-fe0f",
 		"code_decimal": "&#10052;",
@@ -60764,7 +60552,7 @@ module.exports = {
 			"snow"
 		]
 	},
-	"snowman2": {
+	":snowman2:": {
 		"unicode": "2603",
 		"unicode_alt": "2603-fe0f",
 		"code_decimal": "&#9731;",
@@ -60783,7 +60571,7 @@ module.exports = {
 			"snow"
 		]
 	},
-	"snowman": {
+	":snowman:": {
 		"unicode": "26c4",
 		"unicode_alt": "26c4-fe0f",
 		"code_decimal": "&#9924;",
@@ -60801,7 +60589,7 @@ module.exports = {
 			"snow"
 		]
 	},
-	"comet": {
+	":comet:": {
 		"unicode": "2604",
 		"unicode_alt": "2604-fe0f",
 		"code_decimal": "&#9732;",
@@ -60816,7 +60604,7 @@ module.exports = {
 			"sky"
 		]
 	},
-	"fire": {
+	":fire:": {
 		"unicode": "1f525",
 		"unicode_alt": "",
 		"code_decimal": "&#128293;",
@@ -60833,7 +60621,7 @@ module.exports = {
 			"hot"
 		]
 	},
-	"droplet": {
+	":droplet:": {
 		"unicode": "1f4a7",
 		"unicode_alt": "",
 		"code_decimal": "&#128167;",
@@ -60849,7 +60637,7 @@ module.exports = {
 			"rain"
 		]
 	},
-	"ocean": {
+	":ocean:": {
 		"unicode": "1f30a",
 		"unicode_alt": "",
 		"code_decimal": "&#127754;",
@@ -60866,7 +60654,7 @@ module.exports = {
 			"swim"
 		]
 	},
-	"jack_o_lantern": {
+	":jack_o_lantern:": {
 		"unicode": "1f383",
 		"unicode_alt": "",
 		"code_decimal": "&#127875;",
@@ -60881,7 +60669,7 @@ module.exports = {
 			"halloween"
 		]
 	},
-	"christmas_tree": {
+	":christmas_tree:": {
 		"unicode": "1f384",
 		"unicode_alt": "",
 		"code_decimal": "&#127876;",
@@ -60898,7 +60686,7 @@ module.exports = {
 			"trees"
 		]
 	},
-	"fireworks": {
+	":fireworks:": {
 		"unicode": "1f386",
 		"unicode_alt": "",
 		"code_decimal": "&#127878;",
@@ -60912,7 +60700,7 @@ module.exports = {
 			"parties"
 		]
 	},
-	"sparkler": {
+	":sparkler:": {
 		"unicode": "1f387",
 		"unicode_alt": "",
 		"code_decimal": "&#127879;",
@@ -60926,7 +60714,7 @@ module.exports = {
 			"parties"
 		]
 	},
-	"sparkles": {
+	":sparkles:": {
 		"unicode": "2728",
 		"unicode_alt": "",
 		"code_decimal": "&#10024;",
@@ -60941,7 +60729,7 @@ module.exports = {
 			"girls night"
 		]
 	},
-	"balloon": {
+	":balloon:": {
 		"unicode": "1f388",
 		"unicode_alt": "",
 		"code_decimal": "&#127880;",
@@ -60958,7 +60746,7 @@ module.exports = {
 			"parties"
 		]
 	},
-	"tada": {
+	":tada:": {
 		"unicode": "1f389",
 		"unicode_alt": "",
 		"code_decimal": "&#127881;",
@@ -60979,7 +60767,7 @@ module.exports = {
 			"parties"
 		]
 	},
-	"confetti_ball": {
+	":confetti_ball:": {
 		"unicode": "1f38a",
 		"unicode_alt": "",
 		"code_decimal": "&#127882;",
@@ -60999,7 +60787,7 @@ module.exports = {
 			"parties"
 		]
 	},
-	"tanabata_tree": {
+	":tanabata_tree:": {
 		"unicode": "1f38b",
 		"unicode_alt": "",
 		"code_decimal": "&#127883;",
@@ -61015,7 +60803,7 @@ module.exports = {
 			"trees"
 		]
 	},
-	"bamboo": {
+	":bamboo:": {
 		"unicode": "1f38d",
 		"unicode_alt": "",
 		"code_decimal": "&#127885;",
@@ -61030,7 +60818,7 @@ module.exports = {
 			"plant"
 		]
 	},
-	"dolls": {
+	":dolls:": {
 		"unicode": "1f38e",
 		"unicode_alt": "",
 		"code_decimal": "&#127886;",
@@ -61045,7 +60833,7 @@ module.exports = {
 			"japan"
 		]
 	},
-	"flags": {
+	":flags:": {
 		"unicode": "1f38f",
 		"unicode_alt": "",
 		"code_decimal": "&#127887;",
@@ -61060,7 +60848,7 @@ module.exports = {
 			"japan"
 		]
 	},
-	"wind_chime": {
+	":wind_chime:": {
 		"unicode": "1f390",
 		"unicode_alt": "",
 		"code_decimal": "&#127888;",
@@ -61075,7 +60863,7 @@ module.exports = {
 			"japan"
 		]
 	},
-	"rice_scene": {
+	":rice_scene:": {
 		"unicode": "1f391",
 		"unicode_alt": "",
 		"code_decimal": "&#127889;",
@@ -61092,7 +60880,7 @@ module.exports = {
 			"travel"
 		]
 	},
-	"ribbon": {
+	":ribbon:": {
 		"unicode": "1f380",
 		"unicode_alt": "",
 		"code_decimal": "&#127872;",
@@ -61108,7 +60896,7 @@ module.exports = {
 			"birthday"
 		]
 	},
-	"gift": {
+	":gift:": {
 		"unicode": "1f381",
 		"unicode_alt": "",
 		"code_decimal": "&#127873;",
@@ -61127,7 +60915,7 @@ module.exports = {
 			"parties"
 		]
 	},
-	"reminder_ribbon": {
+	":reminder_ribbon:": {
 		"unicode": "1f397",
 		"unicode_alt": "1f397-fe0f",
 		"code_decimal": "&#127895;",
@@ -61141,7 +60929,7 @@ module.exports = {
 			"award"
 		]
 	},
-	"tickets": {
+	":tickets:": {
 		"unicode": "1f39f",
 		"unicode_alt": "1f39f-fe0f",
 		"code_decimal": "&#127903;",
@@ -61159,7 +60947,7 @@ module.exports = {
 			"parties"
 		]
 	},
-	"ticket": {
+	":ticket:": {
 		"unicode": "1f3ab",
 		"unicode_alt": "",
 		"code_decimal": "&#127915;",
@@ -61175,7 +60963,7 @@ module.exports = {
 			"parties"
 		]
 	},
-	"military_medal": {
+	":military_medal:": {
 		"unicode": "1f396",
 		"unicode_alt": "1f396-fe0f",
 		"code_decimal": "&#127894;",
@@ -61191,7 +60979,7 @@ module.exports = {
 			"win"
 		]
 	},
-	"trophy": {
+	":trophy:": {
 		"unicode": "1f3c6",
 		"unicode_alt": "",
 		"code_decimal": "&#127942;",
@@ -61210,7 +60998,7 @@ module.exports = {
 			"parties"
 		]
 	},
-	"medal": {
+	":medal:": {
 		"unicode": "1f3c5",
 		"unicode_alt": "",
 		"code_decimal": "&#127941;",
@@ -61230,7 +61018,7 @@ module.exports = {
 			"perfect"
 		]
 	},
-	"first_place": {
+	":first_place:": {
 		"unicode": "1f947",
 		"unicode_alt": "",
 		"code_decimal": "&#129351;",
@@ -61244,7 +61032,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"second_place": {
+	":second_place:": {
 		"unicode": "1f948",
 		"unicode_alt": "",
 		"code_decimal": "&#129352;",
@@ -61258,7 +61046,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"third_place": {
+	":third_place:": {
 		"unicode": "1f949",
 		"unicode_alt": "",
 		"code_decimal": "&#129353;",
@@ -61272,7 +61060,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"soccer": {
+	":soccer:": {
 		"unicode": "26bd",
 		"unicode_alt": "26bd-fe0f",
 		"code_decimal": "&#9917;",
@@ -61290,7 +61078,7 @@ module.exports = {
 			"football"
 		]
 	},
-	"baseball": {
+	":baseball:": {
 		"unicode": "26be",
 		"unicode_alt": "26be-fe0f",
 		"code_decimal": "&#9918;",
@@ -61307,7 +61095,7 @@ module.exports = {
 			"baseball"
 		]
 	},
-	"basketball": {
+	":basketball:": {
 		"unicode": "1f3c0",
 		"unicode_alt": "",
 		"code_decimal": "&#127936;",
@@ -61324,7 +61112,7 @@ module.exports = {
 			"basketball"
 		]
 	},
-	"volleyball": {
+	":volleyball:": {
 		"unicode": "1f3d0",
 		"unicode_alt": "",
 		"code_decimal": "&#127952;",
@@ -61341,7 +61129,7 @@ module.exports = {
 			"volleyball"
 		]
 	},
-	"football": {
+	":football:": {
 		"unicode": "1f3c8",
 		"unicode_alt": "",
 		"code_decimal": "&#127944;",
@@ -61359,7 +61147,7 @@ module.exports = {
 			"football"
 		]
 	},
-	"rugby_football": {
+	":rugby_football:": {
 		"unicode": "1f3c9",
 		"unicode_alt": "",
 		"code_decimal": "&#127945;",
@@ -61375,7 +61163,7 @@ module.exports = {
 			"football"
 		]
 	},
-	"tennis": {
+	":tennis:": {
 		"unicode": "1f3be",
 		"unicode_alt": "",
 		"code_decimal": "&#127934;",
@@ -61392,7 +61180,7 @@ module.exports = {
 			"tennis"
 		]
 	},
-	"8ball": {
+	":8ball:": {
 		"unicode": "1f3b1",
 		"unicode_alt": "",
 		"code_decimal": "&#127921;",
@@ -61411,7 +61199,7 @@ module.exports = {
 			"boys night"
 		]
 	},
-	"bowling": {
+	":bowling:": {
 		"unicode": "1f3b3",
 		"unicode_alt": "",
 		"code_decimal": "&#127923;",
@@ -61428,7 +61216,7 @@ module.exports = {
 			"boys night"
 		]
 	},
-	"cricket": {
+	":cricket:": {
 		"unicode": "1f3cf",
 		"unicode_alt": "",
 		"code_decimal": "&#127951;",
@@ -61446,7 +61234,7 @@ module.exports = {
 			"cricket"
 		]
 	},
-	"field_hockey": {
+	":field_hockey:": {
 		"unicode": "1f3d1",
 		"unicode_alt": "",
 		"code_decimal": "&#127953;",
@@ -61462,7 +61250,7 @@ module.exports = {
 			"hockey"
 		]
 	},
-	"hockey": {
+	":hockey:": {
 		"unicode": "1f3d2",
 		"unicode_alt": "",
 		"code_decimal": "&#127954;",
@@ -61478,7 +61266,7 @@ module.exports = {
 			"hockey"
 		]
 	},
-	"ping_pong": {
+	":ping_pong:": {
 		"unicode": "1f3d3",
 		"unicode_alt": "",
 		"code_decimal": "&#127955;",
@@ -61497,7 +61285,7 @@ module.exports = {
 			"ping pong"
 		]
 	},
-	"badminton": {
+	":badminton:": {
 		"unicode": "1f3f8",
 		"unicode_alt": "",
 		"code_decimal": "&#127992;",
@@ -61513,7 +61301,7 @@ module.exports = {
 			"badminton"
 		]
 	},
-	"boxing_glove": {
+	":boxing_glove:": {
 		"unicode": "1f94a",
 		"unicode_alt": "",
 		"code_decimal": "&#129354;",
@@ -61527,7 +61315,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"martial_arts_uniform": {
+	":martial_arts_uniform:": {
 		"unicode": "1f94b",
 		"unicode_alt": "",
 		"code_decimal": "&#129355;",
@@ -61541,7 +61329,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"goal": {
+	":goal:": {
 		"unicode": "1f945",
 		"unicode_alt": "",
 		"code_decimal": "&#129349;",
@@ -61555,7 +61343,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"dart": {
+	":dart:": {
 		"unicode": "1f3af",
 		"unicode_alt": "",
 		"code_decimal": "&#127919;",
@@ -61571,7 +61359,7 @@ module.exports = {
 			"boys night"
 		]
 	},
-	"golf": {
+	":golf:": {
 		"unicode": "26f3",
 		"unicode_alt": "26f3-fe0f",
 		"code_decimal": "&#9971;",
@@ -61589,7 +61377,7 @@ module.exports = {
 			"golf"
 		]
 	},
-	"ice_skate": {
+	":ice_skate:": {
 		"unicode": "26f8",
 		"unicode_alt": "26f8-fe0f",
 		"code_decimal": "&#9976;",
@@ -61605,7 +61393,7 @@ module.exports = {
 			"ice skating"
 		]
 	},
-	"fishing_pole_and_fish": {
+	":fishing_pole_and_fish:": {
 		"unicode": "1f3a3",
 		"unicode_alt": "",
 		"code_decimal": "&#127907;",
@@ -61621,7 +61409,7 @@ module.exports = {
 			"fishing"
 		]
 	},
-	"running_shirt_with_sash": {
+	":running_shirt_with_sash:": {
 		"unicode": "1f3bd",
 		"unicode_alt": "",
 		"code_decimal": "&#127933;",
@@ -61635,7 +61423,7 @@ module.exports = {
 			"award"
 		]
 	},
-	"ski": {
+	":ski:": {
 		"unicode": "1f3bf",
 		"unicode_alt": "",
 		"code_decimal": "&#127935;",
@@ -61651,7 +61439,7 @@ module.exports = {
 			"skiing"
 		]
 	},
-	"video_game": {
+	":video_game:": {
 		"unicode": "1f3ae",
 		"unicode_alt": "",
 		"code_decimal": "&#127918;",
@@ -61667,7 +61455,7 @@ module.exports = {
 			"boys night"
 		]
 	},
-	"joystick": {
+	":joystick:": {
 		"unicode": "1f579",
 		"unicode_alt": "1f579-fe0f",
 		"code_decimal": "&#128377;",
@@ -61683,7 +61471,7 @@ module.exports = {
 			"boys night"
 		]
 	},
-	"game_die": {
+	":game_die:": {
 		"unicode": "1f3b2",
 		"unicode_alt": "",
 		"code_decimal": "&#127922;",
@@ -61699,7 +61487,7 @@ module.exports = {
 			"boys night"
 		]
 	},
-	"spades": {
+	":spades:": {
 		"unicode": "2660",
 		"unicode_alt": "2660-fe0f",
 		"code_decimal": "&spades;",
@@ -61714,7 +61502,7 @@ module.exports = {
 			"game"
 		]
 	},
-	"hearts": {
+	":hearts:": {
 		"unicode": "2665",
 		"unicode_alt": "2665-fe0f",
 		"code_decimal": "&hearts;",
@@ -61730,7 +61518,7 @@ module.exports = {
 			"game"
 		]
 	},
-	"diamonds": {
+	":diamonds:": {
 		"unicode": "2666",
 		"unicode_alt": "2666-fe0f",
 		"code_decimal": "&diams;",
@@ -61746,7 +61534,7 @@ module.exports = {
 			"game"
 		]
 	},
-	"clubs": {
+	":clubs:": {
 		"unicode": "2663",
 		"unicode_alt": "2663-fe0f",
 		"code_decimal": "&clubs;",
@@ -61761,7 +61549,7 @@ module.exports = {
 			"game"
 		]
 	},
-	"black_joker": {
+	":black_joker:": {
 		"unicode": "1f0cf",
 		"unicode_alt": "",
 		"code_decimal": "&#127183;",
@@ -61777,7 +61565,7 @@ module.exports = {
 			"game"
 		]
 	},
-	"mahjong": {
+	":mahjong:": {
 		"unicode": "1f004",
 		"unicode_alt": "1f004-fe0f",
 		"code_decimal": "&#126980;",
@@ -61793,7 +61581,7 @@ module.exports = {
 			"game"
 		]
 	},
-	"flower_playing_cards": {
+	":flower_playing_cards:": {
 		"unicode": "1f3b4",
 		"unicode_alt": "",
 		"code_decimal": "&#127924;",
@@ -61808,7 +61596,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"mute": {
+	":mute:": {
 		"unicode": "1f507",
 		"unicode_alt": "",
 		"code_decimal": "&#128263;",
@@ -61823,7 +61611,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"speaker": {
+	":speaker:": {
 		"unicode": "1f508",
 		"unicode_alt": "",
 		"code_decimal": "&#128264;",
@@ -61838,7 +61626,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"sound": {
+	":sound:": {
 		"unicode": "1f509",
 		"unicode_alt": "",
 		"code_decimal": "&#128265;",
@@ -61853,7 +61641,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"loud_sound": {
+	":loud_sound:": {
 		"unicode": "1f50a",
 		"unicode_alt": "",
 		"code_decimal": "&#128266;",
@@ -61868,7 +61656,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"loudspeaker": {
+	":loudspeaker:": {
 		"unicode": "1f4e2",
 		"unicode_alt": "",
 		"code_decimal": "&#128226;",
@@ -61884,7 +61672,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"mega": {
+	":mega:": {
 		"unicode": "1f4e3",
 		"unicode_alt": "",
 		"code_decimal": "&#128227;",
@@ -61899,7 +61687,7 @@ module.exports = {
 			"sport"
 		]
 	},
-	"postal_horn": {
+	":postal_horn:": {
 		"unicode": "1f4ef",
 		"unicode_alt": "",
 		"code_decimal": "&#128239;",
@@ -61913,7 +61701,7 @@ module.exports = {
 			"object"
 		]
 	},
-	"bell": {
+	":bell:": {
 		"unicode": "1f514",
 		"unicode_alt": "",
 		"code_decimal": "&#128276;",
@@ -61929,7 +61717,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"no_bell": {
+	":no_bell:": {
 		"unicode": "1f515",
 		"unicode_alt": "",
 		"code_decimal": "&#128277;",
@@ -61944,7 +61732,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"musical_score": {
+	":musical_score:": {
 		"unicode": "1f3bc",
 		"unicode_alt": "",
 		"code_decimal": "&#127932;",
@@ -61958,7 +61746,7 @@ module.exports = {
 			"instruments"
 		]
 	},
-	"musical_note": {
+	":musical_note:": {
 		"unicode": "1f3b5",
 		"unicode_alt": "",
 		"code_decimal": "&#127925;",
@@ -61973,7 +61761,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"notes": {
+	":notes:": {
 		"unicode": "1f3b6",
 		"unicode_alt": "",
 		"code_decimal": "&#127926;",
@@ -61988,7 +61776,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"microphone2": {
+	":microphone2:": {
 		"unicode": "1f399",
 		"unicode_alt": "1f399-fe0f",
 		"code_decimal": "&#127897;",
@@ -62005,7 +61793,7 @@ module.exports = {
 			"object"
 		]
 	},
-	"level_slider": {
+	":level_slider:": {
 		"unicode": "1f39a",
 		"unicode_alt": "1f39a-fe0f",
 		"code_decimal": "&#127898;",
@@ -62017,7 +61805,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"control_knobs": {
+	":control_knobs:": {
 		"unicode": "1f39b",
 		"unicode_alt": "1f39b-fe0f",
 		"code_decimal": "&#127899;",
@@ -62031,7 +61819,7 @@ module.exports = {
 			"time"
 		]
 	},
-	"microphone": {
+	":microphone:": {
 		"unicode": "1f3a4",
 		"unicode_alt": "",
 		"code_decimal": "&#127908;",
@@ -62045,7 +61833,7 @@ module.exports = {
 			"instruments"
 		]
 	},
-	"headphones": {
+	":headphones:": {
 		"unicode": "1f3a7",
 		"unicode_alt": "",
 		"code_decimal": "&#127911;",
@@ -62059,7 +61847,7 @@ module.exports = {
 			"instruments"
 		]
 	},
-	"radio": {
+	":radio:": {
 		"unicode": "1f4fb",
 		"unicode_alt": "",
 		"code_decimal": "&#128251;",
@@ -62073,7 +61861,7 @@ module.exports = {
 			"electronics"
 		]
 	},
-	"saxophone": {
+	":saxophone:": {
 		"unicode": "1f3b7",
 		"unicode_alt": "",
 		"code_decimal": "&#127927;",
@@ -62087,7 +61875,7 @@ module.exports = {
 			"instruments"
 		]
 	},
-	"guitar": {
+	":guitar:": {
 		"unicode": "1f3b8",
 		"unicode_alt": "",
 		"code_decimal": "&#127928;",
@@ -62101,7 +61889,7 @@ module.exports = {
 			"instruments"
 		]
 	},
-	"musical_keyboard": {
+	":musical_keyboard:": {
 		"unicode": "1f3b9",
 		"unicode_alt": "",
 		"code_decimal": "&#127929;",
@@ -62115,7 +61903,7 @@ module.exports = {
 			"instruments"
 		]
 	},
-	"trumpet": {
+	":trumpet:": {
 		"unicode": "1f3ba",
 		"unicode_alt": "",
 		"code_decimal": "&#127930;",
@@ -62129,7 +61917,7 @@ module.exports = {
 			"instruments"
 		]
 	},
-	"violin": {
+	":violin:": {
 		"unicode": "1f3bb",
 		"unicode_alt": "",
 		"code_decimal": "&#127931;",
@@ -62144,7 +61932,7 @@ module.exports = {
 			"sarcastic"
 		]
 	},
-	"drum": {
+	":drum:": {
 		"unicode": "1f941",
 		"unicode_alt": "",
 		"code_decimal": "&#129345;",
@@ -62158,7 +61946,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"iphone": {
+	":iphone:": {
 		"unicode": "1f4f1",
 		"unicode_alt": "",
 		"code_decimal": "&#128241;",
@@ -62174,7 +61962,7 @@ module.exports = {
 			"selfie"
 		]
 	},
-	"calling": {
+	":calling:": {
 		"unicode": "1f4f2",
 		"unicode_alt": "",
 		"code_decimal": "&#128242;",
@@ -62190,7 +61978,7 @@ module.exports = {
 			"selfie"
 		]
 	},
-	"telephone": {
+	":telephone:": {
 		"unicode": "260e",
 		"unicode_alt": "260e-fe0f",
 		"code_decimal": "&#9742;",
@@ -62205,7 +61993,7 @@ module.exports = {
 			"phone"
 		]
 	},
-	"telephone_receiver": {
+	":telephone_receiver:": {
 		"unicode": "1f4de",
 		"unicode_alt": "",
 		"code_decimal": "&#128222;",
@@ -62220,7 +62008,7 @@ module.exports = {
 			"phone"
 		]
 	},
-	"pager": {
+	":pager:": {
 		"unicode": "1f4df",
 		"unicode_alt": "",
 		"code_decimal": "&#128223;",
@@ -62235,7 +62023,7 @@ module.exports = {
 			"work"
 		]
 	},
-	"fax": {
+	":fax:": {
 		"unicode": "1f4e0",
 		"unicode_alt": "",
 		"code_decimal": "&#128224;",
@@ -62251,7 +62039,7 @@ module.exports = {
 			"office"
 		]
 	},
-	"battery": {
+	":battery:": {
 		"unicode": "1f50b",
 		"unicode_alt": "",
 		"code_decimal": "&#128267;",
@@ -62265,7 +62053,7 @@ module.exports = {
 			"object"
 		]
 	},
-	"electric_plug": {
+	":electric_plug:": {
 		"unicode": "1f50c",
 		"unicode_alt": "",
 		"code_decimal": "&#128268;",
@@ -62279,7 +62067,7 @@ module.exports = {
 			"electronics"
 		]
 	},
-	"computer": {
+	":computer:": {
 		"unicode": "1f4bb",
 		"unicode_alt": "",
 		"code_decimal": "&#128187;",
@@ -62295,7 +62083,7 @@ module.exports = {
 			"office"
 		]
 	},
-	"desktop": {
+	":desktop:": {
 		"unicode": "1f5a5",
 		"unicode_alt": "1f5a5-fe0f",
 		"code_decimal": "&#128421;",
@@ -62312,7 +62100,7 @@ module.exports = {
 			"work"
 		]
 	},
-	"printer": {
+	":printer:": {
 		"unicode": "1f5a8",
 		"unicode_alt": "1f5a8-fe0f",
 		"code_decimal": "&#128424;",
@@ -62328,7 +62116,7 @@ module.exports = {
 			"office"
 		]
 	},
-	"keyboard": {
+	":keyboard:": {
 		"unicode": "2328",
 		"unicode_alt": "2328-fe0f",
 		"code_decimal": "&#9000;",
@@ -62344,7 +62132,7 @@ module.exports = {
 			"office"
 		]
 	},
-	"mouse_three_button": {
+	":mouse_three_button:": {
 		"unicode": "1f5b1",
 		"unicode_alt": "1f5b1-fe0f",
 		"code_decimal": "&#128433;",
@@ -62363,7 +62151,7 @@ module.exports = {
 			"office"
 		]
 	},
-	"trackball": {
+	":trackball:": {
 		"unicode": "1f5b2",
 		"unicode_alt": "1f5b2-fe0f",
 		"code_decimal": "&#128434;",
@@ -62380,7 +62168,7 @@ module.exports = {
 			"office"
 		]
 	},
-	"minidisc": {
+	":minidisc:": {
 		"unicode": "1f4bd",
 		"unicode_alt": "",
 		"code_decimal": "&#128189;",
@@ -62394,7 +62182,7 @@ module.exports = {
 			"electronics"
 		]
 	},
-	"floppy_disk": {
+	":floppy_disk:": {
 		"unicode": "1f4be",
 		"unicode_alt": "",
 		"code_decimal": "&#128190;",
@@ -62409,7 +62197,7 @@ module.exports = {
 			"office"
 		]
 	},
-	"cd": {
+	":cd:": {
 		"unicode": "1f4bf",
 		"unicode_alt": "",
 		"code_decimal": "&#128191;",
@@ -62423,7 +62211,7 @@ module.exports = {
 			"electronics"
 		]
 	},
-	"dvd": {
+	":dvd:": {
 		"unicode": "1f4c0",
 		"unicode_alt": "",
 		"code_decimal": "&#128192;",
@@ -62437,7 +62225,7 @@ module.exports = {
 			"electronics"
 		]
 	},
-	"movie_camera": {
+	":movie_camera:": {
 		"unicode": "1f3a5",
 		"unicode_alt": "",
 		"code_decimal": "&#127909;",
@@ -62453,7 +62241,7 @@ module.exports = {
 			"movie"
 		]
 	},
-	"film_frames": {
+	":film_frames:": {
 		"unicode": "1f39e",
 		"unicode_alt": "1f39e-fe0f",
 		"code_decimal": "&#127902;",
@@ -62469,7 +62257,7 @@ module.exports = {
 			"movie"
 		]
 	},
-	"projector": {
+	":projector:": {
 		"unicode": "1f4fd",
 		"unicode_alt": "1f4fd-fe0f",
 		"code_decimal": "&#128253;",
@@ -62487,7 +62275,7 @@ module.exports = {
 			"movie"
 		]
 	},
-	"clapper": {
+	":clapper:": {
 		"unicode": "1f3ac",
 		"unicode_alt": "",
 		"code_decimal": "&#127916;",
@@ -62501,7 +62289,7 @@ module.exports = {
 			"movie"
 		]
 	},
-	"tv": {
+	":tv:": {
 		"unicode": "1f4fa",
 		"unicode_alt": "",
 		"code_decimal": "&#128250;",
@@ -62515,7 +62303,7 @@ module.exports = {
 			"electronics"
 		]
 	},
-	"camera": {
+	":camera:": {
 		"unicode": "1f4f7",
 		"unicode_alt": "",
 		"code_decimal": "&#128247;",
@@ -62531,7 +62319,7 @@ module.exports = {
 			"selfie"
 		]
 	},
-	"camera_with_flash": {
+	":camera_with_flash:": {
 		"unicode": "1f4f8",
 		"unicode_alt": "",
 		"code_decimal": "&#128248;",
@@ -62546,7 +62334,7 @@ module.exports = {
 			"camera"
 		]
 	},
-	"video_camera": {
+	":video_camera:": {
 		"unicode": "1f4f9",
 		"unicode_alt": "",
 		"code_decimal": "&#128249;",
@@ -62562,7 +62350,7 @@ module.exports = {
 			"movie"
 		]
 	},
-	"vhs": {
+	":vhs:": {
 		"unicode": "1f4fc",
 		"unicode_alt": "",
 		"code_decimal": "&#128252;",
@@ -62576,7 +62364,7 @@ module.exports = {
 			"electronics"
 		]
 	},
-	"mag": {
+	":mag:": {
 		"unicode": "1f50d",
 		"unicode_alt": "",
 		"code_decimal": "&#128269;",
@@ -62590,7 +62378,7 @@ module.exports = {
 			"object"
 		]
 	},
-	"mag_right": {
+	":mag_right:": {
 		"unicode": "1f50e",
 		"unicode_alt": "",
 		"code_decimal": "&#128270;",
@@ -62604,7 +62392,7 @@ module.exports = {
 			"object"
 		]
 	},
-	"microscope": {
+	":microscope:": {
 		"unicode": "1f52c",
 		"unicode_alt": "",
 		"code_decimal": "&#128300;",
@@ -62619,7 +62407,7 @@ module.exports = {
 			"science"
 		]
 	},
-	"telescope": {
+	":telescope:": {
 		"unicode": "1f52d",
 		"unicode_alt": "",
 		"code_decimal": "&#128301;",
@@ -62635,7 +62423,7 @@ module.exports = {
 			"science"
 		]
 	},
-	"satellite": {
+	":satellite:": {
 		"unicode": "1f4e1",
 		"unicode_alt": "",
 		"code_decimal": "&#128225;",
@@ -62649,7 +62437,7 @@ module.exports = {
 			"object"
 		]
 	},
-	"candle": {
+	":candle:": {
 		"unicode": "1f56f",
 		"unicode_alt": "1f56f-fe0f",
 		"code_decimal": "&#128367;",
@@ -62663,7 +62451,7 @@ module.exports = {
 			"object"
 		]
 	},
-	"bulb": {
+	":bulb:": {
 		"unicode": "1f4a1",
 		"unicode_alt": "",
 		"code_decimal": "&#128161;",
@@ -62678,7 +62466,7 @@ module.exports = {
 			"science"
 		]
 	},
-	"flashlight": {
+	":flashlight:": {
 		"unicode": "1f526",
 		"unicode_alt": "",
 		"code_decimal": "&#128294;",
@@ -62693,7 +62481,7 @@ module.exports = {
 			"object"
 		]
 	},
-	"izakaya_lantern": {
+	":izakaya_lantern:": {
 		"unicode": "1f3ee",
 		"unicode_alt": "",
 		"code_decimal": "&#127982;",
@@ -62708,7 +62496,7 @@ module.exports = {
 			"japan"
 		]
 	},
-	"notebook_with_decorative_cover": {
+	":notebook_with_decorative_cover:": {
 		"unicode": "1f4d4",
 		"unicode_alt": "",
 		"code_decimal": "&#128212;",
@@ -62724,7 +62512,7 @@ module.exports = {
 			"write"
 		]
 	},
-	"closed_book": {
+	":closed_book:": {
 		"unicode": "1f4d5",
 		"unicode_alt": "",
 		"code_decimal": "&#128213;",
@@ -62741,7 +62529,7 @@ module.exports = {
 			"book"
 		]
 	},
-	"book": {
+	":book:": {
 		"unicode": "1f4d6",
 		"unicode_alt": "",
 		"code_decimal": "&#128214;",
@@ -62758,7 +62546,7 @@ module.exports = {
 			"book"
 		]
 	},
-	"green_book": {
+	":green_book:": {
 		"unicode": "1f4d7",
 		"unicode_alt": "",
 		"code_decimal": "&#128215;",
@@ -62774,7 +62562,7 @@ module.exports = {
 			"book"
 		]
 	},
-	"blue_book": {
+	":blue_book:": {
 		"unicode": "1f4d8",
 		"unicode_alt": "",
 		"code_decimal": "&#128216;",
@@ -62791,7 +62579,7 @@ module.exports = {
 			"book"
 		]
 	},
-	"orange_book": {
+	":orange_book:": {
 		"unicode": "1f4d9",
 		"unicode_alt": "",
 		"code_decimal": "&#128217;",
@@ -62808,7 +62596,7 @@ module.exports = {
 			"book"
 		]
 	},
-	"books": {
+	":books:": {
 		"unicode": "1f4da",
 		"unicode_alt": "",
 		"code_decimal": "&#128218;",
@@ -62825,7 +62613,7 @@ module.exports = {
 			"book"
 		]
 	},
-	"notebook": {
+	":notebook:": {
 		"unicode": "1f4d3",
 		"unicode_alt": "",
 		"code_decimal": "&#128211;",
@@ -62841,7 +62629,7 @@ module.exports = {
 			"write"
 		]
 	},
-	"ledger": {
+	":ledger:": {
 		"unicode": "1f4d2",
 		"unicode_alt": "",
 		"code_decimal": "&#128210;",
@@ -62857,7 +62645,7 @@ module.exports = {
 			"write"
 		]
 	},
-	"page_with_curl": {
+	":page_with_curl:": {
 		"unicode": "1f4c3",
 		"unicode_alt": "",
 		"code_decimal": "&#128195;",
@@ -62872,7 +62660,7 @@ module.exports = {
 			"write"
 		]
 	},
-	"scroll": {
+	":scroll:": {
 		"unicode": "1f4dc",
 		"unicode_alt": "",
 		"code_decimal": "&#128220;",
@@ -62887,7 +62675,7 @@ module.exports = {
 			"office"
 		]
 	},
-	"page_facing_up": {
+	":page_facing_up:": {
 		"unicode": "1f4c4",
 		"unicode_alt": "",
 		"code_decimal": "&#128196;",
@@ -62903,7 +62691,7 @@ module.exports = {
 			"write"
 		]
 	},
-	"newspaper": {
+	":newspaper:": {
 		"unicode": "1f4f0",
 		"unicode_alt": "",
 		"code_decimal": "&#128240;",
@@ -62918,7 +62706,7 @@ module.exports = {
 			"write"
 		]
 	},
-	"newspaper2": {
+	":newspaper2:": {
 		"unicode": "1f5de",
 		"unicode_alt": "1f5de-fe0f",
 		"code_decimal": "&#128478;",
@@ -62935,7 +62723,7 @@ module.exports = {
 			"write"
 		]
 	},
-	"bookmark_tabs": {
+	":bookmark_tabs:": {
 		"unicode": "1f4d1",
 		"unicode_alt": "",
 		"code_decimal": "&#128209;",
@@ -62950,7 +62738,7 @@ module.exports = {
 			"write"
 		]
 	},
-	"bookmark": {
+	":bookmark:": {
 		"unicode": "1f516",
 		"unicode_alt": "",
 		"code_decimal": "&#128278;",
@@ -62965,7 +62753,7 @@ module.exports = {
 			"book"
 		]
 	},
-	"label": {
+	":label:": {
 		"unicode": "1f3f7",
 		"unicode_alt": "1f3f7-fe0f",
 		"code_decimal": "&#127991;",
@@ -62979,7 +62767,7 @@ module.exports = {
 			"object"
 		]
 	},
-	"moneybag": {
+	":moneybag:": {
 		"unicode": "1f4b0",
 		"unicode_alt": "",
 		"code_decimal": "&#128176;",
@@ -62995,7 +62783,7 @@ module.exports = {
 			"money"
 		]
 	},
-	"yen": {
+	":yen:": {
 		"unicode": "1f4b4",
 		"unicode_alt": "",
 		"code_decimal": "&#128180;",
@@ -63009,7 +62797,7 @@ module.exports = {
 			"money"
 		]
 	},
-	"dollar": {
+	":dollar:": {
 		"unicode": "1f4b5",
 		"unicode_alt": "",
 		"code_decimal": "&#128181;",
@@ -63023,7 +62811,7 @@ module.exports = {
 			"money"
 		]
 	},
-	"euro": {
+	":euro:": {
 		"unicode": "1f4b6",
 		"unicode_alt": "",
 		"code_decimal": "&#128182;",
@@ -63037,7 +62825,7 @@ module.exports = {
 			"money"
 		]
 	},
-	"pound": {
+	":pound:": {
 		"unicode": "1f4b7",
 		"unicode_alt": "",
 		"code_decimal": "&#128183;",
@@ -63051,7 +62839,7 @@ module.exports = {
 			"money"
 		]
 	},
-	"money_with_wings": {
+	":money_with_wings:": {
 		"unicode": "1f4b8",
 		"unicode_alt": "",
 		"code_decimal": "&#128184;",
@@ -63066,7 +62854,7 @@ module.exports = {
 			"boys night"
 		]
 	},
-	"credit_card": {
+	":credit_card:": {
 		"unicode": "1f4b3",
 		"unicode_alt": "",
 		"code_decimal": "&#128179;",
@@ -63082,7 +62870,7 @@ module.exports = {
 			"boys night"
 		]
 	},
-	"chart": {
+	":chart:": {
 		"unicode": "1f4b9",
 		"unicode_alt": "",
 		"code_decimal": "&#128185;",
@@ -63097,7 +62885,7 @@ module.exports = {
 			"money"
 		]
 	},
-	"currency_exchange": {
+	":currency_exchange:": {
 		"unicode": "1f4b1",
 		"unicode_alt": "",
 		"code_decimal": "&#128177;",
@@ -63112,7 +62900,7 @@ module.exports = {
 			"money"
 		]
 	},
-	"heavy_dollar_sign": {
+	":heavy_dollar_sign:": {
 		"unicode": "1f4b2",
 		"unicode_alt": "",
 		"code_decimal": "&#128178;",
@@ -63128,7 +62916,7 @@ module.exports = {
 			"money"
 		]
 	},
-	"envelope": {
+	":envelope:": {
 		"unicode": "2709",
 		"unicode_alt": "2709-fe0f",
 		"code_decimal": "&#9993;",
@@ -63144,7 +62932,7 @@ module.exports = {
 			"write"
 		]
 	},
-	"e-mail": {
+	":e-mail:": {
 		"unicode": "1f4e7",
 		"unicode_alt": "",
 		"code_decimal": "&#128231;",
@@ -63160,7 +62948,7 @@ module.exports = {
 			"office"
 		]
 	},
-	"incoming_envelope": {
+	":incoming_envelope:": {
 		"unicode": "1f4e8",
 		"unicode_alt": "",
 		"code_decimal": "&#128232;",
@@ -63174,7 +62962,7 @@ module.exports = {
 			"object"
 		]
 	},
-	"envelope_with_arrow": {
+	":envelope_with_arrow:": {
 		"unicode": "1f4e9",
 		"unicode_alt": "",
 		"code_decimal": "&#128233;",
@@ -63189,7 +62977,7 @@ module.exports = {
 			"office"
 		]
 	},
-	"outbox_tray": {
+	":outbox_tray:": {
 		"unicode": "1f4e4",
 		"unicode_alt": "",
 		"code_decimal": "&#128228;",
@@ -63204,7 +62992,7 @@ module.exports = {
 			"office"
 		]
 	},
-	"inbox_tray": {
+	":inbox_tray:": {
 		"unicode": "1f4e5",
 		"unicode_alt": "",
 		"code_decimal": "&#128229;",
@@ -63219,7 +63007,7 @@ module.exports = {
 			"office"
 		]
 	},
-	"package": {
+	":package:": {
 		"unicode": "1f4e6",
 		"unicode_alt": "",
 		"code_decimal": "&#128230;",
@@ -63235,7 +63023,7 @@ module.exports = {
 			"office"
 		]
 	},
-	"mailbox": {
+	":mailbox:": {
 		"unicode": "1f4eb",
 		"unicode_alt": "",
 		"code_decimal": "&#128235;",
@@ -63249,7 +63037,7 @@ module.exports = {
 			"object"
 		]
 	},
-	"mailbox_closed": {
+	":mailbox_closed:": {
 		"unicode": "1f4ea",
 		"unicode_alt": "",
 		"code_decimal": "&#128234;",
@@ -63264,7 +63052,7 @@ module.exports = {
 			"office"
 		]
 	},
-	"mailbox_with_mail": {
+	":mailbox_with_mail:": {
 		"unicode": "1f4ec",
 		"unicode_alt": "",
 		"code_decimal": "&#128236;",
@@ -63278,7 +63066,7 @@ module.exports = {
 			"object"
 		]
 	},
-	"mailbox_with_no_mail": {
+	":mailbox_with_no_mail:": {
 		"unicode": "1f4ed",
 		"unicode_alt": "",
 		"code_decimal": "&#128237;",
@@ -63292,7 +63080,7 @@ module.exports = {
 			"object"
 		]
 	},
-	"postbox": {
+	":postbox:": {
 		"unicode": "1f4ee",
 		"unicode_alt": "",
 		"code_decimal": "&#128238;",
@@ -63306,7 +63094,7 @@ module.exports = {
 			"object"
 		]
 	},
-	"ballot_box": {
+	":ballot_box:": {
 		"unicode": "1f5f3",
 		"unicode_alt": "1f5f3-fe0f",
 		"code_decimal": "&#128499;",
@@ -63323,7 +63111,7 @@ module.exports = {
 			"office"
 		]
 	},
-	"pencil2": {
+	":pencil2:": {
 		"unicode": "270f",
 		"unicode_alt": "270f-fe0f",
 		"code_decimal": "&#9999;",
@@ -63339,7 +63127,7 @@ module.exports = {
 			"write"
 		]
 	},
-	"black_nib": {
+	":black_nib:": {
 		"unicode": "2712",
 		"unicode_alt": "2712-fe0f",
 		"code_decimal": "&#10002;",
@@ -63355,7 +63143,7 @@ module.exports = {
 			"write"
 		]
 	},
-	"pen_fountain": {
+	":pen_fountain:": {
 		"unicode": "1f58b",
 		"unicode_alt": "1f58b-fe0f",
 		"code_decimal": "&#128395;",
@@ -63373,7 +63161,7 @@ module.exports = {
 			"write"
 		]
 	},
-	"pen_ballpoint": {
+	":pen_ballpoint:": {
 		"unicode": "1f58a",
 		"unicode_alt": "1f58a-fe0f",
 		"code_decimal": "&#128394;",
@@ -63391,7 +63179,7 @@ module.exports = {
 			"write"
 		]
 	},
-	"paintbrush": {
+	":paintbrush:": {
 		"unicode": "1f58c",
 		"unicode_alt": "1f58c-fe0f",
 		"code_decimal": "&#128396;",
@@ -63409,7 +63197,7 @@ module.exports = {
 			"write"
 		]
 	},
-	"crayon": {
+	":crayon:": {
 		"unicode": "1f58d",
 		"unicode_alt": "1f58d-fe0f",
 		"code_decimal": "&#128397;",
@@ -63427,7 +63215,7 @@ module.exports = {
 			"write"
 		]
 	},
-	"pencil": {
+	":pencil:": {
 		"unicode": "1f4dd",
 		"unicode_alt": "",
 		"code_decimal": "&#128221;",
@@ -63443,7 +63231,7 @@ module.exports = {
 			"write"
 		]
 	},
-	"briefcase": {
+	":briefcase:": {
 		"unicode": "1f4bc",
 		"unicode_alt": "",
 		"code_decimal": "&#128188;",
@@ -63461,7 +63249,7 @@ module.exports = {
 			"job"
 		]
 	},
-	"file_folder": {
+	":file_folder:": {
 		"unicode": "1f4c1",
 		"unicode_alt": "",
 		"code_decimal": "&#128193;",
@@ -63476,7 +63264,7 @@ module.exports = {
 			"office"
 		]
 	},
-	"open_file_folder": {
+	":open_file_folder:": {
 		"unicode": "1f4c2",
 		"unicode_alt": "",
 		"code_decimal": "&#128194;",
@@ -63491,7 +63279,7 @@ module.exports = {
 			"office"
 		]
 	},
-	"dividers": {
+	":dividers:": {
 		"unicode": "1f5c2",
 		"unicode_alt": "1f5c2-fe0f",
 		"code_decimal": "&#128450;",
@@ -63508,7 +63296,7 @@ module.exports = {
 			"office"
 		]
 	},
-	"date": {
+	":date:": {
 		"unicode": "1f4c5",
 		"unicode_alt": "",
 		"code_decimal": "&#128197;",
@@ -63523,7 +63311,7 @@ module.exports = {
 			"office"
 		]
 	},
-	"calendar": {
+	":calendar:": {
 		"unicode": "1f4c6",
 		"unicode_alt": "",
 		"code_decimal": "&#128198;",
@@ -63538,7 +63326,7 @@ module.exports = {
 			"office"
 		]
 	},
-	"notepad_spiral": {
+	":notepad_spiral:": {
 		"unicode": "1f5d2",
 		"unicode_alt": "1f5d2-fe0f",
 		"code_decimal": "&#128466;",
@@ -63556,7 +63344,7 @@ module.exports = {
 			"write"
 		]
 	},
-	"calendar_spiral": {
+	":calendar_spiral:": {
 		"unicode": "1f5d3",
 		"unicode_alt": "1f5d3-fe0f",
 		"code_decimal": "&#128467;",
@@ -63573,7 +63361,7 @@ module.exports = {
 			"office"
 		]
 	},
-	"card_index": {
+	":card_index:": {
 		"unicode": "1f4c7",
 		"unicode_alt": "",
 		"code_decimal": "&#128199;",
@@ -63589,7 +63377,7 @@ module.exports = {
 			"office"
 		]
 	},
-	"chart_with_upwards_trend": {
+	":chart_with_upwards_trend:": {
 		"unicode": "1f4c8",
 		"unicode_alt": "",
 		"code_decimal": "&#128200;",
@@ -63604,7 +63392,7 @@ module.exports = {
 			"office"
 		]
 	},
-	"chart_with_downwards_trend": {
+	":chart_with_downwards_trend:": {
 		"unicode": "1f4c9",
 		"unicode_alt": "",
 		"code_decimal": "&#128201;",
@@ -63619,7 +63407,7 @@ module.exports = {
 			"office"
 		]
 	},
-	"bar_chart": {
+	":bar_chart:": {
 		"unicode": "1f4ca",
 		"unicode_alt": "",
 		"code_decimal": "&#128202;",
@@ -63634,7 +63422,7 @@ module.exports = {
 			"office"
 		]
 	},
-	"clipboard": {
+	":clipboard:": {
 		"unicode": "1f4cb",
 		"unicode_alt": "",
 		"code_decimal": "&#128203;",
@@ -63651,7 +63439,7 @@ module.exports = {
 			"write"
 		]
 	},
-	"pushpin": {
+	":pushpin:": {
 		"unicode": "1f4cc",
 		"unicode_alt": "",
 		"code_decimal": "&#128204;",
@@ -63666,7 +63454,7 @@ module.exports = {
 			"office"
 		]
 	},
-	"round_pushpin": {
+	":round_pushpin:": {
 		"unicode": "1f4cd",
 		"unicode_alt": "",
 		"code_decimal": "&#128205;",
@@ -63681,7 +63469,7 @@ module.exports = {
 			"office"
 		]
 	},
-	"paperclip": {
+	":paperclip:": {
 		"unicode": "1f4ce",
 		"unicode_alt": "",
 		"code_decimal": "&#128206;",
@@ -63697,7 +63485,7 @@ module.exports = {
 			"office"
 		]
 	},
-	"paperclips": {
+	":paperclips:": {
 		"unicode": "1f587",
 		"unicode_alt": "1f587-fe0f",
 		"code_decimal": "&#128391;",
@@ -63715,7 +63503,7 @@ module.exports = {
 			"office"
 		]
 	},
-	"straight_ruler": {
+	":straight_ruler:": {
 		"unicode": "1f4cf",
 		"unicode_alt": "",
 		"code_decimal": "&#128207;",
@@ -63731,7 +63519,7 @@ module.exports = {
 			"office"
 		]
 	},
-	"triangular_ruler": {
+	":triangular_ruler:": {
 		"unicode": "1f4d0",
 		"unicode_alt": "",
 		"code_decimal": "&#128208;",
@@ -63747,7 +63535,7 @@ module.exports = {
 			"office"
 		]
 	},
-	"scissors": {
+	":scissors:": {
 		"unicode": "2702",
 		"unicode_alt": "2702-fe0f",
 		"code_decimal": "&#9986;",
@@ -63764,7 +63552,7 @@ module.exports = {
 			"office"
 		]
 	},
-	"card_box": {
+	":card_box:": {
 		"unicode": "1f5c3",
 		"unicode_alt": "1f5c3-fe0f",
 		"code_decimal": "&#128451;",
@@ -63782,7 +63570,7 @@ module.exports = {
 			"office"
 		]
 	},
-	"file_cabinet": {
+	":file_cabinet:": {
 		"unicode": "1f5c4",
 		"unicode_alt": "1f5c4-fe0f",
 		"code_decimal": "&#128452;",
@@ -63798,7 +63586,7 @@ module.exports = {
 			"office"
 		]
 	},
-	"wastebasket": {
+	":wastebasket:": {
 		"unicode": "1f5d1",
 		"unicode_alt": "1f5d1-fe0f",
 		"code_decimal": "&#128465;",
@@ -63813,7 +63601,7 @@ module.exports = {
 			"work"
 		]
 	},
-	"lock": {
+	":lock:": {
 		"unicode": "1f512",
 		"unicode_alt": "",
 		"code_decimal": "&#128274;",
@@ -63828,7 +63616,7 @@ module.exports = {
 			"lock"
 		]
 	},
-	"unlock": {
+	":unlock:": {
 		"unicode": "1f513",
 		"unicode_alt": "",
 		"code_decimal": "&#128275;",
@@ -63843,7 +63631,7 @@ module.exports = {
 			"lock"
 		]
 	},
-	"lock_with_ink_pen": {
+	":lock_with_ink_pen:": {
 		"unicode": "1f50f",
 		"unicode_alt": "",
 		"code_decimal": "&#128271;",
@@ -63858,7 +63646,7 @@ module.exports = {
 			"lock"
 		]
 	},
-	"closed_lock_with_key": {
+	":closed_lock_with_key:": {
 		"unicode": "1f510",
 		"unicode_alt": "",
 		"code_decimal": "&#128272;",
@@ -63873,7 +63661,7 @@ module.exports = {
 			"lock"
 		]
 	},
-	"key": {
+	":key:": {
 		"unicode": "1f511",
 		"unicode_alt": "",
 		"code_decimal": "&#128273;",
@@ -63888,7 +63676,7 @@ module.exports = {
 			"lock"
 		]
 	},
-	"key2": {
+	":key2:": {
 		"unicode": "1f5dd",
 		"unicode_alt": "1f5dd-fe0f",
 		"code_decimal": "&#128477;",
@@ -63905,7 +63693,7 @@ module.exports = {
 			"lock"
 		]
 	},
-	"hammer": {
+	":hammer:": {
 		"unicode": "1f528",
 		"unicode_alt": "",
 		"code_decimal": "&#128296;",
@@ -63921,7 +63709,7 @@ module.exports = {
 			"weapon"
 		]
 	},
-	"pick": {
+	":pick:": {
 		"unicode": "26cf",
 		"unicode_alt": "26cf-fe0f",
 		"code_decimal": "&#9935;",
@@ -63937,7 +63725,7 @@ module.exports = {
 			"weapon"
 		]
 	},
-	"hammer_pick": {
+	":hammer_pick:": {
 		"unicode": "2692",
 		"unicode_alt": "2692-fe0f",
 		"code_decimal": "&#9874;",
@@ -63955,7 +63743,7 @@ module.exports = {
 			"weapon"
 		]
 	},
-	"tools": {
+	":tools:": {
 		"unicode": "1f6e0",
 		"unicode_alt": "1f6e0-fe0f",
 		"code_decimal": "&#128736;",
@@ -63972,7 +63760,7 @@ module.exports = {
 			"tool"
 		]
 	},
-	"dagger": {
+	":dagger:": {
 		"unicode": "1f5e1",
 		"unicode_alt": "1f5e1-fe0f",
 		"code_decimal": "&#128481;",
@@ -63989,7 +63777,7 @@ module.exports = {
 			"weapon"
 		]
 	},
-	"crossed_swords": {
+	":crossed_swords:": {
 		"unicode": "2694",
 		"unicode_alt": "2694-fe0f",
 		"code_decimal": "&#9876;",
@@ -64004,7 +63792,7 @@ module.exports = {
 			"weapon"
 		]
 	},
-	"gun": {
+	":gun:": {
 		"unicode": "1f52b",
 		"unicode_alt": "",
 		"code_decimal": "&#128299;",
@@ -64022,7 +63810,7 @@ module.exports = {
 			"sarcastic"
 		]
 	},
-	"bow_and_arrow": {
+	":bow_and_arrow:": {
 		"unicode": "1f3f9",
 		"unicode_alt": "",
 		"code_decimal": "&#127993;",
@@ -64039,7 +63827,7 @@ module.exports = {
 			"sport"
 		]
 	},
-	"shield": {
+	":shield:": {
 		"unicode": "1f6e1",
 		"unicode_alt": "1f6e1-fe0f",
 		"code_decimal": "&#128737;",
@@ -64053,7 +63841,7 @@ module.exports = {
 			"object"
 		]
 	},
-	"wrench": {
+	":wrench:": {
 		"unicode": "1f527",
 		"unicode_alt": "",
 		"code_decimal": "&#128295;",
@@ -64068,7 +63856,7 @@ module.exports = {
 			"tool"
 		]
 	},
-	"nut_and_bolt": {
+	":nut_and_bolt:": {
 		"unicode": "1f529",
 		"unicode_alt": "",
 		"code_decimal": "&#128297;",
@@ -64084,7 +63872,7 @@ module.exports = {
 			"nutcase"
 		]
 	},
-	"gear": {
+	":gear:": {
 		"unicode": "2699",
 		"unicode_alt": "2699-fe0f",
 		"code_decimal": "&#9881;",
@@ -64099,7 +63887,7 @@ module.exports = {
 			"tool"
 		]
 	},
-	"compression": {
+	":compression:": {
 		"unicode": "1f5dc",
 		"unicode_alt": "1f5dc-fe0f",
 		"code_decimal": "&#128476;",
@@ -64111,7 +63899,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"alembic": {
+	":alembic:": {
 		"unicode": "2697",
 		"unicode_alt": "2697-fe0f",
 		"code_decimal": "&#9879;",
@@ -64126,7 +63914,7 @@ module.exports = {
 			"science"
 		]
 	},
-	"scales": {
+	":scales:": {
 		"unicode": "2696",
 		"unicode_alt": "2696-fe0f",
 		"code_decimal": "&#9878;",
@@ -64140,7 +63928,7 @@ module.exports = {
 			"object"
 		]
 	},
-	"link": {
+	":link:": {
 		"unicode": "1f517",
 		"unicode_alt": "",
 		"code_decimal": "&#128279;",
@@ -64155,7 +63943,7 @@ module.exports = {
 			"office"
 		]
 	},
-	"chains": {
+	":chains:": {
 		"unicode": "26d3",
 		"unicode_alt": "26d3-fe0f",
 		"code_decimal": "&#9939;",
@@ -64170,7 +63958,7 @@ module.exports = {
 			"tool"
 		]
 	},
-	"syringe": {
+	":syringe:": {
 		"unicode": "1f489",
 		"unicode_alt": "",
 		"code_decimal": "&#128137;",
@@ -64187,7 +63975,7 @@ module.exports = {
 			"drugs"
 		]
 	},
-	"pill": {
+	":pill:": {
 		"unicode": "1f48a",
 		"unicode_alt": "",
 		"code_decimal": "&#128138;",
@@ -64203,7 +63991,7 @@ module.exports = {
 			"drugs"
 		]
 	},
-	"smoking": {
+	":smoking:": {
 		"unicode": "1f6ac",
 		"unicode_alt": "",
 		"code_decimal": "&#128684;",
@@ -64219,7 +64007,7 @@ module.exports = {
 			"smoking"
 		]
 	},
-	"coffin": {
+	":coffin:": {
 		"unicode": "26b0",
 		"unicode_alt": "26b0-fe0f",
 		"code_decimal": "&#9904;",
@@ -64235,7 +64023,7 @@ module.exports = {
 			"rip"
 		]
 	},
-	"urn": {
+	":urn:": {
 		"unicode": "26b1",
 		"unicode_alt": "26b1-fe0f",
 		"code_decimal": "&#9905;",
@@ -64253,7 +64041,7 @@ module.exports = {
 			"rip"
 		]
 	},
-	"moyai": {
+	":moyai:": {
 		"unicode": "1f5ff",
 		"unicode_alt": "",
 		"code_decimal": "&#128511;",
@@ -64268,7 +64056,7 @@ module.exports = {
 			"vacation"
 		]
 	},
-	"oil": {
+	":oil:": {
 		"unicode": "1f6e2",
 		"unicode_alt": "1f6e2-fe0f",
 		"code_decimal": "&#128738;",
@@ -64284,7 +64072,7 @@ module.exports = {
 			"object"
 		]
 	},
-	"crystal_ball": {
+	":crystal_ball:": {
 		"unicode": "1f52e",
 		"unicode_alt": "",
 		"code_decimal": "&#128302;",
@@ -64299,7 +64087,7 @@ module.exports = {
 			"ball"
 		]
 	},
-	"shopping_cart": {
+	":shopping_cart:": {
 		"unicode": "1f6d2",
 		"unicode_alt": "",
 		"code_decimal": "&#128722;",
@@ -64313,7 +64101,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"atm": {
+	":atm:": {
 		"unicode": "1f3e7",
 		"unicode_alt": "",
 		"code_decimal": "&#127975;",
@@ -64329,7 +64117,7 @@ module.exports = {
 			"money"
 		]
 	},
-	"put_litter_in_its_place": {
+	":put_litter_in_its_place:": {
 		"unicode": "1f6ae",
 		"unicode_alt": "",
 		"code_decimal": "&#128686;",
@@ -64343,7 +64131,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"potable_water": {
+	":potable_water:": {
 		"unicode": "1f6b0",
 		"unicode_alt": "",
 		"code_decimal": "&#128688;",
@@ -64357,7 +64145,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"wheelchair": {
+	":wheelchair:": {
 		"unicode": "267f",
 		"unicode_alt": "267f-fe0f",
 		"code_decimal": "&#9855;",
@@ -64371,7 +64159,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"mens": {
+	":mens:": {
 		"unicode": "1f6b9",
 		"unicode_alt": "",
 		"code_decimal": "&#128697;",
@@ -64385,7 +64173,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"womens": {
+	":womens:": {
 		"unicode": "1f6ba",
 		"unicode_alt": "",
 		"code_decimal": "&#128698;",
@@ -64399,7 +64187,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"restroom": {
+	":restroom:": {
 		"unicode": "1f6bb",
 		"unicode_alt": "",
 		"code_decimal": "&#128699;",
@@ -64413,7 +64201,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"baby_symbol": {
+	":baby_symbol:": {
 		"unicode": "1f6bc",
 		"unicode_alt": "",
 		"code_decimal": "&#128700;",
@@ -64427,7 +64215,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"wc": {
+	":wc:": {
 		"unicode": "1f6be",
 		"unicode_alt": "",
 		"code_decimal": "&#128702;",
@@ -64441,7 +64229,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"passport_control": {
+	":passport_control:": {
 		"unicode": "1f6c2",
 		"unicode_alt": "",
 		"code_decimal": "&#128706;",
@@ -64455,7 +64243,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"customs": {
+	":customs:": {
 		"unicode": "1f6c3",
 		"unicode_alt": "",
 		"code_decimal": "&#128707;",
@@ -64469,7 +64257,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"baggage_claim": {
+	":baggage_claim:": {
 		"unicode": "1f6c4",
 		"unicode_alt": "",
 		"code_decimal": "&#128708;",
@@ -64483,7 +64271,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"left_luggage": {
+	":left_luggage:": {
 		"unicode": "1f6c5",
 		"unicode_alt": "",
 		"code_decimal": "&#128709;",
@@ -64497,7 +64285,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"warning": {
+	":warning:": {
 		"unicode": "26a0",
 		"unicode_alt": "26a0-fe0f",
 		"code_decimal": "&#9888;",
@@ -64512,7 +64300,7 @@ module.exports = {
 			"punctuation"
 		]
 	},
-	"children_crossing": {
+	":children_crossing:": {
 		"unicode": "1f6b8",
 		"unicode_alt": "",
 		"code_decimal": "&#128696;",
@@ -64526,7 +64314,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"no_entry": {
+	":no_entry:": {
 		"unicode": "26d4",
 		"unicode_alt": "26d4-fe0f",
 		"code_decimal": "&#9940;",
@@ -64541,7 +64329,7 @@ module.exports = {
 			"circle"
 		]
 	},
-	"no_entry_sign": {
+	":no_entry_sign:": {
 		"unicode": "1f6ab",
 		"unicode_alt": "",
 		"code_decimal": "&#128683;",
@@ -64556,7 +64344,7 @@ module.exports = {
 			"circle"
 		]
 	},
-	"no_bicycles": {
+	":no_bicycles:": {
 		"unicode": "1f6b3",
 		"unicode_alt": "",
 		"code_decimal": "&#128691;",
@@ -64570,7 +64358,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"no_smoking": {
+	":no_smoking:": {
 		"unicode": "1f6ad",
 		"unicode_alt": "",
 		"code_decimal": "&#128685;",
@@ -64585,7 +64373,7 @@ module.exports = {
 			"smoking"
 		]
 	},
-	"do_not_litter": {
+	":do_not_litter:": {
 		"unicode": "1f6af",
 		"unicode_alt": "",
 		"code_decimal": "&#128687;",
@@ -64599,7 +64387,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"non-potable_water": {
+	":non-potable_water:": {
 		"unicode": "1f6b1",
 		"unicode_alt": "",
 		"code_decimal": "&#128689;",
@@ -64613,7 +64401,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"no_pedestrians": {
+	":no_pedestrians:": {
 		"unicode": "1f6b7",
 		"unicode_alt": "",
 		"code_decimal": "&#128695;",
@@ -64627,7 +64415,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"no_mobile_phones": {
+	":no_mobile_phones:": {
 		"unicode": "1f4f5",
 		"unicode_alt": "",
 		"code_decimal": "&#128245;",
@@ -64642,7 +64430,7 @@ module.exports = {
 			"phone"
 		]
 	},
-	"underage": {
+	":underage:": {
 		"unicode": "1f51e",
 		"unicode_alt": "",
 		"code_decimal": "&#128286;",
@@ -64656,7 +64444,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"radioactive": {
+	":radioactive:": {
 		"unicode": "2622",
 		"unicode_alt": "2622-fe0f",
 		"code_decimal": "&#9762;",
@@ -64673,7 +64461,7 @@ module.exports = {
 			"science"
 		]
 	},
-	"biohazard": {
+	":biohazard:": {
 		"unicode": "2623",
 		"unicode_alt": "2623-fe0f",
 		"code_decimal": "&#9763;",
@@ -64690,7 +64478,7 @@ module.exports = {
 			"science"
 		]
 	},
-	"arrow_up": {
+	":arrow_up:": {
 		"unicode": "2b06",
 		"unicode_alt": "2b06-fe0f",
 		"code_decimal": "&#11014;",
@@ -64705,7 +64493,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"arrow_upper_right": {
+	":arrow_upper_right:": {
 		"unicode": "2197",
 		"unicode_alt": "2197-fe0f",
 		"code_decimal": "&#8599;",
@@ -64720,7 +64508,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"arrow_right": {
+	":arrow_right:": {
 		"unicode": "27a1",
 		"unicode_alt": "27a1-fe0f",
 		"code_decimal": "&#10145;",
@@ -64735,7 +64523,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"arrow_lower_right": {
+	":arrow_lower_right:": {
 		"unicode": "2198",
 		"unicode_alt": "2198-fe0f",
 		"code_decimal": "&#8600;",
@@ -64750,7 +64538,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"arrow_down": {
+	":arrow_down:": {
 		"unicode": "2b07",
 		"unicode_alt": "2b07-fe0f",
 		"code_decimal": "&#11015;",
@@ -64765,7 +64553,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"arrow_lower_left": {
+	":arrow_lower_left:": {
 		"unicode": "2199",
 		"unicode_alt": "2199-fe0f",
 		"code_decimal": "&#8601;",
@@ -64780,7 +64568,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"arrow_left": {
+	":arrow_left:": {
 		"unicode": "2b05",
 		"unicode_alt": "2b05-fe0f",
 		"code_decimal": "&#11013;",
@@ -64795,7 +64583,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"arrow_upper_left": {
+	":arrow_upper_left:": {
 		"unicode": "2196",
 		"unicode_alt": "2196-fe0f",
 		"code_decimal": "&#8598;",
@@ -64810,7 +64598,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"arrow_up_down": {
+	":arrow_up_down:": {
 		"unicode": "2195",
 		"unicode_alt": "2195-fe0f",
 		"code_decimal": "&#8597;",
@@ -64825,7 +64613,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"left_right_arrow": {
+	":left_right_arrow:": {
 		"unicode": "2194",
 		"unicode_alt": "2194-fe0f",
 		"code_decimal": "&harr;",
@@ -64840,7 +64628,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"leftwards_arrow_with_hook": {
+	":leftwards_arrow_with_hook:": {
 		"unicode": "21a9",
 		"unicode_alt": "21a9-fe0f",
 		"code_decimal": "&#8617;",
@@ -64855,7 +64643,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"arrow_right_hook": {
+	":arrow_right_hook:": {
 		"unicode": "21aa",
 		"unicode_alt": "21aa-fe0f",
 		"code_decimal": "&#8618;",
@@ -64870,7 +64658,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"arrow_heading_up": {
+	":arrow_heading_up:": {
 		"unicode": "2934",
 		"unicode_alt": "2934-fe0f",
 		"code_decimal": "&#10548;",
@@ -64885,7 +64673,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"arrow_heading_down": {
+	":arrow_heading_down:": {
 		"unicode": "2935",
 		"unicode_alt": "2935-fe0f",
 		"code_decimal": "&#10549;",
@@ -64900,7 +64688,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"arrows_clockwise": {
+	":arrows_clockwise:": {
 		"unicode": "1f503",
 		"unicode_alt": "",
 		"code_decimal": "&#128259;",
@@ -64915,7 +64703,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"arrows_counterclockwise": {
+	":arrows_counterclockwise:": {
 		"unicode": "1f504",
 		"unicode_alt": "",
 		"code_decimal": "&#128260;",
@@ -64930,7 +64718,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"back": {
+	":back:": {
 		"unicode": "1f519",
 		"unicode_alt": "",
 		"code_decimal": "&#128281;",
@@ -64945,7 +64733,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"end": {
+	":end:": {
 		"unicode": "1f51a",
 		"unicode_alt": "",
 		"code_decimal": "&#128282;",
@@ -64960,7 +64748,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"on": {
+	":on:": {
 		"unicode": "1f51b",
 		"unicode_alt": "",
 		"code_decimal": "&#128283;",
@@ -64975,7 +64763,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"soon": {
+	":soon:": {
 		"unicode": "1f51c",
 		"unicode_alt": "",
 		"code_decimal": "&#128284;",
@@ -64990,7 +64778,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"top": {
+	":top:": {
 		"unicode": "1f51d",
 		"unicode_alt": "",
 		"code_decimal": "&#128285;",
@@ -65005,7 +64793,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"place_of_worship": {
+	":place_of_worship:": {
 		"unicode": "1f6d0",
 		"unicode_alt": "",
 		"code_decimal": "&#128720;",
@@ -65023,7 +64811,7 @@ module.exports = {
 			"pray"
 		]
 	},
-	"atom": {
+	":atom:": {
 		"unicode": "269b",
 		"unicode_alt": "269b-fe0f",
 		"code_decimal": "&#9883;",
@@ -65040,7 +64828,7 @@ module.exports = {
 			"science"
 		]
 	},
-	"om_symbol": {
+	":om_symbol:": {
 		"unicode": "1f549",
 		"unicode_alt": "1f549-fe0f",
 		"code_decimal": "&#128329;",
@@ -65055,7 +64843,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"star_of_david": {
+	":star_of_david:": {
 		"unicode": "2721",
 		"unicode_alt": "2721-fe0f",
 		"code_decimal": "&#10017;",
@@ -65072,7 +64860,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"wheel_of_dharma": {
+	":wheel_of_dharma:": {
 		"unicode": "2638",
 		"unicode_alt": "2638-fe0f",
 		"code_decimal": "&#9784;",
@@ -65087,7 +64875,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"yin_yang": {
+	":yin_yang:": {
 		"unicode": "262f",
 		"unicode_alt": "262f-fe0f",
 		"code_decimal": "&#9775;",
@@ -65101,7 +64889,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"cross": {
+	":cross:": {
 		"unicode": "271d",
 		"unicode_alt": "271d-fe0f",
 		"code_decimal": "&#10013;",
@@ -65118,7 +64906,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"orthodox_cross": {
+	":orthodox_cross:": {
 		"unicode": "2626",
 		"unicode_alt": "2626-fe0f",
 		"code_decimal": "&#9766;",
@@ -65133,7 +64921,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"star_and_crescent": {
+	":star_and_crescent:": {
 		"unicode": "262a",
 		"unicode_alt": "262a-fe0f",
 		"code_decimal": "&#9770;",
@@ -65148,7 +64936,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"peace": {
+	":peace:": {
 		"unicode": "262e",
 		"unicode_alt": "262e-fe0f",
 		"code_decimal": "&#9774;",
@@ -65166,7 +64954,7 @@ module.exports = {
 			"drugs"
 		]
 	},
-	"menorah": {
+	":menorah:": {
 		"unicode": "1f54e",
 		"unicode_alt": "",
 		"code_decimal": "&#128334;",
@@ -65184,7 +64972,7 @@ module.exports = {
 			"holidays"
 		]
 	},
-	"six_pointed_star": {
+	":six_pointed_star:": {
 		"unicode": "1f52f",
 		"unicode_alt": "",
 		"code_decimal": "&#128303;",
@@ -65201,7 +64989,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"aries": {
+	":aries:": {
 		"unicode": "2648",
 		"unicode_alt": "2648-fe0f",
 		"code_decimal": "&#9800;",
@@ -65216,7 +65004,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"taurus": {
+	":taurus:": {
 		"unicode": "2649",
 		"unicode_alt": "2649-fe0f",
 		"code_decimal": "&#9801;",
@@ -65231,7 +65019,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"gemini": {
+	":gemini:": {
 		"unicode": "264a",
 		"unicode_alt": "264a-fe0f",
 		"code_decimal": "&#9802;",
@@ -65246,7 +65034,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"cancer": {
+	":cancer:": {
 		"unicode": "264b",
 		"unicode_alt": "264b-fe0f",
 		"code_decimal": "&#9803;",
@@ -65261,7 +65049,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"leo": {
+	":leo:": {
 		"unicode": "264c",
 		"unicode_alt": "264c-fe0f",
 		"code_decimal": "&#9804;",
@@ -65276,7 +65064,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"virgo": {
+	":virgo:": {
 		"unicode": "264d",
 		"unicode_alt": "264d-fe0f",
 		"code_decimal": "&#9805;",
@@ -65291,7 +65079,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"libra": {
+	":libra:": {
 		"unicode": "264e",
 		"unicode_alt": "264e-fe0f",
 		"code_decimal": "&#9806;",
@@ -65306,7 +65094,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"scorpius": {
+	":scorpius:": {
 		"unicode": "264f",
 		"unicode_alt": "264f-fe0f",
 		"code_decimal": "&#9807;",
@@ -65321,7 +65109,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"sagittarius": {
+	":sagittarius:": {
 		"unicode": "2650",
 		"unicode_alt": "2650-fe0f",
 		"code_decimal": "&#9808;",
@@ -65336,7 +65124,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"capricorn": {
+	":capricorn:": {
 		"unicode": "2651",
 		"unicode_alt": "2651-fe0f",
 		"code_decimal": "&#9809;",
@@ -65351,7 +65139,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"aquarius": {
+	":aquarius:": {
 		"unicode": "2652",
 		"unicode_alt": "2652-fe0f",
 		"code_decimal": "&#9810;",
@@ -65366,7 +65154,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"pisces": {
+	":pisces:": {
 		"unicode": "2653",
 		"unicode_alt": "2653-fe0f",
 		"code_decimal": "&#9811;",
@@ -65381,7 +65169,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"ophiuchus": {
+	":ophiuchus:": {
 		"unicode": "26ce",
 		"unicode_alt": "",
 		"code_decimal": "&#9934;",
@@ -65395,7 +65183,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"twisted_rightwards_arrows": {
+	":twisted_rightwards_arrows:": {
 		"unicode": "1f500",
 		"unicode_alt": "",
 		"code_decimal": "&#128256;",
@@ -65410,7 +65198,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"repeat": {
+	":repeat:": {
 		"unicode": "1f501",
 		"unicode_alt": "",
 		"code_decimal": "&#128257;",
@@ -65425,7 +65213,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"repeat_one": {
+	":repeat_one:": {
 		"unicode": "1f502",
 		"unicode_alt": "",
 		"code_decimal": "&#128258;",
@@ -65440,7 +65228,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"arrow_forward": {
+	":arrow_forward:": {
 		"unicode": "25b6",
 		"unicode_alt": "25b6-fe0f",
 		"code_decimal": "&#9654;",
@@ -65456,7 +65244,7 @@ module.exports = {
 			"triangle"
 		]
 	},
-	"fast_forward": {
+	":fast_forward:": {
 		"unicode": "23e9",
 		"unicode_alt": "",
 		"code_decimal": "&#9193;",
@@ -65471,7 +65259,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"track_next": {
+	":track_next:": {
 		"unicode": "23ed",
 		"unicode_alt": "23ed-fe0f",
 		"code_decimal": "&#9197;",
@@ -65488,7 +65276,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"play_pause": {
+	":play_pause:": {
 		"unicode": "23ef",
 		"unicode_alt": "23ef-fe0f",
 		"code_decimal": "&#9199;",
@@ -65503,7 +65291,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"arrow_backward": {
+	":arrow_backward:": {
 		"unicode": "25c0",
 		"unicode_alt": "25c0-fe0f",
 		"code_decimal": "&#9664;",
@@ -65519,7 +65307,7 @@ module.exports = {
 			"triangle"
 		]
 	},
-	"rewind": {
+	":rewind:": {
 		"unicode": "23ea",
 		"unicode_alt": "",
 		"code_decimal": "&#9194;",
@@ -65534,7 +65322,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"track_previous": {
+	":track_previous:": {
 		"unicode": "23ee",
 		"unicode_alt": "23ee-fe0f",
 		"code_decimal": "&#9198;",
@@ -65551,7 +65339,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"arrow_up_small": {
+	":arrow_up_small:": {
 		"unicode": "1f53c",
 		"unicode_alt": "",
 		"code_decimal": "&#128316;",
@@ -65567,7 +65355,7 @@ module.exports = {
 			"triangle"
 		]
 	},
-	"arrow_double_up": {
+	":arrow_double_up:": {
 		"unicode": "23eb",
 		"unicode_alt": "",
 		"code_decimal": "&#9195;",
@@ -65582,7 +65370,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"arrow_down_small": {
+	":arrow_down_small:": {
 		"unicode": "1f53d",
 		"unicode_alt": "",
 		"code_decimal": "&#128317;",
@@ -65598,7 +65386,7 @@ module.exports = {
 			"triangle"
 		]
 	},
-	"arrow_double_down": {
+	":arrow_double_down:": {
 		"unicode": "23ec",
 		"unicode_alt": "",
 		"code_decimal": "&#9196;",
@@ -65613,7 +65401,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"pause_button": {
+	":pause_button:": {
 		"unicode": "23f8",
 		"unicode_alt": "23f8-fe0f",
 		"code_decimal": "&#9208;",
@@ -65629,7 +65417,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"stop_button": {
+	":stop_button:": {
 		"unicode": "23f9",
 		"unicode_alt": "23f9-fe0f",
 		"code_decimal": "&#9209;",
@@ -65644,7 +65432,7 @@ module.exports = {
 			"square"
 		]
 	},
-	"record_button": {
+	":record_button:": {
 		"unicode": "23fa",
 		"unicode_alt": "23fa-fe0f",
 		"code_decimal": "&#9210;",
@@ -65659,7 +65447,7 @@ module.exports = {
 			"circle"
 		]
 	},
-	"eject": {
+	":eject:": {
 		"unicode": "23cf",
 		"unicode_alt": "23cf-fe0f",
 		"code_decimal": "&#9167;",
@@ -65673,7 +65461,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"cinema": {
+	":cinema:": {
 		"unicode": "1f3a6",
 		"unicode_alt": "",
 		"code_decimal": "&#127910;",
@@ -65689,7 +65477,7 @@ module.exports = {
 			"movie"
 		]
 	},
-	"low_brightness": {
+	":low_brightness:": {
 		"unicode": "1f505",
 		"unicode_alt": "",
 		"code_decimal": "&#128261;",
@@ -65704,7 +65492,7 @@ module.exports = {
 			"sun"
 		]
 	},
-	"high_brightness": {
+	":high_brightness:": {
 		"unicode": "1f506",
 		"unicode_alt": "",
 		"code_decimal": "&#128262;",
@@ -65719,7 +65507,7 @@ module.exports = {
 			"sun"
 		]
 	},
-	"signal_strength": {
+	":signal_strength:": {
 		"unicode": "1f4f6",
 		"unicode_alt": "",
 		"code_decimal": "&#128246;",
@@ -65733,7 +65521,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"vibration_mode": {
+	":vibration_mode:": {
 		"unicode": "1f4f3",
 		"unicode_alt": "",
 		"code_decimal": "&#128243;",
@@ -65747,7 +65535,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"mobile_phone_off": {
+	":mobile_phone_off:": {
 		"unicode": "1f4f4",
 		"unicode_alt": "",
 		"code_decimal": "&#128244;",
@@ -65761,7 +65549,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"recycle": {
+	":recycle:": {
 		"unicode": "267b",
 		"unicode_alt": "267b-fe0f",
 		"code_decimal": "&#9851;",
@@ -65775,7 +65563,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"name_badge": {
+	":name_badge:": {
 		"unicode": "1f4db",
 		"unicode_alt": "",
 		"code_decimal": "&#128219;",
@@ -65789,7 +65577,7 @@ module.exports = {
 			"work"
 		]
 	},
-	"fleur-de-lis": {
+	":fleur-de-lis:": {
 		"unicode": "269c",
 		"unicode_alt": "269c-fe0f",
 		"code_decimal": "&#9884;",
@@ -65804,7 +65592,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"beginner": {
+	":beginner:": {
 		"unicode": "1f530",
 		"unicode_alt": "",
 		"code_decimal": "&#128304;",
@@ -65818,7 +65606,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"trident": {
+	":trident:": {
 		"unicode": "1f531",
 		"unicode_alt": "",
 		"code_decimal": "&#128305;",
@@ -65833,7 +65621,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"o": {
+	":o:": {
 		"unicode": "2b55",
 		"unicode_alt": "2b55-fe0f",
 		"code_decimal": "&#11093;",
@@ -65848,7 +65636,7 @@ module.exports = {
 			"circle"
 		]
 	},
-	"white_check_mark": {
+	":white_check_mark:": {
 		"unicode": "2705",
 		"unicode_alt": "",
 		"code_decimal": "&#9989;",
@@ -65862,7 +65650,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"ballot_box_with_check": {
+	":ballot_box_with_check:": {
 		"unicode": "2611",
 		"unicode_alt": "2611-fe0f",
 		"code_decimal": "&#9745;",
@@ -65876,7 +65664,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"heavy_check_mark": {
+	":heavy_check_mark:": {
 		"unicode": "2714",
 		"unicode_alt": "2714-fe0f",
 		"code_decimal": "&#10004;",
@@ -65890,7 +65678,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"heavy_multiplication_x": {
+	":heavy_multiplication_x:": {
 		"unicode": "2716",
 		"unicode_alt": "2716-fe0f",
 		"code_decimal": "&#10006;",
@@ -65905,7 +65693,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"x": {
+	":x:": {
 		"unicode": "274c",
 		"unicode_alt": "",
 		"code_decimal": "&#10060;",
@@ -65920,7 +65708,7 @@ module.exports = {
 			"sol"
 		]
 	},
-	"negative_squared_cross_mark": {
+	":negative_squared_cross_mark:": {
 		"unicode": "274e",
 		"unicode_alt": "",
 		"code_decimal": "&#10062;",
@@ -65934,7 +65722,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"heavy_plus_sign": {
+	":heavy_plus_sign:": {
 		"unicode": "2795",
 		"unicode_alt": "",
 		"code_decimal": "&#10133;",
@@ -65949,7 +65737,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"heavy_minus_sign": {
+	":heavy_minus_sign:": {
 		"unicode": "2796",
 		"unicode_alt": "",
 		"code_decimal": "&#10134;",
@@ -65964,7 +65752,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"heavy_division_sign": {
+	":heavy_division_sign:": {
 		"unicode": "2797",
 		"unicode_alt": "",
 		"code_decimal": "&#10135;",
@@ -65979,7 +65767,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"curly_loop": {
+	":curly_loop:": {
 		"unicode": "27b0",
 		"unicode_alt": "",
 		"code_decimal": "&#10160;",
@@ -65993,7 +65781,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"loop": {
+	":loop:": {
 		"unicode": "27bf",
 		"unicode_alt": "",
 		"code_decimal": "&#10175;",
@@ -66007,7 +65795,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"part_alternation_mark": {
+	":part_alternation_mark:": {
 		"unicode": "303d",
 		"unicode_alt": "303d-fe0f",
 		"code_decimal": "&#12349;",
@@ -66021,7 +65809,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"eight_spoked_asterisk": {
+	":eight_spoked_asterisk:": {
 		"unicode": "2733",
 		"unicode_alt": "2733-fe0f",
 		"code_decimal": "&#10035;",
@@ -66035,7 +65823,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"eight_pointed_black_star": {
+	":eight_pointed_black_star:": {
 		"unicode": "2734",
 		"unicode_alt": "2734-fe0f",
 		"code_decimal": "&#10036;",
@@ -66049,7 +65837,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"sparkle": {
+	":sparkle:": {
 		"unicode": "2747",
 		"unicode_alt": "2747-fe0f",
 		"code_decimal": "&#10055;",
@@ -66063,7 +65851,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"bangbang": {
+	":bangbang:": {
 		"unicode": "203c",
 		"unicode_alt": "203c-fe0f",
 		"code_decimal": "&#8252;",
@@ -66078,7 +65866,7 @@ module.exports = {
 			"punctuation"
 		]
 	},
-	"interrobang": {
+	":interrobang:": {
 		"unicode": "2049",
 		"unicode_alt": "2049-fe0f",
 		"code_decimal": "&#8265;",
@@ -66093,7 +65881,7 @@ module.exports = {
 			"punctuation"
 		]
 	},
-	"question": {
+	":question:": {
 		"unicode": "2753",
 		"unicode_alt": "",
 		"code_decimal": "&#10067;",
@@ -66109,7 +65897,7 @@ module.exports = {
 			"wth"
 		]
 	},
-	"grey_question": {
+	":grey_question:": {
 		"unicode": "2754",
 		"unicode_alt": "",
 		"code_decimal": "&#10068;",
@@ -66124,7 +65912,7 @@ module.exports = {
 			"punctuation"
 		]
 	},
-	"grey_exclamation": {
+	":grey_exclamation:": {
 		"unicode": "2755",
 		"unicode_alt": "",
 		"code_decimal": "&#10069;",
@@ -66139,7 +65927,7 @@ module.exports = {
 			"punctuation"
 		]
 	},
-	"exclamation": {
+	":exclamation:": {
 		"unicode": "2757",
 		"unicode_alt": "2757-fe0f",
 		"code_decimal": "&#10071;",
@@ -66154,7 +65942,7 @@ module.exports = {
 			"punctuation"
 		]
 	},
-	"wavy_dash": {
+	":wavy_dash:": {
 		"unicode": "3030",
 		"unicode_alt": "3030-fe0f",
 		"code_decimal": "&#12336;",
@@ -66168,7 +65956,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"copyright": {
+	":copyright:": {
 		"unicode": "00a9",
 		"unicode_alt": "00a9-fe0f",
 		"code_decimal": "&copy;",
@@ -66182,7 +65970,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"registered": {
+	":registered:": {
 		"unicode": "00ae",
 		"unicode_alt": "00ae-fe0f",
 		"code_decimal": "&reg;",
@@ -66196,7 +65984,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"tm": {
+	":tm:": {
 		"unicode": "2122",
 		"unicode_alt": "2122-fe0f",
 		"code_decimal": "&trade;",
@@ -66210,7 +65998,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"hash": {
+	":hash:": {
 		"unicode": "0023-20e3",
 		"unicode_alt": "0023-fe0f-20e3",
 		"code_decimal": "#&#8419;",
@@ -66225,7 +66013,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"asterisk": {
+	":asterisk:": {
 		"unicode": "002a-20e3",
 		"unicode_alt": "002a-fe0f-20e3",
 		"code_decimal": "*&#8419;",
@@ -66241,7 +66029,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"zero": {
+	":zero:": {
 		"unicode": "0030-20e3",
 		"unicode_alt": "0030-fe0f-20e3",
 		"code_decimal": "0&#8419;",
@@ -66257,7 +66045,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"one": {
+	":one:": {
 		"unicode": "0031-20e3",
 		"unicode_alt": "0031-fe0f-20e3",
 		"code_decimal": "1&#8419;",
@@ -66273,7 +66061,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"two": {
+	":two:": {
 		"unicode": "0032-20e3",
 		"unicode_alt": "0032-fe0f-20e3",
 		"code_decimal": "2&#8419;",
@@ -66289,7 +66077,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"three": {
+	":three:": {
 		"unicode": "0033-20e3",
 		"unicode_alt": "0033-fe0f-20e3",
 		"code_decimal": "3&#8419;",
@@ -66305,7 +66093,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"four": {
+	":four:": {
 		"unicode": "0034-20e3",
 		"unicode_alt": "0034-fe0f-20e3",
 		"code_decimal": "4&#8419;",
@@ -66321,7 +66109,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"five": {
+	":five:": {
 		"unicode": "0035-20e3",
 		"unicode_alt": "0035-fe0f-20e3",
 		"code_decimal": "5&#8419;",
@@ -66337,7 +66125,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"six": {
+	":six:": {
 		"unicode": "0036-20e3",
 		"unicode_alt": "0036-fe0f-20e3",
 		"code_decimal": "6&#8419;",
@@ -66353,7 +66141,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"seven": {
+	":seven:": {
 		"unicode": "0037-20e3",
 		"unicode_alt": "0037-fe0f-20e3",
 		"code_decimal": "7&#8419;",
@@ -66369,7 +66157,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"eight": {
+	":eight:": {
 		"unicode": "0038-20e3",
 		"unicode_alt": "0038-fe0f-20e3",
 		"code_decimal": "8&#8419;",
@@ -66385,7 +66173,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"nine": {
+	":nine:": {
 		"unicode": "0039-20e3",
 		"unicode_alt": "0039-fe0f-20e3",
 		"code_decimal": "9&#8419;",
@@ -66401,7 +66189,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"keycap_ten": {
+	":keycap_ten:": {
 		"unicode": "1f51f",
 		"unicode_alt": "",
 		"code_decimal": "&#128287;",
@@ -66417,7 +66205,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"capital_abcd": {
+	":capital_abcd:": {
 		"unicode": "1f520",
 		"unicode_alt": "",
 		"code_decimal": "&#128288;",
@@ -66431,7 +66219,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"abcd": {
+	":abcd:": {
 		"unicode": "1f521",
 		"unicode_alt": "",
 		"code_decimal": "&#128289;",
@@ -66445,7 +66233,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"symbols": {
+	":symbols:": {
 		"unicode": "1f523",
 		"unicode_alt": "",
 		"code_decimal": "&#128291;",
@@ -66459,7 +66247,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"abc": {
+	":abc:": {
 		"unicode": "1f524",
 		"unicode_alt": "",
 		"code_decimal": "&#128292;",
@@ -66473,7 +66261,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"a": {
+	":a:": {
 		"unicode": "1f170",
 		"unicode_alt": "",
 		"code_decimal": "&#127344;",
@@ -66487,7 +66275,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"ab": {
+	":ab:": {
 		"unicode": "1f18e",
 		"unicode_alt": "",
 		"code_decimal": "&#127374;",
@@ -66501,7 +66289,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"b": {
+	":b:": {
 		"unicode": "1f171",
 		"unicode_alt": "",
 		"code_decimal": "&#127345;",
@@ -66515,7 +66303,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"cl": {
+	":cl:": {
 		"unicode": "1f191",
 		"unicode_alt": "",
 		"code_decimal": "&#127377;",
@@ -66529,7 +66317,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"cool": {
+	":cool:": {
 		"unicode": "1f192",
 		"unicode_alt": "",
 		"code_decimal": "&#127378;",
@@ -66543,7 +66331,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"free": {
+	":free:": {
 		"unicode": "1f193",
 		"unicode_alt": "",
 		"code_decimal": "&#127379;",
@@ -66557,7 +66345,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"information_source": {
+	":information_source:": {
 		"unicode": "2139",
 		"unicode_alt": "2139-fe0f",
 		"code_decimal": "&#8505;",
@@ -66571,7 +66359,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"id": {
+	":id:": {
 		"unicode": "1f194",
 		"unicode_alt": "",
 		"code_decimal": "&#127380;",
@@ -66585,7 +66373,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"m": {
+	":m:": {
 		"unicode": "24c2",
 		"unicode_alt": "24c2-fe0f",
 		"code_decimal": "&#9410;",
@@ -66599,7 +66387,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"new": {
+	":new:": {
 		"unicode": "1f195",
 		"unicode_alt": "",
 		"code_decimal": "&#127381;",
@@ -66613,7 +66401,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"ng": {
+	":ng:": {
 		"unicode": "1f196",
 		"unicode_alt": "",
 		"code_decimal": "&#127382;",
@@ -66627,7 +66415,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"o2": {
+	":o2:": {
 		"unicode": "1f17e",
 		"unicode_alt": "",
 		"code_decimal": "&#127358;",
@@ -66641,7 +66429,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"ok": {
+	":ok:": {
 		"unicode": "1f197",
 		"unicode_alt": "",
 		"code_decimal": "&#127383;",
@@ -66655,7 +66443,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"parking": {
+	":parking:": {
 		"unicode": "1f17f",
 		"unicode_alt": "1f17f-fe0f",
 		"code_decimal": "&#127359;",
@@ -66669,7 +66457,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"sos": {
+	":sos:": {
 		"unicode": "1f198",
 		"unicode_alt": "",
 		"code_decimal": "&#127384;",
@@ -66683,7 +66471,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"up": {
+	":up:": {
 		"unicode": "1f199",
 		"unicode_alt": "",
 		"code_decimal": "&#127385;",
@@ -66697,7 +66485,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"vs": {
+	":vs:": {
 		"unicode": "1f19a",
 		"unicode_alt": "",
 		"code_decimal": "&#127386;",
@@ -66711,7 +66499,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"koko": {
+	":koko:": {
 		"unicode": "1f201",
 		"unicode_alt": "",
 		"code_decimal": "&#127489;",
@@ -66725,7 +66513,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"sa": {
+	":sa:": {
 		"unicode": "1f202",
 		"unicode_alt": "1f202-fe0f",
 		"code_decimal": "&#127490;",
@@ -66739,7 +66527,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"u6708": {
+	":u6708:": {
 		"unicode": "1f237",
 		"unicode_alt": "1f237-fe0f",
 		"code_decimal": "&#127543;",
@@ -66753,7 +66541,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"u6709": {
+	":u6709:": {
 		"unicode": "1f236",
 		"unicode_alt": "",
 		"code_decimal": "&#127542;",
@@ -66767,7 +66555,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"u6307": {
+	":u6307:": {
 		"unicode": "1f22f",
 		"unicode_alt": "1f22f-fe0f",
 		"code_decimal": "&#127535;",
@@ -66781,7 +66569,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"ideograph_advantage": {
+	":ideograph_advantage:": {
 		"unicode": "1f250",
 		"unicode_alt": "",
 		"code_decimal": "&#127568;",
@@ -66796,7 +66584,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"u5272": {
+	":u5272:": {
 		"unicode": "1f239",
 		"unicode_alt": "",
 		"code_decimal": "&#127545;",
@@ -66810,7 +66598,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"u7121": {
+	":u7121:": {
 		"unicode": "1f21a",
 		"unicode_alt": "1f21a-fe0f",
 		"code_decimal": "&#127514;",
@@ -66824,7 +66612,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"u7981": {
+	":u7981:": {
 		"unicode": "1f232",
 		"unicode_alt": "",
 		"code_decimal": "&#127538;",
@@ -66839,7 +66627,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"accept": {
+	":accept:": {
 		"unicode": "1f251",
 		"unicode_alt": "",
 		"code_decimal": "&#127569;",
@@ -66853,7 +66641,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"u7533": {
+	":u7533:": {
 		"unicode": "1f238",
 		"unicode_alt": "",
 		"code_decimal": "&#127544;",
@@ -66867,7 +66655,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"u5408": {
+	":u5408:": {
 		"unicode": "1f234",
 		"unicode_alt": "",
 		"code_decimal": "&#127540;",
@@ -66882,7 +66670,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"u7a7a": {
+	":u7a7a:": {
 		"unicode": "1f233",
 		"unicode_alt": "",
 		"code_decimal": "&#127539;",
@@ -66896,7 +66684,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"congratulations": {
+	":congratulations:": {
 		"unicode": "3297",
 		"unicode_alt": "3297-fe0f",
 		"code_decimal": "&#12951;",
@@ -66911,7 +66699,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"secret": {
+	":secret:": {
 		"unicode": "3299",
 		"unicode_alt": "3299-fe0f",
 		"code_decimal": "&#12953;",
@@ -66926,7 +66714,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"u55b6": {
+	":u55b6:": {
 		"unicode": "1f23a",
 		"unicode_alt": "",
 		"code_decimal": "&#127546;",
@@ -66940,7 +66728,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"u6e80": {
+	":u6e80:": {
 		"unicode": "1f235",
 		"unicode_alt": "",
 		"code_decimal": "&#127541;",
@@ -66955,7 +66743,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"black_small_square": {
+	":black_small_square:": {
 		"unicode": "25aa",
 		"unicode_alt": "25aa-fe0f",
 		"code_decimal": "&#9642;",
@@ -66971,7 +66759,7 @@ module.exports = {
 			"square"
 		]
 	},
-	"white_small_square": {
+	":white_small_square:": {
 		"unicode": "25ab",
 		"unicode_alt": "25ab-fe0f",
 		"code_decimal": "&#9643;",
@@ -66987,7 +66775,7 @@ module.exports = {
 			"square"
 		]
 	},
-	"white_medium_square": {
+	":white_medium_square:": {
 		"unicode": "25fb",
 		"unicode_alt": "25fb-fe0f",
 		"code_decimal": "&#9723;",
@@ -67003,7 +66791,7 @@ module.exports = {
 			"square"
 		]
 	},
-	"black_medium_square": {
+	":black_medium_square:": {
 		"unicode": "25fc",
 		"unicode_alt": "25fc-fe0f",
 		"code_decimal": "&#9724;",
@@ -67019,7 +66807,7 @@ module.exports = {
 			"square"
 		]
 	},
-	"white_medium_small_square": {
+	":white_medium_small_square:": {
 		"unicode": "25fd",
 		"unicode_alt": "25fd-fe0f",
 		"code_decimal": "&#9725;",
@@ -67035,7 +66823,7 @@ module.exports = {
 			"square"
 		]
 	},
-	"black_medium_small_square": {
+	":black_medium_small_square:": {
 		"unicode": "25fe",
 		"unicode_alt": "25fe-fe0f",
 		"code_decimal": "&#9726;",
@@ -67051,7 +66839,7 @@ module.exports = {
 			"square"
 		]
 	},
-	"black_large_square": {
+	":black_large_square:": {
 		"unicode": "2b1b",
 		"unicode_alt": "2b1b-fe0f",
 		"code_decimal": "&#11035;",
@@ -67067,7 +66855,7 @@ module.exports = {
 			"square"
 		]
 	},
-	"white_large_square": {
+	":white_large_square:": {
 		"unicode": "2b1c",
 		"unicode_alt": "2b1c-fe0f",
 		"code_decimal": "&#11036;",
@@ -67083,7 +66871,7 @@ module.exports = {
 			"square"
 		]
 	},
-	"large_orange_diamond": {
+	":large_orange_diamond:": {
 		"unicode": "1f536",
 		"unicode_alt": "",
 		"code_decimal": "&#128310;",
@@ -67098,7 +66886,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"large_blue_diamond": {
+	":large_blue_diamond:": {
 		"unicode": "1f537",
 		"unicode_alt": "",
 		"code_decimal": "&#128311;",
@@ -67113,7 +66901,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"small_orange_diamond": {
+	":small_orange_diamond:": {
 		"unicode": "1f538",
 		"unicode_alt": "",
 		"code_decimal": "&#128312;",
@@ -67128,7 +66916,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"small_blue_diamond": {
+	":small_blue_diamond:": {
 		"unicode": "1f539",
 		"unicode_alt": "",
 		"code_decimal": "&#128313;",
@@ -67143,7 +66931,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"small_red_triangle": {
+	":small_red_triangle:": {
 		"unicode": "1f53a",
 		"unicode_alt": "",
 		"code_decimal": "&#128314;",
@@ -67159,7 +66947,7 @@ module.exports = {
 			"triangle"
 		]
 	},
-	"small_red_triangle_down": {
+	":small_red_triangle_down:": {
 		"unicode": "1f53b",
 		"unicode_alt": "",
 		"code_decimal": "&#128315;",
@@ -67175,7 +66963,7 @@ module.exports = {
 			"triangle"
 		]
 	},
-	"diamond_shape_with_a_dot_inside": {
+	":diamond_shape_with_a_dot_inside:": {
 		"unicode": "1f4a0",
 		"unicode_alt": "",
 		"code_decimal": "&#128160;",
@@ -67189,7 +66977,7 @@ module.exports = {
 			"symbol"
 		]
 	},
-	"radio_button": {
+	":radio_button:": {
 		"unicode": "1f518",
 		"unicode_alt": "",
 		"code_decimal": "&#128280;",
@@ -67204,7 +66992,7 @@ module.exports = {
 			"circle"
 		]
 	},
-	"black_square_button": {
+	":black_square_button:": {
 		"unicode": "1f532",
 		"unicode_alt": "",
 		"code_decimal": "&#128306;",
@@ -67220,7 +67008,7 @@ module.exports = {
 			"square"
 		]
 	},
-	"white_square_button": {
+	":white_square_button:": {
 		"unicode": "1f533",
 		"unicode_alt": "",
 		"code_decimal": "&#128307;",
@@ -67236,7 +67024,7 @@ module.exports = {
 			"square"
 		]
 	},
-	"white_circle": {
+	":white_circle:": {
 		"unicode": "26aa",
 		"unicode_alt": "26aa-fe0f",
 		"code_decimal": "&#9898;",
@@ -67252,7 +67040,7 @@ module.exports = {
 			"circle"
 		]
 	},
-	"black_circle": {
+	":black_circle:": {
 		"unicode": "26ab",
 		"unicode_alt": "26ab-fe0f",
 		"code_decimal": "&#9899;",
@@ -67268,7 +67056,7 @@ module.exports = {
 			"circle"
 		]
 	},
-	"red_circle": {
+	":red_circle:": {
 		"unicode": "1f534",
 		"unicode_alt": "",
 		"code_decimal": "&#128308;",
@@ -67284,7 +67072,7 @@ module.exports = {
 			"circle"
 		]
 	},
-	"blue_circle": {
+	":blue_circle:": {
 		"unicode": "1f535",
 		"unicode_alt": "",
 		"code_decimal": "&#128309;",
@@ -67300,7 +67088,7 @@ module.exports = {
 			"circle"
 		]
 	},
-	"checkered_flag": {
+	":checkered_flag:": {
 		"unicode": "1f3c1",
 		"unicode_alt": "",
 		"code_decimal": "&#127937;",
@@ -67314,7 +67102,7 @@ module.exports = {
 			"object"
 		]
 	},
-	"triangular_flag_on_post": {
+	":triangular_flag_on_post:": {
 		"unicode": "1f6a9",
 		"unicode_alt": "",
 		"code_decimal": "&#128681;",
@@ -67328,7 +67116,7 @@ module.exports = {
 			"object"
 		]
 	},
-	"crossed_flags": {
+	":crossed_flags:": {
 		"unicode": "1f38c",
 		"unicode_alt": "",
 		"code_decimal": "&#127884;",
@@ -67343,7 +67131,7 @@ module.exports = {
 			"japan"
 		]
 	},
-	"flag_black": {
+	":flag_black:": {
 		"unicode": "1f3f4",
 		"unicode_alt": "",
 		"code_decimal": "&#127988;",
@@ -67359,7 +67147,7 @@ module.exports = {
 			"object"
 		]
 	},
-	"flag_white": {
+	":flag_white:": {
 		"unicode": "1f3f3",
 		"unicode_alt": "1f3f3-fe0f",
 		"code_decimal": "&#127987;",
@@ -67375,7 +67163,7 @@ module.exports = {
 			"object"
 		]
 	},
-	"rainbow_flag": {
+	":rainbow_flag:": {
 		"unicode": "1f3f3-1f308",
 		"unicode_alt": "",
 		"code_decimal": "&#127987;&#127752;",
@@ -67389,7 +67177,7 @@ module.exports = {
 		"aliases_ascii": [],
 		"keywords": []
 	},
-	"flag_ac": {
+	":flag_ac:": {
 		"unicode": "1f1e6-1f1e8",
 		"unicode_alt": "",
 		"code_decimal": "&#127462;&#127464;",
@@ -67406,7 +67194,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_ad": {
+	":flag_ad:": {
 		"unicode": "1f1e6-1f1e9",
 		"unicode_alt": "",
 		"code_decimal": "&#127462;&#127465;",
@@ -67423,7 +67211,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_ae": {
+	":flag_ae:": {
 		"unicode": "1f1e6-1f1ea",
 		"unicode_alt": "",
 		"code_decimal": "&#127462;&#127466;",
@@ -67440,7 +67228,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_af": {
+	":flag_af:": {
 		"unicode": "1f1e6-1f1eb",
 		"unicode_alt": "",
 		"code_decimal": "&#127462;&#127467;",
@@ -67457,7 +67245,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_ag": {
+	":flag_ag:": {
 		"unicode": "1f1e6-1f1ec",
 		"unicode_alt": "",
 		"code_decimal": "&#127462;&#127468;",
@@ -67474,7 +67262,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_ai": {
+	":flag_ai:": {
 		"unicode": "1f1e6-1f1ee",
 		"unicode_alt": "",
 		"code_decimal": "&#127462;&#127470;",
@@ -67491,7 +67279,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_al": {
+	":flag_al:": {
 		"unicode": "1f1e6-1f1f1",
 		"unicode_alt": "",
 		"code_decimal": "&#127462;&#127473;",
@@ -67508,7 +67296,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_am": {
+	":flag_am:": {
 		"unicode": "1f1e6-1f1f2",
 		"unicode_alt": "",
 		"code_decimal": "&#127462;&#127474;",
@@ -67525,7 +67313,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_ao": {
+	":flag_ao:": {
 		"unicode": "1f1e6-1f1f4",
 		"unicode_alt": "",
 		"code_decimal": "&#127462;&#127476;",
@@ -67542,7 +67330,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_aq": {
+	":flag_aq:": {
 		"unicode": "1f1e6-1f1f6",
 		"unicode_alt": "",
 		"code_decimal": "&#127462;&#127478;",
@@ -67559,7 +67347,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_ar": {
+	":flag_ar:": {
 		"unicode": "1f1e6-1f1f7",
 		"unicode_alt": "",
 		"code_decimal": "&#127462;&#127479;",
@@ -67576,7 +67364,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_as": {
+	":flag_as:": {
 		"unicode": "1f1e6-1f1f8",
 		"unicode_alt": "",
 		"code_decimal": "&#127462;&#127480;",
@@ -67593,7 +67381,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_at": {
+	":flag_at:": {
 		"unicode": "1f1e6-1f1f9",
 		"unicode_alt": "",
 		"code_decimal": "&#127462;&#127481;",
@@ -67610,7 +67398,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_au": {
+	":flag_au:": {
 		"unicode": "1f1e6-1f1fa",
 		"unicode_alt": "",
 		"code_decimal": "&#127462;&#127482;",
@@ -67627,7 +67415,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_aw": {
+	":flag_aw:": {
 		"unicode": "1f1e6-1f1fc",
 		"unicode_alt": "",
 		"code_decimal": "&#127462;&#127484;",
@@ -67644,7 +67432,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_ax": {
+	":flag_ax:": {
 		"unicode": "1f1e6-1f1fd",
 		"unicode_alt": "",
 		"code_decimal": "&#127462;&#127485;",
@@ -67661,7 +67449,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_az": {
+	":flag_az:": {
 		"unicode": "1f1e6-1f1ff",
 		"unicode_alt": "",
 		"code_decimal": "&#127462;&#127487;",
@@ -67678,7 +67466,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_ba": {
+	":flag_ba:": {
 		"unicode": "1f1e7-1f1e6",
 		"unicode_alt": "",
 		"code_decimal": "&#127463;&#127462;",
@@ -67695,7 +67483,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_bb": {
+	":flag_bb:": {
 		"unicode": "1f1e7-1f1e7",
 		"unicode_alt": "",
 		"code_decimal": "&#127463;&#127463;",
@@ -67712,7 +67500,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_bd": {
+	":flag_bd:": {
 		"unicode": "1f1e7-1f1e9",
 		"unicode_alt": "",
 		"code_decimal": "&#127463;&#127465;",
@@ -67729,7 +67517,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_be": {
+	":flag_be:": {
 		"unicode": "1f1e7-1f1ea",
 		"unicode_alt": "",
 		"code_decimal": "&#127463;&#127466;",
@@ -67746,7 +67534,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_bf": {
+	":flag_bf:": {
 		"unicode": "1f1e7-1f1eb",
 		"unicode_alt": "",
 		"code_decimal": "&#127463;&#127467;",
@@ -67763,7 +67551,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_bg": {
+	":flag_bg:": {
 		"unicode": "1f1e7-1f1ec",
 		"unicode_alt": "",
 		"code_decimal": "&#127463;&#127468;",
@@ -67780,7 +67568,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_bh": {
+	":flag_bh:": {
 		"unicode": "1f1e7-1f1ed",
 		"unicode_alt": "",
 		"code_decimal": "&#127463;&#127469;",
@@ -67797,7 +67585,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_bi": {
+	":flag_bi:": {
 		"unicode": "1f1e7-1f1ee",
 		"unicode_alt": "",
 		"code_decimal": "&#127463;&#127470;",
@@ -67814,7 +67602,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_bj": {
+	":flag_bj:": {
 		"unicode": "1f1e7-1f1ef",
 		"unicode_alt": "",
 		"code_decimal": "&#127463;&#127471;",
@@ -67831,7 +67619,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_bl": {
+	":flag_bl:": {
 		"unicode": "1f1e7-1f1f1",
 		"unicode_alt": "",
 		"code_decimal": "&#127463;&#127473;",
@@ -67848,7 +67636,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_bm": {
+	":flag_bm:": {
 		"unicode": "1f1e7-1f1f2",
 		"unicode_alt": "",
 		"code_decimal": "&#127463;&#127474;",
@@ -67865,7 +67653,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_bn": {
+	":flag_bn:": {
 		"unicode": "1f1e7-1f1f3",
 		"unicode_alt": "",
 		"code_decimal": "&#127463;&#127475;",
@@ -67882,7 +67670,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_bo": {
+	":flag_bo:": {
 		"unicode": "1f1e7-1f1f4",
 		"unicode_alt": "",
 		"code_decimal": "&#127463;&#127476;",
@@ -67899,7 +67687,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_bq": {
+	":flag_bq:": {
 		"unicode": "1f1e7-1f1f6",
 		"unicode_alt": "",
 		"code_decimal": "&#127463;&#127478;",
@@ -67916,7 +67704,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_br": {
+	":flag_br:": {
 		"unicode": "1f1e7-1f1f7",
 		"unicode_alt": "",
 		"code_decimal": "&#127463;&#127479;",
@@ -67933,7 +67721,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_bs": {
+	":flag_bs:": {
 		"unicode": "1f1e7-1f1f8",
 		"unicode_alt": "",
 		"code_decimal": "&#127463;&#127480;",
@@ -67950,7 +67738,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_bt": {
+	":flag_bt:": {
 		"unicode": "1f1e7-1f1f9",
 		"unicode_alt": "",
 		"code_decimal": "&#127463;&#127481;",
@@ -67967,7 +67755,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_bv": {
+	":flag_bv:": {
 		"unicode": "1f1e7-1f1fb",
 		"unicode_alt": "",
 		"code_decimal": "&#127463;&#127483;",
@@ -67984,7 +67772,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_bw": {
+	":flag_bw:": {
 		"unicode": "1f1e7-1f1fc",
 		"unicode_alt": "",
 		"code_decimal": "&#127463;&#127484;",
@@ -68001,7 +67789,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_by": {
+	":flag_by:": {
 		"unicode": "1f1e7-1f1fe",
 		"unicode_alt": "",
 		"code_decimal": "&#127463;&#127486;",
@@ -68018,7 +67806,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_bz": {
+	":flag_bz:": {
 		"unicode": "1f1e7-1f1ff",
 		"unicode_alt": "",
 		"code_decimal": "&#127463;&#127487;",
@@ -68035,7 +67823,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_ca": {
+	":flag_ca:": {
 		"unicode": "1f1e8-1f1e6",
 		"unicode_alt": "",
 		"code_decimal": "&#127464;&#127462;",
@@ -68052,7 +67840,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_cc": {
+	":flag_cc:": {
 		"unicode": "1f1e8-1f1e8",
 		"unicode_alt": "",
 		"code_decimal": "&#127464;&#127464;",
@@ -68069,7 +67857,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_cd": {
+	":flag_cd:": {
 		"unicode": "1f1e8-1f1e9",
 		"unicode_alt": "",
 		"code_decimal": "&#127464;&#127465;",
@@ -68086,7 +67874,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_cf": {
+	":flag_cf:": {
 		"unicode": "1f1e8-1f1eb",
 		"unicode_alt": "",
 		"code_decimal": "&#127464;&#127467;",
@@ -68103,7 +67891,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_cg": {
+	":flag_cg:": {
 		"unicode": "1f1e8-1f1ec",
 		"unicode_alt": "",
 		"code_decimal": "&#127464;&#127468;",
@@ -68120,7 +67908,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_ch": {
+	":flag_ch:": {
 		"unicode": "1f1e8-1f1ed",
 		"unicode_alt": "",
 		"code_decimal": "&#127464;&#127469;",
@@ -68138,7 +67926,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_ci": {
+	":flag_ci:": {
 		"unicode": "1f1e8-1f1ee",
 		"unicode_alt": "",
 		"code_decimal": "&#127464;&#127470;",
@@ -68155,7 +67943,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_ck": {
+	":flag_ck:": {
 		"unicode": "1f1e8-1f1f0",
 		"unicode_alt": "",
 		"code_decimal": "&#127464;&#127472;",
@@ -68172,7 +67960,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_cl": {
+	":flag_cl:": {
 		"unicode": "1f1e8-1f1f1",
 		"unicode_alt": "",
 		"code_decimal": "&#127464;&#127473;",
@@ -68189,7 +67977,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_cm": {
+	":flag_cm:": {
 		"unicode": "1f1e8-1f1f2",
 		"unicode_alt": "",
 		"code_decimal": "&#127464;&#127474;",
@@ -68206,7 +67994,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_cn": {
+	":flag_cn:": {
 		"unicode": "1f1e8-1f1f3",
 		"unicode_alt": "",
 		"code_decimal": "&#127464;&#127475;",
@@ -68223,7 +68011,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_co": {
+	":flag_co:": {
 		"unicode": "1f1e8-1f1f4",
 		"unicode_alt": "",
 		"code_decimal": "&#127464;&#127476;",
@@ -68240,7 +68028,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_cp": {
+	":flag_cp:": {
 		"unicode": "1f1e8-1f1f5",
 		"unicode_alt": "",
 		"code_decimal": "&#127464;&#127477;",
@@ -68257,7 +68045,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_cr": {
+	":flag_cr:": {
 		"unicode": "1f1e8-1f1f7",
 		"unicode_alt": "",
 		"code_decimal": "&#127464;&#127479;",
@@ -68274,7 +68062,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_cu": {
+	":flag_cu:": {
 		"unicode": "1f1e8-1f1fa",
 		"unicode_alt": "",
 		"code_decimal": "&#127464;&#127482;",
@@ -68291,7 +68079,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_cv": {
+	":flag_cv:": {
 		"unicode": "1f1e8-1f1fb",
 		"unicode_alt": "",
 		"code_decimal": "&#127464;&#127483;",
@@ -68308,7 +68096,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_cw": {
+	":flag_cw:": {
 		"unicode": "1f1e8-1f1fc",
 		"unicode_alt": "",
 		"code_decimal": "&#127464;&#127484;",
@@ -68325,7 +68113,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_cx": {
+	":flag_cx:": {
 		"unicode": "1f1e8-1f1fd",
 		"unicode_alt": "",
 		"code_decimal": "&#127464;&#127485;",
@@ -68342,7 +68130,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_cy": {
+	":flag_cy:": {
 		"unicode": "1f1e8-1f1fe",
 		"unicode_alt": "",
 		"code_decimal": "&#127464;&#127486;",
@@ -68359,7 +68147,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_cz": {
+	":flag_cz:": {
 		"unicode": "1f1e8-1f1ff",
 		"unicode_alt": "",
 		"code_decimal": "&#127464;&#127487;",
@@ -68376,7 +68164,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_de": {
+	":flag_de:": {
 		"unicode": "1f1e9-1f1ea",
 		"unicode_alt": "",
 		"code_decimal": "&#127465;&#127466;",
@@ -68393,7 +68181,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_dg": {
+	":flag_dg:": {
 		"unicode": "1f1e9-1f1ec",
 		"unicode_alt": "",
 		"code_decimal": "&#127465;&#127468;",
@@ -68410,7 +68198,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_dj": {
+	":flag_dj:": {
 		"unicode": "1f1e9-1f1ef",
 		"unicode_alt": "",
 		"code_decimal": "&#127465;&#127471;",
@@ -68427,7 +68215,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_dk": {
+	":flag_dk:": {
 		"unicode": "1f1e9-1f1f0",
 		"unicode_alt": "",
 		"code_decimal": "&#127465;&#127472;",
@@ -68444,7 +68232,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_dm": {
+	":flag_dm:": {
 		"unicode": "1f1e9-1f1f2",
 		"unicode_alt": "",
 		"code_decimal": "&#127465;&#127474;",
@@ -68461,7 +68249,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_do": {
+	":flag_do:": {
 		"unicode": "1f1e9-1f1f4",
 		"unicode_alt": "",
 		"code_decimal": "&#127465;&#127476;",
@@ -68478,7 +68266,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_dz": {
+	":flag_dz:": {
 		"unicode": "1f1e9-1f1ff",
 		"unicode_alt": "",
 		"code_decimal": "&#127465;&#127487;",
@@ -68495,7 +68283,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_ea": {
+	":flag_ea:": {
 		"unicode": "1f1ea-1f1e6",
 		"unicode_alt": "",
 		"code_decimal": "&#127466;&#127462;",
@@ -68512,7 +68300,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_ec": {
+	":flag_ec:": {
 		"unicode": "1f1ea-1f1e8",
 		"unicode_alt": "",
 		"code_decimal": "&#127466;&#127464;",
@@ -68529,7 +68317,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_ee": {
+	":flag_ee:": {
 		"unicode": "1f1ea-1f1ea",
 		"unicode_alt": "",
 		"code_decimal": "&#127466;&#127466;",
@@ -68546,7 +68334,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_eg": {
+	":flag_eg:": {
 		"unicode": "1f1ea-1f1ec",
 		"unicode_alt": "",
 		"code_decimal": "&#127466;&#127468;",
@@ -68563,7 +68351,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_eh": {
+	":flag_eh:": {
 		"unicode": "1f1ea-1f1ed",
 		"unicode_alt": "",
 		"code_decimal": "&#127466;&#127469;",
@@ -68580,7 +68368,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_er": {
+	":flag_er:": {
 		"unicode": "1f1ea-1f1f7",
 		"unicode_alt": "",
 		"code_decimal": "&#127466;&#127479;",
@@ -68597,7 +68385,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_es": {
+	":flag_es:": {
 		"unicode": "1f1ea-1f1f8",
 		"unicode_alt": "",
 		"code_decimal": "&#127466;&#127480;",
@@ -68614,7 +68402,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_et": {
+	":flag_et:": {
 		"unicode": "1f1ea-1f1f9",
 		"unicode_alt": "",
 		"code_decimal": "&#127466;&#127481;",
@@ -68631,7 +68419,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_eu": {
+	":flag_eu:": {
 		"unicode": "1f1ea-1f1fa",
 		"unicode_alt": "",
 		"code_decimal": "&#127466;&#127482;",
@@ -68648,7 +68436,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_fi": {
+	":flag_fi:": {
 		"unicode": "1f1eb-1f1ee",
 		"unicode_alt": "",
 		"code_decimal": "&#127467;&#127470;",
@@ -68665,7 +68453,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_fj": {
+	":flag_fj:": {
 		"unicode": "1f1eb-1f1ef",
 		"unicode_alt": "",
 		"code_decimal": "&#127467;&#127471;",
@@ -68682,7 +68470,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_fk": {
+	":flag_fk:": {
 		"unicode": "1f1eb-1f1f0",
 		"unicode_alt": "",
 		"code_decimal": "&#127467;&#127472;",
@@ -68699,7 +68487,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_fm": {
+	":flag_fm:": {
 		"unicode": "1f1eb-1f1f2",
 		"unicode_alt": "",
 		"code_decimal": "&#127467;&#127474;",
@@ -68716,7 +68504,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_fo": {
+	":flag_fo:": {
 		"unicode": "1f1eb-1f1f4",
 		"unicode_alt": "",
 		"code_decimal": "&#127467;&#127476;",
@@ -68733,7 +68521,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_fr": {
+	":flag_fr:": {
 		"unicode": "1f1eb-1f1f7",
 		"unicode_alt": "",
 		"code_decimal": "&#127467;&#127479;",
@@ -68750,7 +68538,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_ga": {
+	":flag_ga:": {
 		"unicode": "1f1ec-1f1e6",
 		"unicode_alt": "",
 		"code_decimal": "&#127468;&#127462;",
@@ -68767,7 +68555,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_gb": {
+	":flag_gb:": {
 		"unicode": "1f1ec-1f1e7",
 		"unicode_alt": "",
 		"code_decimal": "&#127468;&#127463;",
@@ -68784,7 +68572,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_gd": {
+	":flag_gd:": {
 		"unicode": "1f1ec-1f1e9",
 		"unicode_alt": "",
 		"code_decimal": "&#127468;&#127465;",
@@ -68801,7 +68589,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_ge": {
+	":flag_ge:": {
 		"unicode": "1f1ec-1f1ea",
 		"unicode_alt": "",
 		"code_decimal": "&#127468;&#127466;",
@@ -68818,7 +68606,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_gf": {
+	":flag_gf:": {
 		"unicode": "1f1ec-1f1eb",
 		"unicode_alt": "",
 		"code_decimal": "&#127468;&#127467;",
@@ -68835,7 +68623,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_gg": {
+	":flag_gg:": {
 		"unicode": "1f1ec-1f1ec",
 		"unicode_alt": "",
 		"code_decimal": "&#127468;&#127468;",
@@ -68852,7 +68640,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_gh": {
+	":flag_gh:": {
 		"unicode": "1f1ec-1f1ed",
 		"unicode_alt": "",
 		"code_decimal": "&#127468;&#127469;",
@@ -68869,7 +68657,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_gi": {
+	":flag_gi:": {
 		"unicode": "1f1ec-1f1ee",
 		"unicode_alt": "",
 		"code_decimal": "&#127468;&#127470;",
@@ -68886,7 +68674,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_gl": {
+	":flag_gl:": {
 		"unicode": "1f1ec-1f1f1",
 		"unicode_alt": "",
 		"code_decimal": "&#127468;&#127473;",
@@ -68903,7 +68691,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_gm": {
+	":flag_gm:": {
 		"unicode": "1f1ec-1f1f2",
 		"unicode_alt": "",
 		"code_decimal": "&#127468;&#127474;",
@@ -68920,7 +68708,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_gn": {
+	":flag_gn:": {
 		"unicode": "1f1ec-1f1f3",
 		"unicode_alt": "",
 		"code_decimal": "&#127468;&#127475;",
@@ -68937,7 +68725,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_gp": {
+	":flag_gp:": {
 		"unicode": "1f1ec-1f1f5",
 		"unicode_alt": "",
 		"code_decimal": "&#127468;&#127477;",
@@ -68954,7 +68742,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_gq": {
+	":flag_gq:": {
 		"unicode": "1f1ec-1f1f6",
 		"unicode_alt": "",
 		"code_decimal": "&#127468;&#127478;",
@@ -68971,7 +68759,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_gr": {
+	":flag_gr:": {
 		"unicode": "1f1ec-1f1f7",
 		"unicode_alt": "",
 		"code_decimal": "&#127468;&#127479;",
@@ -68988,7 +68776,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_gs": {
+	":flag_gs:": {
 		"unicode": "1f1ec-1f1f8",
 		"unicode_alt": "",
 		"code_decimal": "&#127468;&#127480;",
@@ -69005,7 +68793,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_gt": {
+	":flag_gt:": {
 		"unicode": "1f1ec-1f1f9",
 		"unicode_alt": "",
 		"code_decimal": "&#127468;&#127481;",
@@ -69022,7 +68810,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_gu": {
+	":flag_gu:": {
 		"unicode": "1f1ec-1f1fa",
 		"unicode_alt": "",
 		"code_decimal": "&#127468;&#127482;",
@@ -69039,7 +68827,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_gw": {
+	":flag_gw:": {
 		"unicode": "1f1ec-1f1fc",
 		"unicode_alt": "",
 		"code_decimal": "&#127468;&#127484;",
@@ -69056,7 +68844,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_gy": {
+	":flag_gy:": {
 		"unicode": "1f1ec-1f1fe",
 		"unicode_alt": "",
 		"code_decimal": "&#127468;&#127486;",
@@ -69073,7 +68861,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_hk": {
+	":flag_hk:": {
 		"unicode": "1f1ed-1f1f0",
 		"unicode_alt": "",
 		"code_decimal": "&#127469;&#127472;",
@@ -69090,7 +68878,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_hm": {
+	":flag_hm:": {
 		"unicode": "1f1ed-1f1f2",
 		"unicode_alt": "",
 		"code_decimal": "&#127469;&#127474;",
@@ -69107,7 +68895,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_hn": {
+	":flag_hn:": {
 		"unicode": "1f1ed-1f1f3",
 		"unicode_alt": "",
 		"code_decimal": "&#127469;&#127475;",
@@ -69124,7 +68912,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_hr": {
+	":flag_hr:": {
 		"unicode": "1f1ed-1f1f7",
 		"unicode_alt": "",
 		"code_decimal": "&#127469;&#127479;",
@@ -69141,7 +68929,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_ht": {
+	":flag_ht:": {
 		"unicode": "1f1ed-1f1f9",
 		"unicode_alt": "",
 		"code_decimal": "&#127469;&#127481;",
@@ -69158,7 +68946,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_hu": {
+	":flag_hu:": {
 		"unicode": "1f1ed-1f1fa",
 		"unicode_alt": "",
 		"code_decimal": "&#127469;&#127482;",
@@ -69175,7 +68963,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_ic": {
+	":flag_ic:": {
 		"unicode": "1f1ee-1f1e8",
 		"unicode_alt": "",
 		"code_decimal": "&#127470;&#127464;",
@@ -69192,7 +68980,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_id": {
+	":flag_id:": {
 		"unicode": "1f1ee-1f1e9",
 		"unicode_alt": "",
 		"code_decimal": "&#127470;&#127465;",
@@ -69209,7 +68997,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_ie": {
+	":flag_ie:": {
 		"unicode": "1f1ee-1f1ea",
 		"unicode_alt": "",
 		"code_decimal": "&#127470;&#127466;",
@@ -69226,7 +69014,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_il": {
+	":flag_il:": {
 		"unicode": "1f1ee-1f1f1",
 		"unicode_alt": "",
 		"code_decimal": "&#127470;&#127473;",
@@ -69244,7 +69032,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_im": {
+	":flag_im:": {
 		"unicode": "1f1ee-1f1f2",
 		"unicode_alt": "",
 		"code_decimal": "&#127470;&#127474;",
@@ -69261,7 +69049,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_in": {
+	":flag_in:": {
 		"unicode": "1f1ee-1f1f3",
 		"unicode_alt": "",
 		"code_decimal": "&#127470;&#127475;",
@@ -69278,7 +69066,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_io": {
+	":flag_io:": {
 		"unicode": "1f1ee-1f1f4",
 		"unicode_alt": "",
 		"code_decimal": "&#127470;&#127476;",
@@ -69295,7 +69083,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_iq": {
+	":flag_iq:": {
 		"unicode": "1f1ee-1f1f6",
 		"unicode_alt": "",
 		"code_decimal": "&#127470;&#127478;",
@@ -69312,7 +69100,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_ir": {
+	":flag_ir:": {
 		"unicode": "1f1ee-1f1f7",
 		"unicode_alt": "",
 		"code_decimal": "&#127470;&#127479;",
@@ -69329,7 +69117,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_is": {
+	":flag_is:": {
 		"unicode": "1f1ee-1f1f8",
 		"unicode_alt": "",
 		"code_decimal": "&#127470;&#127480;",
@@ -69346,7 +69134,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_it": {
+	":flag_it:": {
 		"unicode": "1f1ee-1f1f9",
 		"unicode_alt": "",
 		"code_decimal": "&#127470;&#127481;",
@@ -69364,7 +69152,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_je": {
+	":flag_je:": {
 		"unicode": "1f1ef-1f1ea",
 		"unicode_alt": "",
 		"code_decimal": "&#127471;&#127466;",
@@ -69381,7 +69169,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_jm": {
+	":flag_jm:": {
 		"unicode": "1f1ef-1f1f2",
 		"unicode_alt": "",
 		"code_decimal": "&#127471;&#127474;",
@@ -69398,7 +69186,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_jo": {
+	":flag_jo:": {
 		"unicode": "1f1ef-1f1f4",
 		"unicode_alt": "",
 		"code_decimal": "&#127471;&#127476;",
@@ -69415,7 +69203,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_jp": {
+	":flag_jp:": {
 		"unicode": "1f1ef-1f1f5",
 		"unicode_alt": "",
 		"code_decimal": "&#127471;&#127477;",
@@ -69433,7 +69221,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_ke": {
+	":flag_ke:": {
 		"unicode": "1f1f0-1f1ea",
 		"unicode_alt": "",
 		"code_decimal": "&#127472;&#127466;",
@@ -69450,7 +69238,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_kg": {
+	":flag_kg:": {
 		"unicode": "1f1f0-1f1ec",
 		"unicode_alt": "",
 		"code_decimal": "&#127472;&#127468;",
@@ -69467,7 +69255,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_kh": {
+	":flag_kh:": {
 		"unicode": "1f1f0-1f1ed",
 		"unicode_alt": "",
 		"code_decimal": "&#127472;&#127469;",
@@ -69484,7 +69272,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_ki": {
+	":flag_ki:": {
 		"unicode": "1f1f0-1f1ee",
 		"unicode_alt": "",
 		"code_decimal": "&#127472;&#127470;",
@@ -69501,7 +69289,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_km": {
+	":flag_km:": {
 		"unicode": "1f1f0-1f1f2",
 		"unicode_alt": "",
 		"code_decimal": "&#127472;&#127474;",
@@ -69518,7 +69306,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_kn": {
+	":flag_kn:": {
 		"unicode": "1f1f0-1f1f3",
 		"unicode_alt": "",
 		"code_decimal": "&#127472;&#127475;",
@@ -69535,7 +69323,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_kp": {
+	":flag_kp:": {
 		"unicode": "1f1f0-1f1f5",
 		"unicode_alt": "",
 		"code_decimal": "&#127472;&#127477;",
@@ -69552,7 +69340,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_kr": {
+	":flag_kr:": {
 		"unicode": "1f1f0-1f1f7",
 		"unicode_alt": "",
 		"code_decimal": "&#127472;&#127479;",
@@ -69569,7 +69357,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_kw": {
+	":flag_kw:": {
 		"unicode": "1f1f0-1f1fc",
 		"unicode_alt": "",
 		"code_decimal": "&#127472;&#127484;",
@@ -69586,7 +69374,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_ky": {
+	":flag_ky:": {
 		"unicode": "1f1f0-1f1fe",
 		"unicode_alt": "",
 		"code_decimal": "&#127472;&#127486;",
@@ -69603,7 +69391,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_kz": {
+	":flag_kz:": {
 		"unicode": "1f1f0-1f1ff",
 		"unicode_alt": "",
 		"code_decimal": "&#127472;&#127487;",
@@ -69620,7 +69408,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_la": {
+	":flag_la:": {
 		"unicode": "1f1f1-1f1e6",
 		"unicode_alt": "",
 		"code_decimal": "&#127473;&#127462;",
@@ -69637,7 +69425,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_lb": {
+	":flag_lb:": {
 		"unicode": "1f1f1-1f1e7",
 		"unicode_alt": "",
 		"code_decimal": "&#127473;&#127463;",
@@ -69654,7 +69442,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_lc": {
+	":flag_lc:": {
 		"unicode": "1f1f1-1f1e8",
 		"unicode_alt": "",
 		"code_decimal": "&#127473;&#127464;",
@@ -69671,7 +69459,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_li": {
+	":flag_li:": {
 		"unicode": "1f1f1-1f1ee",
 		"unicode_alt": "",
 		"code_decimal": "&#127473;&#127470;",
@@ -69688,7 +69476,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_lk": {
+	":flag_lk:": {
 		"unicode": "1f1f1-1f1f0",
 		"unicode_alt": "",
 		"code_decimal": "&#127473;&#127472;",
@@ -69705,7 +69493,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_lr": {
+	":flag_lr:": {
 		"unicode": "1f1f1-1f1f7",
 		"unicode_alt": "",
 		"code_decimal": "&#127473;&#127479;",
@@ -69722,7 +69510,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_ls": {
+	":flag_ls:": {
 		"unicode": "1f1f1-1f1f8",
 		"unicode_alt": "",
 		"code_decimal": "&#127473;&#127480;",
@@ -69739,7 +69527,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_lt": {
+	":flag_lt:": {
 		"unicode": "1f1f1-1f1f9",
 		"unicode_alt": "",
 		"code_decimal": "&#127473;&#127481;",
@@ -69756,7 +69544,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_lu": {
+	":flag_lu:": {
 		"unicode": "1f1f1-1f1fa",
 		"unicode_alt": "",
 		"code_decimal": "&#127473;&#127482;",
@@ -69773,7 +69561,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_lv": {
+	":flag_lv:": {
 		"unicode": "1f1f1-1f1fb",
 		"unicode_alt": "",
 		"code_decimal": "&#127473;&#127483;",
@@ -69790,7 +69578,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_ly": {
+	":flag_ly:": {
 		"unicode": "1f1f1-1f1fe",
 		"unicode_alt": "",
 		"code_decimal": "&#127473;&#127486;",
@@ -69807,7 +69595,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_ma": {
+	":flag_ma:": {
 		"unicode": "1f1f2-1f1e6",
 		"unicode_alt": "",
 		"code_decimal": "&#127474;&#127462;",
@@ -69824,7 +69612,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_mc": {
+	":flag_mc:": {
 		"unicode": "1f1f2-1f1e8",
 		"unicode_alt": "",
 		"code_decimal": "&#127474;&#127464;",
@@ -69841,7 +69629,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_md": {
+	":flag_md:": {
 		"unicode": "1f1f2-1f1e9",
 		"unicode_alt": "",
 		"code_decimal": "&#127474;&#127465;",
@@ -69858,7 +69646,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_me": {
+	":flag_me:": {
 		"unicode": "1f1f2-1f1ea",
 		"unicode_alt": "",
 		"code_decimal": "&#127474;&#127466;",
@@ -69875,7 +69663,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_mf": {
+	":flag_mf:": {
 		"unicode": "1f1f2-1f1eb",
 		"unicode_alt": "",
 		"code_decimal": "&#127474;&#127467;",
@@ -69892,7 +69680,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_mg": {
+	":flag_mg:": {
 		"unicode": "1f1f2-1f1ec",
 		"unicode_alt": "",
 		"code_decimal": "&#127474;&#127468;",
@@ -69909,7 +69697,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_mh": {
+	":flag_mh:": {
 		"unicode": "1f1f2-1f1ed",
 		"unicode_alt": "",
 		"code_decimal": "&#127474;&#127469;",
@@ -69926,7 +69714,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_mk": {
+	":flag_mk:": {
 		"unicode": "1f1f2-1f1f0",
 		"unicode_alt": "",
 		"code_decimal": "&#127474;&#127472;",
@@ -69943,7 +69731,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_ml": {
+	":flag_ml:": {
 		"unicode": "1f1f2-1f1f1",
 		"unicode_alt": "",
 		"code_decimal": "&#127474;&#127473;",
@@ -69960,7 +69748,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_mm": {
+	":flag_mm:": {
 		"unicode": "1f1f2-1f1f2",
 		"unicode_alt": "",
 		"code_decimal": "&#127474;&#127474;",
@@ -69977,7 +69765,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_mn": {
+	":flag_mn:": {
 		"unicode": "1f1f2-1f1f3",
 		"unicode_alt": "",
 		"code_decimal": "&#127474;&#127475;",
@@ -69994,7 +69782,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_mo": {
+	":flag_mo:": {
 		"unicode": "1f1f2-1f1f4",
 		"unicode_alt": "",
 		"code_decimal": "&#127474;&#127476;",
@@ -70011,7 +69799,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_mp": {
+	":flag_mp:": {
 		"unicode": "1f1f2-1f1f5",
 		"unicode_alt": "",
 		"code_decimal": "&#127474;&#127477;",
@@ -70028,7 +69816,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_mq": {
+	":flag_mq:": {
 		"unicode": "1f1f2-1f1f6",
 		"unicode_alt": "",
 		"code_decimal": "&#127474;&#127478;",
@@ -70045,7 +69833,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_mr": {
+	":flag_mr:": {
 		"unicode": "1f1f2-1f1f7",
 		"unicode_alt": "",
 		"code_decimal": "&#127474;&#127479;",
@@ -70062,7 +69850,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_ms": {
+	":flag_ms:": {
 		"unicode": "1f1f2-1f1f8",
 		"unicode_alt": "",
 		"code_decimal": "&#127474;&#127480;",
@@ -70079,7 +69867,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_mt": {
+	":flag_mt:": {
 		"unicode": "1f1f2-1f1f9",
 		"unicode_alt": "",
 		"code_decimal": "&#127474;&#127481;",
@@ -70096,7 +69884,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_mu": {
+	":flag_mu:": {
 		"unicode": "1f1f2-1f1fa",
 		"unicode_alt": "",
 		"code_decimal": "&#127474;&#127482;",
@@ -70113,7 +69901,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_mv": {
+	":flag_mv:": {
 		"unicode": "1f1f2-1f1fb",
 		"unicode_alt": "",
 		"code_decimal": "&#127474;&#127483;",
@@ -70130,7 +69918,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_mw": {
+	":flag_mw:": {
 		"unicode": "1f1f2-1f1fc",
 		"unicode_alt": "",
 		"code_decimal": "&#127474;&#127484;",
@@ -70147,7 +69935,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_mx": {
+	":flag_mx:": {
 		"unicode": "1f1f2-1f1fd",
 		"unicode_alt": "",
 		"code_decimal": "&#127474;&#127485;",
@@ -70165,7 +69953,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_my": {
+	":flag_my:": {
 		"unicode": "1f1f2-1f1fe",
 		"unicode_alt": "",
 		"code_decimal": "&#127474;&#127486;",
@@ -70182,7 +69970,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_mz": {
+	":flag_mz:": {
 		"unicode": "1f1f2-1f1ff",
 		"unicode_alt": "",
 		"code_decimal": "&#127474;&#127487;",
@@ -70199,7 +69987,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_na": {
+	":flag_na:": {
 		"unicode": "1f1f3-1f1e6",
 		"unicode_alt": "",
 		"code_decimal": "&#127475;&#127462;",
@@ -70216,7 +70004,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_nc": {
+	":flag_nc:": {
 		"unicode": "1f1f3-1f1e8",
 		"unicode_alt": "",
 		"code_decimal": "&#127475;&#127464;",
@@ -70233,7 +70021,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_ne": {
+	":flag_ne:": {
 		"unicode": "1f1f3-1f1ea",
 		"unicode_alt": "",
 		"code_decimal": "&#127475;&#127466;",
@@ -70250,7 +70038,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_nf": {
+	":flag_nf:": {
 		"unicode": "1f1f3-1f1eb",
 		"unicode_alt": "",
 		"code_decimal": "&#127475;&#127467;",
@@ -70267,7 +70055,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_ng": {
+	":flag_ng:": {
 		"unicode": "1f1f3-1f1ec",
 		"unicode_alt": "",
 		"code_decimal": "&#127475;&#127468;",
@@ -70284,7 +70072,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_ni": {
+	":flag_ni:": {
 		"unicode": "1f1f3-1f1ee",
 		"unicode_alt": "",
 		"code_decimal": "&#127475;&#127470;",
@@ -70301,7 +70089,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_nl": {
+	":flag_nl:": {
 		"unicode": "1f1f3-1f1f1",
 		"unicode_alt": "",
 		"code_decimal": "&#127475;&#127473;",
@@ -70318,7 +70106,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_no": {
+	":flag_no:": {
 		"unicode": "1f1f3-1f1f4",
 		"unicode_alt": "",
 		"code_decimal": "&#127475;&#127476;",
@@ -70335,7 +70123,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_np": {
+	":flag_np:": {
 		"unicode": "1f1f3-1f1f5",
 		"unicode_alt": "",
 		"code_decimal": "&#127475;&#127477;",
@@ -70352,7 +70140,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_nr": {
+	":flag_nr:": {
 		"unicode": "1f1f3-1f1f7",
 		"unicode_alt": "",
 		"code_decimal": "&#127475;&#127479;",
@@ -70369,7 +70157,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_nu": {
+	":flag_nu:": {
 		"unicode": "1f1f3-1f1fa",
 		"unicode_alt": "",
 		"code_decimal": "&#127475;&#127482;",
@@ -70386,7 +70174,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_nz": {
+	":flag_nz:": {
 		"unicode": "1f1f3-1f1ff",
 		"unicode_alt": "",
 		"code_decimal": "&#127475;&#127487;",
@@ -70403,7 +70191,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_om": {
+	":flag_om:": {
 		"unicode": "1f1f4-1f1f2",
 		"unicode_alt": "",
 		"code_decimal": "&#127476;&#127474;",
@@ -70420,7 +70208,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_pa": {
+	":flag_pa:": {
 		"unicode": "1f1f5-1f1e6",
 		"unicode_alt": "",
 		"code_decimal": "&#127477;&#127462;",
@@ -70437,7 +70225,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_pe": {
+	":flag_pe:": {
 		"unicode": "1f1f5-1f1ea",
 		"unicode_alt": "",
 		"code_decimal": "&#127477;&#127466;",
@@ -70454,7 +70242,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_pf": {
+	":flag_pf:": {
 		"unicode": "1f1f5-1f1eb",
 		"unicode_alt": "",
 		"code_decimal": "&#127477;&#127467;",
@@ -70471,7 +70259,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_pg": {
+	":flag_pg:": {
 		"unicode": "1f1f5-1f1ec",
 		"unicode_alt": "",
 		"code_decimal": "&#127477;&#127468;",
@@ -70488,7 +70276,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_ph": {
+	":flag_ph:": {
 		"unicode": "1f1f5-1f1ed",
 		"unicode_alt": "",
 		"code_decimal": "&#127477;&#127469;",
@@ -70505,7 +70293,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_pk": {
+	":flag_pk:": {
 		"unicode": "1f1f5-1f1f0",
 		"unicode_alt": "",
 		"code_decimal": "&#127477;&#127472;",
@@ -70522,7 +70310,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_pl": {
+	":flag_pl:": {
 		"unicode": "1f1f5-1f1f1",
 		"unicode_alt": "",
 		"code_decimal": "&#127477;&#127473;",
@@ -70539,7 +70327,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_pm": {
+	":flag_pm:": {
 		"unicode": "1f1f5-1f1f2",
 		"unicode_alt": "",
 		"code_decimal": "&#127477;&#127474;",
@@ -70556,7 +70344,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_pn": {
+	":flag_pn:": {
 		"unicode": "1f1f5-1f1f3",
 		"unicode_alt": "",
 		"code_decimal": "&#127477;&#127475;",
@@ -70573,7 +70361,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_pr": {
+	":flag_pr:": {
 		"unicode": "1f1f5-1f1f7",
 		"unicode_alt": "",
 		"code_decimal": "&#127477;&#127479;",
@@ -70590,7 +70378,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_ps": {
+	":flag_ps:": {
 		"unicode": "1f1f5-1f1f8",
 		"unicode_alt": "",
 		"code_decimal": "&#127477;&#127480;",
@@ -70607,7 +70395,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_pt": {
+	":flag_pt:": {
 		"unicode": "1f1f5-1f1f9",
 		"unicode_alt": "",
 		"code_decimal": "&#127477;&#127481;",
@@ -70624,7 +70412,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_pw": {
+	":flag_pw:": {
 		"unicode": "1f1f5-1f1fc",
 		"unicode_alt": "",
 		"code_decimal": "&#127477;&#127484;",
@@ -70641,7 +70429,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_py": {
+	":flag_py:": {
 		"unicode": "1f1f5-1f1fe",
 		"unicode_alt": "",
 		"code_decimal": "&#127477;&#127486;",
@@ -70658,7 +70446,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_qa": {
+	":flag_qa:": {
 		"unicode": "1f1f6-1f1e6",
 		"unicode_alt": "",
 		"code_decimal": "&#127478;&#127462;",
@@ -70675,7 +70463,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_re": {
+	":flag_re:": {
 		"unicode": "1f1f7-1f1ea",
 		"unicode_alt": "",
 		"code_decimal": "&#127479;&#127466;",
@@ -70692,7 +70480,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_ro": {
+	":flag_ro:": {
 		"unicode": "1f1f7-1f1f4",
 		"unicode_alt": "",
 		"code_decimal": "&#127479;&#127476;",
@@ -70709,7 +70497,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_rs": {
+	":flag_rs:": {
 		"unicode": "1f1f7-1f1f8",
 		"unicode_alt": "",
 		"code_decimal": "&#127479;&#127480;",
@@ -70726,7 +70514,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_ru": {
+	":flag_ru:": {
 		"unicode": "1f1f7-1f1fa",
 		"unicode_alt": "",
 		"code_decimal": "&#127479;&#127482;",
@@ -70743,7 +70531,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_rw": {
+	":flag_rw:": {
 		"unicode": "1f1f7-1f1fc",
 		"unicode_alt": "",
 		"code_decimal": "&#127479;&#127484;",
@@ -70760,7 +70548,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_sa": {
+	":flag_sa:": {
 		"unicode": "1f1f8-1f1e6",
 		"unicode_alt": "",
 		"code_decimal": "&#127480;&#127462;",
@@ -70778,7 +70566,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_sb": {
+	":flag_sb:": {
 		"unicode": "1f1f8-1f1e7",
 		"unicode_alt": "",
 		"code_decimal": "&#127480;&#127463;",
@@ -70795,7 +70583,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_sc": {
+	":flag_sc:": {
 		"unicode": "1f1f8-1f1e8",
 		"unicode_alt": "",
 		"code_decimal": "&#127480;&#127464;",
@@ -70812,7 +70600,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_sd": {
+	":flag_sd:": {
 		"unicode": "1f1f8-1f1e9",
 		"unicode_alt": "",
 		"code_decimal": "&#127480;&#127465;",
@@ -70829,7 +70617,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_se": {
+	":flag_se:": {
 		"unicode": "1f1f8-1f1ea",
 		"unicode_alt": "",
 		"code_decimal": "&#127480;&#127466;",
@@ -70846,7 +70634,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_sg": {
+	":flag_sg:": {
 		"unicode": "1f1f8-1f1ec",
 		"unicode_alt": "",
 		"code_decimal": "&#127480;&#127468;",
@@ -70863,7 +70651,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_sh": {
+	":flag_sh:": {
 		"unicode": "1f1f8-1f1ed",
 		"unicode_alt": "",
 		"code_decimal": "&#127480;&#127469;",
@@ -70880,7 +70668,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_si": {
+	":flag_si:": {
 		"unicode": "1f1f8-1f1ee",
 		"unicode_alt": "",
 		"code_decimal": "&#127480;&#127470;",
@@ -70897,7 +70685,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_sj": {
+	":flag_sj:": {
 		"unicode": "1f1f8-1f1ef",
 		"unicode_alt": "",
 		"code_decimal": "&#127480;&#127471;",
@@ -70914,7 +70702,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_sk": {
+	":flag_sk:": {
 		"unicode": "1f1f8-1f1f0",
 		"unicode_alt": "",
 		"code_decimal": "&#127480;&#127472;",
@@ -70931,7 +70719,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_sl": {
+	":flag_sl:": {
 		"unicode": "1f1f8-1f1f1",
 		"unicode_alt": "",
 		"code_decimal": "&#127480;&#127473;",
@@ -70948,7 +70736,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_sm": {
+	":flag_sm:": {
 		"unicode": "1f1f8-1f1f2",
 		"unicode_alt": "",
 		"code_decimal": "&#127480;&#127474;",
@@ -70965,7 +70753,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_sn": {
+	":flag_sn:": {
 		"unicode": "1f1f8-1f1f3",
 		"unicode_alt": "",
 		"code_decimal": "&#127480;&#127475;",
@@ -70982,7 +70770,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_so": {
+	":flag_so:": {
 		"unicode": "1f1f8-1f1f4",
 		"unicode_alt": "",
 		"code_decimal": "&#127480;&#127476;",
@@ -70999,7 +70787,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_sr": {
+	":flag_sr:": {
 		"unicode": "1f1f8-1f1f7",
 		"unicode_alt": "",
 		"code_decimal": "&#127480;&#127479;",
@@ -71016,7 +70804,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_ss": {
+	":flag_ss:": {
 		"unicode": "1f1f8-1f1f8",
 		"unicode_alt": "",
 		"code_decimal": "&#127480;&#127480;",
@@ -71033,7 +70821,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_st": {
+	":flag_st:": {
 		"unicode": "1f1f8-1f1f9",
 		"unicode_alt": "",
 		"code_decimal": "&#127480;&#127481;",
@@ -71050,7 +70838,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_sv": {
+	":flag_sv:": {
 		"unicode": "1f1f8-1f1fb",
 		"unicode_alt": "",
 		"code_decimal": "&#127480;&#127483;",
@@ -71067,7 +70855,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_sx": {
+	":flag_sx:": {
 		"unicode": "1f1f8-1f1fd",
 		"unicode_alt": "",
 		"code_decimal": "&#127480;&#127485;",
@@ -71084,7 +70872,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_sy": {
+	":flag_sy:": {
 		"unicode": "1f1f8-1f1fe",
 		"unicode_alt": "",
 		"code_decimal": "&#127480;&#127486;",
@@ -71101,7 +70889,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_sz": {
+	":flag_sz:": {
 		"unicode": "1f1f8-1f1ff",
 		"unicode_alt": "",
 		"code_decimal": "&#127480;&#127487;",
@@ -71118,7 +70906,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_ta": {
+	":flag_ta:": {
 		"unicode": "1f1f9-1f1e6",
 		"unicode_alt": "",
 		"code_decimal": "&#127481;&#127462;",
@@ -71135,7 +70923,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_tc": {
+	":flag_tc:": {
 		"unicode": "1f1f9-1f1e8",
 		"unicode_alt": "",
 		"code_decimal": "&#127481;&#127464;",
@@ -71152,7 +70940,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_td": {
+	":flag_td:": {
 		"unicode": "1f1f9-1f1e9",
 		"unicode_alt": "",
 		"code_decimal": "&#127481;&#127465;",
@@ -71169,7 +70957,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_tf": {
+	":flag_tf:": {
 		"unicode": "1f1f9-1f1eb",
 		"unicode_alt": "",
 		"code_decimal": "&#127481;&#127467;",
@@ -71186,7 +70974,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_tg": {
+	":flag_tg:": {
 		"unicode": "1f1f9-1f1ec",
 		"unicode_alt": "",
 		"code_decimal": "&#127481;&#127468;",
@@ -71203,7 +70991,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_th": {
+	":flag_th:": {
 		"unicode": "1f1f9-1f1ed",
 		"unicode_alt": "",
 		"code_decimal": "&#127481;&#127469;",
@@ -71220,7 +71008,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_tj": {
+	":flag_tj:": {
 		"unicode": "1f1f9-1f1ef",
 		"unicode_alt": "",
 		"code_decimal": "&#127481;&#127471;",
@@ -71237,7 +71025,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_tk": {
+	":flag_tk:": {
 		"unicode": "1f1f9-1f1f0",
 		"unicode_alt": "",
 		"code_decimal": "&#127481;&#127472;",
@@ -71254,7 +71042,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_tl": {
+	":flag_tl:": {
 		"unicode": "1f1f9-1f1f1",
 		"unicode_alt": "",
 		"code_decimal": "&#127481;&#127473;",
@@ -71271,7 +71059,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_tm": {
+	":flag_tm:": {
 		"unicode": "1f1f9-1f1f2",
 		"unicode_alt": "",
 		"code_decimal": "&#127481;&#127474;",
@@ -71288,7 +71076,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_tn": {
+	":flag_tn:": {
 		"unicode": "1f1f9-1f1f3",
 		"unicode_alt": "",
 		"code_decimal": "&#127481;&#127475;",
@@ -71305,7 +71093,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_to": {
+	":flag_to:": {
 		"unicode": "1f1f9-1f1f4",
 		"unicode_alt": "",
 		"code_decimal": "&#127481;&#127476;",
@@ -71322,7 +71110,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_tr": {
+	":flag_tr:": {
 		"unicode": "1f1f9-1f1f7",
 		"unicode_alt": "",
 		"code_decimal": "&#127481;&#127479;",
@@ -71339,7 +71127,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_tt": {
+	":flag_tt:": {
 		"unicode": "1f1f9-1f1f9",
 		"unicode_alt": "",
 		"code_decimal": "&#127481;&#127481;",
@@ -71356,7 +71144,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_tv": {
+	":flag_tv:": {
 		"unicode": "1f1f9-1f1fb",
 		"unicode_alt": "",
 		"code_decimal": "&#127481;&#127483;",
@@ -71373,7 +71161,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_tw": {
+	":flag_tw:": {
 		"unicode": "1f1f9-1f1fc",
 		"unicode_alt": "",
 		"code_decimal": "&#127481;&#127484;",
@@ -71390,7 +71178,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_tz": {
+	":flag_tz:": {
 		"unicode": "1f1f9-1f1ff",
 		"unicode_alt": "",
 		"code_decimal": "&#127481;&#127487;",
@@ -71407,7 +71195,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_ua": {
+	":flag_ua:": {
 		"unicode": "1f1fa-1f1e6",
 		"unicode_alt": "",
 		"code_decimal": "&#127482;&#127462;",
@@ -71424,7 +71212,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_ug": {
+	":flag_ug:": {
 		"unicode": "1f1fa-1f1ec",
 		"unicode_alt": "",
 		"code_decimal": "&#127482;&#127468;",
@@ -71441,7 +71229,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_um": {
+	":flag_um:": {
 		"unicode": "1f1fa-1f1f2",
 		"unicode_alt": "",
 		"code_decimal": "&#127482;&#127474;",
@@ -71458,7 +71246,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_us": {
+	":flag_us:": {
 		"unicode": "1f1fa-1f1f8",
 		"unicode_alt": "",
 		"code_decimal": "&#127482;&#127480;",
@@ -71476,7 +71264,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_uy": {
+	":flag_uy:": {
 		"unicode": "1f1fa-1f1fe",
 		"unicode_alt": "",
 		"code_decimal": "&#127482;&#127486;",
@@ -71493,7 +71281,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_uz": {
+	":flag_uz:": {
 		"unicode": "1f1fa-1f1ff",
 		"unicode_alt": "",
 		"code_decimal": "&#127482;&#127487;",
@@ -71510,7 +71298,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_va": {
+	":flag_va:": {
 		"unicode": "1f1fb-1f1e6",
 		"unicode_alt": "",
 		"code_decimal": "&#127483;&#127462;",
@@ -71527,7 +71315,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_vc": {
+	":flag_vc:": {
 		"unicode": "1f1fb-1f1e8",
 		"unicode_alt": "",
 		"code_decimal": "&#127483;&#127464;",
@@ -71544,7 +71332,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_ve": {
+	":flag_ve:": {
 		"unicode": "1f1fb-1f1ea",
 		"unicode_alt": "",
 		"code_decimal": "&#127483;&#127466;",
@@ -71561,7 +71349,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_vg": {
+	":flag_vg:": {
 		"unicode": "1f1fb-1f1ec",
 		"unicode_alt": "",
 		"code_decimal": "&#127483;&#127468;",
@@ -71578,7 +71366,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_vi": {
+	":flag_vi:": {
 		"unicode": "1f1fb-1f1ee",
 		"unicode_alt": "",
 		"code_decimal": "&#127483;&#127470;",
@@ -71595,7 +71383,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_vn": {
+	":flag_vn:": {
 		"unicode": "1f1fb-1f1f3",
 		"unicode_alt": "",
 		"code_decimal": "&#127483;&#127475;",
@@ -71612,7 +71400,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_vu": {
+	":flag_vu:": {
 		"unicode": "1f1fb-1f1fa",
 		"unicode_alt": "",
 		"code_decimal": "&#127483;&#127482;",
@@ -71629,7 +71417,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_wf": {
+	":flag_wf:": {
 		"unicode": "1f1fc-1f1eb",
 		"unicode_alt": "",
 		"code_decimal": "&#127484;&#127467;",
@@ -71646,7 +71434,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_ws": {
+	":flag_ws:": {
 		"unicode": "1f1fc-1f1f8",
 		"unicode_alt": "",
 		"code_decimal": "&#127484;&#127480;",
@@ -71663,7 +71451,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_xk": {
+	":flag_xk:": {
 		"unicode": "1f1fd-1f1f0",
 		"unicode_alt": "",
 		"code_decimal": "&#127485;&#127472;",
@@ -71680,7 +71468,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_ye": {
+	":flag_ye:": {
 		"unicode": "1f1fe-1f1ea",
 		"unicode_alt": "",
 		"code_decimal": "&#127486;&#127466;",
@@ -71697,7 +71485,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_yt": {
+	":flag_yt:": {
 		"unicode": "1f1fe-1f1f9",
 		"unicode_alt": "",
 		"code_decimal": "&#127486;&#127481;",
@@ -71714,7 +71502,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_za": {
+	":flag_za:": {
 		"unicode": "1f1ff-1f1e6",
 		"unicode_alt": "",
 		"code_decimal": "&#127487;&#127462;",
@@ -71731,7 +71519,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_zm": {
+	":flag_zm:": {
 		"unicode": "1f1ff-1f1f2",
 		"unicode_alt": "",
 		"code_decimal": "&#127487;&#127474;",
@@ -71748,7 +71536,7 @@ module.exports = {
 			"flag"
 		]
 	},
-	"flag_zw": {
+	":flag_zw:": {
 		"unicode": "1f1ff-1f1fc",
 		"unicode_alt": "",
 		"code_decimal": "&#127487;&#127484;",
@@ -71765,429 +71553,133 @@ module.exports = {
 			"flag"
 		]
 	},
-	"regional_indicator_z": {
-		"unicode": "1f1ff",
-		"unicode_alt": "",
-		"code_decimal": "&#127487;",
-		"name": "regional indicator symbol letter z",
-		"shortname": ":regional_indicator_z:",
-		"category": "regional",
-		"emoji_order": "12345",
-		"aliases": [],
-		"aliases_ascii": [],
-		"keywords": []
-	},
-	"regional_indicator_y": {
-		"unicode": "1f1fe",
-		"unicode_alt": "",
-		"code_decimal": "&#127486;",
-		"name": "regional indicator symbol letter y",
-		"shortname": ":regional_indicator_y:",
-		"category": "regional",
-		"emoji_order": "12345",
-		"aliases": [],
-		"aliases_ascii": [],
-		"keywords": []
-	},
-	"regional_indicator_x": {
-		"unicode": "1f1fd",
-		"unicode_alt": "",
-		"code_decimal": "&#127485;",
-		"name": "regional indicator symbol letter x",
-		"shortname": ":regional_indicator_x:",
-		"category": "regional",
-		"emoji_order": "12345",
-		"aliases": [],
-		"aliases_ascii": [],
-		"keywords": []
-	},
-	"regional_indicator_w": {
-		"unicode": "1f1fc",
-		"unicode_alt": "",
-		"code_decimal": "&#127484;",
-		"name": "regional indicator symbol letter w",
-		"shortname": ":regional_indicator_w:",
-		"category": "regional",
-		"emoji_order": "12345",
-		"aliases": [],
-		"aliases_ascii": [],
-		"keywords": []
-	},
-	"regional_indicator_v": {
-		"unicode": "1f1fb",
-		"unicode_alt": "",
-		"code_decimal": "&#127483;",
-		"name": "regional indicator symbol letter v",
-		"shortname": ":regional_indicator_v:",
-		"category": "regional",
-		"emoji_order": "12345",
-		"aliases": [],
-		"aliases_ascii": [],
-		"keywords": []
-	},
-	"regional_indicator_u": {
-		"unicode": "1f1fa",
-		"unicode_alt": "",
-		"code_decimal": "&#127482;",
-		"name": "regional indicator symbol letter u",
-		"shortname": ":regional_indicator_u:",
-		"category": "regional",
-		"emoji_order": "12345",
-		"aliases": [],
-		"aliases_ascii": [],
-		"keywords": []
-	},
-	"regional_indicator_t": {
-		"unicode": "1f1f9",
-		"unicode_alt": "",
-		"code_decimal": "&#127481;",
-		"name": "regional indicator symbol letter t",
-		"shortname": ":regional_indicator_t:",
-		"category": "regional",
-		"emoji_order": "12345",
-		"aliases": [],
-		"aliases_ascii": [],
-		"keywords": []
-	},
-	"regional_indicator_s": {
-		"unicode": "1f1f8",
-		"unicode_alt": "",
-		"code_decimal": "&#127480;",
-		"name": "regional indicator symbol letter s",
-		"shortname": ":regional_indicator_s:",
-		"category": "regional",
-		"emoji_order": "12345",
-		"aliases": [],
-		"aliases_ascii": [],
-		"keywords": []
-	},
-	"regional_indicator_r": {
-		"unicode": "1f1f7",
-		"unicode_alt": "",
-		"code_decimal": "&#127479;",
-		"name": "regional indicator symbol letter r",
-		"shortname": ":regional_indicator_r:",
-		"category": "regional",
-		"emoji_order": "12345",
-		"aliases": [],
-		"aliases_ascii": [],
-		"keywords": []
-	},
-	"regional_indicator_q": {
-		"unicode": "1f1f6",
-		"unicode_alt": "",
-		"code_decimal": "&#127478;",
-		"name": "regional indicator symbol letter q",
-		"shortname": ":regional_indicator_q:",
-		"category": "regional",
-		"emoji_order": "12345",
-		"aliases": [],
-		"aliases_ascii": [],
-		"keywords": []
-	},
-	"regional_indicator_p": {
-		"unicode": "1f1f5",
-		"unicode_alt": "",
-		"code_decimal": "&#127477;",
-		"name": "regional indicator symbol letter p",
-		"shortname": ":regional_indicator_p:",
-		"category": "regional",
-		"emoji_order": "12345",
-		"aliases": [],
-		"aliases_ascii": [],
-		"keywords": []
-	},
-	"regional_indicator_o": {
-		"unicode": "1f1f4",
-		"unicode_alt": "",
-		"code_decimal": "&#127476;",
-		"name": "regional indicator symbol letter o",
-		"shortname": ":regional_indicator_o:",
-		"category": "regional",
-		"emoji_order": "12345",
-		"aliases": [],
-		"aliases_ascii": [],
-		"keywords": []
-	},
-	"regional_indicator_n": {
-		"unicode": "1f1f3",
-		"unicode_alt": "",
-		"code_decimal": "&#127475;",
-		"name": "regional indicator symbol letter n",
-		"shortname": ":regional_indicator_n:",
-		"category": "regional",
-		"emoji_order": "12345",
-		"aliases": [],
-		"aliases_ascii": [],
-		"keywords": []
-	},
-	"regional_indicator_m": {
-		"unicode": "1f1f2",
-		"unicode_alt": "",
-		"code_decimal": "&#127474;",
-		"name": "regional indicator symbol letter m",
-		"shortname": ":regional_indicator_m:",
-		"category": "regional",
-		"emoji_order": "12345",
-		"aliases": [],
-		"aliases_ascii": [],
-		"keywords": []
-	},
-	"regional_indicator_l": {
-		"unicode": "1f1f1",
-		"unicode_alt": "",
-		"code_decimal": "&#127473;",
-		"name": "regional indicator symbol letter l",
-		"shortname": ":regional_indicator_l:",
-		"category": "regional",
-		"emoji_order": "12345",
-		"aliases": [],
-		"aliases_ascii": [],
-		"keywords": []
-	},
-	"regional_indicator_k": {
-		"unicode": "1f1f0",
-		"unicode_alt": "",
-		"code_decimal": "&#127472;",
-		"name": "regional indicator symbol letter k",
-		"shortname": ":regional_indicator_k:",
-		"category": "regional",
-		"emoji_order": "12345",
-		"aliases": [],
-		"aliases_ascii": [],
-		"keywords": []
-	},
-	"regional_indicator_j": {
-		"unicode": "1f1ef",
-		"unicode_alt": "",
-		"code_decimal": "&#127471;",
-		"name": "regional indicator symbol letter j",
-		"shortname": ":regional_indicator_j:",
-		"category": "regional",
-		"emoji_order": "12345",
-		"aliases": [],
-		"aliases_ascii": [],
-		"keywords": []
-	},
-	"regional_indicator_i": {
-		"unicode": "1f1ee",
-		"unicode_alt": "",
-		"code_decimal": "&#127470;",
-		"name": "regional indicator symbol letter i",
-		"shortname": ":regional_indicator_i:",
-		"category": "regional",
-		"emoji_order": "12345",
-		"aliases": [],
-		"aliases_ascii": [],
-		"keywords": []
-	},
-	"regional_indicator_h": {
-		"unicode": "1f1ed",
-		"unicode_alt": "",
-		"code_decimal": "&#127469;",
-		"name": "regional indicator symbol letter h",
-		"shortname": ":regional_indicator_h:",
-		"category": "regional",
-		"emoji_order": "12345",
-		"aliases": [],
-		"aliases_ascii": [],
-		"keywords": []
-	},
-	"regional_indicator_g": {
-		"unicode": "1f1ec",
-		"unicode_alt": "",
-		"code_decimal": "&#127468;",
-		"name": "regional indicator symbol letter g",
-		"shortname": ":regional_indicator_g:",
-		"category": "regional",
-		"emoji_order": "12345",
-		"aliases": [],
-		"aliases_ascii": [],
-		"keywords": []
-	},
-	"regional_indicator_f": {
-		"unicode": "1f1eb",
-		"unicode_alt": "",
-		"code_decimal": "&#127467;",
-		"name": "regional indicator symbol letter f",
-		"shortname": ":regional_indicator_f:",
-		"category": "regional",
-		"emoji_order": "12345",
-		"aliases": [],
-		"aliases_ascii": [],
-		"keywords": []
-	},
-	"regional_indicator_e": {
-		"unicode": "1f1ea",
-		"unicode_alt": "",
-		"code_decimal": "&#127466;",
-		"name": "regional indicator symbol letter e",
-		"shortname": ":regional_indicator_e:",
-		"category": "regional",
-		"emoji_order": "12345",
-		"aliases": [],
-		"aliases_ascii": [],
-		"keywords": []
-	},
-	"regional_indicator_d": {
-		"unicode": "1f1e9",
-		"unicode_alt": "",
-		"code_decimal": "&#127465;",
-		"name": "regional indicator symbol letter d",
-		"shortname": ":regional_indicator_d:",
-		"category": "regional",
-		"emoji_order": "12345",
-		"aliases": [],
-		"aliases_ascii": [],
-		"keywords": []
-	},
-	"regional_indicator_c": {
-		"unicode": "1f1e8",
-		"unicode_alt": "",
-		"code_decimal": "&#127464;",
-		"name": "regional indicator symbol letter c",
-		"shortname": ":regional_indicator_c:",
-		"category": "regional",
-		"emoji_order": "12345",
-		"aliases": [],
-		"aliases_ascii": [],
-		"keywords": []
-	},
-	"regional_indicator_b": {
-		"unicode": "1f1e7",
-		"unicode_alt": "",
-		"code_decimal": "&#127463;",
-		"name": "regional indicator symbol letter b",
-		"shortname": ":regional_indicator_b:",
-		"category": "regional",
-		"emoji_order": "12345",
-		"aliases": [],
-		"aliases_ascii": [],
-		"keywords": []
-	},
-	"regional_indicator_a": {
-		"unicode": "1f1e6",
-		"unicode_alt": "",
-		"code_decimal": "&#127462;",
-		"name": "regional indicator symbol letter a",
-		"shortname": ":regional_indicator_a:",
-		"category": "regional",
-		"emoji_order": "12345",
-		"aliases": [],
-		"aliases_ascii": [],
-		"keywords": []
+	":cash_me_outside:": {
+		"unicode": "cash_me_outside",
+		"name": "cash me_outside",
+		"category": "custom",
+		"keywords": [],
+		"shortname": ":cash_me_outside:",
+		"aliases_ascii": []
 	},
 	":35_year_old_white_male:": {
 		"unicode": "35_year_old_white_male",
 		"name": "35 year_old_white_male",
 		"category": "custom",
 		"keywords": [],
-		"shortname": ":35_year_old_white_male:"
+		"shortname": ":35_year_old_white_male:",
+		"aliases_ascii": []
 	},
 	":are-you-a-wizard:": {
 		"unicode": "are-you-a-wizard",
 		"name": "are-you-a-wizard",
 		"category": "custom",
 		"keywords": [],
-		"shortname": ":are-you-a-wizard:"
+		"shortname": ":are-you-a-wizard:",
+		"aliases_ascii": []
 	},
 	":atlanta_black_white:": {
 		"unicode": "atlanta_black_white",
 		"name": "atlanta black_white",
 		"category": "custom",
 		"keywords": [],
-		"shortname": ":atlanta_black_white:"
+		"shortname": ":atlanta_black_white:",
+		"aliases_ascii": []
 	},
 	":bad_kremit:": {
 		"unicode": "bad_kremit",
 		"name": "bad kremit",
 		"category": "custom",
 		"keywords": [],
-		"shortname": ":bad_kremit:"
-	},
-	":cash_me_outside:": {
-		"unicode": "cash_me_outside",
-		"name": "cash me_outside",
-		"category": "custom",
-		"keywords": [],
-		"shortname": ":cash_me_outside:"
+		"shortname": ":bad_kremit:",
+		"aliases_ascii": []
 	},
 	":conceited_face:": {
 		"unicode": "conceited_face",
 		"name": "conceited face",
 		"category": "custom",
 		"keywords": [],
-		"shortname": ":conceited_face:"
+		"shortname": ":conceited_face:",
+		"aliases_ascii": []
 	},
 	":confused_face:": {
 		"unicode": "confused_face",
 		"name": "confused face",
 		"category": "custom",
 		"keywords": [],
-		"shortname": ":confused_face:"
+		"shortname": ":confused_face:",
+		"aliases_ascii": []
 	},
 	":cry_jordan:": {
 		"unicode": "cry_jordan",
 		"name": "cry jordan",
 		"category": "custom",
 		"keywords": [],
-		"shortname": ":cry_jordan:"
+		"shortname": ":cry_jordan:",
+		"aliases_ascii": []
 	},
 	":deez_nuts:": {
 		"unicode": "deez_nuts",
 		"name": "deez nuts",
 		"category": "custom",
 		"keywords": [],
-		"shortname": ":deez_nuts:"
+		"shortname": ":deez_nuts:",
+		"aliases_ascii": []
 	},
 	":kenan_confused:": {
 		"unicode": "kenan_confused",
 		"name": "kenan confused",
 		"category": "custom",
 		"keywords": [],
-		"shortname": ":kenan_confused:"
+		"shortname": ":kenan_confused:",
+		"aliases_ascii": []
 	},
 	":nigga_you_gay:": {
 		"unicode": "nigga_you_gay",
 		"name": "nigga you_gay",
 		"category": "custom",
 		"keywords": [],
-		"shortname": ":nigga_you_gay:"
+		"shortname": ":nigga_you_gay:",
+		"aliases_ascii": []
 	},
 	":robbie_rotten:": {
 		"unicode": "robbie_rotten",
 		"name": "robbie rotten",
 		"category": "custom",
 		"keywords": [],
-		"shortname": ":robbie_rotten:"
+		"shortname": ":robbie_rotten:",
+		"aliases_ascii": []
 	},
 	":roll_safe:": {
 		"unicode": "roll_safe",
-		"name": "roll safe",
+		"name": "rollp safe",
 		"category": "custom",
 		"keywords": [],
-		"shortname": ":roll_safe:"
+		"shortname": ":roll_safe:",
+		"aliases_ascii": []
 	},
 	":sad_pepe:": {
 		"unicode": "sad_pepe",
 		"name": "sad pepe",
 		"category": "custom",
 		"keywords": [],
-		"shortname": ":sad_pepe:"
+		"shortname": ":sad_pepe:",
+		"aliases_ascii": []
 	},
 	":shaq_suggestive:": {
 		"unicode": "shaq_suggestive",
 		"name": "shaq suggestive",
 		"category": "custom",
 		"keywords": [],
-		"shortname": ":shaq_suggestive:"
+		"shortname": ":shaq_suggestive:",
+		"aliases_ascii": []
 	},
 	":wild_spongebob:": {
 		"unicode": "wild_spongebob",
 		"name": "wild spongebob",
 		"category": "custom",
 		"keywords": [],
-		"shortname": ":wild_spongebob:"
+		"shortname": ":wild_spongebob:",
+		"aliases_ascii": []
 	}
 };
 

@@ -28,7 +28,7 @@ export default class NavbarComponent extends Component {
   }
   
   render() {
-  let styleUL = {'listStyleType':'none'}, styleLI = {'display':'inline-block', 'paddingRight':'2px'}
+  let styleUL = {'listStyleType':'none', 'backgroundColor': '#B4DCED'}, styleLI = {'display':'inline-block', 'paddingRight':'5px', 'paddingLeft': '5px', cursor: 'pointer'}
   return (
     <div>
       <ul style={styleUL}>
