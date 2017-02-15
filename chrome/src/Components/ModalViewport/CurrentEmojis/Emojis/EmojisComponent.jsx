@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import EmojisCategory from './EmojisCategory/EmojisCategoryComponent.jsx'
+import './emojis.scss'
 
 export default class EmojisComponent extends Component {
   constructor(props) {
@@ -48,15 +49,15 @@ export default class EmojisComponent extends Component {
       return (
         <div>
           {/* Search Bar */}
-          <input type='search' placeholder='Search for emote' id='searchbar' onChange={this.filter} style={style3} />
+          <input type='search' placeholder='Search for emote' id='searchbar' onChange={this.filter}/>
           <div>
           {
               Object.keys(this.state.filteredEmotes).map((e, i) => {
                 let src = `./static/assets/other/category_icons/${e}.svg`
                 return (
                   <div  key={i}>
-                    <div style={style}>
-                      <h4>{e}</h4>
+                    <div className='textCategory'>
+                      <h3>{e}</h3>
                     </div>
                     <EmojisCategory emojiCategory={this.state.filteredEmotes[e]} />
                   </div>
