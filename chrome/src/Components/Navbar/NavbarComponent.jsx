@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Navbar, NavItem, MenuItem, Nav, NavDropdown, ButtonGroup, Button, DropdownButton } from 'react-bootstrap';
 import CurrentEmojis from '../ModalViewport/CurrentEmojis/CurrentEmojisComponent.jsx'
 import NewEmojis from '../ModalViewport/NewEmoji/NewEmojiComponent.jsx'
-
+import './NavbarComponent.scss'
 
 export default class NavbarComponent extends Component {
   constructor(props) {
@@ -28,22 +28,23 @@ export default class NavbarComponent extends Component {
   }
   
   render() {
-  let styleUL = {'listStyleType':'none', 'backgroundColor': '#B4DCED'}, styleLI = {'display':'inline-block', 'paddingRight':'5px', 'paddingLeft': '5px', cursor: 'pointer'}
+  // let styleUL = {'listStyleType':'none', 'backgroundColor': '#B4DCED'}, styleLI = {'display':'inline-block', 'paddingRight':'5px', 'paddingLeft': '5px', cursor: 'pointer'}
+  // category + 'Icon'
   return (
     <div>
-      <ul style={styleUL}>
-        <li onClick={() => this.changeCategory('all')} style={styleLI}>all</li>
+      <ul >
+        <li onClick={() => this.changeCategory('all')} ><i className='recent'/></li>
           {
             Object.keys(this.state.emotes) && Object.keys(this.state.emotes).map((category, idx) => {
-              let src = './static/assets/other/category_icons/' + category + '.svg', style = {height:'30px', width:'30px'}
+              let src = './static/assets/other/category_icons/' + category + '.svg' //, style = {height:'30px', width:'30px'}
               console.log('src: ', src)
-              return  <li key={category + idx.toString()} onClick={() => this.changeCategory(category)} style={styleLI}>{
-                <img src={src} style={style}/>
+              return  <li key={category + idx.toString()} onClick={() => this.changeCategory(category)}>{
+                <i className={category}/>
               }
               </li>
             })
           }
-          <li eventKey={this.state.emotes.length + 1} onClick={() => this.changeCategory('newEmojis')} style={styleLI}> + </li>
+          <li eventKey={this.state.emotes.length + 1} onClick={() => this.changeCategory('newEmojis')}> + </li>
       </ul>
       <div>
         {

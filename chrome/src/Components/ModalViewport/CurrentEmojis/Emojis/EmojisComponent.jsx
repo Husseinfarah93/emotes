@@ -44,11 +44,11 @@ export default class EmojisComponent extends Component {
 
 
   render() {
-    let style = {float:'left', width:'100%'}, style2 = {float:'left', padding:'20px'}
+    let style = {float:'left', width:'100%'}, style2 = {float:'left', 'padding':'5px', height: '25px'}, style3 = {width:'75%', 'borderRadius': '5px'}
       return (
         <div>
           {/* Search Bar */}
-          <input type='search' placeholder='SEARCH' id='searchbar' onChange={this.filter} />
+          <input type='search' placeholder='Search for emote' id='searchbar' onChange={this.filter} style={style3} />
           <div>
           {
               Object.keys(this.state.filteredEmotes).map((e, i) => {
@@ -56,8 +56,7 @@ export default class EmojisComponent extends Component {
                 return (
                   <div  key={i}>
                     <div style={style}>
-                      <img src={src} style={style2}/>
-                      <h2>{e}</h2>
+                      <h4>{e}</h4>
                     </div>
                     <EmojisCategory emojiCategory={this.state.filteredEmotes[e]} />
                   </div>

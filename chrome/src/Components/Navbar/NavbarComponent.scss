@@ -1,0 +1,51 @@
+ul {
+  list-style-type: none;
+  background-color: #e6e6e6
+}
+li {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+  cursor: pointer
+}
+
+img {
+  height: 30px;
+  width: 30px
+}
+
+.symbols {
+  content: url('/static/assets/other/category_icons/symbols.svg');
+}
+
+.activity {
+  content: url('/static/assets/other/category_icons/activity.svg');
+}
+
+.flags {
+  content: url('/static/assets/other/category_icons/flags.svg');
+}
+
+.food {
+  content: url('/static/assets/other/category_icons/food.svg');
+}
+
+.people {
+  content: url('/static/assets/other/category_icons/people.svg');
+}
+
+.objects {
+  content: url('/static/assets/other/category_icons/objects.svg');
+}
+
+.nature {
+  content: url('/static/assets/other/category_icons/nature.svg');
+}
+
+.travel {
+  content: url('/static/assets/other/category_icons/travel.svg');
+}
+
+.recent {
+  content: url('/static/assets/other/category_icons/recent.svg');
+}
