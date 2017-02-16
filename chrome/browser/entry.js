@@ -80,9 +80,11 @@ const doThing = () => {
 }
 
 window.onload = function() {
+		console.log("adding the listener")
     chrome.runtime.onMessage.addListener(function(msg, _, sendResponse) {
         console.log('onMessage', msg);
         if (typeof msg === 'object') {
+						console.log("AFSIONF")
 						addEmojiToPage(msg)
             sendResponse({response: 'u r a bigot m7+1'});
         } else{

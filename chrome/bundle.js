@@ -71945,132 +71945,404 @@ module.exports = {
 		]
 	},
 	":cash_me_outside:": {
-		"unicode": "cash_me_outside",
-		"name": "cash me_outside",
-		"category": "custom",
-		"keywords": [],
 		"shortname": ":cash_me_outside:",
-		"aliases_ascii": []
+		"name": "cash me outside",
+		"keywords": [],
+		"aliases_ascii": [],
+		"category": "custom",
+		"unicode": "cash_me_outside"
 	},
 	":35_year_old_white_male:": {
-		"unicode": "35_year_old_white_male",
-		"name": "35 year_old_white_male",
-		"category": "custom",
-		"keywords": [],
 		"shortname": ":35_year_old_white_male:",
-		"aliases_ascii": []
+		"name": "35 year old white male",
+		"keywords": [],
+		"aliases_ascii": [],
+		"category": "custom",
+		"unicode": "35_year_old_white_male"
 	},
 	":are-you-a-wizard:": {
-		"unicode": "are-you-a-wizard",
-		"name": "are-you-a-wizard",
-		"category": "custom",
-		"keywords": [],
 		"shortname": ":are-you-a-wizard:",
-		"aliases_ascii": []
+		"name": "are-you-a-wizard",
+		"keywords": [],
+		"aliases_ascii": [],
+		"category": "custom",
+		"unicode": "are-you-a-wizard"
 	},
 	":atlanta_black_white:": {
-		"unicode": "atlanta_black_white",
-		"name": "atlanta black_white",
-		"category": "custom",
-		"keywords": [],
 		"shortname": ":atlanta_black_white:",
-		"aliases_ascii": []
+		"name": "atlanta black white",
+		"keywords": [],
+		"aliases_ascii": [],
+		"category": "custom",
+		"unicode": "atlanta_black_white"
 	},
 	":bad_kremit:": {
-		"unicode": "bad_kremit",
-		"name": "bad kremit",
-		"category": "custom",
-		"keywords": [],
 		"shortname": ":bad_kremit:",
-		"aliases_ascii": []
+		"name": "bad kremit",
+		"keywords": [],
+		"aliases_ascii": [],
+		"category": "custom",
+		"unicode": "bad_kremit"
 	},
 	":conceited_face:": {
-		"unicode": "conceited_face",
-		"name": "conceited face",
-		"category": "custom",
-		"keywords": [],
 		"shortname": ":conceited_face:",
-		"aliases_ascii": []
+		"name": "conceited face",
+		"keywords": [],
+		"aliases_ascii": [],
+		"category": "custom",
+		"unicode": "conceited_face"
 	},
 	":confused_face:": {
-		"unicode": "confused_face",
-		"name": "confused face",
-		"category": "custom",
-		"keywords": [],
 		"shortname": ":confused_face:",
-		"aliases_ascii": []
+		"name": "confused face",
+		"keywords": [],
+		"aliases_ascii": [],
+		"category": "custom",
+		"unicode": "confused_face"
 	},
 	":cry_jordan:": {
-		"unicode": "cry_jordan",
-		"name": "cry jordan",
-		"category": "custom",
-		"keywords": [],
 		"shortname": ":cry_jordan:",
-		"aliases_ascii": []
+		"name": "cry jordan",
+		"keywords": [],
+		"aliases_ascii": [],
+		"category": "custom",
+		"unicode": "cry_jordan"
 	},
 	":deez_nuts:": {
-		"unicode": "deez_nuts",
-		"name": "deez nuts",
-		"category": "custom",
-		"keywords": [],
 		"shortname": ":deez_nuts:",
-		"aliases_ascii": []
+		"name": "deez nuts",
+		"keywords": [],
+		"aliases_ascii": [],
+		"category": "custom",
+		"unicode": "deez_nuts"
 	},
 	":kenan_confused:": {
-		"unicode": "kenan_confused",
-		"name": "kenan confused",
-		"category": "custom",
-		"keywords": [],
 		"shortname": ":kenan_confused:",
-		"aliases_ascii": []
+		"name": "kenan confused",
+		"keywords": [],
+		"aliases_ascii": [],
+		"category": "custom",
+		"unicode": "kenan_confused"
 	},
 	":nigga_you_gay:": {
-		"unicode": "nigga_you_gay",
-		"name": "nigga you_gay",
-		"category": "custom",
-		"keywords": [],
 		"shortname": ":nigga_you_gay:",
-		"aliases_ascii": []
+		"name": "nigga you gay",
+		"keywords": [],
+		"aliases_ascii": [],
+		"category": "custom",
+		"unicode": "nigga_you_gay"
 	},
 	":robbie_rotten:": {
-		"unicode": "robbie_rotten",
-		"name": "robbie rotten",
-		"category": "custom",
-		"keywords": [],
 		"shortname": ":robbie_rotten:",
-		"aliases_ascii": []
+		"name": "robbie rotten",
+		"keywords": [],
+		"aliases_ascii": [],
+		"category": "custom",
+		"unicode": "robbie_rotten"
 	},
 	":roll_safe:": {
-		"unicode": "roll_safe",
-		"name": "rollp safe",
-		"category": "custom",
-		"keywords": [],
 		"shortname": ":roll_safe:",
-		"aliases_ascii": []
+		"name": "roll safe",
+		"keywords": [],
+		"aliases_ascii": [],
+		"category": "custom",
+		"unicode": "roll_safe"
 	},
 	":sad_pepe:": {
-		"unicode": "sad_pepe",
-		"name": "sad pepe",
-		"category": "custom",
-		"keywords": [],
 		"shortname": ":sad_pepe:",
-		"aliases_ascii": []
+		"name": "sad pepe",
+		"keywords": [],
+		"aliases_ascii": [],
+		"category": "custom",
+		"unicode": "sad_pepe"
 	},
 	":shaq_suggestive:": {
-		"unicode": "shaq_suggestive",
-		"name": "shaq suggestive",
-		"category": "custom",
-		"keywords": [],
 		"shortname": ":shaq_suggestive:",
-		"aliases_ascii": []
+		"name": "shaq suggestive",
+		"keywords": [],
+		"aliases_ascii": [],
+		"category": "custom",
+		"unicode": "shaq_suggestive"
 	},
 	":wild_spongebob:": {
-		"unicode": "wild_spongebob",
-		"name": "wild spongebob",
-		"category": "custom",
-		"keywords": [],
 		"shortname": ":wild_spongebob:",
-		"aliases_ascii": []
+		"name": "wild spongebob",
+		"keywords": [],
+		"aliases_ascii": [],
+		"category": "custom",
+		"unicode": "wild_spongebob"
+	},
+	":ainsley_harriot_oil_up:": {
+		"shortname": ":ainsley_harriot_oil_up:",
+		"name": "ainsley harriot oil up",
+		"keywords": [],
+		"aliases_ascii": [],
+		"category": "custom",
+		"unicode": "ainsley_harriot_oil_up"
+	},
+	":angry_school_boy:": {
+		"shortname": ":angry_school_boy:",
+		"name": "angry school boy",
+		"keywords": [],
+		"aliases_ascii": [],
+		"category": "custom",
+		"unicode": "angry_school_boy"
+	},
+	":arthut_fist:": {
+		"shortname": ":arthut_fist:",
+		"name": "arthut fist",
+		"keywords": [],
+		"aliases_ascii": [],
+		"category": "custom",
+		"unicode": "arthut_fist"
+	},
+	":bertstrips:": {
+		"shortname": ":bertstrips:",
+		"name": "bertstrips",
+		"keywords": [],
+		"aliases_ascii": [],
+		"category": "custom",
+		"unicode": "bertstrips"
+	},
+	":bin_laden:": {
+		"shortname": ":bin_laden:",
+		"name": "bin laden",
+		"keywords": [],
+		"aliases_ascii": [],
+		"category": "custom",
+		"unicode": "bin_laden"
+	},
+	":bruh:": {
+		"shortname": ":bruh:",
+		"name": "bruh",
+		"keywords": [],
+		"aliases_ascii": [],
+		"category": "custom",
+		"unicode": "bruh"
+	},
+	":chloe_side_eye:": {
+		"shortname": ":chloe_side_eye:",
+		"name": "chloe side eye",
+		"keywords": [],
+		"aliases_ascii": [],
+		"category": "custom",
+		"unicode": "chloe_side_eye"
+	},
+	":crack_kid:": {
+		"shortname": ":crack_kid:",
+		"name": "crack kid",
+		"keywords": [],
+		"aliases_ascii": [],
+		"category": "custom",
+		"unicode": "crack_kid"
+	},
+	":ethan_bradberry:": {
+		"shortname": ":ethan_bradberry:",
+		"name": "ethan bradberry",
+		"keywords": [],
+		"aliases_ascii": [],
+		"category": "custom",
+		"unicode": "ethan_bradberry"
+	},
+	":gucci_mane:": {
+		"shortname": ":gucci_mane:",
+		"name": "gucci mane",
+		"keywords": [],
+		"aliases_ascii": [],
+		"category": "custom",
+		"unicode": "gucci_mane"
+	},
+	":harry_i_have_drawn_you:": {
+		"shortname": ":harry_i_have_drawn_you:",
+		"name": "harry i have drawn you",
+		"keywords": [],
+		"aliases_ascii": [],
+		"category": "custom",
+		"unicode": "harry_i_have_drawn_you"
+	},
+	":hide_pain_harold:": {
+		"shortname": ":hide_pain_harold:",
+		"name": "hide pain harold",
+		"keywords": [],
+		"aliases_ascii": [],
+		"category": "custom",
+		"unicode": "hide_pain_harold"
+	},
+	":hits_blunt:": {
+		"shortname": ":hits_blunt:",
+		"name": "hits blunt",
+		"keywords": [],
+		"aliases_ascii": [],
+		"category": "custom",
+		"unicode": "hits_blunt"
+	},
+	":hugh_mungus:": {
+		"shortname": ":hugh_mungus:",
+		"name": "hugh mungus",
+		"keywords": [],
+		"aliases_ascii": [],
+		"category": "custom",
+		"unicode": "hugh_mungus"
+	},
+	":im_in_me_mums_car:": {
+		"shortname": ":im_in_me_mums_car:",
+		"name": "im in me mums car",
+		"keywords": [],
+		"aliases_ascii": [],
+		"category": "custom",
+		"unicode": "im_in_me_mums_car"
+	},
+	":john_cena_small_face:": {
+		"shortname": ":john_cena_small_face:",
+		"name": "john cena small face",
+		"keywords": [],
+		"aliases_ascii": [],
+		"category": "custom",
+		"unicode": "john_cena_small_face"
+	},
+	":kobe_wtf:": {
+		"shortname": ":kobe_wtf:",
+		"name": "kobe wtf",
+		"keywords": [],
+		"aliases_ascii": [],
+		"category": "custom",
+		"unicode": "kobe_wtf"
+	},
+	":leslie_the_office:": {
+		"shortname": ":leslie_the_office:",
+		"name": "leslie the office",
+		"keywords": [],
+		"aliases_ascii": [],
+		"category": "custom",
+		"unicode": "leslie_the_office"
+	},
+	":michelle_obama_side_eye:": {
+		"shortname": ":michelle_obama_side_eye:",
+		"name": "michelle obama side eye",
+		"keywords": [],
+		"aliases_ascii": [],
+		"category": "custom",
+		"unicode": "michelle_obama_side_eye"
+	},
+	":minor_mistake_ryan:": {
+		"shortname": ":minor_mistake_ryan:",
+		"name": "minor mistake ryan",
+		"keywords": [],
+		"aliases_ascii": [],
+		"category": "custom",
+		"unicode": "minor_mistake_ryan"
+	},
+	":mr_krabs_nap:": {
+		"shortname": ":mr_krabs_nap:",
+		"name": "mr krabs nap",
+		"keywords": [],
+		"aliases_ascii": [],
+		"category": "custom",
+		"unicode": "mr_krabs_nap"
+	},
+	":pakalu_papito:": {
+		"shortname": ":pakalu_papito:",
+		"name": "pakalu papito",
+		"keywords": [],
+		"aliases_ascii": [],
+		"category": "custom",
+		"unicode": "pakalu_papito"
+	},
+	":pepe_cry:": {
+		"shortname": ":pepe_cry:",
+		"name": "pepe cry",
+		"keywords": [],
+		"aliases_ascii": [],
+		"category": "custom",
+		"unicode": "pepe_cry"
+	},
+	":roll_eyes_robert:": {
+		"shortname": ":roll_eyes_robert:",
+		"name": "roll eyes robert",
+		"keywords": [],
+		"aliases_ascii": [],
+		"category": "custom",
+		"unicode": "roll_eyes_robert"
+	},
+	":shaq_singing:": {
+		"shortname": ":shaq_singing:",
+		"name": "shaq singing",
+		"keywords": [],
+		"aliases_ascii": [],
+		"category": "custom",
+		"unicode": "shaq_singing"
+	},
+	":spanish_laughing:": {
+		"shortname": ":spanish_laughing:",
+		"name": "spanish laughing",
+		"keywords": [],
+		"aliases_ascii": [],
+		"category": "custom",
+		"unicode": "spanish_laughing"
+	},
+	":spoderman_cry:": {
+		"shortname": ":spoderman_cry:",
+		"name": "spoderman cry",
+		"keywords": [],
+		"aliases_ascii": [],
+		"category": "custom",
+		"unicode": "spoderman_cry"
+	},
+	":terry_crews_old_spice:": {
+		"shortname": ":terry_crews_old_spice:",
+		"name": "terry crews old spice",
+		"keywords": [],
+		"aliases_ascii": [],
+		"category": "custom",
+		"unicode": "terry_crews_old_spice"
+	},
+	":tiger_woods_breakdown:": {
+		"shortname": ":tiger_woods_breakdown:",
+		"name": "tiger woods breakdown",
+		"keywords": [],
+		"aliases_ascii": [],
+		"category": "custom",
+		"unicode": "tiger_woods_breakdown"
+	},
+	":tom_cruise_laughing:": {
+		"shortname": ":tom_cruise_laughing:",
+		"name": "tom cruise laughing",
+		"keywords": [],
+		"aliases_ascii": [],
+		"category": "custom",
+		"unicode": "tom_cruise_laughing"
+	},
+	":tongue_out:": {
+		"shortname": ":tongue_out:",
+		"name": "tongue out",
+		"keywords": [],
+		"aliases_ascii": [],
+		"category": "custom",
+		"unicode": "tongue_out"
+	},
+	":triggered_1:": {
+		"shortname": ":triggered_1:",
+		"name": "triggered 1",
+		"keywords": [],
+		"aliases_ascii": [],
+		"category": "custom",
+		"unicode": "triggered_1"
+	},
+	":triggered_2:": {
+		"shortname": ":triggered_2:",
+		"name": "triggered 2",
+		"keywords": [],
+		"aliases_ascii": [],
+		"category": "custom",
+		"unicode": "triggered_2"
+	},
+	":why_you_lying:": {
+		"shortname": ":why_you_lying:",
+		"name": "why you lying",
+		"keywords": [],
+		"aliases_ascii": [],
+		"category": "custom",
+		"unicode": "why_you_lying"
 	}
 };
 
