@@ -10569,7 +10569,13 @@ var addEmojiToPage = function addEmojiToPage(emoji) {
       active.value += emoji.shortname;
     }
     // ContentEditable
-    else if (active.attributes.contentEditable) {}
+    else if (active.attributes.contenteditable) {
+        // Check for twitter 
+        if (active.id === 'tweet-box-global') {
+          var target = active.childNodes[0];
+          target.textContent += emoji.shortname;
+        }
+      }
 };
 
 exports.addEmojiToPage = addEmojiToPage;

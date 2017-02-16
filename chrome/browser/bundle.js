@@ -136,9 +136,8 @@
 	};
 
 	window.onload = function () {
-			console.log("adding the listener");
+			doThing();
 			chrome.runtime.onMessage.addListener(function (msg, _, sendResponse) {
-					console.log('onMessage', msg);
 					if ((typeof msg === 'undefined' ? 'undefined' : _typeof(msg)) === 'object') {
 							console.log("AFSIONF");
 							(0, _helpers.addEmojiToPage)(msg);
@@ -173,7 +172,13 @@
 	      active.value += emoji.shortname;
 	    }
 	    // ContentEditable
-	    else if (active.attributes.contentEditable) {}
+	    else if (active.attributes.contenteditable) {
+	        // Check for twitter 
+	        if (active.id === 'tweet-box-global') {
+	          var target = active.childNodes[0];
+	          target.textContent += emoji.shortname;
+	        }
+	      }
 	};
 
 	exports.addEmojiToPage = addEmojiToPage;

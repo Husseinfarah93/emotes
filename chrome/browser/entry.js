@@ -80,9 +80,8 @@ const doThing = () => {
 }
 
 window.onload = function() {
-		console.log("adding the listener")
+		doThing()
     chrome.runtime.onMessage.addListener(function(msg, _, sendResponse) {
-        console.log('onMessage', msg);
         if (typeof msg === 'object') {
 						console.log("AFSIONF")
 						addEmojiToPage(msg)
